@@ -1,0 +1,281 @@
+Received: from DB4P195MB2314.EURP195.PROD.OUTLOOK.COM (::1) by
+ DU0P195MB1820.EURP195.PROD.OUTLOOK.COM with HTTPS; Tue, 17 Jun 2025 10:32:29
+ +0000
+Received: from CH0PR04CA0071.namprd04.prod.outlook.com (2603:10b6:610:74::16)
+ by DB4P195MB2314.EURP195.PROD.OUTLOOK.COM (2603:10a6:10:3cd::20) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.8835.29; Tue, 17 Jun
+ 2025 10:32:28 +0000
+Received: from CH3PEPF00000009.namprd04.prod.outlook.com
+ (2603:10b6:610:74:cafe::d0) by CH0PR04CA0071.outlook.office365.com
+ (2603:10b6:610:74::16) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.20.8835.19 via Frontend Transport; Tue,
+ 17 Jun 2025 10:32:27 +0000
+Authentication-Results: spf=pass (sender IP is 5.230.211.254)
+ smtp.mailfrom=aucrionhandicap.site; dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=;
+Received-SPF: Pass (protection.outlook.com: domain of aucrionhandicap.site
+ designates 5.230.211.254 as permitted sender)
+ receiver=protection.outlook.com; client-ip=5.230.211.254;
+ helo=etacsecurity.be; pr=E
+Received: from etacsecurity.be (5.230.211.254) by
+ CH3PEPF00000009.mail.protection.outlook.com (10.167.244.36) with Microsoft
+ SMTP Server id 15.20.8835.15 via Frontend Transport; Tue, 17 Jun 2025
+ 10:32:27 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:4BE890CD677263E3991FE6FEA001C5018AC5146EC54F08DE3F366B1F672E492B;UpperCasedChecksum:C5A109AAFF2FB1EA1844F703637FC816DC7DE76A0409BB180BA7D649ABDEAFD0;SizeAsReceived:640;Count:12
+Received: from protcoljusthost9.com (127.0.0.1) by etacsecurity.be id ha523m16lt06 for <tomi.g@hotmail.de>; Tue, 17 Jun 2025 10:32:24 +0000 (envelope-from <return@aucrionhandicap.site>)
+emp-Id: 7240736
+Content-Type: text/html; charset="UTF-8"
+Date: Tue, 17 Jun 2025 10:32:23 +0000
+To: <tomi.g@hotmail.de>
+List-Unsubscribe: <M6CS6t7QH8jz@ournewsletres.com>
+CC: <tomi.g@hotmail.de>
+Message-ID: <rY5sGZJUk5274j48mbY2224uOnVkT7cgzy9pa.oqeGSRGjFlj@ournewsletres.com>
+From: 30bet, 30bet
+Subject: 🤑Warte auf 1.000 € – Schau es dir jetzt an! 💰
+ 
+X-IncomingHeaderCount: 12
+Return-Path: return@aucrionhandicap.site
+X-MS-Exchange-Organization-ExpirationStartTime: 17 Jun 2025 10:32:27.9011
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 8d6646ab-997a-4160-b224-08ddad8a41e3
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-Office365-Filtering-p2NotCompliant: true
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: CH3PEPF00000009:EE_|DB4P195MB2314:EE_|DU0P195MB1820:EE_
+X-MS-Exchange-Organization-AuthSource: CH3PEPF00000009.namprd04.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 6/17/2025 9:20:49 AM
+X-MS-Office365-Filtering-Correlation-Id: 8d6646ab-997a-4160-b224-08ddad8a41e3
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 5.230.211.254
+X-SID-Result: NONE
+X-MS-Exchange-Organization-SCL: 9
+X-Microsoft-Antispam: BCL:0;ARA:1444111002|70000799015|42200799015|9000799050|24110799012;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 17 Jun 2025 10:32:27.6898
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 8d6646ab-997a-4160-b224-08ddad8a41e3
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource: CH3PEPF00000009.namprd04.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DB4P195MB2314
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.9027366
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.8835.025
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;ex:0;auth:0;dest:J;OFR:SpamFilterAuthJ;ENG:(5062000311)(920221119095)(90000117)(920221120095)(90002001)(91000020)(91036095)(91040095)(9050020)(9055020)(9100341)(944500132)(2008001181)(2008121020)(4810010)(4910033)(9610028)(9525003)(10103005)(9320005)(9215007)(120001);RF:JunkEmail;
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0xO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?WXJNWHBmWTJERWFJbDNIeCtXN0V2YzlNclF6eUZEVzU3Znp1MFdwK2NGM2dQ?=
+ =?utf-8?B?WlZWeG5kcGs0cW82UU1obU90MkF5d1JPYWk5aGo4N0lIMXV1MWNacmZQeXVw?=
+ =?utf-8?B?SGI2VVBGTkgxRXV4Yml0U2lYVnQrbzZibGJkVHI4T1N3d2IvNHNIVkM5bmJa?=
+ =?utf-8?B?N016NGthOG16aVZCOG9Na3RkeW1ZYm5qenozWHAwSTVNSEFaczZpWWxGR2J6?=
+ =?utf-8?B?SEJOdENDbHl1L3NmRDYzK20vM08veTY0TDRrMkNBVnpjQlZlQXRaTm41Ynl6?=
+ =?utf-8?B?WE1VNVMxTEM4bHl4RVZta2lzSWlwRkFtVjRiUFhhTG9vZlBpQ0JoeGtxZ0c5?=
+ =?utf-8?B?Y04za0phZ1VOcml5U3lpd0lBNTF1VlpHUktwVlZSYzE2VFlIMDRMdFpSdEkw?=
+ =?utf-8?B?VGFYRCtGQndCVUUzREh5eVFoKzVYa2NiMFQrc1dGTzR4VGthbDVTUlpraFZO?=
+ =?utf-8?B?LzVsUVpLV3ZPUndxK0dtSm5MN0s5SENLVWhGaWExUk1FekwrZFNRUUpXQVRO?=
+ =?utf-8?B?cDg5L05aTG03MGNKRWViOGc1V3FQRlBqL2QyNUtEeEt5R0Z3cnNPWXdqZDNp?=
+ =?utf-8?B?MDlKdTNmNXVGVksvVkdWVjV5YXZNa1BjRGV3UUZvNDQ5U2JEemlyL0d0eFM4?=
+ =?utf-8?B?M0dqSFZlUzl2MFVVc3hHYWdScnZhNUROU0l0OXA1eHMzaVVRbWtocGF1ZGxx?=
+ =?utf-8?B?Nk55S29zaTN1NlJpRnlQbFJFbXlIOTNqWElJQ1dpTnB0byt1bFJHUjRqWUd4?=
+ =?utf-8?B?Y0wyZTJaK2lFOVpFNGFDcmN4K1d6eUNTOUpJMllvcVY4Mks3cFFkOVptZTls?=
+ =?utf-8?B?Y2gva014OVo5UGNKVDROMCtEVGhpNnZJZWdwRHNvL1dTVk5XekpYcDB3VjVQ?=
+ =?utf-8?B?UU0rZm85U2pCTjRYY0ZPTDhKODhqWlIyYVVpQlBuQTdmb3RrSmhZZFJ1dDcr?=
+ =?utf-8?B?Y28xOUk0NkdvbUQvV2tyVWdSLzdBSkNnTkZpakdJdG1SQW9XNG5EY0hOUyt3?=
+ =?utf-8?B?Vkw0aW9mZC9IejNZaStUQktYVzk4SzRhTFozQWJob1NGYUJEWWI4bkJtMzNa?=
+ =?utf-8?B?ZnBob25vL0g5VHQxYkg5MitObTBONEVTWTEwS0RqdW5tNTVGaXRQRlpSL2dB?=
+ =?utf-8?B?d0c3K04yTll1NWxCMHJpdHliV2lkZ3RLTTcvN09GZ01QQlM1VHkrK3kyZUN2?=
+ =?utf-8?B?clZkRDN4YjRRcXRhMXV6WXh2TGEwNnZGK3FXajhwSTRFY09EbkpXbGRMRm1E?=
+ =?utf-8?B?WWg1NTFyMTZiY2FuRXl2bFlCUXZLOTZLRmVOSmpaWFk1UE96R2FYZ2ZSU3Vo?=
+ =?utf-8?B?dVV1VmxCNndBOFVhRjh1Q01TTTBjeW1sVXB2cDJ1bXRQQnBldDVROUo0dTlS?=
+ =?utf-8?B?ajh4MUI4VERvWGZyeEFJZ2kwWnZtaXpiYUE3QzY5SFVnYll6cEx3WklZUVgy?=
+ =?utf-8?B?Q1JNZ0lhS3lHQlVjT0gzMmVDQ1ViaDlzeVQwRzRscjQxWXBjY1UwNytKMEhZ?=
+ =?utf-8?B?bzc4UkFocHNPQ0JNbU5PVmZZTmZ2R2FscGtPOEo3Y1ZUTkQxMDdTTTdOMmlq?=
+ =?utf-8?B?UVg1VWlyNDlwR3B5YmlPTmhvcjE1RHlDQStUUU84VFA5TzlPOEF0dkhGZHU0?=
+ =?utf-8?B?L0U2Y3pSRXlEOFZveWFveGUyNy9aam9kRXZrNFIvcFErM3VMS080aEN3cTYr?=
+ =?utf-8?B?ZE9TelM4VWMzK2tXZUJ0cDNQNkg2Si9TN1o5N0JqRFJRYmZyNXdPbmlnVjFl?=
+ =?utf-8?B?WnNwL0ZKWk1NTzhiUTdMZSt0bEY2SytBSUdObGlucGtQN1ZaOUxOZFVaWFpl?=
+ =?utf-8?B?Wmw2TTJpU2VsYVJDcmlLNVpKVkp4N2IwNHpCUko1WE93RXp1VTNwYlFjRWpM?=
+ =?utf-8?B?QjBubitpM2VQNm5zVEhWcTlXdklVbXJpcmRMamdMckhqb2ovd3NwNjBXRnpN?=
+ =?utf-8?B?YjRZZmlCSXYzZm1jYVhnYkN1QU1Xc1Q2S2t5UER6WnFEdTZIZU80bEE4QlQ4?=
+ =?utf-8?B?VGhzcGQ4K2orRjRwTk1aWFpGTkl6QWdzNTNCYS80cVozaGpLTFBVYUdlSDly?=
+ =?utf-8?B?OUNkWitTNW5sWTN4YldUQlVISWZNZG1lQUhmaWpEZjZreXRodXAxTkJaaWtn?=
+ =?utf-8?B?eHdEOWJZT2lFNklQRncvSExjdFBXazZKMCtOT0VGUmxadWxnS1pLajlXVEtr?=
+ =?utf-8?B?Q00wQ3U1OGI2am0rRElXQU5OOEFnbTViMzJhdkl3UU0wZzlKRkJTMnRJb24z?=
+ =?utf-8?B?YXBxMUNHbXkzbnpvd1RqMUdjL2VKam5MWks5L1ZnQmN5WGZYN1FsMlZXdjdw?=
+ =?utf-8?B?Y3BmM2Q0MzlsblZVNkZmVkJVcEZJNUdvMEM5eGNRTlc1NU5hbHZ4MnlBRWtD?=
+ =?utf-8?B?R0dJd2ZGZjQ5M05FTnQ2OWQya1dWazJ5SHF0ZWQrQUxneEc1b1dLWXRHSEdo?=
+ =?utf-8?B?Y3Z1ZnJnTWlRU2hxSk5ZZnFnWlBXV0w5NnM5ZjhjL29mSlllZnNkcUQ4VzBF?=
+ =?utf-8?B?a1h0L2VhOFJ0TklzcWphaWxZWTRLSTFweFljVzgwT3JKdWxvTFRGQmw0VGhJ?=
+ =?utf-8?B?S2RKdnppMjBheUxaNHVvNUIzYldKOVRoRVdPcU1tcG1tckkzTEs4ZGtzZ3RJ?=
+ =?utf-8?B?VkF4SnNkWUxVTEFrS0tkUHRNam11ZnRVM2daTjRIdEJuSXdnLzlDeEdBdnlq?=
+ =?utf-8?B?ZUpCN0NlNXluVnRHWC93Zm1Nd0wzOUg0dElubmdnK1dpVi8yVGVkWHNXSHg3?=
+ =?utf-8?B?emEvdFNpbUwxNE0vTzE0dWpTQ3pLSXF3bGZFbmRwcG9FMlNta3lHMHV6VEhT?=
+ =?utf-8?B?akxveEpGNkErN0dnaFRQcHB4K1pFemV5dGExRVdEVk1QT3NSazZNa2VZK0dj?=
+ =?utf-8?B?TTNqSW56MnFyUFNjZjVvUC9QQk5jNkZsWVo5V3NsSzN1aXgyWGlJVy9kZEJS?=
+ =?utf-8?B?b1dpYUYwaWlwTDltZVBhbVlLSEpvWExGWHJnK1k0NVhNQWVzOVJMNVY4Q01h?=
+ =?utf-8?B?QWJtWnY4REVKQ29vNTlJSTFueHRmQm5aVWtqTU1xN1RUUFd0Q3YxN0RYQ0kr?=
+ =?utf-8?B?U1JuYzhwdDV2NkZyTUFjYXpEeFI4NXMvOG8xVkJUdFVtdjNaZWI5TmY4Z3lq?=
+ =?utf-8?B?enFVMHFvdFJFeGtBdkt2TGVhTWRmQ2tUTlcxZnhwYjNIVnBnK3NJcWJ5TC94?=
+ =?utf-8?B?cytRaE5OUmFxRGhqSDIvSXZhdXJ2YmY5YjMvNTlEbFY0M3hZVWx2dWF2akFM?=
+ =?utf-8?B?V2lzdjRhMlN1enFwSjRoRWRsK0ZNY2xGRGE1aFpVbFRDUEtZUDkvVEhlTE9S?=
+ =?utf-8?B?ZUxRV2FmaTd6aG04Um40SXI0clNFRlk2SjlpRGRMeG9CNTZrViswVGh0NHgx?=
+ =?utf-8?B?WERzR005eFMxcUJkaUYvUlpaOHJYVi91R25KWmpKYkZDUTBPUFVqQnFhUFFF?=
+ =?utf-8?B?WUJKY2xDOHdDblhZcGNrQ0l0ZEkyWEszWVJnS0FHelMwZHB4c2xhUnFCazh5?=
+ =?utf-8?B?bGVTb25weVEzVzQ0ZjFnZDg2Mmk1N0pHdEN1UFgvNkRSNHA5QjMwTHVSYldM?=
+ =?utf-8?B?QlY1dTUvM09lNUVINmtnVWxocTFLVjNvN290UDFNQnpSTW8ydzJXem85TFpY?=
+ =?utf-8?B?alRDb0Vva0swUUlBRTFUV3VZTFJFWXY2bzhDdlIzdGJVUWNxaTVYOTV6Mk1B?=
+ =?utf-8?B?U0lwS2RIMTcxMjJ0QlBtazhXZlk1ZVdrQWJXUVdSSi95QkNKc1ZrNDYxWllw?=
+ =?utf-8?B?Rm1aelFqVmg0V3Z4VFNDNVY4Z1V5aFQyTzc0SGlzendCV1lmak11SmFVdy9s?=
+ =?utf-8?B?clNPZ2pxVm14aDkxRTEwcXZ2dDFjemQ3MldMbXhtRzU4eUtaYkg0Vk96dFNY?=
+ =?utf-8?B?OHQzck1EYi9SZmlvRG4vbVdTYnhVYlpNb1VzSFhXQVVaRTY4bUhwUDZ3MWZQ?=
+ =?utf-8?B?d0tiMzJ4bisyQjZzcGk4UlkxV1c2bGFQelVWdlJ0Uk80OHRmRWh1dHE2SFhI?=
+ =?utf-8?B?eHRGbk93TElobWZSVk13WXNKTGZKWTdFYUFHcW5TdUxydktVbWE5K2RtVWdq?=
+ =?utf-8?B?SE00TUFmdTdOZmZQTGZpRzd3U1BxVzR2UDhSNHcxZVRNRUtLZk1Ba3NXNmJR?=
+ =?utf-8?B?bXI4SUhKZHBVRTZiMWJCMkRkUGkzVGhvMTlkRGVENEUxRC9GVUFSRFZiYTlq?=
+ =?utf-8?B?S2RpVm1XTk1HYklpc1ZQRnQrYkNrWUl1SzZob3dlanhUcDVmaEhRdlJxKzM0?=
+ =?utf-8?B?NU95RFN4aTgxSDd0anI2SUxiZ0ZPdkR4aXJkQkxMdWZVVXhJVjdMeUd1dDYz?=
+ =?utf-8?B?SEpGc0hEZFBYOWNheEI1Vy9wWXczQ3VFbERnWlAxNzAxRDJ6QnhaZ2p5T1N2?=
+ =?utf-8?B?ZFlXUWFuL0prY2dDL0JYTVE1ZEZiVWlPaGthOCtVVzVRRFlpWUlRTEtocDBB?=
+ =?utf-8?B?NHpXbUZ6V3JTTmdScFhMNUpOWDF2WGVDbDBDQndVS3R5UDZMMjA5MW5ER3hE?=
+ =?utf-8?B?cTNwT2J0YXZVYjQrbi9QSSs2blZlOFQyMGlaMWpJcnZmb0NVbzd1YzJTcUFP?=
+ =?utf-8?B?MTdlVC8xRTh2UEUzUVRMbHFLakZxTnMwempQQ0wyRXR2bDIxYjA2VFVtTldp?=
+ =?utf-8?B?SXVTY01WNVZLV2xJeTA0c1U1K1F6M3lZMjV5MTNyTXdCZFZEcmxlVEt3Ynhl?=
+ =?utf-8?Q?ZT46Dr0UNLVbUIM=3D?=
+MIME-Version: 1.0
+
+<!DOCTYPE html><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>div {background-image: url('http://betasideslutter.site/open/P2Q9MzY4NjkmZWk9NzI0MDczNiZpZj0yNTM1OCZsaT02MCZ0eT0x') !important;}@media (max-width:600px) {img#optionalstuff {display: none !important;}}</style></head>
+<tr><td><a href="http://betasideslutter.site/fwd/P2Q9MzY4NjkmZWk9NzI0MDczNiZpZj0yNTM1OCZsaT02MCZ0eT0x" style="text-decoration:none">
+  
+<body yahoo="fix" bgcolor="#F7F7F7" width="100%" leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+  <table width="100%" bgcolor="#F7F7F7" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" align="center" style="border-width:1px; border-style:solid; border-color:#E4E4E4;">
+    <tr>
+     <td align="center"><a style="text-decoration: none;" href="http://betasideslutter.site/fwd/P2Q9MzY4NjkmZWk9NzI0MDczNiZpZj0yNTM1OCZsaT02MCZ0eT0x">
+       <table width="650" class="Responsive" cellpadding="15" cellspacing="0" border="0" style="font-family: 'Poppins', sans-serif !important;color:rgb(32, 32, 32);background-color: white
+       ;;font-size: 14pt;line-height: 30px;">
+         <tr>
+           <td align="center">
+              <center>
+<img src="https://images2.imgbox.com/0a/92/Dy9tOy8M_o.png" width="600">
+ <br>
+<img src="//images2.imgbox.com/0a/92/Dy9tOy8M_o.png" width="600">
+    </center>
+           </td>
+         </tr>
+         <tr>
+            <td align="center" style="color:#006edd;
+            padding: 40px 0 30px;
+            font-size: 18pt;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-decoration: underline;
+            text-transform: uppercase;
+            line-height: 40px;
+             "> 
+                <p>Jetzt registrieren und erhalten
+                    <br><span style="color:#eebb60 ;
+                font-weight: 900;
+                font-size: 19pt;">  100 Freispiele</span></p>
+            </td>
+         </tr>
+         <tr>
+            <td style="padding: 0 35px 30px;
+            line-height: 35px;">
+                
+                <p style="font-weight:600;
+                margin: 10px 0;">Wie bekomme ich 100 FS kostenlos?</p>
+                <p>
+                    Alles was Sie tun müssen, ist sich zu registrieren,<span style="color: #ee3661;"> keine Anzahlung erforderlich.</span> .
+                <p>
+                    Wenn Sie mit einem Bonus gewinnen, können Sie das Geld auf Ihr Bankkonto abheben.
+                </p>
+                
+            </td>
+         </tr>
+         <tr>
+            <td align="center" style="padding: 20px 0 45px;">
+                <a href="http://betasideslutter.site/fwd/P2Q9MzY4NjkmZWk9NzI0MDczNiZpZj0yNTM1OCZsaT02MCZ0eT0x" style="background-color:#006edd;
+                color: white;
+                padding: 11px 60px;
+                text-decoration: none;
+                letter-spacing: 1px;">Jetzt registrieren!</a>
+            </td>
+         </tr>
+         <tr>
+            <td align="center" style="background-color: #ffd700;    background-color: #ffd700;
+            padding: 24px;
+            text-transform: uppercase;
+            font-weight: 900;
+            letter-spacing: 2px;
+            color: #2a2a2a;">
+                <div style="border-left: double #000 5px;border-right: double #000 5px;">
+                    <p>
+                        Treten Sie dem Königreich 30bet bei und<span style="color: #ee3661">Holen Sie sich 100 Freispiele!</span>
+                    </p>
+                </div>
+            </td>
+         </tr>
+         <tr>
+            <td style="padding: 35px 35px 30px;
+            line-height: 35px;">
+                <p>Warum sollte ich mich beim 30bet Casino registrieren?</p>
+                <ul style="list-style: none;
+                padding: 15px 30px ;">
+                    <li>💰 Jede Woche kostenloses Geld und Boni</li>
+                    <li>🚀 Höchste Rendite</li>
+                    <li>👍🏽¼ Freundlicher Kundenservice</li>
+                    <li>⚡️Sehr schnelle Auszahlungen</li>
+                </ul>
+            </td>
+         </tr>
+         <tr>
+            <td align="center" style="padding: 30px 0;">
+                <a href="http://betasideslutter.site/fwd/P2Q9MzY4NjkmZWk9NzI0MDczNiZpZj0yNTM1OCZsaT02MCZ0eT0x" style="background-color: #ffd700;
+                           color: #000;
+                           padding: 11px 60px;
+                           text-decoration: none;">
+                           JETZT MITMACHEN!
+                </a>  
+            </td>
+         </tr>
+         
+       </table></a>
+
+       <table width="650" cellpadding="0" cellspacing="0" border="0" align="center" style="color: white;line-height: 25px;font-family: 'Poppins', sans-serif !important;">
+        
+        <tr>
+            <td colspan="2" align="center" style="padding: 40px 0 10px;
+            font-size: 9pt;
+            color: gray;">
+                <p>Bedingungen &amp; Allgemeine Geschäftsbedingungen | Häufig gestellte Fragen | Kontakte<br>
+                    30bet, 2025 Alle Rechte vorbehalten | <a href="http://betasideslutter.site/sunsub/P2Q9MzY4NjkmZWk9NzI0MDczNiZpZj0yNTM1OCZsaT02MCZ0eT0x">abbestellen</a></p>
+            </td>
+        </tr>
+    
+    </table>
+
+     </td>
+    </tr>
+</table>
+</body>
+<br><br><br><br><br>
+
+            </td>
+        </tr>
+    
+    </table>
+
+     </td>
+    </tr>
+</table>
+</body>
+ 
+</html>

@@ -1,0 +1,2507 @@
+Received: from PA2P195MB2569.EURP195.PROD.OUTLOOK.COM (2603:10a6:102:418::13)
+ by DU0P195MB1820.EURP195.PROD.OUTLOOK.COM with HTTPS; Sat, 1 Feb 2025
+ 07:22:00 +0000
+Received: from DB8P191CA0029.EURP191.PROD.OUTLOOK.COM (2603:10a6:10:130::39)
+ by PA2P195MB2569.EURP195.PROD.OUTLOOK.COM (2603:10a6:102:418::13) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.8398.21; Sat, 1 Feb
+ 2025 07:21:59 +0000
+Received: from DU6PEPF00009529.eurprd02.prod.outlook.com
+ (2603:10a6:10:130:cafe::27) by DB8P191CA0029.outlook.office365.com
+ (2603:10a6:10:130::39) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.20.8398.22 via Frontend Transport; Sat,
+ 1 Feb 2025 07:21:59 +0000
+Authentication-Results: spf=pass (sender IP is 137.22.241.252)
+ smtp.mailfrom=my.zooplus.de; dkim=pass (signature was verified)
+ header.d=my.zooplus.de;dmarc=pass action=none
+ header.from=my.zooplus.de;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of my.zooplus.de designates
+ 137.22.241.252 as permitted sender) receiver=protection.outlook.com;
+ client-ip=137.22.241.252; helo=ndx2nufx.my.zooplus.co.uk; pr=E
+Received: from ndx2nufx.my.zooplus.co.uk (137.22.241.252) by
+ DU6PEPF00009529.mail.protection.outlook.com (10.167.8.10) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.8398.14 via Frontend Transport; Sat, 1 Feb 2025 07:21:59 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:EB1D8044B516DC3B386AEA6C8887B3909EB14D0AC6C30D6A600F023F704A70BF;UpperCasedChecksum:7E33AE3223B7D85AFF59392CEE75F908AFE68F6D4233B35DABFF8B040BE5A510;SizeAsReceived:1266;Count:11
+X-MSFBL: VkzExHQceOVVNmx5FYwap8u+kzy6A48kIO3n9hCSvNA=|eyJ0ZW5hbnRfaWQiOiJ
+	zcGNldSIsInIiOiJ0b21pLmdAaG90bWFpbC5kZSIsInN1YmFjY291bnRfaWQiOiI
+	5MTkiLCJjdXN0b21lcl9pZCI6IjE4OTgiLCJtZXNzYWdlX2lkIjoiNjc5Nzk2Y2I
+	5ZDY3Y2QzMzNkODkifQ==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=my.zooplus.de;
+	s=scph0524; t=1738394518; i=@my.zooplus.de;
+	bh=+vB6Skw5VQoaKQiXZgyzfUOHvTPrNI4BlBMu5ZL0E3Y=;
+	h=To:Message-ID:Date:Content-Type:From:List-Unsubscribe-Post:
+	 Subject:List-Unsubscribe:From:To:Cc:Subject;
+	b=GBXnwLqiP9k9txLTLvTFa7vAkR8UIjW5G66CkG5o0obpsi83P5Pev+eWOxSAFNJJW
+	 pMDXzOIrF9j9ODyo8sm63AwMdggtlEXCToxmQaSC+2xWbxw2t7z++R0SxE+yPsMz78
+	 338xYOWV8hZVEWS0R2DTziwgFvBKldWGl1dlfF1A=
+To: tomi.g@hotmail.de
+Message-ID: <98.D3.21891.69BCD976@i-0e69f258622554d3f.mta3vrest.sd.prd.sparkpost>
+Date: Sat, 01 Feb 2025 07:21:58 +0000
+Content-Type: multipart/alternative; boundary="_----XAUkjXsFH3LQwSH0s03KOA===_38/D3-21891-69BCD976"
+From: "zooplus" <zooplus@my.zooplus.de>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Subject: =?utf-8?B?TGV0enRlIENoYW5jZSwgMTUlIHp1c8OkdHpsaWNoIHp1IHNwYXJl?=
+	=?utf-8?B?bg==?=
+List-Unsubscribe: <https://www.zooplus.de/unsubscribe/SxTYxIsKduB7aK5TvQrwb3yfBExT~SxTDIZ7NAwG4bggPiY4l4BcNBExT>
+X-IncomingHeaderCount: 11
+Return-Path: msprvs1=20127xKVOySKr=bounces-1898-919@my.zooplus.de
+X-MS-Exchange-Organization-ExpirationStartTime: 01 Feb 2025 07:21:59.2204
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: aa63113b-8c7c-45c7-6878-08dd42911daf
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: DU6PEPF00009529:EE_|PA2P195MB2569:EE_|DU0P195MB1820:EE_
+X-MS-Exchange-Organization-AuthSource: DU6PEPF00009529.eurprd02.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 2/1/2025 1:28:03 AM
+X-MS-Office365-Filtering-Correlation-Id: aa63113b-8c7c-45c7-6878-08dd42911daf
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 137.22.241.252
+X-SID-PRA: ZOOPLUS@MY.ZOOPLUS.DE
+X-SID-Result: PASS
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:2;ARA:1444111002|21080799006|47200799021|10300799035|9400799030|461199028|58200799018|1680799057|9000799050|56899033|1370799030|1360799030|1380799030|1602099012|4302099013|3412199025|440099028|1290799030|6406899015|2406899039;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 01 Feb 2025 07:21:59.0485
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: aa63113b-8c7c-45c7-6878-08dd42911daf
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource: DU6PEPF00009529.eurprd02.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PA2P195MB2569
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.7084045
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.8398.013
+X-Microsoft-Antispam-Mailbox-Delivery:
+	wl:1;pcwl:1;ucf:0;jmr:0;ex:0;auth:1;dest:I;OFR:TrustedSenderList;ENG:(5062000308)(920221119095)(90000117)(920221120095)(90012020)(91020020)(91040095)(9050020)(9060121)(9100341)(944500132)(4810010)(4910033)(9930004)(9545005)(10172021)(9439006)(9310011)(9220031)(120001);
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0xO1NDTD0tMQ==
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?VlBEWmVPdVBEejR3ZFhGVTlGYTVXclI1NHVuMk8yR05CM2lMbkhTZ0FYQWEz?=
+ =?utf-8?B?anpMQWZWeTRJZ3UyRlJMc25KMkNaRDNSUXV3QzFGekxBSy93WmJUaFJRZUln?=
+ =?utf-8?B?czgzNWkwR1p4Mk1SbmxaaTF6TmVXMmdTYk00UWszR1RURm5mTlFvNjVTOFRp?=
+ =?utf-8?B?TC9Vak03UlF1Ujc1NWhqQ2MwY3IrODFWMjQxS0R3ZWdPbnpsbUJVT3BFamRn?=
+ =?utf-8?B?WFJEL0szOUhsNmtDc3d6K3RHYkI1d2t2RzV2MG92ZFBwWEkxVzR0Z2dDS0hn?=
+ =?utf-8?B?dTd3akJaYmdLT2FrTWlCV3oxclAwcXJjL0IrWHlONjBYU04vQ0tjeDJhcDAv?=
+ =?utf-8?B?dDN0aG4xYVlTTUwyVHpuRW1vQmt5MXVjUWhSN3NWUFdITXFvSFZVY1QwMTNt?=
+ =?utf-8?B?dXVabW9ocS8xZkQvaDdMZEgxZ0dSOTI5VVNienFMWVl3empod3hZSXFkY3ZO?=
+ =?utf-8?B?akR1ckFrb2hzZnBpYy9MWTlPUWlPSFdFaUtGT0lBWXRQN3kyQmM5YWNSMnhG?=
+ =?utf-8?B?dkNrQ1hwREQ1b3FXM0h2WmEyM3NFLzNKemRabUwwUURiU1g4U1RKNGhEL3FG?=
+ =?utf-8?B?YktYcjQxOHUvSlVNNU41dURuNHF1TDRkWVMzcEJReVZqcFEvblF3Q3RWcmdz?=
+ =?utf-8?B?Slo4MkwwZkpvUmlCM0dPYnRaRmpuN1FWR1NQZko4R1dVOEJwTUJwcld0ZkpM?=
+ =?utf-8?B?d3BOWGsyaUFxWHhBMWc3ME5KWENSdWM5NHkwWm8raGJiTFpSUTIvSlZrY0or?=
+ =?utf-8?B?RWFPaFIwMUtmUy9QN1VTcHdtclNvOGhpN3d6TUlJS084Y3BvYWZTaU9kNS93?=
+ =?utf-8?B?WGVCRFNDZEg3UDJPZVc0YXhydzBia0pOS1pySHUxU3E4U0NmR08xNlJkcVZ4?=
+ =?utf-8?B?V3BDR2dxeUtMNlhoT2dydjZzMXBkaVcwbzlKakVYWC9NcHEwZ2J4anRhUm4y?=
+ =?utf-8?B?ZEVYWTVPWnhwcjlhSUEycWxOcTRVbWxDRmJYZzlpQUhNNGQwWmxpRzdzci92?=
+ =?utf-8?B?MWZOQUsrTWppcjdtSUsvYU8rSnNUaXFEaVh5TDJtc1VjTE5rZmx5VVNpMEhn?=
+ =?utf-8?B?bUl3aGt2WTFLRitLejY2TE50WE5BMHN3NWkvbjA3ME5XQ2hsQ3FGUVlocWMr?=
+ =?utf-8?B?QXArMHFMalpmbk1JN3hUZGkwNCsyWTlvZ01sdHZUd2JYWnpiZUw5VjljUDY2?=
+ =?utf-8?B?NTVKNDJjNnNyK2xmbHVqNjc4ZEpIaVhoWTlncVVCMHFJS3E1MDhPSG9CcTIw?=
+ =?utf-8?B?Nk83bFhkdFpDb0pncW1Qa0ZLV2pXN01sYnBESk94a0h5REg0VVJLcXJzV24x?=
+ =?utf-8?B?dUFTbjY4U1pJbGxNQ2VRUUNoSllkMTRSdFZlajVldmdMczA4bDM0WGtPVERY?=
+ =?utf-8?B?ODNzNjJ3cEc2SkdpMGRBSFZuQVNHc0lFVFJzTWhkUUFaR1RrSXhBNkM4cEFG?=
+ =?utf-8?B?ekVQaGIvOTQwWElESXMyOEtDVVMrWkJOWXI5Y2xaZU9tSHl6UEpHOFhCRm16?=
+ =?utf-8?B?V3FyOXJRcGV5WjZrWGNNUiswZTg1aEx6UjFzaUs2Q0VQeFhFQ3hnNk16S29T?=
+ =?utf-8?B?dHhPeVBHRy8rbGNZVGhKWlp3b01UQzRjeW9FbENORUZGaitoMHFkdDlPQzRJ?=
+ =?utf-8?B?d3c2Tk1CU3k1d0FoL2hmY3V4SmExUHhUeStTLzYvaXhLVGtaTVQzVXhoaWVu?=
+ =?utf-8?B?d0R4Q09USldxQzA0Q1ZUWElxaC9aYlhPNU1rUXNNd2xxSTFaQ0VZdlIwQ2dm?=
+ =?utf-8?B?SFFoZGFpZlJFeERwUDA4aFEwZjVwK1RZT1lTdFhrWC9DNjN3REUzeXZia0Ur?=
+ =?utf-8?B?Ry95Sk5uZmdXZWxmaUtpZU5LL29yYUJ4Y2Q4Tk0rc0RMVFRrVkJFVHVCUTNG?=
+ =?utf-8?B?T3FRSUNjQmpYbkttakpzV2Z4ZEllU2dEek41RFBqZlpzM1d0UllQRnBqMUdm?=
+ =?utf-8?B?YzZrUWlQNCtjeFU0c1BQdktTRUNzZlArSWdKSFFQT1pVZC92TExvaWQ4dUlW?=
+ =?utf-8?B?RjlsV3NKTG54U1YwQm0rRjY0MnRtdlYrWGxXUmNWaFB6UWU2cjlNSW5zWCtX?=
+ =?utf-8?B?RGZrZWpvdEd6N2haNjZoOEMyVWd1N0RLQ0FScmM2U1VkbkNvUHZ5cktJMFR3?=
+ =?utf-8?B?dTJSQ0xkYStYUGFyWklzNFpFMVgrSmlmcUpsUTNtTzZZUVRVS3U1WmFMdWg3?=
+ =?utf-8?B?M0hQd1RxczVGQ0RNakxXWTNSYUxvL0p1ZnBpRVhqMlZUdG9ma1psQkdtemhP?=
+ =?utf-8?B?ZzBuS1hwbEtIK0FCUWplaWhXQ0tHOXpoRmhzQXZwNkVBVWNuMm13OC9qYWxi?=
+ =?utf-8?B?V2FRelhyYnovQkV5RjJPdUpzZTZjRHJycGNMKzU1ak9zck9PMTh1TmpPQnBv?=
+ =?utf-8?B?N2lydlV6Skc4ZFNTdTVhSFZWcVlocDB6QzltOGJwemFqRXp2ZUVLTER0RDIy?=
+ =?utf-8?B?TFVCbEkrQXlRdVpkc2tEUDEyNjgyZ0VyZ3VhcUdtdWc4bWsrc05LVTdKY0Zj?=
+ =?utf-8?B?UDM1OXNlTWtzQ2s3dGZlUkpKT2tNdGIyYnJsWkdTVEpxTjA0YVd6ZGxQNFRL?=
+ =?utf-8?B?OXNyTDZkeXZjSWh1a0ZpRGNJeTd2L29jYkJ2cDR3UlFrSmJmT2hVUjY0cnhs?=
+ =?utf-8?B?MUYxNUpwWUFLZkhVbnhrRllDZTBxQis3ZElWTFlyeGwzZjVUbmlBUjZlcEtu?=
+ =?utf-8?B?S3BNay81cFNkR2gvYXZJR0pVTm1DREpTMENCdVBWdFAyVWZ5UjBKVmQ4aUtn?=
+ =?utf-8?B?a2k4eHBXUU1pUDNlSTVMTVBIOGR4Sm9BTFJNaS9najZSOVVoU012K3g5T1l6?=
+ =?utf-8?B?alRxT0NZK3pNa2tYQjc5MHkrRXN6UG9xTkR0U2V1Skhkbm9PMUREUURHS1Vv?=
+ =?utf-8?B?N0JMNXJsMG5SQ001anlSL0RKVVp5b2h1VEFuT1QyTnlxRE5BRThqRk1xVklj?=
+ =?utf-8?B?dWsxeVdXQzlUSzZlUHhWWWhIaWxqTmNnbCtrRndyNUFWMHZaMjRPQnBsaWtQ?=
+ =?utf-8?B?VzZWa1pDRktocUVGZE1iTHFlUGdJOUxKV29GVjBYMWhMVWJnV2VSV0hBQmFP?=
+ =?utf-8?B?WDB1a1ZxVCtXYlhJU1REaGcrK1VTYlhhVU5uajNNZkw0cmxMRzFhQ2h5Szdp?=
+ =?utf-8?B?aXVJWVd2N2FRZi9uZEhVeGxoOS96by9iQ3grQTFLV3NoOVFyZ3h1MGJVUkIy?=
+ =?utf-8?B?T0ZsSjBtZktsNEZqa29PelBSVWtCTEZ4SGJwTnRBZitKMWFiQ3ptYUVld2RT?=
+ =?utf-8?Q?Hi+tsyZQXeHRJVcBu6dNgvjY+4=3D?=
+MIME-Version: 1.0
+
+--_----XAUkjXsFH3LQwSH0s03KOA===_38/D3-21891-69BCD976
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="UTF-8"
+
+Dein Rabattcode l=C3=A4uft bald ab, Heinrich.=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A zooplus Logo (=0Ahttps://clic=
+ks.zooplus.de/f/a/YM2mDwamD7IsZ8YqlvdD5Q~~/AAAHahA~/yeYAh2Qu57wSNQe4eWin3Mc=
+2_kOyzouWV3sEVtdrDdUmovXxcPIp4gXlRP7bmb8WvH60870b_xYgKRKxqtuLcfOs0ORcYiJJGp=
+ZNYTrEdUK3OFopfda2-FuKc5iWF9Qqr37IJY_bXYMM4y3lmKZbwuTCS0TzZjWJNjel6cPHMTUMc=
+BBT0WCNLwaQLVAw3aIv4DogU5jankacPygkAxbDfvV5bTMnRYCjXOeIVXm-RWrMCnNWvYyZxKf6=
+33VuUCuFagx2sv9nBe8OWe1sb-mYmEpmyXLIM2OagXIgnfdPwQ4Bz7HtCObAkDarOSIAkVqcYot=
+SwcaMfuvianNLOcVPNLivukm9jTMlHSqSWZWsJAieALVwy3SDm6Iy2Fto43Vl=0A)  =0A=0A=
+=0A=0ADeal Image (=0Ahttps://clicks.zooplus.de/f/a/o0RRHvdcmJpoydyCFXTVKA~~=
+/AAAHahA~/W53lK37tEvtknrgM6P69lnNH59jDQAtKCbo4zx5L9xN29U4r9Oc-USucdubnUDAxT=
+iFYfxhGP-ZIIY_kuhCfo_Kj4-z5Y_k-7wWQ97d-vjf1WjrEkypsvyqOQjuM8peo4NQn0WTqr_iL=
+v3I-WaiUUm9lZfGxMoib00C6TO2PpLOG0iFmPxVtphe-cK6VtEFRecp4xu3A7AK4OM9HlFcGC3F=
+JbSCABtoHklRz_cfNi1DtvSmZX3ApkQimR2h4wb7TmIggfBi--6dII3DrYa1mg8QjIGQ1GVH1vF=
+Ul0ieruhtkfsTmDfEZvb4iCzxK11nJst3pQ1caQ9TYLxPm4D7BWXUF-r-t-yaH_uLk9UnoNR4~=
+=0A)=0A=0ADein 15% Rabatt l=C3=A4uft bald ab=0A----------------------------=
+------=0A=0A=0ANicht verpassen, Heinrich.=0A=0A=0A8LNI-DIUT-JY9A-ZEZ7-8XC=
+=0A=0A=0A=0A96=0A15% sparen=0A15% sparen (=0Ahttps://clicks.zooplus.de/f/a/=
+D_KCb_1Kb2-_zPygYDNOig~~/AAAHahA~/QmX3JvG21CItjYLM3qdH-Ppwo_1kT5em0MiVwC7MO=
+D6RocTlI9csBpgU3V5_JOi-mjYubPs15gRZDRiUC8qQ3F1Y1qFatxJiUoMnLW1rC_XLV58A5q1N=
+a17sS77eE9fhg9hLpj77VIAj303-_yB458Wlsp7lWvwcPfzpm1j4kI5y3ApwoLMyeI5L3Fbk2lY=
+ysbKHSYxsvS-rZzitrhi0eS8s3zkO4N-6yE2ipkZI8ETNLRqsOoPXJOlFUVRlIPJ94LTMqbJl6t=
+0wKphI2aArLvUHiiGTMJVLFc1wZYQztwPs24_12hiRsr1bVoFgkr8AYaKmJVXMwrZIlhbG2QySR=
+IQ0OSSDpxqd2wfWLbXyULJ0Pk7CXl-ein02wiNim6cK1Er46c-q1aMLcfKgWf27goRNHxfgikGw=
+ngKoOtts7JI~=0A)                  G=C3=BCltig bis einschlie=C3=9Flich 02.03=
+.2025*=0A=0ATop-Auswahl f=C3=BCr Dich=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A =0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A  (=0Ahttps://clicks.zooplus.de/f/a/jq7b3ZYU6hfLghh1rpBSYQ~~/AAAHa=
+hA~/UrX61LVeTqSGe9XafivRqhXlAgyDJtJltMu4eMrQALyldKEcP7Olo51Dt4OmVSk8I4bJHKm=
+B531vX3gZ6F1bdpkgrLvRk5oKF9lxh-12WNSK5DW1UqDEdCTH05frqaI8wnUqSbFUS3gHGIc9aY=
+SaDV7nTWHm4nW10-qQomPinqYmwwUKnKxIuD2YC-QAaA_aoE-PHqRiff_5-AdqbCTdXISf5DG-0=
+l28j_OU9idbA2-D2AvgcwjeC8tF6LUZkfmoPmX7haPqxZFkJRh2cVlluih8x7KltJjvwAPuayqW=
+mW1G9nnbhNVWWBZJhakd0jaqJinULXN0MgnA6_Wva1hcyPKvBPMB_I6y1ELD9Lf6pKZo6yNIVKR=
+R21C4QtZL_blRZz9A9XEOTvPXj7Dqhf2a7NURyDAIWC5I9GChZoXDFtp5K0DypkqlvUWPe2lIFq=
+TkOrCGM3eKHaj7ajUDPU9SwbD8xkF4HaWLXBYw_hE0deMJZTSjYB14ZQVMyJlm1i0OXeBftwKau=
+rpwaD5dHKIpuSoFCDp0IbIVvlt92C9wIiG8ML2KhuLiGltotzPlS0Nub3WvRiXQdGc-vNx40CHG=
+ihWqL8cZXejE7vw6hyekfWmqLLKjs3ehcQWIHfH84mBhds2GSc0OUEHa83DjWSJiIYub-LCitxN=
+dDz6M5GSr1lU~=0A) =0A=0ASparpaket Gourmet Gold ... (=0Ahttps://clicks.zoopl=
+us.de/f/a/OTQWaG5Slepq6b-K4eZzeQ~~/AAAHahA~/UrX61LVeTqSGe9XafivRqhXlAgyDJtJ=
+ltMu4eMrQALyldKEcP7Olo51Dt4OmVSk8I4bJHKmB531vX3gZ6F1bdpkgrLvRk5oKF9lxh-12WN=
+SK5DW1UqDEdCTH05frqaI8wnUqSbFUS3gHGIc9aYSaDV7nTWHm4nW10-qQomPinqYmwwUKnKxIu=
+D2YC-QAaA_aoE-PHqRiff_5-AdqbCTdXISf5DG-0l28j_OU9idbA2-D2AvgcwjeC8tF6LUZkfmo=
+PmX7haPqxZFkJRh2cVlluih8x7KltJjvwAPuayqWmW1G9nnbhNVWWBZJhakd0jaqJinULXN0Mgn=
+A6_Wva1hcyPKvBPMB_I6y1ELD9Lf6pKaws35QpyeXry5P2TN-upg4L3SkRN0wC3B-3W18mtSBm1=
+Y_vi4MLgL3-XY2pe7jVieNhmV4YpZ4E6gAQ5Ell1bj3AliU_nHjf87BdePRiJsrGfRM-KbYk-ai=
+6Y6vaoIOA5OqF3z7d1_2w6HkfO-WkYdCTq0SYHxBmS2KNAUuQsoIbzontACZIhwf5vp4F3gEY__=
+yi_MDRNvZg8zP_uAVwzI-tpjJ62rdxJjqburioWzuNtUS1uwQM4ABoh73iYF9YwsIlCNWMePgbP=
+4kJH4bReXspm4KK1aS5Oze4ATeMGKQGg1sMqVQZB2o9WxnkD518c~=0A)=0A=0A   (=0Ahttps=
+://clicks.zooplus.de/f/a/Pop_jwxl5LfzQzjWo1cNww~~/AAAHahA~/UrX61LVeTqSGe9Xa=
+fivRqhXlAgyDJtJltMu4eMrQALyldKEcP7Olo51Dt4OmVSk8I4bJHKmB531vX3gZ6F1bdpkgrLv=
+Rk5oKF9lxh-12WNSK5DW1UqDEdCTH05frqaI8wnUqSbFUS3gHGIc9aYSaDV7nTWHm4nW10-qQom=
+PinqYmwwUKnKxIuD2YC-QAaA_aoE-PHqRiff_5-AdqbCTdXISf5DG-0l28j_OU9idbA2-D2Avgc=
+wjeC8tF6LUZkfmoPmX7haPqxZFkJRh2cVlluih8x7KltJjvwAPuayqWmW1G9nnbhNVWWBZJhakd=
+0jaqJinULXN0MgnA6_Wva1hcyPKvBPMB_I6y1ELD9Lf6pKawr5IUpCCuzvf2QdotjzW1tmn7uFG=
+Or4-BI5CnR15ur6WL7WCb888_bZwpJvedW8Hw3VRjwAmmCGcT2vv6PmQiZZkLp1Jx5cHemHMYQr=
+lWVn-95kaw17Jaz0zfYnFEDilL6sHiEErqqNQevV5qJC_2GeZeZIs4xLQRKFL6t2sr6kI35rYVU=
+8kofRoHNQ2XY_F-O7OuesyjEX4n14r2Y_g-MVnteHD6Xd82KdN9H1I5RIKM4jwAWYzwy97k_ShT=
+VxtCDZLMJlpdg_FbQFv-zq7IAKqUFRHLoFO751WfDmNMuQ_u_D7G0oJ0A8YSUPkWLow~=0A) (2=
+3)=0Aeinzeln 14,38 =E2=82=AC=0Aim Set 13,69 =E2=82=AC (=0Ahttps://clicks.zo=
+oplus.de/f/a/EDlXuy21h-rNS31NqYCZXw~~/AAAHahA~/UrX61LVeTqSGe9XafivRqhXlAgyD=
+JtJltMu4eMrQALyldKEcP7Olo51Dt4OmVSk8I4bJHKmB531vX3gZ6F1bdpkgrLvRk5oKF9lxh-1=
+2WNSK5DW1UqDEdCTH05frqaI8wnUqSbFUS3gHGIc9aYSaDV7nTWHm4nW10-qQomPinqYmwwUKnK=
+xIuD2YC-QAaA_aoE-PHqRiff_5-AdqbCTdXISf5DG-0l28j_OU9idbA2-D2AvgcwjeC8tF6LUZk=
+fmoPmX7haPqxZFkJRh2cVlluih8x7KltJjvwAPuayqWmW1G9nnbhNVWWBZJhakd0jaqJinULXN0=
+MgnA6_Wva1hcyPKvBPMB_I6y1ELD9Lf6pKZuwNC-PZqbfkz9dGIkY4yRnAvUUVQncJPW3quh27F=
+eUJaWSOVs-OSm7eudlSlEUSMzY1WwjBWB90akTnwjSWWAzWoDQ7ERB0XTeG8rmTejgBOn9NEAfv=
+gnovUmRD4a-PZWi0JN71CLJrJBB6u5Yn2govt-IS9ctsUiejmxIbuDPKMEtqt2QaQjar1L3Ddbm=
+CgK08BuMJhAzBUlfdAZx2S7NtwdRHF9lSQqefnINBKwASzgBEpQ3MBfSXQaqFPkUwHZ2AMyaTNy=
+4zcklua6Jt0X65onjmnxFZyJWz1EQv9D4Smj7aYa5uzuMO6wb-jD674~=0A)=0A=0A6,71 =E2=
+=82=AC / kg=0A=0A=0A=0A=0A   (=0Ahttps://clicks.zooplus.de/f/a/60iZB-roG8zp=
+mIh-WgYNSw~~/AAAHahA~/1FqT_371qmsQfP-ubVkeaBYMPWdclGHHvR8zldaOSkxrjVUzyN8op=
+NSTLJ-_sdDxLK1GBzxFc-3_R4hR-pVtFY27xsgPfzqWJk88TAHRuOtAs9s2keC3Jz0aCASRZR_m=
+escn8T0Hj7Id4MlLA0lYUKcrhh_XIXwx-tza1QiwLuHRKn6yWqK1hWr5f80iJICa7A5FjasQiT8=
+DzYJGA6-IuieY6yvvixOTB3BxECYM7SaMV0k-caXazjchw2tazsbkln7Hb0tTzw5N_9wj7e7qg-=
+2gQBIRekcJqP5fSnXLNNHjkhABGXO3bsw8kThf3vFNud1-ePjvtG0k5tXqUee0HXIhlp9bQ5jCq=
+od8H9VLTjQQAdPmtcb-WVU_PGJGvckaJzBZCprhVUHX30phs19mrqk5aOCqqSCAb2o1HoIxYrdj=
+UtUG-2EBMsGK08csmQY6wdWza8C-upkbJ99uSl3I8t0lcnXPdLYIUCyjMfnPM0JGBglw4-eMcma=
+8EDkn946YHLHzBpf2LkZ1cC39iHjLb1R5849tSExLC4VJdSkAtAB14aVfGGgSGx1E2g4AVnWVW5=
+O7nKmQ44SmDvEwEBMoNdbD2btxEBDFvL7808RkQSqwoNRBCiUlhGcfbMeSsryPKBsp5o5WCHc0b=
+9MKxRW7oQ~~=0A) =0A=0ASparpaket Gourmet Gold ... (=0Ahttps://clicks.zooplus=
+.de/f/a/7hJR8GyoMOQwZ6nOO1TwUA~~/AAAHahA~/1FqT_371qmsQfP-ubVkeaBYMPWdclGHH=
+vR8zldaOSkxrjVUzyN8opNSTLJ-_sdDxLK1GBzxFc-3_R4hR-pVtFY27xsgPfzqWJk88TAHRuOt=
+As9s2keC3Jz0aCASRZR_mescn8T0Hj7Id4MlLA0lYUKcrhh_XIXwx-tza1QiwLuHRKn6yWqK1hW=
+r5f80iJICa7A5FjasQiT8DzYJGA6-IuieY6yvvixOTB3BxECYM7SaMV0k-caXazjchw2tazsbkl=
+n7Hb0tTzw5N_9wj7e7qg-2gQBIRekcJqP5fSnXLNNHjkhABGXO3bsw8kThf3vFNud1-ePjvtG0k=
+5tXqUee0HSk40XkR17JmmNkHAF64wKh4O1Y6oeimjr0MMZoE9fbHFH_p2ATKmzm1elpOPIh6P0K=
+F4i14rOC9ltrwmyzpWar3FxYsXaH_nqLEQeSK3swAIHkPEuidB6Hrv1ku9s0CE4nL0yql7PWCH0=
+H5ievMQ95f4ZGRas_S4LwNmDiz_Ao3mLbykbkxhy0OVIouGAv0Nk7xOW0QJWnxqX-7Asmz--slI=
+bwRZDVWD1xHzHIGCiZCarznou-kUWRzC-zp86EXfNEMw9esseWiF_GRMzw4PR7RlIUAKuhW15RJ=
+5ypYCGc0T4oFIWtVtY95V6vSIf8nnQ~~=0A)=0A=0A   (=0Ahttps://clicks.zooplus.de/=
+f/a/UltYYEbSUsN8AMVaUMvEqA~~/AAAHahA~/1FqT_371qmsQfP-ubVkeaBYMPWdclGHHvR8zl=
+daOSkxrjVUzyN8opNSTLJ-_sdDxLK1GBzxFc-3_R4hR-pVtFY27xsgPfzqWJk88TAHRuOtAs9s2=
+keC3Jz0aCASRZR_mescn8T0Hj7Id4MlLA0lYUKcrhh_XIXwx-tza1QiwLuHRKn6yWqK1hWr5f80=
+iJICa7A5FjasQiT8DzYJGA6-IuieY6yvvixOTB3BxECYM7SaMV0k-caXazjchw2tazsbkln7Hb0=
+tTzw5N_9wj7e7qg-2gQBIRekcJqP5fSnXLNNHjkhABGXO3bsw8kThf3vFNud1-ePjvtG0k5tXqU=
+ee0HffbPyNDJWbdDMrC1h8YwV1AYa_oRjDGFBVo5w9QmOAhcWLygt1T5uXZqTfPl5xno6RZpui8=
+Kf6sybMz2nP-81sLhZNZyokb8eEelN6jyfbWSygE3EcTqEIxsMMULJ-UiymFHyj8KM17XMl6yiX=
+srn38xVIEary4VaKdFCt-hpWQGDQ-yyiqaZ-wC8c6yf3A8JVgQPrBSDA_LmRORf5ci9DUV1Ezep=
+oUJdurSJaH1-eUwgrH2hvwud93nIPMd6-kuzVMsXo2xURBGtVV7eMH1TGSKNXLfwbB0OtYlbAua=
+I35E9LWVwrJIHI7JQLzJ8WxeQ~~=0A) (30)=0Aeinzeln 30,76 =E2=82=AC=0Aim Set 29,=
+49 =E2=82=AC (=0Ahttps://clicks.zooplus.de/f/a/xHo0BkyOGPlNb8T019eIgg~~/AAA=
+HahA~/1FqT_371qmsQfP-ubVkeaBYMPWdclGHHvR8zldaOSkxrjVUzyN8opNSTLJ-_sdDxLK1GB=
+zxFc-3_R4hR-pVtFY27xsgPfzqWJk88TAHRuOtAs9s2keC3Jz0aCASRZR_mescn8T0Hj7Id4MlL=
+A0lYUKcrhh_XIXwx-tza1QiwLuHRKn6yWqK1hWr5f80iJICa7A5FjasQiT8DzYJGA6-IuieY6yv=
+vixOTB3BxECYM7SaMV0k-caXazjchw2tazsbkln7Hb0tTzw5N_9wj7e7qg-2gQBIRekcJqP5fSn=
+XLNNHjkhABGXO3bsw8kThf3vFNud1-ePjvtG0k5tXqUee0HdAz_bkfESF8eW6kJPBvwHSyhgp6q=
+zI9KNyC6s_-p3tdef50ekuJQg10UtRBHPPQnjHa2WI7BVuZ1g2j4HPaOplDAxxcw_kM-4reC02_=
+iUfd173GkxCX7HBXQAu01JAoIpKDjCDy5H69qlTSe9JdUo4ubIwPJ7IOWLonNGppgYJfoGQGaYr=
+5vSMD7SNP0l6CSUjxZjOGSluMvL9bXBvqGu4ogibzZQvPrD2tAcWdZxwpxK48sNTxEwNMTJBrkd=
+s-LD3sEcyiI0RJDYqJYA733Uqs2sPwaFAgt0g1T0KOU1hWhIxXTJ-kBJ_W6YzKkSTUEg~~=0A)=
+=0A=0A7,23 =E2=82=AC / kg=0A=0A=0A=0A=0A   (=0Ahttps://clicks.zooplus.de/f/=
+a/jnX-etK7dQWdJkSA1bB-CQ~~/AAAHahA~/UrX61LVeTqSGe9XafivRqhXlAgyDJtJltMu4eMr=
+QALyldKEcP7Olo51Dt4OmVSk8I4bJHKmB531vX3gZ6F1bdpkgrLvRk5oKF9lxh-12WNSK5DW1Uq=
+DEdCTH05frqaI8wnUqSbFUS3gHGIc9aYSaDV7nTWHm4nW10-qQomPinqYmwwUKnKxIuD2YC-QAa=
+A_aoE-PHqRiff_5-AdqbCTdXISf5DG-0l28j_OU9idbA2-D2AvgcwjeC8tF6LUZkfmoPmX7haPq=
+xZFkJRh2cVlluih8x7KltJjvwAPuayqWmW1G9nnbhNVWWBZJhakd0jaqJinULXN0MgnA6_Wva1h=
+cyPKvBPMB_I6y1ELD9Lf6pKavLH6D6Wkyjf7PW6257aAeJcwiY46-aN_CZzwpfYiX-iEHRZaTuP=
+J46JFGTLitzuyuHCrDQ-ROGTcaP90cZjQ01nQc9mpAiJgp9d5Rfbi8T-8IkdJe1_0pqa2qwD1EM=
+wngaDSERdRp9Os34gybCg6L_LaxW1H_SgsBAChjpxWf68s-D1So5aiDx5ZPpoHNLIk1otp2zupD=
+lWqTuaCQKYwWrZgfJ4a1rqxHFbBGVjAIpuIDds2cuY1qFUl1lnY2d1GEFPI6ziwWPDMsk5Ifb14=
+j9p1JiM39FQOUgXR1Zu0NO4U9cTEvVSIaaNcr476zDxA~=0A) =0A=0ASparpaket Gourmet G=
+old Za... (=0Ahttps://clicks.zooplus.de/f/a/NVze3qcs7zaFxDRNbb4ziA~~/AAAHah=
+A~/UrX61LVeTqSGe9XafivRqhXlAgyDJtJltMu4eMrQALyldKEcP7Olo51Dt4OmVSk8I4bJHKmB=
+531vX3gZ6F1bdpkgrLvRk5oKF9lxh-12WNSK5DW1UqDEdCTH05frqaI8wnUqSbFUS3gHGIc9aYS=
+aDV7nTWHm4nW10-qQomPinqYmwwUKnKxIuD2YC-QAaA_aoE-PHqRiff_5-AdqbCTdXISf5DG-0l=
+28j_OU9idbA2-D2AvgcwjeC8tF6LUZkfmoPmX7haPqxZFkJRh2cVlluih8x7KltJjvwAPuayqWm=
+W1G9nnbhNVWWBZJhakd0jaqJinULXN0MgnA6_Wva1hcyPKvBPMB_I6y1ELD9Lf6pKZppIiqa0ZC=
+wUbtF8W7YSGeqa8CEr3oMqHE3qI2VkvdpfzI-QSsSrqcGekbSp0MZzvQ514CekRofJNDt46qQBS=
+7v3k93BKaBAg49KfjeMMtVEDhAV2plsYGM_tbi4i9FleJ4j9bHtUWo10cJTAjvG9jf_AscEMGxR=
+5wJFfgdEcBoSxY2w3XmbAAH16F2jMZvCsPaisnvQKHUoo7xOcHEbZR6CVdDKuWlayrZGw6gPE8w=
+n4LQQECbKytLngbUtYpCgwB3s4FH91IcQRxtrmbQbIsYWoa3CND3lSII7L4OiXPoqzDc5EhwRKo=
+4MMTZXjjsEE~=0A)=0A=0A   (=0Ahttps://clicks.zooplus.de/f/a/81LemSjsjnvzmLZR=
+q5C6Kw~~/AAAHahA~/UrX61LVeTqSGe9XafivRqhXlAgyDJtJltMu4eMrQALyldKEcP7Olo51Dt=
+4OmVSk8I4bJHKmB531vX3gZ6F1bdpkgrLvRk5oKF9lxh-12WNSK5DW1UqDEdCTH05frqaI8wnUq=
+SbFUS3gHGIc9aYSaDV7nTWHm4nW10-qQomPinqYmwwUKnKxIuD2YC-QAaA_aoE-PHqRiff_5-Ad=
+qbCTdXISf5DG-0l28j_OU9idbA2-D2AvgcwjeC8tF6LUZkfmoPmX7haPqxZFkJRh2cVlluih8x7=
+KltJjvwAPuayqWmW1G9nnbhNVWWBZJhakd0jaqJinULXN0MgnA6_Wva1hcyPKvBPMB_I6y1ELD9=
+Lf6pKYIsft0k0HZmSu4zIExFnOa0LGs-sjO-fKbM2TTxRtnRIWNSja4mUkZkzKa1SKl_HnAcLhv=
+W2NVbXObBttCckUM_LCFrSj-di3r4RpT2JKFbcb2EoYCaiBxqCYnHlLVVP5GgHKooHiZD9Oh50o=
+55OANVISs8-craZMnU1XGsz4SGZzsTudGM75QGHhPyh55WOzcZGgIO-Nn-VqYARGbM7PaCT650o=
+08Qo9fi0HFL7J6n7YjVDZ_d_wiciu9cQZuOSJ48kRu5FjVU8W1KbsErMcVMaVqLuLwoOupdcfsA=
+yd5g4FHBdT8tfy8e2Zqux1v1_8~=0A) (23)=0Aeinzeln 14,38 =E2=82=AC=0Aim Set 13,=
+69 =E2=82=AC (=0Ahttps://clicks.zooplus.de/f/a/sIr-9-t-nJHPwGgSndU6uw~~/AAA=
+HahA~/UrX61LVeTqSGe9XafivRqhXlAgyDJtJltMu4eMrQALyldKEcP7Olo51Dt4OmVSk8I4bJH=
+KmB531vX3gZ6F1bdpkgrLvRk5oKF9lxh-12WNSK5DW1UqDEdCTH05frqaI8wnUqSbFUS3gHGIc9=
+aYSaDV7nTWHm4nW10-qQomPinqYmwwUKnKxIuD2YC-QAaA_aoE-PHqRiff_5-AdqbCTdXISf5DG=
+-0l28j_OU9idbA2-D2AvgcwjeC8tF6LUZkfmoPmX7haPqxZFkJRh2cVlluih8x7KltJjvwAPuay=
+qWmW1G9nnbhNVWWBZJhakd0jaqJinULXN0MgnA6_Wva1hcyPKvBPMB_I6y1ELD9Lf6pKb4S6aRd=
+nwzB83wtiqqhQ604a6MO8VRTvs0KhhJq77ERr4MkY6xzWrjO3gcavvLRvkYMv7zOwZjqW2kJGLo=
+vD-bApLdRaefbMVBAbfTeZm5Fm0v8ODt6xdU60us--T5uKaqhRyDiURZkDJNG0LAY1pyv82wT4N=
+tzlD7-WMu5GOFodA1Twb-W4BLMJTKTFVJk2e8gDzoonv4ei0d2xNIqrJILYdSd_YIHoFk_LFFsX=
+qZGq0KOQn26A9TFQwhiEtkTF1shbP1Z1MB4l-XnQyh4eyvuduPQZJV9x7D4agBeAZcu9yxsIVpt=
+dpWGeV6e5u5PDo~=0A)=0A=0A6,71 =E2=82=AC / kg=0A=0A=0A=0A=0A   (=0Ahttps://c=
+licks.zooplus.de/f/a/2gGp8PIIkr97WJLaL9OcRQ~~/AAAHahA~/1FqT_371qmsQfP-ubVke=
+aBYMPWdclGHHvR8zldaOSkxrjVUzyN8opNSTLJ-_sdDxLK1GBzxFc-3_R4hR-pVtFY27xsgPfzq=
+WJk88TAHRuOtAs9s2keC3Jz0aCASRZR_mescn8T0Hj7Id4MlLA0lYUKcrhh_XIXwx-tza1QiwLu=
+HRKn6yWqK1hWr5f80iJICa7A5FjasQiT8DzYJGA6-IuieY6yvvixOTB3BxECYM7SaMV0k-caXaz=
+jchw2tazsbkln7Hb0tTzw5N_9wj7e7qg-2gQBIRekcJqP5fSnXLNNHjkhABGXO3bsw8kThf3vFN=
+ud1-ePjvtG0k5tXqUee0HYmzcesTXrFBu_2mPaQMMWB0yibMUXn_DHHcp3hiSTJZ3axRNpkMigu=
+2kfMn6JvcDzx2KuMPxTLpeuAdXcQGf1lzypf0_uw4Qjx7f0syKel0j4LLZqjN1jkMNc3MxFTmou=
+UGF_Ag12hydRJXrlgfR53-c4zktn2NOsO-F7gqFumfPE9DZEuVdtrbpudJilnaCgnfhQ5638VBH=
+NDiUj-pW8JP-FEJ_Ou6RPLWB6xZMy5NkTON7gVKtYAZugPRdCN8mSLy1ZO46WFMrmpusRH2Bypy=
+5g17V8RM85exfans3pgFN4w75WhHIsXZlrNmNFWioQ~~=0A) =0A=0ASparpaket Gourmet Go=
+ld Fe... (=0Ahttps://clicks.zooplus.de/f/a/g-bVe0hbMzUSwX8rgpSrkA~~/AAAHahA=
+~/1FqT_371qmsQfP-ubVkeaBYMPWdclGHHvR8zldaOSkxrjVUzyN8opNSTLJ-_sdDxLK1GBzxFc=
+-3_R4hR-pVtFY27xsgPfzqWJk88TAHRuOtAs9s2keC3Jz0aCASRZR_mescn8T0Hj7Id4MlLA0lY=
+UKcrhh_XIXwx-tza1QiwLuHRKn6yWqK1hWr5f80iJICa7A5FjasQiT8DzYJGA6-IuieY6yvvixO=
+TB3BxECYM7SaMV0k-caXazjchw2tazsbkln7Hb0tTzw5N_9wj7e7qg-2gQBIRekcJqP5fSnXLNN=
+HjkhABGXO3bsw8kThf3vFNud1-ePjvtG0k5tXqUee0Ha4djj4phU8EByRVcE1Qm1T8w60FuQQky=
+Za71pQ3838VfOPp9HPzYm0U1DsHm-1Khzw_I6jrw4R97aVexpirOsrvqEQvwbP5DlpIi8YddfxP=
+RDY8rf9ArWDFbmt0umghV_19cVryTUIoMDbr5XX4aJWuEj8Z3EjJiU8qiuKpOMWrVDD5lDl-FDP=
+cgByDu_0IcUMUETqQaG9fqGDoAuxw_Z60iHIZQR9BZODiefukDBWqPDLbQY_L7gsKhn5uRw8nlS=
+lsmUyvQDrSW4n2-L9Y_9sFXENE3KCArFZcGhzn75mbSLJdKP18SHZX79Vplas9aQ~~=0A)=0A=
+=0A   (=0Ahttps://clicks.zooplus.de/f/a/MbEmEtMcHQbMHlrIvv3New~~/AAAHahA~/1=
+FqT_371qmsQfP-ubVkeaBYMPWdclGHHvR8zldaOSkxrjVUzyN8opNSTLJ-_sdDxLK1GBzxFc-3_=
+R4hR-pVtFY27xsgPfzqWJk88TAHRuOtAs9s2keC3Jz0aCASRZR_mescn8T0Hj7Id4MlLA0lYUKc=
+rhh_XIXwx-tza1QiwLuHRKn6yWqK1hWr5f80iJICa7A5FjasQiT8DzYJGA6-IuieY6yvvixOTB3=
+BxECYM7SaMV0k-caXazjchw2tazsbkln7Hb0tTzw5N_9wj7e7qg-2gQBIRekcJqP5fSnXLNNHjk=
+hABGXO3bsw8kThf3vFNud1-ePjvtG0k5tXqUee0HWjzpu4905Q9Gb381PLQZ47cWN4SBIz7ZQMJ=
+ylEiNqcN2XPIMr9_Z0j8zUj7asdoPunp2ROdQYWLv9ue8_tfSGPG3rV3g9-kA-ekVG0ptxdTqE8=
+DN8ZeLHw67FL-Wo6B6h-BM83QUrfH-ZutIBGxJRjZosFRq9LfwdtjuNRMnXwBdU33qF8ox8vlQY=
+gV9sJ8m21evpoa7xz6gh8NtvSaJWeCXnW4fSdVEdjemoe-2NKICgIZg1XAYYnuq1PVZNNbyFdK6=
+6I-_Xe1STcu0YttBU3l4nQCMdAn1LtuPQByWdgdxpC3UpYOgfMLaQf9aHBS4Q~~=0A) (30)=0A=
+einzeln 30,76 =E2=82=AC=0Aim Set 29,49 =E2=82=AC (=0Ahttps://clicks.zooplus=
+.de/f/a/FSjIAPOO3edkYe8hFC-Iuw~~/AAAHahA~/1FqT_371qmsQfP-ubVkeaBYMPWdclGHH=
+vR8zldaOSkxrjVUzyN8opNSTLJ-_sdDxLK1GBzxFc-3_R4hR-pVtFY27xsgPfzqWJk88TAHRuOt=
+As9s2keC3Jz0aCASRZR_mescn8T0Hj7Id4MlLA0lYUKcrhh_XIXwx-tza1QiwLuHRKn6yWqK1hW=
+r5f80iJICa7A5FjasQiT8DzYJGA6-IuieY6yvvixOTB3BxECYM7SaMV0k-caXazjchw2tazsbkl=
+n7Hb0tTzw5N_9wj7e7qg-2gQBIRekcJqP5fSnXLNNHjkhABGXO3bsw8kThf3vFNud1-ePjvtG0k=
+5tXqUee0HWPbULzf2flkZVG-7JU9CG9dMhxb0t8L7tQ2XsEC7uznuTWnUCeqk7-_q5G6iktxsGt=
+UB_iqJCGdsDQfgyjiFabwtzo1sNyPDkiSwgI02rImNWnTgpEBp83qfq_96Ss3WE4puPtTKbWX3g=
+Z-42kcwwwSyaRgy87zg8-iNumoZs1vU_HRLz61tMEf4RSzYe3MGvp96-oT2YoEMm6m6xxgmD3YG=
+eqZ02LOsVJGRF_PUUklFtzgfaAKzduSI9wM6SP4CifqpeJnYr4jtC4p8k-WH6qddJNyrkBPhVFv=
+mxYLocaF5xGIPveTVWlP6ud4AlExug~~=0A)=0A=0A7,23 =E2=82=AC / kg=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A  (=
+=0Ahttps://clicks.zooplus.de/f/a/lXND1c-CFC642fVc2qXx2g~~/AAAHahA~/1FqT_371=
+qmsQfP-ubVkeaBYMPWdclGHHvR8zldaOSkxrjVUzyN8opNSTLJ-_sdDxLK1GBzxFc-3_R4hR-pV=
+tFY27xsgPfzqWJk88TAHRuOuPiMo74CTvBnM04QnBLkN7d8gSl90UmmTYXPzqUXq73sRbFCl-aK=
+W_cp-GhlRGz-Yh8amW214ZZF8Fbnh87xCBQuwVx-NbukWBi3D4kaQIGYleaYuokKDdqG-PPKAGB=
+aTmNKTN0do33h7C3Q8XTYyQgpuDpjrGzm_26EDiYa3jIfAtYHokLbVMdG1R9QrCVPPoVCueu4u2=
+MZ9Ar-LtZERMGJ0b1agYHPsHshlpe6ivoovasuP5E5fJzMDFjg1flB8rKNGzcTjh4OGwEdYwDpI=
+qWjpvv5cKYc3SS5_5onBVAhxD-Ul0ijcccGc1u_ZAyUKn-VYFcdPHfaQB-ogr6iZ8vLZeJFOlwq=
+3TkB4_7_uxsn-J5u93BNSQitb0AD_94r2hZhpaGnxvZE2fRqr3O6hlp5otQg6c5QGAgif0tFn0A=
+9bfaM8O3NBPn-FDy9CWoKc_vittVmHFreaPxgMTeuzze0Rey_9oCUNJrb80Vd1hI_Yxxu7U0-B9=
+gy4eZ9EsUQgFqYXFpBSU-7Lh5I0KXvj_-zpSt8TN9rVKHm_7ejEXpg~~=0A) =0A=0ASparpake=
+t Gourmet Gold ... (=0Ahttps://clicks.zooplus.de/f/a/cECDqK_97cYPcvzizuN52g=
+~~/AAAHahA~/1FqT_371qmsQfP-ubVkeaBYMPWdclGHHvR8zldaOSkxrjVUzyN8opNSTLJ-_sdD=
+xLK1GBzxFc-3_R4hR-pVtFY27xsgPfzqWJk88TAHRuOuPiMo74CTvBnM04QnBLkN7d8gSl90Umm=
+TYXPzqUXq73sRbFCl-aKW_cp-GhlRGz-Yh8amW214ZZF8Fbnh87xCBQuwVx-NbukWBi3D4kaQIG=
+YleaYuokKDdqG-PPKAGBaTmNKTN0do33h7C3Q8XTYyQgpuDpjrGzm_26EDiYa3jIfAtYHokLbVM=
+dG1R9QrCVPPoVCueu4u2MZ9Ar-LtZERMGJ0b1agYHPsHshlpe6ivou8Ru5dSCJc39DPrYCIj9eO=
+OIwoYG3hvd8GUHzrMG7BaqA4fzQpxH3oxMJdbkImHgcAxQ_xRqUiSLXtuQYatNBAKKCzgx8R-DF=
+_jIk60kddtzIm1i9D55td1COZuVjlGrVl9fX9DRu_Ml2nZPCqoGofK79JeL1SOflN25V82CpS2g=
+10xwuxp4VZ62wpeVsfbuqOSEQROdirdxIkUdJtW_9QC1q8wUqL-c6sjDM5DHXFhXZXzUINRyABW=
+DEAqwfdNtU46LrZIEIriEMT6O5WGWmmwxEybobJc4GgmlZ_Xu8vsEDY5HE_C4QwBk22pvULWCw~=
+~=0A)=0A=0A   (=0Ahttps://clicks.zooplus.de/f/a/k3e-5FtAemkHtcGgAolAfQ~~/AA=
+AHahA~/1FqT_371qmsQfP-ubVkeaBYMPWdclGHHvR8zldaOSkxrjVUzyN8opNSTLJ-_sdDxLK1G=
+BzxFc-3_R4hR-pVtFY27xsgPfzqWJk88TAHRuOuPiMo74CTvBnM04QnBLkN7d8gSl90UmmTYXPz=
+qUXq73sRbFCl-aKW_cp-GhlRGz-Yh8amW214ZZF8Fbnh87xCBQuwVx-NbukWBi3D4kaQIGYleaY=
+uokKDdqG-PPKAGBaTmNKTN0do33h7C3Q8XTYyQgpuDpjrGzm_26EDiYa3jIfAtYHokLbVMdG1R9=
+QrCVPPoVCueu4u2MZ9Ar-LtZERMGJ0b1agYHPsHshlpe6ivolodsa1zayEh9BOAZVn2mqoF-1fE=
+XAhBx-KhHvu5q5v50Zp5Vx5dqK0Uw2rMsQDmMeK8GcGqmgjyUzu_ZpkNQNVZ5ltRQZX0ZYILOAd=
+pYhPt32H_eYqNegoL8e3L3jYPNf0nSPkO2PzR7tapQiVnKVKmDaEHCC6PtO85KgrObzNAWgnPlX=
+UonXFbrNP16ooy20e2SWynXlnvU7UYPINYwTTyL4XRBh_Wk9plOzf8gK0gZt0iH4muKATP15AaF=
+XTL60EwgziqssH2T9ansNsnwcRhvtSyTVdWpjzzDBasQ_uVcNSt9_GxlRXYW0tlsA_tmA~~=0A)=
+ (29)=0Aeinzeln 15,38 =E2=82=AC=0Aim Set 14,99 =E2=82=AC (=0Ahttps://clicks=
+.zooplus.de/f/a/i5ORxcQ0yLQ_w5zRqqfnWA~~/AAAHahA~/1FqT_371qmsQfP-ubVkeaBYM=
+PWdclGHHvR8zldaOSkxrjVUzyN8opNSTLJ-_sdDxLK1GBzxFc-3_R4hR-pVtFY27xsgPfzqWJk8=
+8TAHRuOuPiMo74CTvBnM04QnBLkN7d8gSl90UmmTYXPzqUXq73sRbFCl-aKW_cp-GhlRGz-Yh8a=
+mW214ZZF8Fbnh87xCBQuwVx-NbukWBi3D4kaQIGYleaYuokKDdqG-PPKAGBaTmNKTN0do33h7C3=
+Q8XTYyQgpuDpjrGzm_26EDiYa3jIfAtYHokLbVMdG1R9QrCVPPoVCueu4u2MZ9Ar-LtZERMGJ0b=
+1agYHPsHshlpe6ivoku5plcGxK198ArPGF-zL8PBTs7XDRBdB9LEnBkUknOjc7mEwpHiJyo6ik1=
+I6ZrQO6lSQAYUIL536uSstLhuDCn-id-PCSJtm2ixr3YCHLhmGJTVrWs_JoANf5lslcmGyIKD-f=
+AYWu4EP8om5M0QV_nPweQYgVyQkATGHpgKhtLo67s84mA4Pg-yB1l44yayNud5Kc81_bctp2Om2=
+lk6hiNsgnMa8asKAI3OKfBsSSzr2gN7V2v7d7tHI_mqtO6zAoWmCq0fJ70z9lD7_5LSOsUXr-Ep=
+Bc476rQSMt0jksDBKawDFM0v-DEU63Y1wjcX1w~~=0A)=0A=0A7,35 =E2=82=AC / kg=0A=0A=
+=0A=0A=0A   (=0Ahttps://clicks.zooplus.de/f/a/PYTCwROXRNIsnmfLcaH8TA~~/AAAH=
+ahA~/3fkcxMTBi6ng-Fs51WypFV13d7yU9wC-tTpiLzZr7m2FLgSBJ2mqqQNktOlQA1v9pwQbMi=
+7hlvyUllL2rMSSkz1EgCfxZp8ttmkfeWTZ-Zef0YxKSLzIo87f6siAlOQHLpXjez4POsiKUo3sy=
+DssK3sq0fWCaitOWE4T9Y5EpMpy5IZ-uIQzV2kNu4ElP4f2LMfOyOjhbeutH61BeePnQd1kRhEk=
+vnTBPbSScbPpTKMGmz-iqLde8q37VCYgx_bHzjEZYskZ9-P0P9PFQARkGdfgv8rG_NUGP1_VVtx=
+t8iY56wSlRi63iWkiuAhmB1ASHYBJ0NcrkpsXAuZaUUQrzv7lcOkp_0VwRYRbH-rx_mzJ5ScuRX=
+ZM2-IlQOrZGa5rcFnRgY4fwDi5SDR_GpXhSf2VQPRfItVjavtTR6XpobScZ8JaUtwziQo8-ZHWw=
+FiWaTUB17byY_JjK4gPpG6gc-s4oVhUfY_LEr8jGeH6-zNaW_-eRcVWM8e2O_gpfOMTVWxPNfd0=
+9Nlm8iD_4xDocO01R4vAYrISAdwWUmFCaFUa8f1wd5SDPNk7935vruixeXJKFkNayDwX2M2Rab4=
+5TuDTU8pm5qq3Fdb1f1NuVmhGxL7zpCOPwpZ-zOL3Ut89ih5U42WQpovdQ1tGVxddc9vyIEVd6u=
+LvYGRQdwZXS2Dz7MyQ-AZQLRl-hEEdnF_t=0A) =0A=0AWhiskas 1+ Thunfisch 14... (=
+=0Ahttps://clicks.zooplus.de/f/a/ARIvelvddtUmxMcL3DXhHg~~/AAAHahA~/3fkcxMTB=
+i6ng-Fs51WypFV13d7yU9wC-tTpiLzZr7m2FLgSBJ2mqqQNktOlQA1v9pwQbMi7hlvyUllL2rMS=
+Skz1EgCfxZp8ttmkfeWTZ-Zef0YxKSLzIo87f6siAlOQHLpXjez4POsiKUo3syDssK3sq0fWCai=
+tOWE4T9Y5EpMpy5IZ-uIQzV2kNu4ElP4f2LMfOyOjhbeutH61BeePnQd1kRhEkvnTBPbSScbPpT=
+KMGmz-iqLde8q37VCYgx_bHzjEZYskZ9-P0P9PFQARkGdfgv8rG_NUGP1_VVtxt8iY56wSlRi63=
+iWkiuAhmB1ASHYBJ0NcrkpsXAuZaUUQrzv7lcOkp_0VwRYRbH-rx_mwD6Cof4hctdexBTjIIZ1M=
+j4YEWRVXf2gITQxzXHHIHSdTU2T9fOqQa8kug_Ii1iYKpIGgQcH4NTRrvD0SlufAnLdK71FO9er=
+NiQjn39RnjDokceL16cp-Lm85Kh1uUt7CjKHUH6KNDCRit-E3YKg5mLxkRQ2Zmj9V9f4uq2bv0N=
+5VjNhwFyffxNnSmaxMIY36um_wAgWTgvLHcFi4vEWe12LnTBSC6RIRqyPaG02dt76rsH29346Gh=
+TRt6_EQoP4fqh0QNeG3ZV2w7HnRFRExbLDylEI0T6sOdbiiC3MBTI-TWPthTrRnCTlhhs1rGOxB=
+hvP-6Lpnx39C3fqX5BCEf=0A)=0A=0A   (=0Ahttps://clicks.zooplus.de/f/a/n52u4wI=
+qAhN1-x5tzkXPLQ~~/AAAHahA~/3fkcxMTBi6ng-Fs51WypFV13d7yU9wC-tTpiLzZr7m2FLgSB=
+J2mqqQNktOlQA1v9pwQbMi7hlvyUllL2rMSSkz1EgCfxZp8ttmkfeWTZ-Zef0YxKSLzIo87f6si=
+AlOQHLpXjez4POsiKUo3syDssK3sq0fWCaitOWE4T9Y5EpMpy5IZ-uIQzV2kNu4ElP4f2LMfOyO=
+jhbeutH61BeePnQd1kRhEkvnTBPbSScbPpTKMGmz-iqLde8q37VCYgx_bHzjEZYskZ9-P0P9PFQ=
+ARkGdfgv8rG_NUGP1_VVtxt8iY56wSlRi63iWkiuAhmB1ASHYBJ0NcrkpsXAuZaUUQrzv7lcOkp=
+_0VwRYRbH-rx_mxz82RmdNCHGk0A2OW1Tgl31-d5UGxwi9PgOhO9jg3op3nYJGkhbSaIEFgDBGx=
+3kN1DvQ57v9t4kpwV98spXqde6lpm1y8cQRbvxTKnYWZGAu9RNcHKE_eNkevIht-S6LKhWNQNx6=
+23CtmXlBu1MO4H9J90jRRvQvFxZsZqed33iGAUvJe2Pv6F-nkxl006rRYzrLJm-gKF0ej6awhyI=
+usQiIjb7aPXhwxIN5UYE4cwNQYCP5452bXs1NiDv8JLYgP-mHFlP8327hE2NT6jv2GWsdBJgglc=
+ssG_nNAyRMxTHrgG-fx5mV-_6wQoBBiv7LFdOX15xyr7yJBGXYGqRrRY=0A) (63)=0A=0A=0A=
+=0A47,49 =E2=82=AC (=0Ahttps://clicks.zooplus.de/f/a/3T5OPS0BLlOJUG-0xCdiSw=
+~~/AAAHahA~/3fkcxMTBi6ng-Fs51WypFV13d7yU9wC-tTpiLzZr7m2FLgSBJ2mqqQNktOlQA1v=
+9pwQbMi7hlvyUllL2rMSSkz1EgCfxZp8ttmkfeWTZ-Zef0YxKSLzIo87f6siAlOQHLpXjez4POs=
+iKUo3syDssK3sq0fWCaitOWE4T9Y5EpMpy5IZ-uIQzV2kNu4ElP4f2LMfOyOjhbeutH61BeePnQ=
+d1kRhEkvnTBPbSScbPpTKMGmz-iqLde8q37VCYgx_bHzjEZYskZ9-P0P9PFQARkGdfgv8rG_NUG=
+P1_VVtxt8iY56wSlRi63iWkiuAhmB1ASHYBJ0NcrkpsXAuZaUUQrzv7lcOkp_0VwRYRbH-rx_mz=
+dViyyIkEBuqXVYRSKMyWYvlv2bckQ0IAPqcJUpzaNsCK-XO1iPnDZeORZa29AVfjMP6QT5dpzgk=
+T0tY4n5DZtsyGW97MIg5vTVO8Uw3Ws3ywnOj-1G7atngoxExYrjohe8vopo644ScSYmKhrNgq16=
+E4ANUXnkGocPrc4xtCaD5Cc_oYM2ImZc3M8z3wwHKYutgCWj7iqnjToDqNLgDxFkn5x5Ug9QtKu=
+UpjhH9hNk4NJV-jo_zwM87jDuFS_9ySH_QQdCmjE9mXBnPPXtdME6B11c2TKB7xzSLX1QqxwuIN=
+nJ2CtC40IrgftiG4Jc1WVHTEtCWChUl6FsvchMVPs=0A)=0A=0A3,39 =E2=82=AC / kg=0A=
+=0A=0A=0A=0A   (=0Ahttps://clicks.zooplus.de/f/a/NFnqUfRSRcj20sA7HmFZ1Q~~/A=
+AAHahA~/1FqT_371qmsQfP-ubVkeaBYMPWdclGHHvR8zldaOSkxrjVUzyN8opNSTLJ-_sdDxLK1=
+GBzxFc-3_R4hR-pVtFY27xsgPfzqWJk88TAHRuOuPiMo74CTvBnM04QnBLkN7d8gSl90UmmTYXP=
+zqUXq73sRbFCl-aKW_cp-GhlRGz-Yh8amW214ZZF8Fbnh87xCBQuwVx-NbukWBi3D4kaQIGYlea=
+YuokKDdqG-PPKAGBaTmNKTN0do33h7C3Q8XTYyQgpuDpjrGzm_26EDiYa3jIfAtYHokLbVMdG1R=
+9QrCVPPoVCueu4u2MZ9Ar-LtZERMGJ0b1agYHPsHshlpe6ivonQpJl7jK9jMGRHWU_UMfuiH8GN=
+Th6Lecvcqnv-KiT89niS4-53THblRgqai4WXPlHcZZYIzhN-Di2MJ3huBcmYwr2q-zdWFxgz9G4=
+2ZuM1omPEX5HU6MCwWA5IQN0zwp6hFBjMNm3oElBszkzAICnLzdzQov-TsUPurYcZ6dbaCawfDQ=
+TL8k6sC4jjjKK5XiafWt9VkyUsy_O0zhG3hilbE_sEEntC_JhUUg8LKKOErQkK4y8WWH4gX9oq7=
+3l9Hs2TpK1jIRZtR0UT9jGUQrelmTtfBuC8iWSLR4ewLykvGaa6NtyHIckYgITEQsMARrQ~~=0A=
+) =0A=0ASparpaket Gourmet Gold Fe... (=0Ahttps://clicks.zooplus.de/f/a/WMaD=
+iTTD_GngT5aAdNTyFQ~~/AAAHahA~/1FqT_371qmsQfP-ubVkeaBYMPWdclGHHvR8zldaOSkxrj=
+VUzyN8opNSTLJ-_sdDxLK1GBzxFc-3_R4hR-pVtFY27xsgPfzqWJk88TAHRuOuPiMo74CTvBnM0=
+4QnBLkN7d8gSl90UmmTYXPzqUXq73sRbFCl-aKW_cp-GhlRGz-Yh8amW214ZZF8Fbnh87xCBQuw=
+Vx-NbukWBi3D4kaQIGYleaYuokKDdqG-PPKAGBaTmNKTN0do33h7C3Q8XTYyQgpuDpjrGzm_26E=
+DiYa3jIfAtYHokLbVMdG1R9QrCVPPoVCueu4u2MZ9Ar-LtZERMGJ0b1agYHPsHshlpe6ivogIxd=
+RcWgogL9aeBASYFqn-ECZePB4iN-PG2BeokBcq3pX8e9smFFAGf1Gp8NtKULL8bTQtSOOh-NFc3=
+Ay4wtw8gHkwcmP9-tG9f-4V6AtjrF1fTFBMTvPuBysSqhvtnJtxSZDBPKYYEvJfVCxnp8m-eYqP=
+bU_R82jnSy5e0MXOuxgjV6ZnadRdnKNap16ePqVdi0TrVTA-OgtAwBJNuT8GO9lrlrrslbg5MNC=
+UJ2GM5Rny5PwT7xI0ecVNZTJxEyoC5lLJ-BJzgMC22XQBepM8wgp69gFPeSCFqr4PLwCQWebIzc=
+qNZfRn99zAChupzyQ~~=0A)=0A=0A   (=0Ahttps://clicks.zooplus.de/f/a/4RXU84Wuh=
+H1Jz8TSJFLU5g~~/AAAHahA~/1FqT_371qmsQfP-ubVkeaBYMPWdclGHHvR8zldaOSkxrjVUzyN=
+8opNSTLJ-_sdDxLK1GBzxFc-3_R4hR-pVtFY27xsgPfzqWJk88TAHRuOuPiMo74CTvBnM04QnBL=
+kN7d8gSl90UmmTYXPzqUXq73sRbFCl-aKW_cp-GhlRGz-Yh8amW214ZZF8Fbnh87xCBQuwVx-Nb=
+ukWBi3D4kaQIGYleaYuokKDdqG-PPKAGBaTmNKTN0do33h7C3Q8XTYyQgpuDpjrGzm_26EDiYa3=
+jIfAtYHokLbVMdG1R9QrCVPPoVCueu4u2MZ9Ar-LtZERMGJ0b1agYHPsHshlpe6ivouKuY_x5OY=
+eDTS9J-BL4HLi8EZlLMseibhyEfEEbLWKZMX2CXTlCvPkys2koq9uVtzwmZfC4VJjOwsFvNPYIE=
+vz7hz2bYZorxDEJf6R0OhsnA_ewPM-5T2opDSz2l7z0DnypNyrfc0aIoloEpdLHp5Av3Yo3bdmb=
+phg6nTl9MTnvFVdqvX83MC5-MddALh2JJIzUa08S2y9LbDmy88AOv2MxjR3zNtG-Z9fMKCTbxeq=
+9SbZAggDYCEFq3Riw0j4xRzjrrd3xV7h4-SCRq-r2f3_aI2ZwyNqpfSrYtAoKtL-hT5XsWM-l55=
+CyqV-WBiIxow~~=0A) (29)=0Aeinzeln 15,38 =E2=82=AC=0Aim Set 14,99 =E2=82=AC =
+(=0Ahttps://clicks.zooplus.de/f/a/ZIPizDC7oEsUMPhnIIff7A~~/AAAHahA~/1FqT_37=
+1qmsQfP-ubVkeaBYMPWdclGHHvR8zldaOSkxrjVUzyN8opNSTLJ-_sdDxLK1GBzxFc-3_R4hR-p=
+VtFY27xsgPfzqWJk88TAHRuOuPiMo74CTvBnM04QnBLkN7d8gSl90UmmTYXPzqUXq73sRbFCl-a=
+KW_cp-GhlRGz-Yh8amW214ZZF8Fbnh87xCBQuwVx-NbukWBi3D4kaQIGYleaYuokKDdqG-PPKAG=
+BaTmNKTN0do33h7C3Q8XTYyQgpuDpjrGzm_26EDiYa3jIfAtYHokLbVMdG1R9QrCVPPoVCueu4u=
+2MZ9Ar-LtZERMGJ0b1agYHPsHshlpe6ivorIXyfZnFnDlHwvhuxsrmg6uCfHFOJfGQxTa22_C2n=
+V1dvF9xs05aFRrYU5ovKj4Ql2b6oLLcmTWYA9bi1I0y7Xt5Js8GM5-3zO8iKo0S0tH-_FVXzb6I=
+M7KooE6VVHTg_H4GVEY_gHh1Oq2qb3XTfyo8DZ_Lmi9N0eit08_Eg-BhPjRTurGljRY9Iek9HjE=
+Y8Q1xcWR9TgJQYja2njLQJj8pZU0dW7SBfY429pNwqwyu3XyjSNNi8aoEyEmlGuAbXNCsK9z-8O=
+JAD97Z6ATDgLAgaBn2iGyes7A4WJuyzrmd3NsD6pJpBONNbLFtyl1_A~~=0A)=0A=0A7,35 =E2=
+=82=AC / kg=0A=0A=0A=0A=0A   (=0Ahttps://clicks.zooplus.de/f/a/LId_ZgKE63z8=
+Cwu-tgZsEw~~/AAAHahA~/3fkcxMTBi6ng-Fs51WypFV13d7yU9wC-tTpiLzZr7m2FLgSBJ2mqq=
+QNktOlQA1v9pwQbMi7hlvyUllL2rMSSkz1EgCfxZp8ttmkfeWTZ-Zef0YxKSLzIo87f6siAlOQH=
+LpXjez4POsiKUo3syDssK3sq0fWCaitOWE4T9Y5EpMpy5IZ-uIQzV2kNu4ElP4f2LMfOyOjhbeu=
+tH61BeePnQd1kRhEkvnTBPbSScbPpTKMGmz-iqLde8q37VCYgx_bHzjEZYskZ9-P0P9PFQARkGd=
+fgv8rG_NUGP1_VVtxt8iY56wSlRi63iWkiuAhmB1ASHYBJ0NcrkpsXAuZaUUQrzv7lcOkp_0VwR=
+YRbH-rx_mwQgnZVm9zbaLb82hwBzyo2szkE_vB1woWL3x7frea4Tw1SZZHzn6VWe-9seDJqO9Xn=
+HpRtiwIVb5dbBBxhWi9SrMmI-tIQ35L6le661HtscRaeILO3fMsBcn-dMLvLrHZcqdYjfezkKbv=
+shOMxjmhRl_kdSsY1QnlHpc-eIYMtBM1eJ10njlc-zMz94dF-g7201QbXjgDfZIQS76ESvfwV7P=
+tTIAO3oPGcfTTlCj15npDCDY4VfI_6yL-m4XqQbIrV0k00zrfS1N8RP3znDo4L9Dy7srVcQTaGB=
+9MhA8ZYyHC9v9SpMhy6YfXkeKAGGlGZE4j-Hln2JO7E5xf0A5jq=0A) =0A=0AWhiskas 1+ Th=
+unfisch 14 k... (=0Ahttps://clicks.zooplus.de/f/a/iyJhQ73NDpv95xRhcq34vg~~/=
+AAAHahA~/3fkcxMTBi6ng-Fs51WypFV13d7yU9wC-tTpiLzZr7m2FLgSBJ2mqqQNktOlQA1v9pw=
+QbMi7hlvyUllL2rMSSkz1EgCfxZp8ttmkfeWTZ-Zef0YxKSLzIo87f6siAlOQHLpXjez4POsiKU=
+o3syDssK3sq0fWCaitOWE4T9Y5EpMpy5IZ-uIQzV2kNu4ElP4f2LMfOyOjhbeutH61BeePnQd1k=
+RhEkvnTBPbSScbPpTKMGmz-iqLde8q37VCYgx_bHzjEZYskZ9-P0P9PFQARkGdfgv8rG_NUGP1_=
+VVtxt8iY56wSlRi63iWkiuAhmB1ASHYBJ0NcrkpsXAuZaUUQrzv7lcOkp_0VwRYRbH-rx_mwQYK=
+I2P5RzzZUbuiPVO7Btz9egMcUjp4NAZWcyDeEXjHwheis1hpNQpq6A9nPxWAdFoqHgnqGcJICd9=
+qoPGYeNDvQbM4QU_VpNmx5ci0Zf7xHO9zdMRV-eoQF7LJi8nMclwPyfOf9kdpkPK2dvfX73CWhg=
+O8mK0QfEE-ClF63wgrMZmB1o9kIy51VOZ7Jkz_9KuVZfYNm_aOINAZS_R9JvnXVKjc5UC6NRkvK=
+XPDHzzSTjgCAP-0tUy2evoJuB3KBpo68Vstkpo2fPRjK8tA1T1zIx-y0poYRM1FLnn48VwrWIhc=
+Mse4r3oxP2HYNR1_CJ2Ohf9TJzHmv2afG_sFhi=0A)=0A=0A   (=0Ahttps://clicks.zoopl=
+us.de/f/a/-BY-YZiy5_VI81w-mN2rbg~~/AAAHahA~/3fkcxMTBi6ng-Fs51WypFV13d7yU9wC=
+-tTpiLzZr7m2FLgSBJ2mqqQNktOlQA1v9pwQbMi7hlvyUllL2rMSSkz1EgCfxZp8ttmkfeWTZ-Z=
+ef0YxKSLzIo87f6siAlOQHLpXjez4POsiKUo3syDssK3sq0fWCaitOWE4T9Y5EpMpy5IZ-uIQzV=
+2kNu4ElP4f2LMfOyOjhbeutH61BeePnQd1kRhEkvnTBPbSScbPpTKMGmz-iqLde8q37VCYgx_bH=
+zjEZYskZ9-P0P9PFQARkGdfgv8rG_NUGP1_VVtxt8iY56wSlRi63iWkiuAhmB1ASHYBJ0Ncrkps=
+XAuZaUUQrzv7lcOkp_0VwRYRbH-rx_myXnR1oPFvHkF4IN4B0zH27GfiU91i4H4eQy6GKqepAAc=
+jsnt2rZm5--PSIW5D-UfQg45eFmF3r6YD6g0mRkJa9e0j7T0m4_c0_fqdIP3hC0Ya2exmSTYAsH=
+E9dz7f8oOmyTV0iimSOmupiiHcmvtonoKxT67ndXxLsh2BTeJlMYaOyzaVvUycOEvVlcyG3OF4k=
+YN_vhcGtJAQAPtU1NRzRomih9fYI5cimIX6APoDDGUdG5LS2hVvaHOU4JVOYxFdd693FZJRqNWy=
+AGrBKflbl6LuouWdn9439MCmmywCANZ8O7QaqHJknz7WVoXHrOqXU4Ix2djcH7RfsHRZCEUXL=
+=0A) (63)=0A=0A=0A=0A47,49 =E2=82=AC (=0Ahttps://clicks.zooplus.de/f/a/IyzK=
+D6pmMWPZIxrQo4M7IA~~/AAAHahA~/3fkcxMTBi6ng-Fs51WypFV13d7yU9wC-tTpiLzZr7m2FL=
+gSBJ2mqqQNktOlQA1v9pwQbMi7hlvyUllL2rMSSkz1EgCfxZp8ttmkfeWTZ-Zef0YxKSLzIo87f=
+6siAlOQHLpXjez4POsiKUo3syDssK3sq0fWCaitOWE4T9Y5EpMpy5IZ-uIQzV2kNu4ElP4f2LMf=
+OyOjhbeutH61BeePnQd1kRhEkvnTBPbSScbPpTKMGmz-iqLde8q37VCYgx_bHzjEZYskZ9-P0P9=
+PFQARkGdfgv8rG_NUGP1_VVtxt8iY56wSlRi63iWkiuAhmB1ASHYBJ0NcrkpsXAuZaUUQrzv7lc=
+Okp_0VwRYRbH-rx_mwhExy09jOpowxVqvnCT4TYlLb25UVm-oLXeh5QDP4CCz81R3BNqwm7Lx8w=
+Nlh9htsvT9sP-rtAHKro6vz99gvcXzS4vBNZOnx01b8yW7SbsNpvALXcMYA4rwaZNXBwJqcZx4s=
+qw23VX8NDQm-jI5vgZJ516a_SsIAQ_uPEN-KqQZIJwn4hcxQg3wsr08dn0-mk3NTlna84eYCZsL=
+GrKGtv99jLx7aSOoAluofmnG2nKcinfSRTamW9kjoVu8nddBmF-aRfMpM1CsOjg5sLDCzKW5hMw=
+i50uJvC0RS0523_zXfQK39mMOy-VhQS1fm0Kz5Gq8ziDuwSnVclZSN7Vbr8=0A)=0A=0A3,39 =
+=E2=82=AC / kg=0A=0A=0A=0A=0A=0A=0A=0Azooplus Logo (=0Ahttps://clicks.zoopl=
+us.de/f/a/Kh-zBQUQo43F8tsm2t_1VA~~/AAAHahA~/3TUR0tfbHEf65pm2tg4-0RiQG4xRZwk=
+tAkTYl-Tv34ifax0-dVxizSa2Ep3sUxuoDUgo7cch7DHsMH_Mw89Zh_jYoUocbq1TSNHLbP9xgO=
+oPPSxZfkQ2nJLmOXrRysEsG_K7DleJkMS0yRwC_JfMb3u2_yBW5Bb1iZJaH8OC3-NlDsdqlbTHK=
+BQL-s4HTA_EHhmFRLbol6SqahG7NEIooj9tYVdLOfPZrcuDzL3Z9XdOPabKIUPQE6KJ0NjKPKnl=
+HJtHV9qeSPFHrh6PYw3YD9kXWvvIVk5GtFsD7K9YAFOXlH0fCzx4qgc8S5rmLOY0Z_6uPk2RssU=
+i4opuoFDNl-8DC4T3UR0csNtPP5lA1Qw~=0A)             Kontakt (=0Ahttps://click=
+s.zooplus.de/f/a/EhFYOmSIKkgT5CFoUIsxUQ~~/AAAHahA~/Qt-oFu5VcSI79Rmoj-aJs26V=
+30et7RuboEyrgiXRLEbTrCeKOnbUdzzGL7pX7YnNfQwTvKh8ppqrHWb0BjDCEAxYHlfpPI2wki9=
+59yO8poiUqfzI-Fi4qjfgY7EPYBQdSLzp01XQYlYWDKr4Jfz5QMKdkow1kICyS0uWCM4WY3Jtr6=
+oB_y1WqERfXl9qggRdRuxezjYg06REoTOJZ-0pdRWQKXJBPXCMEI7xk7Sn8DjwuENIwp81hrjX8=
+nIx1WhqmmfeYQSg0sY-lbbJU8jZoOMHpheVawdOg7Jdg3l1AMCksaZJNou5mpgFQrNb2gohLGEJ=
+GchEkFotLnhUw6Z4pJzaH4wGWu5E2MzjJ0RmJvT2_r8Kkxpn6nF0h8Cg_SdE8Sm9j0BCu0CnDyU=
+9pip_Cw~~=0A)   AGB (=0Ahttps://clicks.zooplus.de/f/a/sb7KM_kKK5zNAbuf5mdP0=
+g~~/AAAHahA~/dkSWWoiHhMDNXMKoMUtC4K3K2DnnlgSVIcQd6jZmY1J_HvBEss0YyWLqw90F5L=
+QGexjAXZUaVV98L0jt9dE0cDQMSBGxUoon_eHi51bDBuNQZ2aS5TBkgqfN9SlzO9KGSM_ybhvpS=
+72-ZZ5o2MyXnj8eSgJk1HAmo-uZkVzqV0KjZm2N2N4UWEuVa5WknXvtKiuDdSMo9tHZbKZs5CUI=
+4vPCiCMl2VG5JFNO0ZdnczYs2XazkdEAlEpEtP1E-U4KjzdXGQIIEAHtM_ySie-bQ5DVA84YhwY=
+yEQo7IfFjBjPeW8yymyUHs2y0HKMdtidFSdG9jUWD8jy0cANFMJqO_fTiOIiWEzzOZZQYE0Fxms=
+eJJCmEE6MES3kTw0dFePdT=0A)   Datenschutz (=0Ahttps://clicks.zooplus.de/f/a/=
+TOM_FRUkNSjWAfheTdNEpA~~/AAAHahA~/lEwOLbGKK96iPsOyQ-EAYdJAT3EJxc_XekoExWLqM=
+CB-VBVTvO3gNtWiq_sPrRCHDM9Eq45vOONeq7gGxvqPoAk4Osjku6diC0PUv9SMHhKxE8Kn6tvt=
+SGLAni0A--r7yhziuiay_YntZ9EQivHKKUwJkl2c6njQHGNaI6n4GtEkqhX9xQEZCZ780Hgf1nS=
+oZfkOO9QvdZRHMYwp27OrUfAn1yUgatt6hOqA5Kx_v-Wanyd1NZyTybFU6B9ljPwf-VD02vAh7r=
+IDwXo8doZuLUONv1KMCk1it-cFw5-UxBTpU1bcvKJuwj11ytb6NcJjCNiUgG6Idv4_-GERe85lC=
+3PfqTgCOLd4rYO5mwA3sk_RLEJm2CEvc70nzDk13zkiRS7F3Oi1Up2DVcZhLHZUTQ~~=0A)    =
+    .mso-img { display: inline-block !important; width: 30px=0A!important; =
+} .mso-container { width: 250px !important; }=0A=0A  Facebook (=0Ahttps://c=
+licks.zooplus.de/f/a/opF5ciI4RQOKLP-9xzJbWg~~/AAAHahA~/iOK6n8ocE_jjcOLhafdt=
+v6qMTzn6u_Qr-TlP3mjJb2EXK_yB_wpG_6q1nzLA-hVudjweLm3zZwu33Ycc5PuGgaln7QwVaXc=
+Qjrujny_qa-aMgv-fMjufyZcVepvHg1CJ3D5Uv2HDpeeiP273iDbHKA~~ )=0A=0A  Instagra=
+m (=0Ahttps://clicks.zooplus.de/f/a/fhdIlxgWr2IgVOraIti4ZQ~~/AAAHahA~/QVQSi=
+udWZZ4l3W6ldMCj7Kxnvkp5mRB_GeQ6wMbNgYhqQMWMLEUUCkUPqBoeuNVGdtxjABNmugys9w9_=
+kC0VTro-8WZ1XZq0Nbr3hHeNcXB6X63nk7kftoadBt60yqcGY6bGIsobPXHVtu67YpCe7A~~ )=
+=0A=0A  Youtube (=0Ahttps://clicks.zooplus.de/f/a/PCo2kVgHGKMAErEFDuwlEA~~/=
+AAAHahA~/j7vauZbAziAGxvYxqwgL0yYMBy7dkSEwgUEv9A2tHgycLRifBDXCQDmkeB8DcfOCxA=
+FxJGVldzIpiRLytK9-U0OoNON6p-P5IEKpG1ob8qY4XuimVuE8Zh6pg2DemzfxfgLf3qRMrNpJR=
+B-1u7NmjQ~~ )=0A=0A  Pinterest (=0Ahttps://clicks.zooplus.de/f/a/LZTIrl3k9F=
+sqkBXLG6v9Cw~~/AAAHahA~/NJ6Ltw-7Wdt4AyOE9-AM0TOgBFJAaqbEiPNc8zdhBrZEiyYrDJi=
+eKUkhV-hs0r4YYce7riBtbqe6kNStm554hVIA3NMIZ8MzEZQmSIsHJWxmpOIsxz1KvQS9nlmYMJ=
+OoM8DeatvQEeN5nJ_pBC88foCcjx4prg9hf9MOHaR3hpk~=0A)  =0A=0AHauptsitz: zooplu=
+s SE, Herzog-Wilhelm-Strasse 18, 80331 M=C3=BCnchen, Deutschland | Firmenbu=
+chnummer: M=C3=BCnchen HRB 273759, UST-ID: DE 200 164 421 | Vorstand: Steff=
+en Sch=C3=BCller | Vorsitzender des Aufsichtsrates: Stefan G=C3=B6tz=0A=0A=
+=0A=0ADu hast diesen Newsletter erhalten, weil Du dich bei uns angemeldet h=
+ast. | Du kannst dich jederzeit wieder abmelden, indem Du <a href=3D"https:=
+//clicks.zooplus.de/f/a/GFMpGe3rUJWd18EhRVAR-A~~/AAAHahA~/Kd6TCsvHNYwG6_C89=
+n0BlQ2ac0wOMjTUQNVSSH6BKJ0PejV_J6tgQ9esF3fDOZs2GkPaTHZl2pbf-ZGDcqy23YjLGpgu=
+q-Po78A07o6iXbnDUyC3GtBJl6e5pj1Y2w9scWdF_K4ucjFomp3Gv3UpmeMQ2FX0dQx9D2J32MX=
+sjscAju3OyBFSx7_V38ReibQcY5mXaNchl2r4fLqlevrbqMdxCsySw2xO1xJZW1Z2WEM~ style=
+=3D"color:#237803">hier</a> klickst. | Du kannst Deine Newsletter-Einstellu=
+ngen auch jederzeit =C3=BCber <a href=3D"https://clicks.zooplus.de/f/a/L3RX=
+YcSXtD3QPa_bgM6O6w~~/AAAHahA~/5cSuLtdvJxCV3dObJp0_XLnAWqzlbt1XIo4qpxe4Nm1KD=
+wjuNylrWLq_E4TjD8hC6Bi1_LXZrUgoqxiEkMu7LDeSPi4cDV1Et8v3ZmlIV5u79N2dM850sI3B=
+uCM_CU5TyenMm4nfnIt_1fsFsT-25Q~~ style=3D"color:#237803">"Mein zooplus"</a>=
+ =C3=A4ndern oder dich abmelden | Alternativ wende dich bitte an unseren Ku=
+ndendienst =C3=BCber unser <a href=3D"https://clicks.zooplus.de/f/a/97WNxqe=
+-2-B0vq_NpGdpKQ~~/AAAHahA~/SW5Q3dCAJYCtGi3Le3QgC0Nng1-qmgLEsM6feMzrzyQQYFIv=
+099ufUB9XFhS-CdPd5hzpuiqQkhKaOR2jUecxo_QP6YCbZamBAe7bkyz-VhlQCve3S8ae-HehLh=
+Seo5O6CFncylZsjyUjOOw3sEqGUt6OnPUp0ONPLVmhq93LCA~ style=3D"color:#237803">K=
+ontaktformular</a> oder unter Tel. 0049-89-211-29-211.=0A=0A=0A=0A=0A=0ADie=
+s ist eine automatische E-Mail. Bitte antworte nicht darauf, da uns Deine N=
+achricht auf diese Weise nicht erreicht. Du kannst uns <a href=3D"https://c=
+licks.zooplus.de/f/a/NLpvNLLVsyg92IDiJQ-xEw~~/AAAHahA~/SW5Q3dCAJYCtGi3Le3Qg=
+C0Nng1-qmgLEsM6feMzrzyQQYFIv099ufUB9XFhS-CdPpR6Ttz9mvkY09DJl-VUjn4NPPnNThDL=
+OWLZfJ5WITX2tkkfAL-Wp2m3rG-d1B104pcF9g9TXPywQ4TLNn7YEpS_0os0wCJ2_scVztnWrUH=
+c~ style=3D"color:#237803">hier</a> kontaktieren.=0A=0AAlle Preise verstehe=
+n sich inklusive Mehrwertsteuer. Preis=C3=A4nderungen sind jederzeit m=C3=
+=B6glich. Pro Bestellung kann nur ein Rabattcode eingel=C3=B6st werden. All=
+e Inhalte in dieser E-Mail sind urheberrechtlich gesch=C3=BCtzt. Alle Logos=
+, Produktnamen, Marken und Firmennamen, auf die verwiesen wird, sind Eigent=
+um der jeweiligen Inhaber.=0A=0A=0A=0A=0A=0A*Der Gutschein kann auf zooplus=
+.de eingel=C3=B6st werden. Der Gutschein kann nur vor Abschluss des Bestel=
+lvorgangs eingel=C3=B6st werden. Eine nachtr=C3=A4gliche Verrechnung ist ni=
+cht m=C3=B6glich. Gib den Code in das Feld "Gutscheincode" im Warenkorb ein=
+ und klicke auf "Einl=C3=B6sen". Pro Bestellung kann nur ein Gutschein eing=
+el=C3=B6st werden. Der Code wird nicht zur=C3=BCckerstattet, wenn der Kunde=
+ im Rahmen seines gesetzlichen Widerrufsrechts die mit dem Code bezahlte Wa=
+re ganz oder teilweise zur=C3=BCckgibt. Der Code ist nicht =C3=BCbertragbar=
+.
+--_----XAUkjXsFH3LQwSH0s03KOA===_38/D3-21891-69BCD976
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+
+<!DOCTYPE html><html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"u=
+rn:schemas-microsoft-com:office:office" lang=3D"en"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><t=
+itle></title>=0A=
+=0A=
+<meta name=3D"viewport" content=3D"width=3Ddevice-width,initial-scale=3D1">=
+=0A=
+<!--[if mso]><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPe=
+rInch><o:AllowPNG/></o:OfficeDocumentSettings></xml><![endif]--><!--[if !ms=
+o]><!--><link href=3D"https://fonts.googleapis.com/css?family=3DOpen+Sans" =
+rel=3D"stylesheet" type=3D"text/css">=0A=
+<!--<![endif]--><style>=0A=
+*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{c=
+olor:inherit!important;text-decoration:inherit!important}#MessageViewBody a=
+{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.de=
+sktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.im=
+age_block img+div{display:none}sub,sup{font-size:75%;line-height:0} @media =
+(max-width:620px){.mobile_hide{display:none}.row-content{width:100%!importa=
+nt}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-he=
+ight:0;max-width:0;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide =
+table{display:table!important;max-height:none!important}.row-2 .column-1 .b=
+lock-1.paragraph_block td.pad{padding:0!important}.row-3 .column-1 .block-1=
+.heading_block h3{font-size:24px!important}.row-4 .column-1 .block-1.paragr=
+aph_block td.pad>div{text-align:center!important;font-size:14px!important}.=
+row-4 .column-1 .block-1.paragraph_block td.pad{padding:10px 10px 10px 0!im=
+portant}.row-3 .column-1 .block-2.paragraph_block td.pad>div{font-size:16px=
+!important}.row-5 .column-1 .block-1.paragraph_block td.pad>div{font-size:2=
+0px!important}.row-5 .column-1 .block-1.paragraph_block td.pad{padding:10px=
+ 15px 10px 30px!important}.row-7 .column-1,.row-7 .column-1 .block-1.paragr=
+aph_block td.pad{padding:5px!important}}=0A=
+</style>=0A=
+<!--[if mso ]><style>sup, sub { font-size: 100% !important; } sup { mso-tex=
+t-raise:10% } sub { mso-text-raise:-10% }</style> <![endif]-->=0A=
+</head>=0A=
+<body class=3D"body" style=3D"margin:0;padding:0;-webkit-text-size-adjust:n=
+one;text-size-adjust:none;background-color:#fff">
+<div style=3D"color:transparent;visibility:hidden;opacity:0;font-size:0px;b=
+order:0;max-height:1px;width:1px;margin:0px;padding:0px;border-width:0px!im=
+portant;display:none!important;line-height:0px!important;"><img border=3D"0=
+" width=3D"1" height=3D"1" src=3D"https://clicks.zooplus.de/q/CKCul5IVJ7Kpm=
+Yt0yId5iA~~/AAAHahA~/Zk-xyo-bpQTiixNJpsYUl7I5g9iwgZEAn9l5fYaMxuxyCbJVPLsuNC=
+C51u7TR7-vkRM26rSofBIbntg0vXqA_Q~~" alt=3D""></div>
+=0A=
+<div style=3D"display:none !important;visibility:hidden;mso-hide:all;font-s=
+ize:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:=
+0;overflow:hidden;">=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+Dein Rabattcode l=C3=A4uft bald ab, Heinrich.=0A=
+</div>=0A=
+<div style=3D"display:none !important;visibility:hidden;mso-hide:all;font-s=
+ize:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:=
+0;overflow:hidden;">=CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=
+=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=
+=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=
+=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=
+=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =
+=CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=
+=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =
+&nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=
+=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =
+=EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbs=
+p; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =
+=E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=
+=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =
+=E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=
+=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=
+=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=
+=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=
+=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =
+=CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=
+=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =
+&nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=
+=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =
+=EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbs=
+p; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =
+=E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=
+=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =
+=E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=
+=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=
+=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=
+=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=
+=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =
+=CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=
+=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =
+&nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=
+=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =
+=EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbs=
+p; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =
+=E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=
+=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =
+=E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=
+=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=
+=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=
+=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=
+=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =
+=CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=
+=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =
+&nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=
+=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =
+=EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbs=
+p; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =
+=E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=
+=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =
+=E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=
+=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=
+=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=
+=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=
+=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =
+=CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=
+=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =
+&nbsp; =E2=80=87 =EF=BB=BF </div>=0A=
+<table class=3D"nl-container" width=3D"100%" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-ta=
+ble-rspace:0;background-color:#fff;background-image:none;background-positio=
+n:top left;background-size:auto;background-repeat:no-repeat"><tbody><tr><td=
+>=0A=
+<table class=3D"row row-1" align=3D"center" width=3D"100%" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-l=
+space:0;mso-table-rspace:0;background-color:#fff"><tbody><tr><td><table cla=
+ss=3D"row-content stack" align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table=
+-rspace:0;background-color:#fff;color:#000;width:600px;margin:0 auto" width=
+=3D"600"><tbody><tr><td class=3D"column column-1" width=3D"100%" style=3D"m=
+so-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;paddin=
+g-bottom:5px;padding-top:5px;vertical-align:top;border-top:0;border-right:0=
+;border-bottom:0;border-left:0"><table class=3D"paragraph_block block-1" wi=
+dth=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"prese=
+ntation" style=3D"mso-table-lspace:0;mso-table-rspace:0;word-break:break-wo=
+rd"><tr><td class=3D"pad" style=3D"padding-top:10px"><div style=3D"color:#7=
+67676;direction:ltr;font-family:'Open Sans',Arial,Sans-serif;font-size:14px=
+;font-weight:400;letter-spacing:0;line-height:normal;text-align:center;mso-=
+line-height-alt:NaNpx">=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<table class=3D"nl-container" width=3D"100%" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-ta=
+ble-rspace:0;background-color:#fff"><tbody><tr><td><table class=3D"row row-=
+1" align=3D"center" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace=
+:0"><tbody><tr><td><table class=3D"row-content stack" align=3D"center" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D=
+"mso-table-lspace:0;mso-table-rspace:0;color:#000;width:600px;margin:0 auto=
+" width=3D"600"><tbody><tr><td class=3D"column column-1" width=3D"100%" sty=
+le=3D"mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left=
+;padding-bottom:5px;padding-top:5px;vertical-align:top;border-top:0;border-=
+right:0;border-bottom:0;border-left:0">=0A=
+<table class=3D"html_block block-1" width=3D"100%" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;=
+mso-table-rspace:0"><tr><td class=3D"pad"><div style=3D"font-family:'Open S=
+ans',Arial,Sans-serif;text-align:center" align=3D"center">=0A=
+  =0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+</div></td></tr></table>=0A=
+<table class=3D"html_block block-2" width=3D"100%" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;=
+mso-table-rspace:0"><tr><td class=3D"pad"><div style=3D"font-family:'Open S=
+ans',Arial,Sans-serif;text-align:center" align=3D"center"><a href=3D"https:=
+//clicks.zooplus.de/f/a/YM2mDwamD7IsZ8YqlvdD5Q~~/AAAHahA~/yeYAh2Qu57wSNQe4e=
+Win3Mc2_kOyzouWV3sEVtdrDdUmovXxcPIp4gXlRP7bmb8WvH60870b_xYgKRKxqtuLcfOs0ORc=
+YiJJGpZNYTrEdUK3OFopfda2-FuKc5iWF9Qqr37IJY_bXYMM4y3lmKZbwuTCS0TzZjWJNjel6cP=
+HMTUMcBBT0WCNLwaQLVAw3aIv4DogU5jankacPygkAxbDfvV5bTMnRYCjXOeIVXm-RWrMCnNWvY=
+yZxKf633VuUCuFagx2sv9nBe8OWe1sb-mYmEpmyXLIM2OagXIgnfdPwQ4Bz7HtCObAkDarOSIAk=
+VqcYotSwcaMfuvianNLOcVPNLivukm9jTMlHSqSWZWsJAieALVwy3SDm6Iy2Fto43Vl" style=
+=3D"text-decoration: none;">=0A=
+  <img src=3D"https://cdn.braze.eu/appboy/communication/assets/image_assets=
+/images/66cdbc676131684176f48ffc/original.png?1724759142" alt=3D"zooplus Lo=
+go" width=3D"auto" style=3D"height: auto;">=0A=
+</a></div></td></tr></table>=0A=
+</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></tab=
+le>=0A=
+<!-- End --><p style=3D"margin:0"></p>=0A=
+</div></td></tr></table></td></tr></tbody></table></td></tr></tbody></table=
+>=0A=
+<table class=3D"row row-2" align=3D"center" width=3D"100%" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-l=
+space:0;mso-table-rspace:0"><tbody><tr>=0A=
+<td><table class=3D"row-content stack" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;background-color:#fff;border-radius:0;color:#000;wi=
+dth:600px;margin:0 auto" width=3D"600"><tbody><tr><td class=3D"column colum=
+n-1" width=3D"100%" style=3D"mso-table-lspace:0;mso-table-rspace:0;font-wei=
+ght:400;text-align:left;vertical-align:top;border-top:0;border-right:0;bord=
+er-bottom:0;border-left:0">=0A=
+<table class=3D"paragraph_block block-1" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-bottom:10px"><div style=3D"color:#767676;direction:ltr;font-fam=
+ily:'Open Sans',Arial,Sans-serif;font-size:14px;font-weight:400;letter-spac=
+ing:0;line-height:normal;text-align:left;mso-line-height-alt:NaNpx"><p styl=
+e=3D"margin:0">=0A=
+=0A=
+</p></div></td></tr></table>=0A=
+<table class=3D"html_block block-2" width=3D"100%" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;=
+mso-table-rspace:0"><tr><td class=3D"pad"><div style=3D"font-family:'Open S=
+ans',Arial,Sans-serif;text-align:center" align=3D"center">    <table cellpa=
+dding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%">=0A=
+      <tr>=0A=
+        <td>=0A=
+          <a href=3D"https://clicks.zooplus.de/f/a/o0RRHvdcmJpoydyCFXTVKA~~=
+/AAAHahA~/W53lK37tEvtknrgM6P69lnNH59jDQAtKCbo4zx5L9xN29U4r9Oc-USucdubnUDAxT=
+iFYfxhGP-ZIIY_kuhCfo_Kj4-z5Y_k-7wWQ97d-vjf1WjrEkypsvyqOQjuM8peo4NQn0WTqr_iL=
+v3I-WaiUUm9lZfGxMoib00C6TO2PpLOG0iFmPxVtphe-cK6VtEFRecp4xu3A7AK4OM9HlFcGC3F=
+JbSCABtoHklRz_cfNi1DtvSmZX3ApkQimR2h4wb7TmIggfBi--6dII3DrYa1mg8QjIGQ1GVH1vF=
+Ul0ieruhtkfsTmDfEZvb4iCzxK11nJst3pQ1caQ9TYLxPm4D7BWXUF-r-t-yaH_uLk9UnoNR4~"=
+>=0A=
+            <img src=3D"https://cdn.braze.eu/appboy/communication/assets/im=
+age_assets/images/6694e713b43af929d7d45a8b/original.jpg?1721034515?lid=3D23=
+2323" alt=3D"Deal Image" style=3D"width: 100%; height: auto; display:block;=
+"></a>=0A=
+        </td>=0A=
+      </tr>=0A=
+    </table>=0A=
+</div></td></tr></table>=0A=
+</td></tr></tbody></table></td>=0A=
+</tr></tbody></table>=0A=
+<table class=3D"row row-3" align=3D"center" width=3D"100%" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-l=
+space:0;mso-table-rspace:0;background-color:#fff"><tbody>=0A=
+<tr><td><table class=3D"row-content" align=3D"center" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace=
+:0;mso-table-rspace:0;background-color:#fff;border-radius:0;color:#000;widt=
+h:600px;margin:0 auto" width=3D"600"><tbody><tr><td class=3D"column column-=
+1" width=3D"100%" style=3D"mso-table-lspace:0;mso-table-rspace:0;font-weigh=
+t:400;text-align:left;padding-bottom:5px;padding-top:15px;vertical-align:to=
+p;border-top:0;border-right:0;border-bottom:0;border-left:0">=0A=
+<table class=3D"heading_block block-1" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace=
+:0;mso-table-rspace:0"><tr><td class=3D"pad" style=3D"padding-bottom:5px;pa=
+dding-left:10px;padding-right:10px;padding-top:10px;text-align:center;width=
+:100%"><h3 style=3D"margin:0;color:#555;direction:ltr;font-family:Arial,San=
+s-serif;font-size:24px;font-weight:700;letter-spacing:normal;line-height:15=
+0%;text-align:center;margin-top:0;margin-bottom:0;mso-line-height-alt:36px"=
+>Dein 15% Rabatt l=C3=A4uft bald ab</h3></td></tr></table>=0A=
+<table class=3D"paragraph_block block-2" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-bottom:10px;padding-left:10px;padding-right:10px;padding-top:5p=
+x"><div style=3D"color:#767676;direction:ltr;font-family:Arial,Sans-serif;f=
+ont-size:16px;font-weight:400;letter-spacing:0;line-height:150%;text-align:=
+center;mso-line-height-alt:24px"><p style=3D"margin:0">=0A=
+<span style=3D"word-break: break-word; background-color: transparent;"> Nic=
+ht verpassen, Heinrich. </span><span style=3D"word-break: break-word; backg=
+round-color: transparent;"></span><span style=3D"word-break: break-word; ba=
+ckground-color: transparent;"></span></p></div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-3" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-left:10px;padding-right:10px;padding-top:5px"><div style=3D"col=
+or:#767676;direction:ltr;font-family:'Open Sans',Arial,Sans-serif;font-size=
+:14px;font-weight:400;letter-spacing:0;line-height:normal;text-align:center=
+;mso-line-height-alt:NaNpx">=0A=
+<p style=3D"margin:0"><a href=3D"https://clicks.zooplus.de/f/a/sx7cx48o8zdT=
+QDmwfIGzcQ~~/AAAHahA~/KHWqu35VEXyYTSlGD0mwc8DrnpxIixDjBNky_KuN5516xOkiddklI=
+lKTS_QhGKwfQE9w0US6QnBomSMj2kOJN9axOZGQj1VWQFpnWVtgCo5IQvRWhpaM4bxBeC4KmQ2p=
+3RLd7TrMIiJZjLJwPoZK1pao-1Ugr6T06kpaxdO1MQVSSbRfHBOowdLRQbaXIhDUbdVHZ8X3nPU=
+lsB-L1L_szbzlhaBtMQUMdtGh6_jjGHYZGUlll1Zw99m30GaVrxrjChsw0tYoZNrilC0VWTJaH2=
+MpwsDRFQBSvoI--glcUJw7kIKz12U-mUouo8WpO6A4xhiNtVbr-VdY2sXRGSGS7id-_YhEgaWJM=
+CvtrQBFaHF0Z3C5Y8-vcE2rEg9AWAVTVdT0-oS1PFMALEu60mACKg~~" style=3D"text-deco=
+ration: none; display: block;">=0A=
+        </a></p>=0A=
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"width: 100%; background-color: #fff; border-spac=
+ing: 0; border-collapse: collapse;">=0A=
+            <tbody>=0A=
+                <tr>=0A=
+                    <td>=0A=
+                        <table align=3D"center" width=3D"100%" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"width: =
+100%; max-width: 400px; margin: 0 auto; border: 1px dashed #767676; backgro=
+und-color: #fff;">=0A=
+                            <tbody>=0A=
+                                <tr>=0A=
+                                    <td style=3D"padding: 10px 10px; vertic=
+al-align: top;">=0A=
+                                        <table width=3D"100%" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"width: 1=
+00%; word-break: break-word;">=0A=
+                                            <tr>=0A=
+                                                <td style=3D"text-align: ce=
+nter;">=0A=
+                                                    <div>=0A=
+                                                        <p style=3D"margin:=
+ 0; color:#3c9700; font-family: Arial, sans-serif; font-size: 20px; line-he=
+ight: 120%; font-weight: 400;">=0A=
+<strong>8LNI-DIUT-JY9A-ZEZ7-8XC</strong>=0A=
+                                                        </p>=0A=
+                                                    </div>=0A=
+                                                </td>=0A=
+                                            </tr>=0A=
+                                        </table>=0A=
+                                    </td>=0A=
+                                </tr>=0A=
+                            </tbody>=0A=
+                        </table>=0A=
+                    </td>=0A=
+                </tr>=0A=
+            </tbody>=0A=
+        </table>=0A=
+    </div></td></tr></table>=0A=
+</td></tr></tbody></table></td></tr>=0A=
+</tbody></table>=0A=
+<table class=3D"row row-4" align=3D"center" width=3D"100%" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-l=
+space:0;mso-table-rspace:0;background-color:#fff"><tbody><tr><td><table cla=
+ss=3D"row-content stack" align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table=
+-rspace:0;background-color:#fff;color:#000;width:600px;margin:0 auto" width=
+=3D"600"><tbody><tr><td class=3D"column column-1" width=3D"100%" style=3D"m=
+so-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;paddin=
+g-bottom:5px;vertical-align:top;border-top:0;border-right:0;border-bottom:0=
+;border-left:0"><table class=3D"paragraph_block block-1" width=3D"100%" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=
+=3D"mso-table-lspace:0;mso-table-rspace:0;word-break:break-word"><tr><td cl=
+ass=3D"pad" style=3D"padding-right:10px"><div style=3D"color:#767676;direct=
+ion:ltr;font-family:'Open Sans',Arial,Sans-serif;font-size:12px;font-weight=
+:400;letter-spacing:0;line-height:150%;text-align:center;mso-line-height-al=
+t:18px">=0A=
+<p style=3D"margin:0;margin-bottom:0">&nbsp; =0A=
+=0A=
+</p>=0A=
+    <title></title>=0A=
+    =0A=
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width,initial-scale=
+=3D1">=0A=
+    <!--[if mso]>=0A=
+    <xml>=0A=
+        <o:OfficeDocumentSettings>=0A=
+            <o:PixelsPerInch>96</o:PixelsPerInch>=0A=
+            <o:AllowPNG/>=0A=
+        </o:OfficeDocumentSettings>=0A=
+    </xml>=0A=
+    <![endif]-->=0A=
+    <!--[if !mso]><!--><!--<![endif]-->=0A=
+    <style>=0A=
+        *{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-dete=
+ctors]{color:inherit!important;text-decoration:inherit!important}#MessageVi=
+ewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_=
+hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hi=
+dden}.image_block img+div{display:none} @media (max-width:620px){.mobile_hi=
+de{display:none}.row-content{width:100%!important}.stack .column{width:100%=
+;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;overflow:=
+hidden;font-size:0}.desktop_hide,.desktop_hide table{display:table!importan=
+t;max-height:none!important}}=0A=
+        /* Custom button styles with hover effect */=0A=
+        .button_custom {=0A=
+            width: auto; /* Adjust width as needed */=0A=
+            min-width: 140px;=0A=
+            padding: 13px 20px; /* Original padding plus some spacing */=0A=
+            text-decoration: none;=0A=
+            border: none;=0A=
+            border-radius: 1000px;=0A=
+            font-size: 18px;=0A=
+            font-weight: bold;=0A=
+            cursor: pointer;=0A=
+            display: inline-block;=0A=
+            margin: 0 10px; /* Additional spacing around the button */=0A=
+        }=0A=
+        .zooplus_button {=0A=
+            background: linear-gradient(to right, #237803 0%, #237803 100%)=
+;=0A=
+        }=0A=
+        .zooplus_button:hover {=0A=
+            background: linear-gradient(to right, #237803 0%, #3C9700 100%)=
+;=0A=
+        }=0A=
+        .default_button {=0A=
+            background: linear-gradient(to right, #252570 0%, #5656AD 100%)=
+;=0A=
+        }=0A=
+        .default_button:hover {=0A=
+            background: linear-gradient(to right, #5656AD 0%, #252570 100%)=
+;=0A=
+        }=0A=
+    </style>=0A=
+=0A=
+=0A=
+<table class=3D"nl-container" width=3D"100%" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-ta=
+ble-rspace:0;background-color:#fff">=0A=
+    <tbody>=0A=
+    <tr>=0A=
+        <td>=0A=
+            <table class=3D"row row-1" align=3D"center" width=3D"100%" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D=
+"mso-table-lspace:0;mso-table-rspace:0">=0A=
+                <tbody>=0A=
+                <tr>=0A=
+                    <td>=0A=
+                        <table class=3D"row-content stack" align=3D"center"=
+ border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" sty=
+le=3D"mso-table-lspace:0;mso-table-rspace:0;color:#000;width:600px;margin:0=
+ auto" width=3D"600">=0A=
+                            <tbody>=0A=
+                            <tr>=0A=
+                                <td class=3D"column column-1" width=3D"100%=
+" style=3D"mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align=
+:left;padding-bottom:5px;padding-top:5px;vertical-align:top;border-top:0;bo=
+rder-right:0;border-bottom:0;border-left:0">=0A=
+                                    <table class=3D"button_block block-1" w=
+idth=3D"100%" border=3D"0" cellpadding=3D"10" cellspacing=3D"0" role=3D"pre=
+sentation" style=3D"mso-table-lspace:0;mso-table-rspace:0">=0A=
+                                        <tr>=0A=
+                                            <td class=3D"pad">=0A=
+                                                <div class=3D"alignment" al=
+ign=3D"center">=0A=
+                                                 <!--[if mso]>=0A=
+                                                      <v:roundrect xmlns:v=
+=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schemas-microsoft-com:off=
+ice:word" href=3D"https://clicks.zooplus.de/f/a/i3VErE05SPNkjJDcZeUjLg~~/AA=
+AHahA~/KHWqu35VEXyYTSlGD0mwc8DrnpxIixDjBNky_KuN5516xOkiddklIlKTS_QhGKwff15W=
+0qIFWl_fuFtEMOtYo9ifeZxWya4NQwb3NmRzlPs2NBV0PPQwkQNHByeeQjcEKdIgfrhVKn7I3kx=
+GpSF6uL8ass93xfVqtS9koRbiPeHfT9hR8q-R0aG-Ogmp3BATilI6z94VFv-jYXKU564VzTyyw-=
+DaThEENLk48nS6tLntYtn-cWFgQn056DOxHc2RkFhflpO-IZUHR39MEwE3Q2dqer0jI-oed7d9N=
+RJExh3CtjM70hRR-EES72NdTyX5s78FdT-dtFcvfs-r7EMyl7TW5GwpfURdZzWMywiiZEi6fRHC=
+B0VX7ai4Ey2mfh8P3iJBXlMqPXcpcWCDdy0gNg~~" style=3D"height:40px;width: 296px=
+;v-text-anchor:middle;" arcsize=3D"100%" stroke=3D"f" fillcolor=3D"#237803"=
+>=0A=
+                                                        <w:anchorlock/>=0A=
+                                                        <center style=3D"co=
+lor:#ffffff;font-family:sans-serif;font-size:18px;font-weight:bold;">15% sp=
+aren</center>=0A=
+                                                      </v:roundrect>=0A=
+                                                      <![endif]-->=0A=
+                                                      <!--[if !mso]> <!-->=
+=0A=
+                                                      <a class=3D"zooplus_b=
+utton" href=3D"https://clicks.zooplus.de/f/a/D_KCb_1Kb2-_zPygYDNOig~~/AAAHa=
+hA~/QmX3JvG21CItjYLM3qdH-Ppwo_1kT5em0MiVwC7MOD6RocTlI9csBpgU3V5_JOi-mjYubPs=
+15gRZDRiUC8qQ3F1Y1qFatxJiUoMnLW1rC_XLV58A5q1Na17sS77eE9fhg9hLpj77VIAj303-_y=
+B458Wlsp7lWvwcPfzpm1j4kI5y3ApwoLMyeI5L3Fbk2lYysbKHSYxsvS-rZzitrhi0eS8s3zkO4=
+N-6yE2ipkZI8ETNLRqsOoPXJOlFUVRlIPJ94LTMqbJl6t0wKphI2aArLvUHiiGTMJVLFc1wZYQz=
+twPs24_12hiRsr1bVoFgkr8AYaKmJVXMwrZIlhbG2QySRIQ0OSSDpxqd2wfWLbXyULJ0Pk7CXl-=
+ein02wiNim6cK1Er46c-q1aMLcfKgWf27goRNHxfgikGwngKoOtts7JI~" style=3D"backgro=
+und-color: #237803; color: #ffffff; display: inline-block; font-family: san=
+s-serif; font-size: 18px; font-weight: bold; text-decoration: none; text-al=
+ign: center; line-height: 40px; padding: 5px 20px; border-radius: 1000px; m=
+argin: 0 auto;">15% sparen</a>=0A=
+                                                      <!-- <![endif]-->=0A=
+=0A=
+                                                </div>=0A=
+                                            </td>=0A=
+                                        </tr>=0A=
+                                    </table>=0A=
+                                </td>=0A=
+                            </tr>=0A=
+                            </tbody>=0A=
+                        </table>=0A=
+                    </td>=0A=
+                </tr>=0A=
+                </tbody>=0A=
+            </table>=0A=
+        </td>=0A=
+    </tr>=0A=
+    </tbody>=0A=
+</table>=0A=
+=0A=
+<p style=3D"margin:0">G=C3=BCltig bis einschlie=C3=9Flich 02.03.2025*</p>=
+=0A=
+</div></td></tr></table></td></tr></tbody></table></td></tr></tbody></table=
+>=0A=
+<table class=3D"row row-5" align=3D"center" width=3D"100%" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-l=
+space:0;mso-table-rspace:0;background-color:#fff"><tbody><tr><td><table cla=
+ss=3D"row-content" align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspac=
+e:0;background-color:#fff;color:#000;width:600px;margin:0 auto" width=3D"60=
+0"><tbody><tr><td class=3D"column column-1" width=3D"100%" style=3D"mso-tab=
+le-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;padding-bott=
+om:5px;padding-top:5px;vertical-align:top;border-top:0;border-right:0;borde=
+r-bottom:0;border-left:0"><table class=3D"paragraph_block block-1" width=3D=
+"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentatio=
+n" style=3D"mso-table-lspace:0;mso-table-rspace:0;word-break:break-word"><t=
+r><td class=3D"pad" style=3D"padding-bottom:10px;padding-left:25px;padding-=
+right:10px;padding-top:10px"><div style=3D"color:#656565;direction:ltr;font=
+-family:'Open Sans',Arial,Sans-serif;font-size:24px;font-weight:700;letter-=
+spacing:0;line-height:normal;text-align:left;mso-line-height-alt:NaNpx"><p =
+style=3D"margin:0">Top-Auswahl f=C3=BCr Dich</p></div></td></tr></table></t=
+d></tr></tbody></table></td></tr></tbody></table>=0A=
+<table class=3D"row row-6" align=3D"center" width=3D"100%" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-l=
+space:0;mso-table-rspace:0;background-color:#fff"><tbody><tr><td><table cla=
+ss=3D"row-content" align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspac=
+e:0;background-color:#fff;color:#000;width:600px;margin:0 auto" width=3D"60=
+0"><tbody>=0A=
+<tr><td class=3D"column column-1" width=3D"100%" style=3D"mso-table-lspace:=
+0;mso-table-rspace:0;font-weight:400;text-align:left;padding-bottom:5px;pad=
+ding-left:20px;padding-right:20px;padding-top:5px;vertical-align:top;border=
+-top:0;border-right:0;border-bottom:0;border-left:0"><table class=3D"paragr=
+aph_block block-1" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:=
+0;word-break:break-word"><tr><td class=3D"pad" style=3D"padding-bottom:5px;=
+padding-left:15px;padding-right:15px;padding-top:5px"><div style=3D"color:#=
+767676;direction:ltr;font-family:'Open Sans',Arial,Sans-serif;font-size:14p=
+x;font-weight:400;letter-spacing:0;line-height:normal;text-align:left;mso-l=
+ine-height-alt:NaNpx">=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<p style=3D"margin:0;margin-bottom:0">&nbsp;</p>=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<table class=3D"nl-container" width=3D"100%" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-ta=
+ble-rspace:0;background-color:#fff"><tbody><tr><td><table class=3D"row row-=
+1" align=3D"center" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace=
+:0"><tbody><tr><td><table class=3D"row-content stack" align=3D"center" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D=
+"mso-table-lspace:0;mso-table-rspace:0;color:#000;width:600px;margin:0 auto=
+" width=3D"600"><tbody><tr><td class=3D"column column-1" width=3D"100%" sty=
+le=3D"mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left=
+;padding-bottom:5px;padding-top:5px;vertical-align:top;border-top:0;border-=
+right:0;border-bottom:0;border-left:0">=0A=
+<table class=3D"html_block block-1" width=3D"100%" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;=
+mso-table-rspace:0"><tr><td class=3D"pad"><div style=3D"font-family:Arial,A=
+rial,Sans-serif;text-align:center" align=3D"center">              </div></t=
+d></tr></table>=0A=
+<table class=3D"html_block block-2 mobile_hide" width=3D"100%" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-tab=
+le-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad"><div style=3D"font-fa=
+mily:Arial,Arial,Sans-serif;text-align:center" align=3D"center"><table role=
+=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=
+=3D"border-collapse: collapse; max-width: 600px; margin: 0 auto;">=0A=
+  <tr>=0A=
+    <td style=3D"padding: 10px; vertical-align: top;"> <table class=3D"nl-c=
+ontainer" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" r=
+ole=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;backgro=
+und-color:#fff"><tbody><tr><td><table class=3D"row row-1" align=3D"center" =
+width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pre=
+sentation" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tbody><tr><td><=
+table class=3D"row-content stack" align=3D"center" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;=
+mso-table-rspace:0;color:#000;width: 100%;margin:0 auto"><tbody><tr><td cla=
+ss=3D"column column-1" width=3D"100%" style=3D"mso-table-lspace:0;mso-table=
+-rspace:0;font-weight:400;text-align:left; padding-bottom:0px;padding-top:0=
+px;vertical-align:top">=0A=
+<table class=3D"image_block block-1" width=3D"100%" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0=
+;mso-table-rspace:0"><tr><td class=3D"pad" style=3D"padding-bottom:5px;padd=
+ing-left:15px;padding-right:15px;padding-top:0px;width:100%"><div class=3D"=
+alignment" align=3D"center" style=3D"line-height:10px"><div style=3D"max-wi=
+dth: 200px"><a target=3D"_blank" href=3D"https://clicks.zooplus.de/f/a/jq7b=
+3ZYU6hfLghh1rpBSYQ~~/AAAHahA~/UrX61LVeTqSGe9XafivRqhXlAgyDJtJltMu4eMrQALyld=
+KEcP7Olo51Dt4OmVSk8I4bJHKmB531vX3gZ6F1bdpkgrLvRk5oKF9lxh-12WNSK5DW1UqDEdCTH=
+05frqaI8wnUqSbFUS3gHGIc9aYSaDV7nTWHm4nW10-qQomPinqYmwwUKnKxIuD2YC-QAaA_aoE-=
+PHqRiff_5-AdqbCTdXISf5DG-0l28j_OU9idbA2-D2AvgcwjeC8tF6LUZkfmoPmX7haPqxZFkJR=
+h2cVlluih8x7KltJjvwAPuayqWmW1G9nnbhNVWWBZJhakd0jaqJinULXN0MgnA6_Wva1hcyPKvB=
+PMB_I6y1ELD9Lf6pKZo6yNIVKRR21C4QtZL_blRZz9A9XEOTvPXj7Dqhf2a7NURyDAIWC5I9GCh=
+ZoXDFtp5K0DypkqlvUWPe2lIFqTkOrCGM3eKHaj7ajUDPU9SwbD8xkF4HaWLXBYw_hE0deMJZTS=
+jYB14ZQVMyJlm1i0OXeBftwKaurpwaD5dHKIpuSoFCDp0IbIVvlt92C9wIiG8ML2KhuLiGltotz=
+PlS0Nub3WvRiXQdGc-vNx40CHGihWqL8cZXejE7vw6hyekfWmqLLKjs3ehcQWIHfH84mBhds2GS=
+c0OUEHa83DjWSJiIYub-LCitxNdDz6M5GSr1lU~" style=3D"text-decoration: none"><i=
+mg src=3D"https://media.zooplus.com/bilder/1/400/207799_pla_nestle_gourmet_=
+gold_zarte_haeppchen_kalb_gemuse_85g_hs_01_1.jpg" style=3D"display:block;he=
+ight:auto;border:0;" width=3D"200"></a></div></div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-2" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-bottom:5px;padding-left:5px;padding-right:10px"><div style=3D"c=
+olor:#555555;direction:ltr;font-family:Arial,Arial,Sans-serif;font-size:16p=
+x;font-weight:700;letter-spacing:0;line-height:normal;text-align:left;mso-l=
+ine-height-alt:NaNpx; height: 20px"><p style=3D"margin:0"><a href=3D"https:=
+//clicks.zooplus.de/f/a/OTQWaG5Slepq6b-K4eZzeQ~~/AAAHahA~/UrX61LVeTqSGe9Xaf=
+ivRqhXlAgyDJtJltMu4eMrQALyldKEcP7Olo51Dt4OmVSk8I4bJHKmB531vX3gZ6F1bdpkgrLvR=
+k5oKF9lxh-12WNSK5DW1UqDEdCTH05frqaI8wnUqSbFUS3gHGIc9aYSaDV7nTWHm4nW10-qQomP=
+inqYmwwUKnKxIuD2YC-QAaA_aoE-PHqRiff_5-AdqbCTdXISf5DG-0l28j_OU9idbA2-D2Avgcw=
+jeC8tF6LUZkfmoPmX7haPqxZFkJRh2cVlluih8x7KltJjvwAPuayqWmW1G9nnbhNVWWBZJhakd0=
+jaqJinULXN0MgnA6_Wva1hcyPKvBPMB_I6y1ELD9Lf6pKaws35QpyeXry5P2TN-upg4L3SkRN0w=
+C3B-3W18mtSBm1Y_vi4MLgL3-XY2pe7jVieNhmV4YpZ4E6gAQ5Ell1bj3AliU_nHjf87BdePRiJ=
+srGfRM-KbYk-ai6Y6vaoIOA5OqF3z7d1_2w6HkfO-WkYdCTq0SYHxBmS2KNAUuQsoIbzontACZI=
+hwf5vp4F3gEY__yi_MDRNvZg8zP_uAVwzI-tpjJ62rdxJjqburioWzuNtUS1uwQM4ABoh73iYF9=
+YwsIlCNWMePgbP4kJH4bReXspm4KK1aS5Oze4ATeMGKQGg1sMqVQZB2o9WxnkD518c~" style=
+=3D"text-decoration: none; color: #555555;"><strong>=0A=
+=0A=
+Sparpaket Gourmet Gold ...</strong></a></p></div></td></tr></table>=0A=
+<table class=3D"image_block block-3" width=3D"100%" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0=
+;mso-table-rspace:0"><tr><td class=3D"pad2" style=3D"padding-left:4px;paddi=
+ng-right:0px;width:100%;padding-top:5px"><div class=3D"alignment" align=3D"=
+left" style=3D"line-height:10px"><div style=3D"max-width:150px; vertical-al=
+ign: center">=0A=
+<a target=3D"_blank" href=3D"https://clicks.zooplus.de/f/a/Pop_jwxl5LfzQzjW=
+o1cNww~~/AAAHahA~/UrX61LVeTqSGe9XafivRqhXlAgyDJtJltMu4eMrQALyldKEcP7Olo51Dt=
+4OmVSk8I4bJHKmB531vX3gZ6F1bdpkgrLvRk5oKF9lxh-12WNSK5DW1UqDEdCTH05frqaI8wnUq=
+SbFUS3gHGIc9aYSaDV7nTWHm4nW10-qQomPinqYmwwUKnKxIuD2YC-QAaA_aoE-PHqRiff_5-Ad=
+qbCTdXISf5DG-0l28j_OU9idbA2-D2AvgcwjeC8tF6LUZkfmoPmX7haPqxZFkJRh2cVlluih8x7=
+KltJjvwAPuayqWmW1G9nnbhNVWWBZJhakd0jaqJinULXN0MgnA6_Wva1hcyPKvBPMB_I6y1ELD9=
+Lf6pKawr5IUpCCuzvf2QdotjzW1tmn7uFGOr4-BI5CnR15ur6WL7WCb888_bZwpJvedW8Hw3VRj=
+wAmmCGcT2vv6PmQiZZkLp1Jx5cHemHMYQrlWVn-95kaw17Jaz0zfYnFEDilL6sHiEErqqNQevV5=
+qJC_2GeZeZIs4xLQRKFL6t2sr6kI35rYVU8kofRoHNQ2XY_F-O7OuesyjEX4n14r2Y_g-MVnteH=
+D6Xd82KdN9H1I5RIKM4jwAWYzwy97k_ShTVxtCDZLMJlpdg_FbQFv-zq7IAKqUFRHLoFO751WfD=
+mNMuQ_u_D7G0oJ0A8YSUPkWLow~" style=3D"text-decoration: none"><img src=3D"ht=
+tps://cdn.braze.eu/appboy/communication/assets/image_assets/images/65d764c7=
+b7da5a174fd733e3/original.png?1708614854" style=3D"float:left;height:auto;b=
+order:0; margin-right: 5px" width=3D"80"></a> <span style=3D"display:inline=
+-block; padding-top: 0px; padding-left: 0; color: #767676; font-size: 14px"=
+>(23)</span>=0A=
+</div></div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-4" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-top: 4px; padding-bottom:0px;padding-left:5px;padding-right:5px=
+;"><div style=3D"color:#767676;direction:ltr;font-family:Arial,Arial,Sans-s=
+erif;font-size:12px;font-weight:400;letter-spacing:0;line-height:normal;tex=
+t-align:left;mso-line-height-alt:NaNpx">=0A=
+<p style=3D"margin:0">einzeln 14,38 =E2=82=AC</div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-5" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-bottom:0px;padding-left:5px;padding-right:5px"><div style=3D"co=
+lor:#ed1c24;direction:ltr;font-family:Arial,Arial,Sans-serif;font-size:16px=
+;font-weight:700;letter-spacing:0;line-height:25px;text-align:left;mso-line=
+-height-alt:NaNpx"><p style=3D"margin:0"><a target=3D"_blank" href=3D"https=
+://clicks.zooplus.de/f/a/EDlXuy21h-rNS31NqYCZXw~~/AAAHahA~/UrX61LVeTqSGe9Xa=
+fivRqhXlAgyDJtJltMu4eMrQALyldKEcP7Olo51Dt4OmVSk8I4bJHKmB531vX3gZ6F1bdpkgrLv=
+Rk5oKF9lxh-12WNSK5DW1UqDEdCTH05frqaI8wnUqSbFUS3gHGIc9aYSaDV7nTWHm4nW10-qQom=
+PinqYmwwUKnKxIuD2YC-QAaA_aoE-PHqRiff_5-AdqbCTdXISf5DG-0l28j_OU9idbA2-D2Avgc=
+wjeC8tF6LUZkfmoPmX7haPqxZFkJRh2cVlluih8x7KltJjvwAPuayqWmW1G9nnbhNVWWBZJhakd=
+0jaqJinULXN0MgnA6_Wva1hcyPKvBPMB_I6y1ELD9Lf6pKZuwNC-PZqbfkz9dGIkY4yRnAvUUVQ=
+ncJPW3quh27FeUJaWSOVs-OSm7eudlSlEUSMzY1WwjBWB90akTnwjSWWAzWoDQ7ERB0XTeG8rmT=
+ejgBOn9NEAfvgnovUmRD4a-PZWi0JN71CLJrJBB6u5Yn2govt-IS9ctsUiejmxIbuDPKMEtqt2Q=
+aQjar1L3DdbmCgK08BuMJhAzBUlfdAZx2S7NtwdRHF9lSQqefnINBKwASzgBEpQ3MBfSXQaqFPk=
+UwHZ2AMyaTNy4zcklua6Jt0X65onjmnxFZyJWz1EQv9D4Smj7aYa5uzuMO6wb-jD674~" style=
+=3D"color:#ed1c24;text-decoration: none">im Set 13,69 =E2=82=AC</a></p></di=
+v></td></tr></table>=0A=
+<table class=3D"paragraph_block block-6" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word">=0A=
+<tr><td class=3D"pad" style=3D"padding-bottom:10px;padding-left:5px;padding=
+-right:5px"><div style=3D"color:#767676;direction:ltr;font-family:Arial,Ari=
+al,Sans-serif;font-size:12px;font-weight:400;letter-spacing:0;line-height:n=
+ormal;text-align:left;mso-line-height-alt:NaNpx"><p style=3D"margin:0">6,71=
+ =E2=82=AC / kg</p></div></td></tr>=0A=
+</table>=0A=
+=0A=
+</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></tab=
+le>=0A=
+<!-- End -->=0A=
+    </td>=0A=
+    <td style=3D"padding: 10px; vertical-align: top;">=0A=
+        <table class=3D"nl-container" width=3D"100%" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:=
+0;mso-table-rspace:0;background-color:#fff"><tbody><tr><td><table class=3D"=
+row row-1" align=3D"center" width=3D"100%" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-tabl=
+e-rspace:0"><tbody><tr><td><table class=3D"row-content stack" align=3D"cent=
+er" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"mso-table-lspace:0;mso-table-rspace:0;color:#000;width: 100%;margi=
+n:0 auto"><tbody><tr><td class=3D"column column-1" width=3D"100%" style=3D"=
+mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left; padd=
+ing-bottom:0px;padding-top:0px;vertical-align:top">=0A=
+<table class=3D"image_block block-1" width=3D"100%" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0=
+;mso-table-rspace:0"><tr><td class=3D"pad" style=3D"padding-bottom:5px;padd=
+ing-left:15px;padding-right:15px;padding-top:0px;width:100%"><div class=3D"=
+alignment" align=3D"center" style=3D"line-height:10px"><div style=3D"max-wi=
+dth: 200px"><a target=3D"_blank" href=3D"https://clicks.zooplus.de/f/a/60iZ=
+B-roG8zpmIh-WgYNSw~~/AAAHahA~/1FqT_371qmsQfP-ubVkeaBYMPWdclGHHvR8zldaOSkxrj=
+VUzyN8opNSTLJ-_sdDxLK1GBzxFc-3_R4hR-pVtFY27xsgPfzqWJk88TAHRuOtAs9s2keC3Jz0a=
+CASRZR_mescn8T0Hj7Id4MlLA0lYUKcrhh_XIXwx-tza1QiwLuHRKn6yWqK1hWr5f80iJICa7A5=
+FjasQiT8DzYJGA6-IuieY6yvvixOTB3BxECYM7SaMV0k-caXazjchw2tazsbkln7Hb0tTzw5N_9=
+wj7e7qg-2gQBIRekcJqP5fSnXLNNHjkhABGXO3bsw8kThf3vFNud1-ePjvtG0k5tXqUee0HXIhl=
+p9bQ5jCqod8H9VLTjQQAdPmtcb-WVU_PGJGvckaJzBZCprhVUHX30phs19mrqk5aOCqqSCAb2o1=
+HoIxYrdjUtUG-2EBMsGK08csmQY6wdWza8C-upkbJ99uSl3I8t0lcnXPdLYIUCyjMfnPM0JGBgl=
+w4-eMcma8EDkn946YHLHzBpf2LkZ1cC39iHjLb1R5849tSExLC4VJdSkAtAB14aVfGGgSGx1E2g=
+4AVnWVW5O7nKmQ44SmDvEwEBMoNdbD2btxEBDFvL7808RkQSqwoNRBCiUlhGcfbMeSsryPKBsp5=
+o5WCHc0b9MKxRW7oQ~~" style=3D"text-decoration: none"><img src=3D"https://me=
+dia.zooplus.com/bilder/9/400/206248_pla_nestle_gourmet_gold_feine_pastete_h=
+uhn_85g_hs_01_9.jpg" style=3D"display:block;height:auto;border:0;" width=3D=
+"200"></a></div></div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-2" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-bottom:5px;padding-left:5px;padding-right:10px"><div style=3D"c=
+olor:#555555;direction:ltr;font-family:Arial,Arial,Sans-serif;font-size:16p=
+x;font-weight:700;letter-spacing:0;line-height:normal;text-align:left;mso-l=
+ine-height-alt:NaNpx; height: 20px"><p style=3D"margin:0"><a href=3D"https:=
+//clicks.zooplus.de/f/a/7hJR8GyoMOQwZ6nOO1TwUA~~/AAAHahA~/1FqT_371qmsQfP-ub=
+VkeaBYMPWdclGHHvR8zldaOSkxrjVUzyN8opNSTLJ-_sdDxLK1GBzxFc-3_R4hR-pVtFY27xsgP=
+fzqWJk88TAHRuOtAs9s2keC3Jz0aCASRZR_mescn8T0Hj7Id4MlLA0lYUKcrhh_XIXwx-tza1Qi=
+wLuHRKn6yWqK1hWr5f80iJICa7A5FjasQiT8DzYJGA6-IuieY6yvvixOTB3BxECYM7SaMV0k-ca=
+Xazjchw2tazsbkln7Hb0tTzw5N_9wj7e7qg-2gQBIRekcJqP5fSnXLNNHjkhABGXO3bsw8kThf3=
+vFNud1-ePjvtG0k5tXqUee0HSk40XkR17JmmNkHAF64wKh4O1Y6oeimjr0MMZoE9fbHFH_p2ATK=
+mzm1elpOPIh6P0KF4i14rOC9ltrwmyzpWar3FxYsXaH_nqLEQeSK3swAIHkPEuidB6Hrv1ku9s0=
+CE4nL0yql7PWCH0H5ievMQ95f4ZGRas_S4LwNmDiz_Ao3mLbykbkxhy0OVIouGAv0Nk7xOW0QJW=
+nxqX-7Asmz--slIbwRZDVWD1xHzHIGCiZCarznou-kUWRzC-zp86EXfNEMw9esseWiF_GRMzw4P=
+R7RlIUAKuhW15RJ5ypYCGc0T4oFIWtVtY95V6vSIf8nnQ~~" style=3D"text-decoration: =
+none; color: #555555;"><strong>=0A=
+=0A=
+Sparpaket Gourmet Gold ...</strong></a></p></div></td></tr></table>=0A=
+<table class=3D"image_block block-3" width=3D"100%" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0=
+;mso-table-rspace:0"><tr><td class=3D"pad2" style=3D"padding-left:4px;paddi=
+ng-right:0px;width:100%;padding-top:5px"><div class=3D"alignment" align=3D"=
+left" style=3D"line-height:10px"><div style=3D"max-width:150px; vertical-al=
+ign: center">=0A=
+<a target=3D"_blank" href=3D"https://clicks.zooplus.de/f/a/UltYYEbSUsN8AMVa=
+UMvEqA~~/AAAHahA~/1FqT_371qmsQfP-ubVkeaBYMPWdclGHHvR8zldaOSkxrjVUzyN8opNSTL=
+J-_sdDxLK1GBzxFc-3_R4hR-pVtFY27xsgPfzqWJk88TAHRuOtAs9s2keC3Jz0aCASRZR_mescn=
+8T0Hj7Id4MlLA0lYUKcrhh_XIXwx-tza1QiwLuHRKn6yWqK1hWr5f80iJICa7A5FjasQiT8DzYJ=
+GA6-IuieY6yvvixOTB3BxECYM7SaMV0k-caXazjchw2tazsbkln7Hb0tTzw5N_9wj7e7qg-2gQB=
+IRekcJqP5fSnXLNNHjkhABGXO3bsw8kThf3vFNud1-ePjvtG0k5tXqUee0HffbPyNDJWbdDMrC1=
+h8YwV1AYa_oRjDGFBVo5w9QmOAhcWLygt1T5uXZqTfPl5xno6RZpui8Kf6sybMz2nP-81sLhZNZ=
+yokb8eEelN6jyfbWSygE3EcTqEIxsMMULJ-UiymFHyj8KM17XMl6yiXsrn38xVIEary4VaKdFCt=
+-hpWQGDQ-yyiqaZ-wC8c6yf3A8JVgQPrBSDA_LmRORf5ci9DUV1EzepoUJdurSJaH1-eUwgrH2h=
+vwud93nIPMd6-kuzVMsXo2xURBGtVV7eMH1TGSKNXLfwbB0OtYlbAuaI35E9LWVwrJIHI7JQLzJ=
+8WxeQ~~" style=3D"text-decoration: none"><img src=3D"https://cdn.braze.eu/a=
+ppboy/communication/assets/image_assets/images/65d4c003b3334d0057469ffd/ori=
+ginal.png?1708441602" style=3D"float:left;height:auto;border:0; margin-righ=
+t: 5px" width=3D"80"></a> <span style=3D"display:inline-block; padding-top:=
+ 0px; padding-left: 0; color: #767676; font-size: 14px">(30)</span>=0A=
+</div></div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-4" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-top: 4px; padding-bottom:0px;padding-left:5px;padding-right:5px=
+;"><div style=3D"color:#767676;direction:ltr;font-family:Arial,Arial,Sans-s=
+erif;font-size:12px;font-weight:400;letter-spacing:0;line-height:normal;tex=
+t-align:left;mso-line-height-alt:NaNpx">=0A=
+<p style=3D"margin:0">einzeln 30,76 =E2=82=AC</div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-5" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-bottom:0px;padding-left:5px;padding-right:5px"><div style=3D"co=
+lor:#ed1c24;direction:ltr;font-family:Arial,Arial,Sans-serif;font-size:16px=
+;font-weight:700;letter-spacing:0;line-height:25px;text-align:left;mso-line=
+-height-alt:NaNpx"><p style=3D"margin:0"><a target=3D"_blank" href=3D"https=
+://clicks.zooplus.de/f/a/xHo0BkyOGPlNb8T019eIgg~~/AAAHahA~/1FqT_371qmsQfP-u=
+bVkeaBYMPWdclGHHvR8zldaOSkxrjVUzyN8opNSTLJ-_sdDxLK1GBzxFc-3_R4hR-pVtFY27xsg=
+PfzqWJk88TAHRuOtAs9s2keC3Jz0aCASRZR_mescn8T0Hj7Id4MlLA0lYUKcrhh_XIXwx-tza1Q=
+iwLuHRKn6yWqK1hWr5f80iJICa7A5FjasQiT8DzYJGA6-IuieY6yvvixOTB3BxECYM7SaMV0k-c=
+aXazjchw2tazsbkln7Hb0tTzw5N_9wj7e7qg-2gQBIRekcJqP5fSnXLNNHjkhABGXO3bsw8kThf=
+3vFNud1-ePjvtG0k5tXqUee0HdAz_bkfESF8eW6kJPBvwHSyhgp6qzI9KNyC6s_-p3tdef50eku=
+JQg10UtRBHPPQnjHa2WI7BVuZ1g2j4HPaOplDAxxcw_kM-4reC02_iUfd173GkxCX7HBXQAu01J=
+AoIpKDjCDy5H69qlTSe9JdUo4ubIwPJ7IOWLonNGppgYJfoGQGaYr5vSMD7SNP0l6CSUjxZjOGS=
+luMvL9bXBvqGu4ogibzZQvPrD2tAcWdZxwpxK48sNTxEwNMTJBrkds-LD3sEcyiI0RJDYqJYA73=
+3Uqs2sPwaFAgt0g1T0KOU1hWhIxXTJ-kBJ_W6YzKkSTUEg~~" style=3D"color:#ed1c24;te=
+xt-decoration: none">im Set 29,49 =E2=82=AC</a></p></div></td></tr></table>=
+=0A=
+<table class=3D"paragraph_block block-6" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word">=0A=
+<tr><td class=3D"pad" style=3D"padding-bottom:10px;padding-left:5px;padding=
+-right:5px"><div style=3D"color:#767676;direction:ltr;font-family:Arial,Ari=
+al,Sans-serif;font-size:12px;font-weight:400;letter-spacing:0;line-height:n=
+ormal;text-align:left;mso-line-height-alt:NaNpx"><p style=3D"margin:0">7,23=
+ =E2=82=AC / kg</p></div></td></tr>=0A=
+</table>=0A=
+=0A=
+</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></tab=
+le>=0A=
+<!-- End -->=0A=
+    </td>=0A=
+  </tr>=0A=
+</table></div></td></tr></table>=0A=
+<table class=3D"html_block block-3 desktop_hide" width=3D"100%" border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-ta=
+ble-lspace:0;mso-table-rspace:0;mso-hide:all;display:none;max-height:0;over=
+flow:hidden"><tr><td class=3D"pad"><div style=3D"font-family:Arial,Arial,Sa=
+ns-serif;text-align:center" align=3D"center">=0A=
+<!--[if false]><!--><table role=3D"presentation" cellpadding=3D"0" cellspac=
+ing=3D"0" width=3D"100%" style=3D"border-collapse: collapse; max-width: 600=
+px; margin: 0 auto;">=0A=
+  <tr>=0A=
+    <td style=3D"padding: 10px; vertical-align: top;">  <a target=3D"_blank=
+" href=3D"https://clicks.zooplus.de/f/a/zDC7aMec-kg8KPb3bjMzqw~~/AAAHahA~/U=
+rX61LVeTqSGe9XafivRqhXlAgyDJtJltMu4eMrQALyldKEcP7Olo51Dt4OmVSk8I4bJHKmB531v=
+X3gZ6F1bdpkgrLvRk5oKF9lxh-12WNSK5DW1UqDEdCTH05frqaI8wnUqSbFUS3gHGIc9aYSaDV7=
+nTWHm4nW10-qQomPinqYmwwUKnKxIuD2YC-QAaA_aoE-PHqRiff_5-AdqbCTdXISf5DG-0l28j_=
+OU9idbA2-D2AvgcwjeC8tF6LUZkfmoPmX7haPqxZFkJRh2cVlluih8x7KltJjvwAPuayqWmW1G9=
+nnbhNVWWBZJhakd0jaqJinULXN0MgnA6_Wva1hcyPKvBPMB_I6y1ELD9Lf6pKYd06YqH7zoD3yr=
+hjnp46H2YrDSsOVkeRLGmHjHjEWD7_n3uZd70Ic7nz_8B9bq7ras5WIeiGvdThX53Js2w9ggJ7F=
+RLZLAGBlvnU6kSGgcgwwRzwEqz6OSbELXysHXED150Do4xfxQNennWFlzL4vZOHwQd624-71lMV=
+8e9NN_cs7LXPxE-gV_vZ9wub5aEhPJMLPViRkA4YvEUvsXxpNDWknXzbktYH-fxSJmwQiXeRdjS=
+9Nni4zZbqTk1skzqzKcItBpzu48TE-8tZaFCmxEsEdRLhoEiFi7sh92Ysg2Rr8kW_mB3tnWpV-i=
+UqRiiTQ~" style=3D"text-decoration: none"></a><table class=3D"nl-container"=
+ width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;background-color=
+:#fff"><tbody><tr><td><table class=3D"row row-1" align=3D"center" width=3D"=
+100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation=
+" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tbody><tr><td><table cla=
+ss=3D"row-content stack" align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table=
+-rspace:0;color:#000;width: 100%;margin:0 auto"><tbody><tr><td class=3D"col=
+umn column-1" width=3D"100%" style=3D"mso-table-lspace:0;mso-table-rspace:0=
+;font-weight:400;text-align:left; padding-bottom:0px;padding-top:0px;vertic=
+al-align:top">=0A=
+<table class=3D"image_block block-1" width=3D"100%" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0=
+;mso-table-rspace:0"><tr><td class=3D"pad" style=3D"padding-bottom:5px;padd=
+ing-left:15px;padding-right:15px;padding-top:0px;width:100%"><div class=3D"=
+alignment" align=3D"center" style=3D"line-height:10px"><div style=3D"max-wi=
+dth: 100px"><a target=3D"_blank" href=3D"https://clicks.zooplus.de/f/a/jnX-=
+etK7dQWdJkSA1bB-CQ~~/AAAHahA~/UrX61LVeTqSGe9XafivRqhXlAgyDJtJltMu4eMrQALyld=
+KEcP7Olo51Dt4OmVSk8I4bJHKmB531vX3gZ6F1bdpkgrLvRk5oKF9lxh-12WNSK5DW1UqDEdCTH=
+05frqaI8wnUqSbFUS3gHGIc9aYSaDV7nTWHm4nW10-qQomPinqYmwwUKnKxIuD2YC-QAaA_aoE-=
+PHqRiff_5-AdqbCTdXISf5DG-0l28j_OU9idbA2-D2AvgcwjeC8tF6LUZkfmoPmX7haPqxZFkJR=
+h2cVlluih8x7KltJjvwAPuayqWmW1G9nnbhNVWWBZJhakd0jaqJinULXN0MgnA6_Wva1hcyPKvB=
+PMB_I6y1ELD9Lf6pKavLH6D6Wkyjf7PW6257aAeJcwiY46-aN_CZzwpfYiX-iEHRZaTuPJ46JFG=
+TLitzuyuHCrDQ-ROGTcaP90cZjQ01nQc9mpAiJgp9d5Rfbi8T-8IkdJe1_0pqa2qwD1EMwngaDS=
+ERdRp9Os34gybCg6L_LaxW1H_SgsBAChjpxWf68s-D1So5aiDx5ZPpoHNLIk1otp2zupDlWqTua=
+CQKYwWrZgfJ4a1rqxHFbBGVjAIpuIDds2cuY1qFUl1lnY2d1GEFPI6ziwWPDMsk5Ifb14j9p1Ji=
+M39FQOUgXR1Zu0NO4U9cTEvVSIaaNcr476zDxA~" style=3D"text-decoration: none"><i=
+mg src=3D"https://media.zooplus.com/bilder/1/400/207799_pla_nestle_gourmet_=
+gold_zarte_haeppchen_kalb_gemuse_85g_hs_01_1.jpg" style=3D"display:block;he=
+ight:auto;border:0;" width=3D"100"></a></div></div></td></tr></table>=0A=
+<table class=3D"" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0=
+;word-break:break-word"><tr><td class=3D"pad" style=3D"padding-bottom:5px;p=
+adding-left:5px;padding-right:10px; padding-bottom: 10px"><div style=3D"col=
+or:#555555;direction:ltr;font-family:Arial,Arial,Sans-serif;font-size:14px;=
+font-weight:700;letter-spacing:0;line-height:normal;text-align:left;mso-lin=
+e-height-alt:NaNpx;"><p style=3D"margin:0"><a href=3D"https://clicks.zooplu=
+s.de/f/a/NVze3qcs7zaFxDRNbb4ziA~~/AAAHahA~/UrX61LVeTqSGe9XafivRqhXlAgyDJtJl=
+tMu4eMrQALyldKEcP7Olo51Dt4OmVSk8I4bJHKmB531vX3gZ6F1bdpkgrLvRk5oKF9lxh-12WNS=
+K5DW1UqDEdCTH05frqaI8wnUqSbFUS3gHGIc9aYSaDV7nTWHm4nW10-qQomPinqYmwwUKnKxIuD=
+2YC-QAaA_aoE-PHqRiff_5-AdqbCTdXISf5DG-0l28j_OU9idbA2-D2AvgcwjeC8tF6LUZkfmoP=
+mX7haPqxZFkJRh2cVlluih8x7KltJjvwAPuayqWmW1G9nnbhNVWWBZJhakd0jaqJinULXN0MgnA=
+6_Wva1hcyPKvBPMB_I6y1ELD9Lf6pKZppIiqa0ZCwUbtF8W7YSGeqa8CEr3oMqHE3qI2Vkvdpfz=
+I-QSsSrqcGekbSp0MZzvQ514CekRofJNDt46qQBS7v3k93BKaBAg49KfjeMMtVEDhAV2plsYGM_=
+tbi4i9FleJ4j9bHtUWo10cJTAjvG9jf_AscEMGxR5wJFfgdEcBoSxY2w3XmbAAH16F2jMZvCsPa=
+isnvQKHUoo7xOcHEbZR6CVdDKuWlayrZGw6gPE8wn4LQQECbKytLngbUtYpCgwB3s4FH91IcQRx=
+trmbQbIsYWoa3CND3lSII7L4OiXPoqzDc5EhwRKo4MMTZXjjsEE~" style=3D"text-decorat=
+ion: none; color: #555555;"><strong>=0A=
+=0A=
+Sparpaket Gourmet Gold Za...</strong></a></p></div></td></tr></table>=0A=
+<table class=3D"image_block block-3" width=3D"100%" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0=
+;mso-table-rspace:0"><tr><td class=3D"pad2" style=3D"padding-left:4px;paddi=
+ng-right:0px;width:100%;padding-top:5px"><div class=3D"alignment" align=3D"=
+left" style=3D"line-height:10px"><div style=3D"max-width:150px; vertical-al=
+ign: center">=0A=
+<a target=3D"_blank" href=3D"https://clicks.zooplus.de/f/a/81LemSjsjnvzmLZR=
+q5C6Kw~~/AAAHahA~/UrX61LVeTqSGe9XafivRqhXlAgyDJtJltMu4eMrQALyldKEcP7Olo51Dt=
+4OmVSk8I4bJHKmB531vX3gZ6F1bdpkgrLvRk5oKF9lxh-12WNSK5DW1UqDEdCTH05frqaI8wnUq=
+SbFUS3gHGIc9aYSaDV7nTWHm4nW10-qQomPinqYmwwUKnKxIuD2YC-QAaA_aoE-PHqRiff_5-Ad=
+qbCTdXISf5DG-0l28j_OU9idbA2-D2AvgcwjeC8tF6LUZkfmoPmX7haPqxZFkJRh2cVlluih8x7=
+KltJjvwAPuayqWmW1G9nnbhNVWWBZJhakd0jaqJinULXN0MgnA6_Wva1hcyPKvBPMB_I6y1ELD9=
+Lf6pKYIsft0k0HZmSu4zIExFnOa0LGs-sjO-fKbM2TTxRtnRIWNSja4mUkZkzKa1SKl_HnAcLhv=
+W2NVbXObBttCckUM_LCFrSj-di3r4RpT2JKFbcb2EoYCaiBxqCYnHlLVVP5GgHKooHiZD9Oh50o=
+55OANVISs8-craZMnU1XGsz4SGZzsTudGM75QGHhPyh55WOzcZGgIO-Nn-VqYARGbM7PaCT650o=
+08Qo9fi0HFL7J6n7YjVDZ_d_wiciu9cQZuOSJ48kRu5FjVU8W1KbsErMcVMaVqLuLwoOupdcfsA=
+yd5g4FHBdT8tfy8e2Zqux1v1_8~" style=3D"text-decoration: none"><img src=3D"ht=
+tps://cdn.braze.eu/appboy/communication/assets/image_assets/images/65d764c7=
+b7da5a174fd733e3/original.png?1708614854" style=3D"float:left;height:auto;b=
+order:0; margin-right: 5px" width=3D"80"></a> <span style=3D"display:inline=
+-block; padding-top: 0px; padding-left: 0; color: #767676; font-size: 14px"=
+>(23)</span>=0A=
+</div></div></td></tr></table>=0A=
+<table class=3D"" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0=
+;word-break:break-word"><tr><td class=3D"pad" style=3D"padding-top: 5px; pa=
+dding-bottom:0px;padding-left:5px;padding-right:5px;"><div style=3D"color:#=
+767676;direction:ltr;font-family:Arial,Arial,Sans-serif;font-size:12px;font=
+-weight:400;letter-spacing:0;line-height:normal;text-align:left;mso-line-he=
+ight-alt:NaNpx">=0A=
+<p style=3D"margin:0">einzeln 14,38 =E2=82=AC</div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-5" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-bottom:0px;padding-left:5px;padding-right:5px"><div style=3D"co=
+lor:#ed1c24;direction:ltr;font-family:Arial,Arial,Sans-serif;font-size:14px=
+;font-weight:700;letter-spacing:0;line-height:25px;text-align:left;mso-line=
+-height-alt:NaNpx"><p style=3D"margin:0"><a target=3D"_blank" href=3D"https=
+://clicks.zooplus.de/f/a/sIr-9-t-nJHPwGgSndU6uw~~/AAAHahA~/UrX61LVeTqSGe9Xa=
+fivRqhXlAgyDJtJltMu4eMrQALyldKEcP7Olo51Dt4OmVSk8I4bJHKmB531vX3gZ6F1bdpkgrLv=
+Rk5oKF9lxh-12WNSK5DW1UqDEdCTH05frqaI8wnUqSbFUS3gHGIc9aYSaDV7nTWHm4nW10-qQom=
+PinqYmwwUKnKxIuD2YC-QAaA_aoE-PHqRiff_5-AdqbCTdXISf5DG-0l28j_OU9idbA2-D2Avgc=
+wjeC8tF6LUZkfmoPmX7haPqxZFkJRh2cVlluih8x7KltJjvwAPuayqWmW1G9nnbhNVWWBZJhakd=
+0jaqJinULXN0MgnA6_Wva1hcyPKvBPMB_I6y1ELD9Lf6pKb4S6aRdnwzB83wtiqqhQ604a6MO8V=
+RTvs0KhhJq77ERr4MkY6xzWrjO3gcavvLRvkYMv7zOwZjqW2kJGLovD-bApLdRaefbMVBAbfTeZ=
+m5Fm0v8ODt6xdU60us--T5uKaqhRyDiURZkDJNG0LAY1pyv82wT4NtzlD7-WMu5GOFodA1Twb-W=
+4BLMJTKTFVJk2e8gDzoonv4ei0d2xNIqrJILYdSd_YIHoFk_LFFsXqZGq0KOQn26A9TFQwhiEtk=
+TF1shbP1Z1MB4l-XnQyh4eyvuduPQZJV9x7D4agBeAZcu9yxsIVptdpWGeV6e5u5PDo~" style=
+=3D"color:#ed1c24;text-decoration: none">im Set 13,69 =E2=82=AC</a></p></di=
+v></td></tr></table>=0A=
+<table class=3D"paragraph_block block-6" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word">=0A=
+<tr><td class=3D"pad" style=3D"padding-bottom:10px;padding-left:5px;padding=
+-right:5px"><div style=3D"color:#767676;direction:ltr;font-family:Arial,Ari=
+al,Sans-serif;font-size:12px;font-weight:400;letter-spacing:0;line-height:n=
+ormal;text-align:left;mso-line-height-alt:NaNpx"><p style=3D"margin:0">6,71=
+ =E2=82=AC / kg</p></div></td></tr>=0A=
+</table>=0A=
+=0A=
+</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></tab=
+le>=0A=
+<!-- End --> =0A=
+=0A=
+    </td>=0A=
+    <td style=3D"padding: 10px; vertical-align: top;">=0A=
+        <a target=3D"_blank" href=3D"https://clicks.zooplus.de/f/a/VExll44u=
+NS0FDHxuEryREA~~/AAAHahA~/1FqT_371qmsQfP-ubVkeaBYMPWdclGHHvR8zldaOSkxrjVUzy=
+N8opNSTLJ-_sdDxLK1GBzxFc-3_R4hR-pVtFY27xsgPfzqWJk88TAHRuOtAs9s2keC3Jz0aCASR=
+ZR_mescn8T0Hj7Id4MlLA0lYUKcrhh_XIXwx-tza1QiwLuHRKn6yWqK1hWr5f80iJICa7A5Fjas=
+QiT8DzYJGA6-IuieY6yvvixOTB3BxECYM7SaMV0k-caXazjchw2tazsbkln7Hb0tTzw5N_9wj7e=
+7qg-2gQBIRekcJqP5fSnXLNNHjkhABGXO3bsw8kThf3vFNud1-ePjvtG0k5tXqUee0He7SJZMJj=
+6lCxrobHItq3aJSCc-cSG23sc8JJVm6cKcFq6hplcscwhqTGQtuWpaU_UQmY0oVyQb6W36DUaqq=
+7TzvBsnNYK_zET6gw1WE9NFpx7qU3eob5upn71FwdZg5xdUpO554Y-DS0-SRoFY3b6QH98LXvFl=
+wgk5cxDD8duxRrH_U4z2PIuJlqamTJQenJTs5Qa45TtRhG0RNDyvgxnJal5gvYirO9odKht_tvJ=
+7Teu6wh1MOdAlTOr-vZ2ElQaDzhUEgvqPMQyzAMhR-FlgIEyn7dVa7uB3NJZbYCYEEUDwJSe-Ch=
+hUWLLa_aFWHjg~~" style=3D"text-decoration: none"></a><table class=3D"nl-con=
+tainer" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" rol=
+e=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;backgroun=
+d-color:#fff"><tbody><tr><td><table class=3D"row row-1" align=3D"center" wi=
+dth=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"prese=
+ntation" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tbody><tr><td><ta=
+ble class=3D"row-content stack" align=3D"center" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;=
+mso-table-rspace:0;color:#000;width: 100%;margin:0 auto"><tbody><tr><td cla=
+ss=3D"column column-1" width=3D"100%" style=3D"mso-table-lspace:0;mso-table=
+-rspace:0;font-weight:400;text-align:left; padding-bottom:0px;padding-top:0=
+px;vertical-align:top">=0A=
+<table class=3D"image_block block-1" width=3D"100%" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0=
+;mso-table-rspace:0"><tr><td class=3D"pad" style=3D"padding-bottom:5px;padd=
+ing-left:15px;padding-right:15px;padding-top:0px;width:100%"><div class=3D"=
+alignment" align=3D"center" style=3D"line-height:10px"><div style=3D"max-wi=
+dth: 100px"><a target=3D"_blank" href=3D"https://clicks.zooplus.de/f/a/2gGp=
+8PIIkr97WJLaL9OcRQ~~/AAAHahA~/1FqT_371qmsQfP-ubVkeaBYMPWdclGHHvR8zldaOSkxrj=
+VUzyN8opNSTLJ-_sdDxLK1GBzxFc-3_R4hR-pVtFY27xsgPfzqWJk88TAHRuOtAs9s2keC3Jz0a=
+CASRZR_mescn8T0Hj7Id4MlLA0lYUKcrhh_XIXwx-tza1QiwLuHRKn6yWqK1hWr5f80iJICa7A5=
+FjasQiT8DzYJGA6-IuieY6yvvixOTB3BxECYM7SaMV0k-caXazjchw2tazsbkln7Hb0tTzw5N_9=
+wj7e7qg-2gQBIRekcJqP5fSnXLNNHjkhABGXO3bsw8kThf3vFNud1-ePjvtG0k5tXqUee0HYmzc=
+esTXrFBu_2mPaQMMWB0yibMUXn_DHHcp3hiSTJZ3axRNpkMigu2kfMn6JvcDzx2KuMPxTLpeuAd=
+XcQGf1lzypf0_uw4Qjx7f0syKel0j4LLZqjN1jkMNc3MxFTmouUGF_Ag12hydRJXrlgfR53-c4z=
+ktn2NOsO-F7gqFumfPE9DZEuVdtrbpudJilnaCgnfhQ5638VBHNDiUj-pW8JP-FEJ_Ou6RPLWB6=
+xZMy5NkTON7gVKtYAZugPRdCN8mSLy1ZO46WFMrmpusRH2Bypy5g17V8RM85exfans3pgFN4w75=
+WhHIsXZlrNmNFWioQ~~" style=3D"text-decoration: none"><img src=3D"https://me=
+dia.zooplus.com/bilder/9/400/206248_pla_nestle_gourmet_gold_feine_pastete_h=
+uhn_85g_hs_01_9.jpg" style=3D"display:block;height:auto;border:0;" width=3D=
+"100"></a></div></div></td></tr></table>=0A=
+<table class=3D"" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0=
+;word-break:break-word"><tr><td class=3D"pad" style=3D"padding-bottom:5px;p=
+adding-left:5px;padding-right:10px; padding-bottom: 10px"><div style=3D"col=
+or:#555555;direction:ltr;font-family:Arial,Arial,Sans-serif;font-size:14px;=
+font-weight:700;letter-spacing:0;line-height:normal;text-align:left;mso-lin=
+e-height-alt:NaNpx;"><p style=3D"margin:0"><a href=3D"https://clicks.zooplu=
+s.de/f/a/g-bVe0hbMzUSwX8rgpSrkA~~/AAAHahA~/1FqT_371qmsQfP-ubVkeaBYMPWdclGHH=
+vR8zldaOSkxrjVUzyN8opNSTLJ-_sdDxLK1GBzxFc-3_R4hR-pVtFY27xsgPfzqWJk88TAHRuOt=
+As9s2keC3Jz0aCASRZR_mescn8T0Hj7Id4MlLA0lYUKcrhh_XIXwx-tza1QiwLuHRKn6yWqK1hW=
+r5f80iJICa7A5FjasQiT8DzYJGA6-IuieY6yvvixOTB3BxECYM7SaMV0k-caXazjchw2tazsbkl=
+n7Hb0tTzw5N_9wj7e7qg-2gQBIRekcJqP5fSnXLNNHjkhABGXO3bsw8kThf3vFNud1-ePjvtG0k=
+5tXqUee0Ha4djj4phU8EByRVcE1Qm1T8w60FuQQkyZa71pQ3838VfOPp9HPzYm0U1DsHm-1Khzw=
+_I6jrw4R97aVexpirOsrvqEQvwbP5DlpIi8YddfxPRDY8rf9ArWDFbmt0umghV_19cVryTUIoMD=
+br5XX4aJWuEj8Z3EjJiU8qiuKpOMWrVDD5lDl-FDPcgByDu_0IcUMUETqQaG9fqGDoAuxw_Z60i=
+HIZQR9BZODiefukDBWqPDLbQY_L7gsKhn5uRw8nlSlsmUyvQDrSW4n2-L9Y_9sFXENE3KCArFZc=
+Ghzn75mbSLJdKP18SHZX79Vplas9aQ~~" style=3D"text-decoration: none; color: #5=
+55555;"><strong>=0A=
+=0A=
+Sparpaket Gourmet Gold Fe...</strong></a></p></div></td></tr></table>=0A=
+<table class=3D"image_block block-3" width=3D"100%" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0=
+;mso-table-rspace:0"><tr><td class=3D"pad2" style=3D"padding-left:4px;paddi=
+ng-right:0px;width:100%;padding-top:5px"><div class=3D"alignment" align=3D"=
+left" style=3D"line-height:10px"><div style=3D"max-width:150px; vertical-al=
+ign: center">=0A=
+<a target=3D"_blank" href=3D"https://clicks.zooplus.de/f/a/MbEmEtMcHQbMHlrI=
+vv3New~~/AAAHahA~/1FqT_371qmsQfP-ubVkeaBYMPWdclGHHvR8zldaOSkxrjVUzyN8opNSTL=
+J-_sdDxLK1GBzxFc-3_R4hR-pVtFY27xsgPfzqWJk88TAHRuOtAs9s2keC3Jz0aCASRZR_mescn=
+8T0Hj7Id4MlLA0lYUKcrhh_XIXwx-tza1QiwLuHRKn6yWqK1hWr5f80iJICa7A5FjasQiT8DzYJ=
+GA6-IuieY6yvvixOTB3BxECYM7SaMV0k-caXazjchw2tazsbkln7Hb0tTzw5N_9wj7e7qg-2gQB=
+IRekcJqP5fSnXLNNHjkhABGXO3bsw8kThf3vFNud1-ePjvtG0k5tXqUee0HWjzpu4905Q9Gb381=
+PLQZ47cWN4SBIz7ZQMJylEiNqcN2XPIMr9_Z0j8zUj7asdoPunp2ROdQYWLv9ue8_tfSGPG3rV3=
+g9-kA-ekVG0ptxdTqE8DN8ZeLHw67FL-Wo6B6h-BM83QUrfH-ZutIBGxJRjZosFRq9LfwdtjuNR=
+MnXwBdU33qF8ox8vlQYgV9sJ8m21evpoa7xz6gh8NtvSaJWeCXnW4fSdVEdjemoe-2NKICgIZg1=
+XAYYnuq1PVZNNbyFdK66I-_Xe1STcu0YttBU3l4nQCMdAn1LtuPQByWdgdxpC3UpYOgfMLaQf9a=
+HBS4Q~~" style=3D"text-decoration: none"><img src=3D"https://cdn.braze.eu/a=
+ppboy/communication/assets/image_assets/images/65d4c003b3334d0057469ffd/ori=
+ginal.png?1708441602" style=3D"float:left;height:auto;border:0; margin-righ=
+t: 5px" width=3D"80"></a> <span style=3D"display:inline-block; padding-top:=
+ 0px; padding-left: 0; color: #767676; font-size: 14px">(30)</span>=0A=
+</div></div></td></tr></table>=0A=
+<table class=3D"" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0=
+;word-break:break-word"><tr><td class=3D"pad" style=3D"padding-top: 5px; pa=
+dding-bottom:0px;padding-left:5px;padding-right:5px;"><div style=3D"color:#=
+767676;direction:ltr;font-family:Arial,Arial,Sans-serif;font-size:12px;font=
+-weight:400;letter-spacing:0;line-height:normal;text-align:left;mso-line-he=
+ight-alt:NaNpx">=0A=
+<p style=3D"margin:0">einzeln 30,76 =E2=82=AC</div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-5" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-bottom:0px;padding-left:5px;padding-right:5px"><div style=3D"co=
+lor:#ed1c24;direction:ltr;font-family:Arial,Arial,Sans-serif;font-size:14px=
+;font-weight:700;letter-spacing:0;line-height:25px;text-align:left;mso-line=
+-height-alt:NaNpx"><p style=3D"margin:0"><a target=3D"_blank" href=3D"https=
+://clicks.zooplus.de/f/a/FSjIAPOO3edkYe8hFC-Iuw~~/AAAHahA~/1FqT_371qmsQfP-u=
+bVkeaBYMPWdclGHHvR8zldaOSkxrjVUzyN8opNSTLJ-_sdDxLK1GBzxFc-3_R4hR-pVtFY27xsg=
+PfzqWJk88TAHRuOtAs9s2keC3Jz0aCASRZR_mescn8T0Hj7Id4MlLA0lYUKcrhh_XIXwx-tza1Q=
+iwLuHRKn6yWqK1hWr5f80iJICa7A5FjasQiT8DzYJGA6-IuieY6yvvixOTB3BxECYM7SaMV0k-c=
+aXazjchw2tazsbkln7Hb0tTzw5N_9wj7e7qg-2gQBIRekcJqP5fSnXLNNHjkhABGXO3bsw8kThf=
+3vFNud1-ePjvtG0k5tXqUee0HWPbULzf2flkZVG-7JU9CG9dMhxb0t8L7tQ2XsEC7uznuTWnUCe=
+qk7-_q5G6iktxsGtUB_iqJCGdsDQfgyjiFabwtzo1sNyPDkiSwgI02rImNWnTgpEBp83qfq_96S=
+s3WE4puPtTKbWX3gZ-42kcwwwSyaRgy87zg8-iNumoZs1vU_HRLz61tMEf4RSzYe3MGvp96-oT2=
+YoEMm6m6xxgmD3YGeqZ02LOsVJGRF_PUUklFtzgfaAKzduSI9wM6SP4CifqpeJnYr4jtC4p8k-W=
+H6qddJNyrkBPhVFvmxYLocaF5xGIPveTVWlP6ud4AlExug~~" style=3D"color:#ed1c24;te=
+xt-decoration: none">im Set 29,49 =E2=82=AC</a></p></div></td></tr></table>=
+=0A=
+<table class=3D"paragraph_block block-6" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word">=0A=
+<tr><td class=3D"pad" style=3D"padding-bottom:10px;padding-left:5px;padding=
+-right:5px"><div style=3D"color:#767676;direction:ltr;font-family:Arial,Ari=
+al,Sans-serif;font-size:12px;font-weight:400;letter-spacing:0;line-height:n=
+ormal;text-align:left;mso-line-height-alt:NaNpx"><p style=3D"margin:0">7,23=
+ =E2=82=AC / kg</p></div></td></tr>=0A=
+</table>=0A=
+=0A=
+</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></tab=
+le>=0A=
+<!-- End -->=0A=
+    </td>=0A=
+  </tr>=0A=
+</table>=0A=
+<!--<![endif]-->=0A=
+</div></td></tr></table>=0A=
+</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></tab=
+le>=0A=
+<!-- End --><p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<p style=3D"margin:0"></p>=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<table class=3D"nl-container" width=3D"100%" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-ta=
+ble-rspace:0;background-color:#fff"><tbody><tr><td><table class=3D"row row-=
+1" align=3D"center" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace=
+:0"><tbody><tr><td><table class=3D"row-content stack" align=3D"center" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D=
+"mso-table-lspace:0;mso-table-rspace:0;color:#000;width:600px;margin:0 auto=
+" width=3D"600"><tbody><tr><td class=3D"column column-1" width=3D"100%" sty=
+le=3D"mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left=
+;padding-bottom:5px;padding-top:5px;vertical-align:top;border-top:0;border-=
+right:0;border-bottom:0;border-left:0">=0A=
+<table class=3D"html_block block-1" width=3D"100%" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;=
+mso-table-rspace:0"><tr><td class=3D"pad"><div style=3D"font-family:Arial,A=
+rial,Sans-serif;text-align:center" align=3D"center">              </div></t=
+d></tr></table>=0A=
+<table class=3D"html_block block-2 mobile_hide" width=3D"100%" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-tab=
+le-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad"><div style=3D"font-fa=
+mily:Arial,Arial,Sans-serif;text-align:center" align=3D"center"><table role=
+=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=
+=3D"border-collapse: collapse; max-width: 600px; margin: 0 auto;">=0A=
+  <tr>=0A=
+    <td style=3D"padding: 10px; vertical-align: top;"> <table class=3D"nl-c=
+ontainer" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" r=
+ole=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;backgro=
+und-color:#fff"><tbody><tr><td><table class=3D"row row-1" align=3D"center" =
+width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pre=
+sentation" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tbody><tr><td><=
+table class=3D"row-content stack" align=3D"center" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;=
+mso-table-rspace:0;color:#000;width: 100%;margin:0 auto"><tbody><tr><td cla=
+ss=3D"column column-1" width=3D"100%" style=3D"mso-table-lspace:0;mso-table=
+-rspace:0;font-weight:400;text-align:left; padding-bottom:0px;padding-top:0=
+px;vertical-align:top">=0A=
+<table class=3D"image_block block-1" width=3D"100%" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0=
+;mso-table-rspace:0"><tr><td class=3D"pad" style=3D"padding-bottom:5px;padd=
+ing-left:15px;padding-right:15px;padding-top:0px;width:100%"><div class=3D"=
+alignment" align=3D"center" style=3D"line-height:10px"><div style=3D"max-wi=
+dth: 200px"><a target=3D"_blank" href=3D"https://clicks.zooplus.de/f/a/lXND=
+1c-CFC642fVc2qXx2g~~/AAAHahA~/1FqT_371qmsQfP-ubVkeaBYMPWdclGHHvR8zldaOSkxrj=
+VUzyN8opNSTLJ-_sdDxLK1GBzxFc-3_R4hR-pVtFY27xsgPfzqWJk88TAHRuOuPiMo74CTvBnM0=
+4QnBLkN7d8gSl90UmmTYXPzqUXq73sRbFCl-aKW_cp-GhlRGz-Yh8amW214ZZF8Fbnh87xCBQuw=
+Vx-NbukWBi3D4kaQIGYleaYuokKDdqG-PPKAGBaTmNKTN0do33h7C3Q8XTYyQgpuDpjrGzm_26E=
+DiYa3jIfAtYHokLbVMdG1R9QrCVPPoVCueu4u2MZ9Ar-LtZERMGJ0b1agYHPsHshlpe6ivoovas=
+uP5E5fJzMDFjg1flB8rKNGzcTjh4OGwEdYwDpIqWjpvv5cKYc3SS5_5onBVAhxD-Ul0ijcccGc1=
+u_ZAyUKn-VYFcdPHfaQB-ogr6iZ8vLZeJFOlwq3TkB4_7_uxsn-J5u93BNSQitb0AD_94r2hZhp=
+aGnxvZE2fRqr3O6hlp5otQg6c5QGAgif0tFn0A9bfaM8O3NBPn-FDy9CWoKc_vittVmHFreaPxg=
+MTeuzze0Rey_9oCUNJrb80Vd1hI_Yxxu7U0-B9gy4eZ9EsUQgFqYXFpBSU-7Lh5I0KXvj_-zpSt=
+8TN9rVKHm_7ejEXpg~~" style=3D"text-decoration: none"><img src=3D"https://me=
+dia.zooplus.com/bilder/9/400/206248_pla_nestle_gourmet_gold_feine_pastete_h=
+uhn_85g_hs_01_9.jpg" style=3D"display:block;height:auto;border:0;" width=3D=
+"200"></a></div></div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-2" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-bottom:5px;padding-left:5px;padding-right:10px"><div style=3D"c=
+olor:#555555;direction:ltr;font-family:Arial,Arial,Sans-serif;font-size:16p=
+x;font-weight:700;letter-spacing:0;line-height:normal;text-align:left;mso-l=
+ine-height-alt:NaNpx; height: 20px"><p style=3D"margin:0"><a href=3D"https:=
+//clicks.zooplus.de/f/a/cECDqK_97cYPcvzizuN52g~~/AAAHahA~/1FqT_371qmsQfP-ub=
+VkeaBYMPWdclGHHvR8zldaOSkxrjVUzyN8opNSTLJ-_sdDxLK1GBzxFc-3_R4hR-pVtFY27xsgP=
+fzqWJk88TAHRuOuPiMo74CTvBnM04QnBLkN7d8gSl90UmmTYXPzqUXq73sRbFCl-aKW_cp-GhlR=
+Gz-Yh8amW214ZZF8Fbnh87xCBQuwVx-NbukWBi3D4kaQIGYleaYuokKDdqG-PPKAGBaTmNKTN0d=
+o33h7C3Q8XTYyQgpuDpjrGzm_26EDiYa3jIfAtYHokLbVMdG1R9QrCVPPoVCueu4u2MZ9Ar-LtZ=
+ERMGJ0b1agYHPsHshlpe6ivou8Ru5dSCJc39DPrYCIj9eOOIwoYG3hvd8GUHzrMG7BaqA4fzQpx=
+H3oxMJdbkImHgcAxQ_xRqUiSLXtuQYatNBAKKCzgx8R-DF_jIk60kddtzIm1i9D55td1COZuVjl=
+GrVl9fX9DRu_Ml2nZPCqoGofK79JeL1SOflN25V82CpS2g10xwuxp4VZ62wpeVsfbuqOSEQROdi=
+rdxIkUdJtW_9QC1q8wUqL-c6sjDM5DHXFhXZXzUINRyABWDEAqwfdNtU46LrZIEIriEMT6O5WGW=
+mmwxEybobJc4GgmlZ_Xu8vsEDY5HE_C4QwBk22pvULWCw~~" style=3D"text-decoration: =
+none; color: #555555;"><strong>=0A=
+=0A=
+Sparpaket Gourmet Gold ...</strong></a></p></div></td></tr></table>=0A=
+<table class=3D"image_block block-3" width=3D"100%" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0=
+;mso-table-rspace:0"><tr><td class=3D"pad2" style=3D"padding-left:4px;paddi=
+ng-right:0px;width:100%;padding-top:5px"><div class=3D"alignment" align=3D"=
+left" style=3D"line-height:10px"><div style=3D"max-width:150px; vertical-al=
+ign: center">=0A=
+<a target=3D"_blank" href=3D"https://clicks.zooplus.de/f/a/k3e-5FtAemkHtcGg=
+AolAfQ~~/AAAHahA~/1FqT_371qmsQfP-ubVkeaBYMPWdclGHHvR8zldaOSkxrjVUzyN8opNSTL=
+J-_sdDxLK1GBzxFc-3_R4hR-pVtFY27xsgPfzqWJk88TAHRuOuPiMo74CTvBnM04QnBLkN7d8gS=
+l90UmmTYXPzqUXq73sRbFCl-aKW_cp-GhlRGz-Yh8amW214ZZF8Fbnh87xCBQuwVx-NbukWBi3D=
+4kaQIGYleaYuokKDdqG-PPKAGBaTmNKTN0do33h7C3Q8XTYyQgpuDpjrGzm_26EDiYa3jIfAtYH=
+okLbVMdG1R9QrCVPPoVCueu4u2MZ9Ar-LtZERMGJ0b1agYHPsHshlpe6ivolodsa1zayEh9BOAZ=
+Vn2mqoF-1fEXAhBx-KhHvu5q5v50Zp5Vx5dqK0Uw2rMsQDmMeK8GcGqmgjyUzu_ZpkNQNVZ5ltR=
+QZX0ZYILOAdpYhPt32H_eYqNegoL8e3L3jYPNf0nSPkO2PzR7tapQiVnKVKmDaEHCC6PtO85Kgr=
+ObzNAWgnPlXUonXFbrNP16ooy20e2SWynXlnvU7UYPINYwTTyL4XRBh_Wk9plOzf8gK0gZt0iH4=
+muKATP15AaFXTL60EwgziqssH2T9ansNsnwcRhvtSyTVdWpjzzDBasQ_uVcNSt9_GxlRXYW0tls=
+A_tmA~~" style=3D"text-decoration: none"><img src=3D"https://cdn.braze.eu/a=
+ppboy/communication/assets/image_assets/images/65d764c7b7da5a174fd733e3/ori=
+ginal.png?1708614854" style=3D"float:left;height:auto;border:0; margin-righ=
+t: 5px" width=3D"80"></a> <span style=3D"display:inline-block; padding-top:=
+ 0px; padding-left: 0; color: #767676; font-size: 14px">(29)</span>=0A=
+</div></div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-4" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-top: 4px; padding-bottom:0px;padding-left:5px;padding-right:5px=
+;"><div style=3D"color:#767676;direction:ltr;font-family:Arial,Arial,Sans-s=
+erif;font-size:12px;font-weight:400;letter-spacing:0;line-height:normal;tex=
+t-align:left;mso-line-height-alt:NaNpx">=0A=
+<p style=3D"margin:0">einzeln 15,38 =E2=82=AC</div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-5" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-bottom:0px;padding-left:5px;padding-right:5px"><div style=3D"co=
+lor:#ed1c24;direction:ltr;font-family:Arial,Arial,Sans-serif;font-size:16px=
+;font-weight:700;letter-spacing:0;line-height:25px;text-align:left;mso-line=
+-height-alt:NaNpx"><p style=3D"margin:0"><a target=3D"_blank" href=3D"https=
+://clicks.zooplus.de/f/a/i5ORxcQ0yLQ_w5zRqqfnWA~~/AAAHahA~/1FqT_371qmsQfP-u=
+bVkeaBYMPWdclGHHvR8zldaOSkxrjVUzyN8opNSTLJ-_sdDxLK1GBzxFc-3_R4hR-pVtFY27xsg=
+PfzqWJk88TAHRuOuPiMo74CTvBnM04QnBLkN7d8gSl90UmmTYXPzqUXq73sRbFCl-aKW_cp-Ghl=
+RGz-Yh8amW214ZZF8Fbnh87xCBQuwVx-NbukWBi3D4kaQIGYleaYuokKDdqG-PPKAGBaTmNKTN0=
+do33h7C3Q8XTYyQgpuDpjrGzm_26EDiYa3jIfAtYHokLbVMdG1R9QrCVPPoVCueu4u2MZ9Ar-Lt=
+ZERMGJ0b1agYHPsHshlpe6ivoku5plcGxK198ArPGF-zL8PBTs7XDRBdB9LEnBkUknOjc7mEwpH=
+iJyo6ik1I6ZrQO6lSQAYUIL536uSstLhuDCn-id-PCSJtm2ixr3YCHLhmGJTVrWs_JoANf5lslc=
+mGyIKD-fAYWu4EP8om5M0QV_nPweQYgVyQkATGHpgKhtLo67s84mA4Pg-yB1l44yayNud5Kc81_=
+bctp2Om2lk6hiNsgnMa8asKAI3OKfBsSSzr2gN7V2v7d7tHI_mqtO6zAoWmCq0fJ70z9lD7_5LS=
+OsUXr-EpBc476rQSMt0jksDBKawDFM0v-DEU63Y1wjcX1w~~" style=3D"color:#ed1c24;te=
+xt-decoration: none">im Set 14,99 =E2=82=AC</a></p></div></td></tr></table>=
+=0A=
+<table class=3D"paragraph_block block-6" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word">=0A=
+<tr><td class=3D"pad" style=3D"padding-bottom:10px;padding-left:5px;padding=
+-right:5px"><div style=3D"color:#767676;direction:ltr;font-family:Arial,Ari=
+al,Sans-serif;font-size:12px;font-weight:400;letter-spacing:0;line-height:n=
+ormal;text-align:left;mso-line-height-alt:NaNpx"><p style=3D"margin:0">7,35=
+ =E2=82=AC / kg</p></div></td></tr>=0A=
+</table>=0A=
+=0A=
+</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></tab=
+le>=0A=
+<!-- End -->=0A=
+    </td>=0A=
+    <td style=3D"padding: 10px; vertical-align: top;">=0A=
+        <table class=3D"nl-container" width=3D"100%" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:=
+0;mso-table-rspace:0;background-color:#fff"><tbody><tr><td><table class=3D"=
+row row-1" align=3D"center" width=3D"100%" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-tabl=
+e-rspace:0"><tbody><tr><td><table class=3D"row-content stack" align=3D"cent=
+er" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"mso-table-lspace:0;mso-table-rspace:0;color:#000;width: 100%;margi=
+n:0 auto"><tbody><tr><td class=3D"column column-1" width=3D"100%" style=3D"=
+mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left; padd=
+ing-bottom:0px;padding-top:0px;vertical-align:top">=0A=
+<table class=3D"image_block block-1" width=3D"100%" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0=
+;mso-table-rspace:0"><tr><td class=3D"pad" style=3D"padding-bottom:5px;padd=
+ing-left:15px;padding-right:15px;padding-top:0px;width:100%"><div class=3D"=
+alignment" align=3D"center" style=3D"line-height:10px"><div style=3D"max-wi=
+dth: 200px"><a target=3D"_blank" href=3D"https://clicks.zooplus.de/f/a/PYTC=
+wROXRNIsnmfLcaH8TA~~/AAAHahA~/3fkcxMTBi6ng-Fs51WypFV13d7yU9wC-tTpiLzZr7m2FL=
+gSBJ2mqqQNktOlQA1v9pwQbMi7hlvyUllL2rMSSkz1EgCfxZp8ttmkfeWTZ-Zef0YxKSLzIo87f=
+6siAlOQHLpXjez4POsiKUo3syDssK3sq0fWCaitOWE4T9Y5EpMpy5IZ-uIQzV2kNu4ElP4f2LMf=
+OyOjhbeutH61BeePnQd1kRhEkvnTBPbSScbPpTKMGmz-iqLde8q37VCYgx_bHzjEZYskZ9-P0P9=
+PFQARkGdfgv8rG_NUGP1_VVtxt8iY56wSlRi63iWkiuAhmB1ASHYBJ0NcrkpsXAuZaUUQrzv7lc=
+Okp_0VwRYRbH-rx_mzJ5ScuRXZM2-IlQOrZGa5rcFnRgY4fwDi5SDR_GpXhSf2VQPRfItVjavtT=
+R6XpobScZ8JaUtwziQo8-ZHWwFiWaTUB17byY_JjK4gPpG6gc-s4oVhUfY_LEr8jGeH6-zNaW_-=
+eRcVWM8e2O_gpfOMTVWxPNfd09Nlm8iD_4xDocO01R4vAYrISAdwWUmFCaFUa8f1wd5SDPNk793=
+5vruixeXJKFkNayDwX2M2Rab45TuDTU8pm5qq3Fdb1f1NuVmhGxL7zpCOPwpZ-zOL3Ut89ih5U4=
+2WQpovdQ1tGVxddc9vyIEVd6uLvYGRQdwZXS2Dz7MyQ-AZQLRl-hEEdnF_t" style=3D"text-=
+decoration: none"><img src=3D"https://media.zooplus.com/bilder/7/400/74087_=
+pla_whiskas_1plus_thunfisch_hs_01_7.jpg" style=3D"display:block;height:auto=
+;border:0;" width=3D"200"></a></div></div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-2" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-bottom:5px;padding-left:5px;padding-right:10px"><div style=3D"c=
+olor:#555555;direction:ltr;font-family:Arial,Arial,Sans-serif;font-size:16p=
+x;font-weight:700;letter-spacing:0;line-height:normal;text-align:left;mso-l=
+ine-height-alt:NaNpx; height: 20px"><p style=3D"margin:0"><a href=3D"https:=
+//clicks.zooplus.de/f/a/ARIvelvddtUmxMcL3DXhHg~~/AAAHahA~/3fkcxMTBi6ng-Fs51=
+WypFV13d7yU9wC-tTpiLzZr7m2FLgSBJ2mqqQNktOlQA1v9pwQbMi7hlvyUllL2rMSSkz1EgCfx=
+Zp8ttmkfeWTZ-Zef0YxKSLzIo87f6siAlOQHLpXjez4POsiKUo3syDssK3sq0fWCaitOWE4T9Y5=
+EpMpy5IZ-uIQzV2kNu4ElP4f2LMfOyOjhbeutH61BeePnQd1kRhEkvnTBPbSScbPpTKMGmz-iqL=
+de8q37VCYgx_bHzjEZYskZ9-P0P9PFQARkGdfgv8rG_NUGP1_VVtxt8iY56wSlRi63iWkiuAhmB=
+1ASHYBJ0NcrkpsXAuZaUUQrzv7lcOkp_0VwRYRbH-rx_mwD6Cof4hctdexBTjIIZ1Mj4YEWRVXf=
+2gITQxzXHHIHSdTU2T9fOqQa8kug_Ii1iYKpIGgQcH4NTRrvD0SlufAnLdK71FO9erNiQjn39Rn=
+jDokceL16cp-Lm85Kh1uUt7CjKHUH6KNDCRit-E3YKg5mLxkRQ2Zmj9V9f4uq2bv0N5VjNhwFyf=
+fxNnSmaxMIY36um_wAgWTgvLHcFi4vEWe12LnTBSC6RIRqyPaG02dt76rsH29346GhTRt6_EQoP=
+4fqh0QNeG3ZV2w7HnRFRExbLDylEI0T6sOdbiiC3MBTI-TWPthTrRnCTlhhs1rGOxBhvP-6Lpnx=
+39C3fqX5BCEf" style=3D"text-decoration: none; color: #555555;"><strong>=0A=
+=0A=
+Whiskas 1+ Thunfisch 14...</strong></a></p></div></td></tr></table>=0A=
+<table class=3D"image_block block-3" width=3D"100%" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0=
+;mso-table-rspace:0"><tr><td class=3D"pad2" style=3D"padding-left:4px;paddi=
+ng-right:0px;width:100%;padding-top:5px"><div class=3D"alignment" align=3D"=
+left" style=3D"line-height:10px"><div style=3D"max-width:150px; vertical-al=
+ign: center">=0A=
+<a target=3D"_blank" href=3D"https://clicks.zooplus.de/f/a/n52u4wIqAhN1-x5t=
+zkXPLQ~~/AAAHahA~/3fkcxMTBi6ng-Fs51WypFV13d7yU9wC-tTpiLzZr7m2FLgSBJ2mqqQNkt=
+OlQA1v9pwQbMi7hlvyUllL2rMSSkz1EgCfxZp8ttmkfeWTZ-Zef0YxKSLzIo87f6siAlOQHLpXj=
+ez4POsiKUo3syDssK3sq0fWCaitOWE4T9Y5EpMpy5IZ-uIQzV2kNu4ElP4f2LMfOyOjhbeutH61=
+BeePnQd1kRhEkvnTBPbSScbPpTKMGmz-iqLde8q37VCYgx_bHzjEZYskZ9-P0P9PFQARkGdfgv8=
+rG_NUGP1_VVtxt8iY56wSlRi63iWkiuAhmB1ASHYBJ0NcrkpsXAuZaUUQrzv7lcOkp_0VwRYRbH=
+-rx_mxz82RmdNCHGk0A2OW1Tgl31-d5UGxwi9PgOhO9jg3op3nYJGkhbSaIEFgDBGx3kN1DvQ57=
+v9t4kpwV98spXqde6lpm1y8cQRbvxTKnYWZGAu9RNcHKE_eNkevIht-S6LKhWNQNx623CtmXlBu=
+1MO4H9J90jRRvQvFxZsZqed33iGAUvJe2Pv6F-nkxl006rRYzrLJm-gKF0ej6awhyIusQiIjb7a=
+PXhwxIN5UYE4cwNQYCP5452bXs1NiDv8JLYgP-mHFlP8327hE2NT6jv2GWsdBJgglcssG_nNAyR=
+MxTHrgG-fx5mV-_6wQoBBiv7LFdOX15xyr7yJBGXYGqRrRY" style=3D"text-decoration: =
+none"><img src=3D"https://cdn.braze.eu/appboy/communication/assets/image_as=
+sets/images/65d4c003b3334d0057469ffd/original.png?1708441602" style=3D"floa=
+t:left;height:auto;border:0; margin-right: 5px" width=3D"80"></a> <span sty=
+le=3D"display:inline-block; padding-top: 0px; padding-left: 0; color: #7676=
+76; font-size: 14px">(63)</span>=0A=
+</div></div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-4" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-top: 4px; padding-bottom:0px;padding-left:5px;padding-right:5px=
+;"><div style=3D"color:#767676;direction:ltr;font-family:Arial,Arial,Sans-s=
+erif;font-size:12px;font-weight:400;letter-spacing:0;line-height:normal;tex=
+t-align:left;mso-line-height-alt:NaNpx">=0A=
+<p style=3D"margin:0"></p>=0A=
+<p></p></div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-5" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-bottom:0px;padding-left:5px;padding-right:5px"><div style=3D"co=
+lor:#ed1c24;direction:ltr;font-family:Arial,Arial,Sans-serif;font-size:16px=
+;font-weight:700;letter-spacing:0;line-height:25px;text-align:left;mso-line=
+-height-alt:NaNpx"><p style=3D"margin:0"><a target=3D"_blank" href=3D"https=
+://clicks.zooplus.de/f/a/3T5OPS0BLlOJUG-0xCdiSw~~/AAAHahA~/3fkcxMTBi6ng-Fs5=
+1WypFV13d7yU9wC-tTpiLzZr7m2FLgSBJ2mqqQNktOlQA1v9pwQbMi7hlvyUllL2rMSSkz1EgCf=
+xZp8ttmkfeWTZ-Zef0YxKSLzIo87f6siAlOQHLpXjez4POsiKUo3syDssK3sq0fWCaitOWE4T9Y=
+5EpMpy5IZ-uIQzV2kNu4ElP4f2LMfOyOjhbeutH61BeePnQd1kRhEkvnTBPbSScbPpTKMGmz-iq=
+Lde8q37VCYgx_bHzjEZYskZ9-P0P9PFQARkGdfgv8rG_NUGP1_VVtxt8iY56wSlRi63iWkiuAhm=
+B1ASHYBJ0NcrkpsXAuZaUUQrzv7lcOkp_0VwRYRbH-rx_mzdViyyIkEBuqXVYRSKMyWYvlv2bck=
+Q0IAPqcJUpzaNsCK-XO1iPnDZeORZa29AVfjMP6QT5dpzgkT0tY4n5DZtsyGW97MIg5vTVO8Uw3=
+Ws3ywnOj-1G7atngoxExYrjohe8vopo644ScSYmKhrNgq16E4ANUXnkGocPrc4xtCaD5Cc_oYM2=
+ImZc3M8z3wwHKYutgCWj7iqnjToDqNLgDxFkn5x5Ug9QtKuUpjhH9hNk4NJV-jo_zwM87jDuFS_=
+9ySH_QQdCmjE9mXBnPPXtdME6B11c2TKB7xzSLX1QqxwuINnJ2CtC40IrgftiG4Jc1WVHTEtCWC=
+hUl6FsvchMVPs" style=3D"color:#ed1c24;text-decoration: none">47,49 =E2=82=
+=AC</a></p></div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-6" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word">=0A=
+<tr><td class=3D"pad" style=3D"padding-bottom:10px;padding-left:5px;padding=
+-right:5px"><div style=3D"color:#767676;direction:ltr;font-family:Arial,Ari=
+al,Sans-serif;font-size:12px;font-weight:400;letter-spacing:0;line-height:n=
+ormal;text-align:left;mso-line-height-alt:NaNpx"><p style=3D"margin:0">3,39=
+ =E2=82=AC / kg</p></div></td></tr>=0A=
+</table>=0A=
+=0A=
+</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></tab=
+le>=0A=
+<!-- End -->=0A=
+    </td>=0A=
+  </tr>=0A=
+</table></div></td></tr></table>=0A=
+<table class=3D"html_block block-3 desktop_hide" width=3D"100%" border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-ta=
+ble-lspace:0;mso-table-rspace:0;mso-hide:all;display:none;max-height:0;over=
+flow:hidden"><tr><td class=3D"pad"><div style=3D"font-family:Arial,Arial,Sa=
+ns-serif;text-align:center" align=3D"center">=0A=
+<!--[if false]><!--><table role=3D"presentation" cellpadding=3D"0" cellspac=
+ing=3D"0" width=3D"100%" style=3D"border-collapse: collapse; max-width: 600=
+px; margin: 0 auto;">=0A=
+  <tr>=0A=
+    <td style=3D"padding: 10px; vertical-align: top;">  <a target=3D"_blank=
+" href=3D"https://clicks.zooplus.de/f/a/uomxMgfukQtSWVjoSZuLOw~~/AAAHahA~/1=
+FqT_371qmsQfP-ubVkeaBYMPWdclGHHvR8zldaOSkxrjVUzyN8opNSTLJ-_sdDxLK1GBzxFc-3_=
+R4hR-pVtFY27xsgPfzqWJk88TAHRuOuPiMo74CTvBnM04QnBLkN7d8gSl90UmmTYXPzqUXq73sR=
+bFCl-aKW_cp-GhlRGz-Yh8amW214ZZF8Fbnh87xCBQuwVx-NbukWBi3D4kaQIGYleaYuokKDdqG=
+-PPKAGBaTmNKTN0do33h7C3Q8XTYyQgpuDpjrGzm_26EDiYa3jIfAtYHokLbVMdG1R9QrCVPPoV=
+Cueu4u2MZ9Ar-LtZERMGJ0b1agYHPsHshlpe6ivosNyEQ8bOlDbj30AA_LCJ3s85BDXW_laFlnm=
+sGb0_5fIBWZk7ggZVvLbCU2HCGTKhAfbbPpWg7MfWucVqBXvPUtT1FwmTV7W1SZNF5WblhvJEnK=
+L-xsDNZSy5DR7gr6ASioWblVQIqwPVKM8XvB2JB7sBd31Gf-9dNWQXbzq4w-GUM1ZxIk4pPK1g6=
+YyOmVa4597AF6ExuYaLYIGsSPVGNV3xX_uQE-1VCyQp7VyMQeUaNkTncRbJSGX8eVz8gpCI4qXN=
+PjXaM3bPYrdZ3OJNDenyZCJfQ-uArOfabqa4iFHMvNuSsZbNRP5eKMkFp1jog~~" style=3D"t=
+ext-decoration: none"></a><table class=3D"nl-container" width=3D"100%" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D=
+"mso-table-lspace:0;mso-table-rspace:0;background-color:#fff"><tbody><tr><t=
+d><table class=3D"row row-1" align=3D"center" width=3D"100%" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table=
+-lspace:0;mso-table-rspace:0"><tbody><tr><td><table class=3D"row-content st=
+ack" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;color:#000=
+;width: 100%;margin:0 auto"><tbody><tr><td class=3D"column column-1" width=
+=3D"100%" style=3D"mso-table-lspace:0;mso-table-rspace:0;font-weight:400;te=
+xt-align:left; padding-bottom:0px;padding-top:0px;vertical-align:top">=0A=
+<table class=3D"image_block block-1" width=3D"100%" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0=
+;mso-table-rspace:0"><tr><td class=3D"pad" style=3D"padding-bottom:5px;padd=
+ing-left:15px;padding-right:15px;padding-top:0px;width:100%"><div class=3D"=
+alignment" align=3D"center" style=3D"line-height:10px"><div style=3D"max-wi=
+dth: 100px"><a target=3D"_blank" href=3D"https://clicks.zooplus.de/f/a/NFnq=
+UfRSRcj20sA7HmFZ1Q~~/AAAHahA~/1FqT_371qmsQfP-ubVkeaBYMPWdclGHHvR8zldaOSkxrj=
+VUzyN8opNSTLJ-_sdDxLK1GBzxFc-3_R4hR-pVtFY27xsgPfzqWJk88TAHRuOuPiMo74CTvBnM0=
+4QnBLkN7d8gSl90UmmTYXPzqUXq73sRbFCl-aKW_cp-GhlRGz-Yh8amW214ZZF8Fbnh87xCBQuw=
+Vx-NbukWBi3D4kaQIGYleaYuokKDdqG-PPKAGBaTmNKTN0do33h7C3Q8XTYyQgpuDpjrGzm_26E=
+DiYa3jIfAtYHokLbVMdG1R9QrCVPPoVCueu4u2MZ9Ar-LtZERMGJ0b1agYHPsHshlpe6ivonQpJ=
+l7jK9jMGRHWU_UMfuiH8GNTh6Lecvcqnv-KiT89niS4-53THblRgqai4WXPlHcZZYIzhN-Di2MJ=
+3huBcmYwr2q-zdWFxgz9G42ZuM1omPEX5HU6MCwWA5IQN0zwp6hFBjMNm3oElBszkzAICnLzdzQ=
+ov-TsUPurYcZ6dbaCawfDQTL8k6sC4jjjKK5XiafWt9VkyUsy_O0zhG3hilbE_sEEntC_JhUUg8=
+LKKOErQkK4y8WWH4gX9oq73l9Hs2TpK1jIRZtR0UT9jGUQrelmTtfBuC8iWSLR4ewLykvGaa6Nt=
+yHIckYgITEQsMARrQ~~" style=3D"text-decoration: none"><img src=3D"https://me=
+dia.zooplus.com/bilder/9/400/206248_pla_nestle_gourmet_gold_feine_pastete_h=
+uhn_85g_hs_01_9.jpg" style=3D"display:block;height:auto;border:0;" width=3D=
+"100"></a></div></div></td></tr></table>=0A=
+<table class=3D"" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0=
+;word-break:break-word"><tr><td class=3D"pad" style=3D"padding-bottom:5px;p=
+adding-left:5px;padding-right:10px; padding-bottom: 10px"><div style=3D"col=
+or:#555555;direction:ltr;font-family:Arial,Arial,Sans-serif;font-size:14px;=
+font-weight:700;letter-spacing:0;line-height:normal;text-align:left;mso-lin=
+e-height-alt:NaNpx;"><p style=3D"margin:0"><a href=3D"https://clicks.zooplu=
+s.de/f/a/WMaDiTTD_GngT5aAdNTyFQ~~/AAAHahA~/1FqT_371qmsQfP-ubVkeaBYMPWdclGHH=
+vR8zldaOSkxrjVUzyN8opNSTLJ-_sdDxLK1GBzxFc-3_R4hR-pVtFY27xsgPfzqWJk88TAHRuOu=
+PiMo74CTvBnM04QnBLkN7d8gSl90UmmTYXPzqUXq73sRbFCl-aKW_cp-GhlRGz-Yh8amW214ZZF=
+8Fbnh87xCBQuwVx-NbukWBi3D4kaQIGYleaYuokKDdqG-PPKAGBaTmNKTN0do33h7C3Q8XTYyQg=
+puDpjrGzm_26EDiYa3jIfAtYHokLbVMdG1R9QrCVPPoVCueu4u2MZ9Ar-LtZERMGJ0b1agYHPsH=
+shlpe6ivogIxdRcWgogL9aeBASYFqn-ECZePB4iN-PG2BeokBcq3pX8e9smFFAGf1Gp8NtKULL8=
+bTQtSOOh-NFc3Ay4wtw8gHkwcmP9-tG9f-4V6AtjrF1fTFBMTvPuBysSqhvtnJtxSZDBPKYYEvJ=
+fVCxnp8m-eYqPbU_R82jnSy5e0MXOuxgjV6ZnadRdnKNap16ePqVdi0TrVTA-OgtAwBJNuT8GO9=
+lrlrrslbg5MNCUJ2GM5Rny5PwT7xI0ecVNZTJxEyoC5lLJ-BJzgMC22XQBepM8wgp69gFPeSCFq=
+r4PLwCQWebIzcqNZfRn99zAChupzyQ~~" style=3D"text-decoration: none; color: #5=
+55555;"><strong>=0A=
+=0A=
+Sparpaket Gourmet Gold Fe...</strong></a></p></div></td></tr></table>=0A=
+<table class=3D"image_block block-3" width=3D"100%" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0=
+;mso-table-rspace:0"><tr><td class=3D"pad2" style=3D"padding-left:4px;paddi=
+ng-right:0px;width:100%;padding-top:5px"><div class=3D"alignment" align=3D"=
+left" style=3D"line-height:10px"><div style=3D"max-width:150px; vertical-al=
+ign: center">=0A=
+<a target=3D"_blank" href=3D"https://clicks.zooplus.de/f/a/4RXU84WuhH1Jz8TS=
+JFLU5g~~/AAAHahA~/1FqT_371qmsQfP-ubVkeaBYMPWdclGHHvR8zldaOSkxrjVUzyN8opNSTL=
+J-_sdDxLK1GBzxFc-3_R4hR-pVtFY27xsgPfzqWJk88TAHRuOuPiMo74CTvBnM04QnBLkN7d8gS=
+l90UmmTYXPzqUXq73sRbFCl-aKW_cp-GhlRGz-Yh8amW214ZZF8Fbnh87xCBQuwVx-NbukWBi3D=
+4kaQIGYleaYuokKDdqG-PPKAGBaTmNKTN0do33h7C3Q8XTYyQgpuDpjrGzm_26EDiYa3jIfAtYH=
+okLbVMdG1R9QrCVPPoVCueu4u2MZ9Ar-LtZERMGJ0b1agYHPsHshlpe6ivouKuY_x5OYeDTS9J-=
+BL4HLi8EZlLMseibhyEfEEbLWKZMX2CXTlCvPkys2koq9uVtzwmZfC4VJjOwsFvNPYIEvz7hz2b=
+YZorxDEJf6R0OhsnA_ewPM-5T2opDSz2l7z0DnypNyrfc0aIoloEpdLHp5Av3Yo3bdmbphg6nTl=
+9MTnvFVdqvX83MC5-MddALh2JJIzUa08S2y9LbDmy88AOv2MxjR3zNtG-Z9fMKCTbxeq9SbZAgg=
+DYCEFq3Riw0j4xRzjrrd3xV7h4-SCRq-r2f3_aI2ZwyNqpfSrYtAoKtL-hT5XsWM-l55CyqV-WB=
+iIxow~~" style=3D"text-decoration: none"><img src=3D"https://cdn.braze.eu/a=
+ppboy/communication/assets/image_assets/images/65d764c7b7da5a174fd733e3/ori=
+ginal.png?1708614854" style=3D"float:left;height:auto;border:0; margin-righ=
+t: 5px" width=3D"80"></a> <span style=3D"display:inline-block; padding-top:=
+ 0px; padding-left: 0; color: #767676; font-size: 14px">(29)</span>=0A=
+</div></div></td></tr></table>=0A=
+<table class=3D"" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0=
+;word-break:break-word"><tr><td class=3D"pad" style=3D"padding-top: 5px; pa=
+dding-bottom:0px;padding-left:5px;padding-right:5px;"><div style=3D"color:#=
+767676;direction:ltr;font-family:Arial,Arial,Sans-serif;font-size:12px;font=
+-weight:400;letter-spacing:0;line-height:normal;text-align:left;mso-line-he=
+ight-alt:NaNpx">=0A=
+<p style=3D"margin:0">einzeln 15,38 =E2=82=AC</div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-5" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-bottom:0px;padding-left:5px;padding-right:5px"><div style=3D"co=
+lor:#ed1c24;direction:ltr;font-family:Arial,Arial,Sans-serif;font-size:14px=
+;font-weight:700;letter-spacing:0;line-height:25px;text-align:left;mso-line=
+-height-alt:NaNpx"><p style=3D"margin:0"><a target=3D"_blank" href=3D"https=
+://clicks.zooplus.de/f/a/ZIPizDC7oEsUMPhnIIff7A~~/AAAHahA~/1FqT_371qmsQfP-u=
+bVkeaBYMPWdclGHHvR8zldaOSkxrjVUzyN8opNSTLJ-_sdDxLK1GBzxFc-3_R4hR-pVtFY27xsg=
+PfzqWJk88TAHRuOuPiMo74CTvBnM04QnBLkN7d8gSl90UmmTYXPzqUXq73sRbFCl-aKW_cp-Ghl=
+RGz-Yh8amW214ZZF8Fbnh87xCBQuwVx-NbukWBi3D4kaQIGYleaYuokKDdqG-PPKAGBaTmNKTN0=
+do33h7C3Q8XTYyQgpuDpjrGzm_26EDiYa3jIfAtYHokLbVMdG1R9QrCVPPoVCueu4u2MZ9Ar-Lt=
+ZERMGJ0b1agYHPsHshlpe6ivorIXyfZnFnDlHwvhuxsrmg6uCfHFOJfGQxTa22_C2nV1dvF9xs0=
+5aFRrYU5ovKj4Ql2b6oLLcmTWYA9bi1I0y7Xt5Js8GM5-3zO8iKo0S0tH-_FVXzb6IM7KooE6VV=
+HTg_H4GVEY_gHh1Oq2qb3XTfyo8DZ_Lmi9N0eit08_Eg-BhPjRTurGljRY9Iek9HjEY8Q1xcWR9=
+TgJQYja2njLQJj8pZU0dW7SBfY429pNwqwyu3XyjSNNi8aoEyEmlGuAbXNCsK9z-8OJAD97Z6AT=
+DgLAgaBn2iGyes7A4WJuyzrmd3NsD6pJpBONNbLFtyl1_A~~" style=3D"color:#ed1c24;te=
+xt-decoration: none">im Set 14,99 =E2=82=AC</a></p></div></td></tr></table>=
+=0A=
+<table class=3D"paragraph_block block-6" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word">=0A=
+<tr><td class=3D"pad" style=3D"padding-bottom:10px;padding-left:5px;padding=
+-right:5px"><div style=3D"color:#767676;direction:ltr;font-family:Arial,Ari=
+al,Sans-serif;font-size:12px;font-weight:400;letter-spacing:0;line-height:n=
+ormal;text-align:left;mso-line-height-alt:NaNpx"><p style=3D"margin:0">7,35=
+ =E2=82=AC / kg</p></div></td></tr>=0A=
+</table>=0A=
+=0A=
+</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></tab=
+le>=0A=
+<!-- End --> =0A=
+=0A=
+    </td>=0A=
+    <td style=3D"padding: 10px; vertical-align: top;">=0A=
+        <a target=3D"_blank" href=3D"https://clicks.zooplus.de/f/a/gscYr2yk=
+VZWCqYfFnWh8EA~~/AAAHahA~/3fkcxMTBi6ng-Fs51WypFV13d7yU9wC-tTpiLzZr7m2FLgSBJ=
+2mqqQNktOlQA1v9pwQbMi7hlvyUllL2rMSSkz1EgCfxZp8ttmkfeWTZ-Zef0YxKSLzIo87f6siA=
+lOQHLpXjez4POsiKUo3syDssK3sq0fWCaitOWE4T9Y5EpMpy5IZ-uIQzV2kNu4ElP4f2LMfOyOj=
+hbeutH61BeePnQd1kRhEkvnTBPbSScbPpTKMGmz-iqLde8q37VCYgx_bHzjEZYskZ9-P0P9PFQA=
+RkGdfgv8rG_NUGP1_VVtxt8iY56wSlRi63iWkiuAhmB1ASHYBJ0NcrkpsXAuZaUUQrzv7lcOkp_=
+0VwRYRbH-rx_mxcP-M0ew9Wkol0AxHirSRF4sRchk_V11k9HSy9OgLN8L3a3th4V5cTEBEXnyJO=
+1dhIV0mvvT2RpFn0V3g68Nco4xcQhJqqCfjNuTfIgV3PU2TOhyoSirxcVISXqbdrdCrzDBg-nlq=
+5hLY5mbfpSM85PYDoPcdfL2-lzBNnWFdXWDu5FHIEB5amVhJr36M2sNXQQUWuCtDuWNJMS98DoC=
+mADStR-ykIC-FW-zCv76cC3tlskVie02Yi4tudZXY0b1WxfX9GzU2UQEBsHdzx-lgJjzVkXn2Mw=
+qT9TT4AZXXWaTyhxDMm0Q03xAFUhhXzOfg2mQ2KO-4qQY3wd05xdDLH" style=3D"text-deco=
+ration: none"></a><table class=3D"nl-container" width=3D"100%" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-tab=
+le-lspace:0;mso-table-rspace:0;background-color:#fff"><tbody><tr><td><table=
+ class=3D"row row-1" align=3D"center" width=3D"100%" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:=
+0;mso-table-rspace:0"><tbody><tr><td><table class=3D"row-content stack" ali=
+gn=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pres=
+entation" style=3D"mso-table-lspace:0;mso-table-rspace:0;color:#000;width: =
+100%;margin:0 auto"><tbody><tr><td class=3D"column column-1" width=3D"100%"=
+ style=3D"mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:=
+left; padding-bottom:0px;padding-top:0px;vertical-align:top">=0A=
+<table class=3D"image_block block-1" width=3D"100%" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0=
+;mso-table-rspace:0"><tr><td class=3D"pad" style=3D"padding-bottom:5px;padd=
+ing-left:15px;padding-right:15px;padding-top:0px;width:100%"><div class=3D"=
+alignment" align=3D"center" style=3D"line-height:10px"><div style=3D"max-wi=
+dth: 100px"><a target=3D"_blank" href=3D"https://clicks.zooplus.de/f/a/LId_=
+ZgKE63z8Cwu-tgZsEw~~/AAAHahA~/3fkcxMTBi6ng-Fs51WypFV13d7yU9wC-tTpiLzZr7m2FL=
+gSBJ2mqqQNktOlQA1v9pwQbMi7hlvyUllL2rMSSkz1EgCfxZp8ttmkfeWTZ-Zef0YxKSLzIo87f=
+6siAlOQHLpXjez4POsiKUo3syDssK3sq0fWCaitOWE4T9Y5EpMpy5IZ-uIQzV2kNu4ElP4f2LMf=
+OyOjhbeutH61BeePnQd1kRhEkvnTBPbSScbPpTKMGmz-iqLde8q37VCYgx_bHzjEZYskZ9-P0P9=
+PFQARkGdfgv8rG_NUGP1_VVtxt8iY56wSlRi63iWkiuAhmB1ASHYBJ0NcrkpsXAuZaUUQrzv7lc=
+Okp_0VwRYRbH-rx_mwQgnZVm9zbaLb82hwBzyo2szkE_vB1woWL3x7frea4Tw1SZZHzn6VWe-9s=
+eDJqO9XnHpRtiwIVb5dbBBxhWi9SrMmI-tIQ35L6le661HtscRaeILO3fMsBcn-dMLvLrHZcqdY=
+jfezkKbvshOMxjmhRl_kdSsY1QnlHpc-eIYMtBM1eJ10njlc-zMz94dF-g7201QbXjgDfZIQS76=
+ESvfwV7PtTIAO3oPGcfTTlCj15npDCDY4VfI_6yL-m4XqQbIrV0k00zrfS1N8RP3znDo4L9Dy7s=
+rVcQTaGB9MhA8ZYyHC9v9SpMhy6YfXkeKAGGlGZE4j-Hln2JO7E5xf0A5jq" style=3D"text-=
+decoration: none"><img src=3D"https://media.zooplus.com/bilder/7/400/74087_=
+pla_whiskas_1plus_thunfisch_hs_01_7.jpg" style=3D"display:block;height:auto=
+;border:0;" width=3D"100"></a></div></div></td></tr></table>=0A=
+<table class=3D"" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0=
+;word-break:break-word"><tr><td class=3D"pad" style=3D"padding-bottom:5px;p=
+adding-left:5px;padding-right:10px; padding-bottom: 10px"><div style=3D"col=
+or:#555555;direction:ltr;font-family:Arial,Arial,Sans-serif;font-size:14px;=
+font-weight:700;letter-spacing:0;line-height:normal;text-align:left;mso-lin=
+e-height-alt:NaNpx;"><p style=3D"margin:0"><a href=3D"https://clicks.zooplu=
+s.de/f/a/iyJhQ73NDpv95xRhcq34vg~~/AAAHahA~/3fkcxMTBi6ng-Fs51WypFV13d7yU9wC-=
+tTpiLzZr7m2FLgSBJ2mqqQNktOlQA1v9pwQbMi7hlvyUllL2rMSSkz1EgCfxZp8ttmkfeWTZ-Ze=
+f0YxKSLzIo87f6siAlOQHLpXjez4POsiKUo3syDssK3sq0fWCaitOWE4T9Y5EpMpy5IZ-uIQzV2=
+kNu4ElP4f2LMfOyOjhbeutH61BeePnQd1kRhEkvnTBPbSScbPpTKMGmz-iqLde8q37VCYgx_bHz=
+jEZYskZ9-P0P9PFQARkGdfgv8rG_NUGP1_VVtxt8iY56wSlRi63iWkiuAhmB1ASHYBJ0NcrkpsX=
+AuZaUUQrzv7lcOkp_0VwRYRbH-rx_mwQYKI2P5RzzZUbuiPVO7Btz9egMcUjp4NAZWcyDeEXjHw=
+heis1hpNQpq6A9nPxWAdFoqHgnqGcJICd9qoPGYeNDvQbM4QU_VpNmx5ci0Zf7xHO9zdMRV-eoQ=
+F7LJi8nMclwPyfOf9kdpkPK2dvfX73CWhgO8mK0QfEE-ClF63wgrMZmB1o9kIy51VOZ7Jkz_9Ku=
+VZfYNm_aOINAZS_R9JvnXVKjc5UC6NRkvKXPDHzzSTjgCAP-0tUy2evoJuB3KBpo68Vstkpo2fP=
+RjK8tA1T1zIx-y0poYRM1FLnn48VwrWIhcMse4r3oxP2HYNR1_CJ2Ohf9TJzHmv2afG_sFhi" s=
+tyle=3D"text-decoration: none; color: #555555;"><strong>=0A=
+=0A=
+Whiskas 1+ Thunfisch 14 k...</strong></a></p></div></td></tr></table>=0A=
+<table class=3D"image_block block-3" width=3D"100%" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0=
+;mso-table-rspace:0"><tr><td class=3D"pad2" style=3D"padding-left:4px;paddi=
+ng-right:0px;width:100%;padding-top:5px"><div class=3D"alignment" align=3D"=
+left" style=3D"line-height:10px"><div style=3D"max-width:150px; vertical-al=
+ign: center">=0A=
+<a target=3D"_blank" href=3D"https://clicks.zooplus.de/f/a/-BY-YZiy5_VI81w-=
+mN2rbg~~/AAAHahA~/3fkcxMTBi6ng-Fs51WypFV13d7yU9wC-tTpiLzZr7m2FLgSBJ2mqqQNkt=
+OlQA1v9pwQbMi7hlvyUllL2rMSSkz1EgCfxZp8ttmkfeWTZ-Zef0YxKSLzIo87f6siAlOQHLpXj=
+ez4POsiKUo3syDssK3sq0fWCaitOWE4T9Y5EpMpy5IZ-uIQzV2kNu4ElP4f2LMfOyOjhbeutH61=
+BeePnQd1kRhEkvnTBPbSScbPpTKMGmz-iqLde8q37VCYgx_bHzjEZYskZ9-P0P9PFQARkGdfgv8=
+rG_NUGP1_VVtxt8iY56wSlRi63iWkiuAhmB1ASHYBJ0NcrkpsXAuZaUUQrzv7lcOkp_0VwRYRbH=
+-rx_myXnR1oPFvHkF4IN4B0zH27GfiU91i4H4eQy6GKqepAAcjsnt2rZm5--PSIW5D-UfQg45eF=
+mF3r6YD6g0mRkJa9e0j7T0m4_c0_fqdIP3hC0Ya2exmSTYAsHE9dz7f8oOmyTV0iimSOmupiiHc=
+mvtonoKxT67ndXxLsh2BTeJlMYaOyzaVvUycOEvVlcyG3OF4kYN_vhcGtJAQAPtU1NRzRomih9f=
+YI5cimIX6APoDDGUdG5LS2hVvaHOU4JVOYxFdd693FZJRqNWyAGrBKflbl6LuouWdn9439MCmmy=
+wCANZ8O7QaqHJknz7WVoXHrOqXU4Ix2djcH7RfsHRZCEUXL" style=3D"text-decoration: =
+none"><img src=3D"https://cdn.braze.eu/appboy/communication/assets/image_as=
+sets/images/65d4c003b3334d0057469ffd/original.png?1708441602" style=3D"floa=
+t:left;height:auto;border:0; margin-right: 5px" width=3D"80"></a> <span sty=
+le=3D"display:inline-block; padding-top: 0px; padding-left: 0; color: #7676=
+76; font-size: 14px">(63)</span>=0A=
+</div></div></td></tr></table>=0A=
+<table class=3D"" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0=
+;word-break:break-word"><tr><td class=3D"pad" style=3D"padding-top: 5px; pa=
+dding-bottom:0px;padding-left:5px;padding-right:5px;"><div style=3D"color:#=
+767676;direction:ltr;font-family:Arial,Arial,Sans-serif;font-size:12px;font=
+-weight:400;letter-spacing:0;line-height:normal;text-align:left;mso-line-he=
+ight-alt:NaNpx">=0A=
+<p style=3D"margin:0"></p>=0A=
+<p></p></div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-5" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-bottom:0px;padding-left:5px;padding-right:5px"><div style=3D"co=
+lor:#ed1c24;direction:ltr;font-family:Arial,Arial,Sans-serif;font-size:14px=
+;font-weight:700;letter-spacing:0;line-height:25px;text-align:left;mso-line=
+-height-alt:NaNpx"><p style=3D"margin:0"><a target=3D"_blank" href=3D"https=
+://clicks.zooplus.de/f/a/IyzKD6pmMWPZIxrQo4M7IA~~/AAAHahA~/3fkcxMTBi6ng-Fs5=
+1WypFV13d7yU9wC-tTpiLzZr7m2FLgSBJ2mqqQNktOlQA1v9pwQbMi7hlvyUllL2rMSSkz1EgCf=
+xZp8ttmkfeWTZ-Zef0YxKSLzIo87f6siAlOQHLpXjez4POsiKUo3syDssK3sq0fWCaitOWE4T9Y=
+5EpMpy5IZ-uIQzV2kNu4ElP4f2LMfOyOjhbeutH61BeePnQd1kRhEkvnTBPbSScbPpTKMGmz-iq=
+Lde8q37VCYgx_bHzjEZYskZ9-P0P9PFQARkGdfgv8rG_NUGP1_VVtxt8iY56wSlRi63iWkiuAhm=
+B1ASHYBJ0NcrkpsXAuZaUUQrzv7lcOkp_0VwRYRbH-rx_mwhExy09jOpowxVqvnCT4TYlLb25UV=
+m-oLXeh5QDP4CCz81R3BNqwm7Lx8wNlh9htsvT9sP-rtAHKro6vz99gvcXzS4vBNZOnx01b8yW7=
+SbsNpvALXcMYA4rwaZNXBwJqcZx4sqw23VX8NDQm-jI5vgZJ516a_SsIAQ_uPEN-KqQZIJwn4hc=
+xQg3wsr08dn0-mk3NTlna84eYCZsLGrKGtv99jLx7aSOoAluofmnG2nKcinfSRTamW9kjoVu8nd=
+dBmF-aRfMpM1CsOjg5sLDCzKW5hMwi50uJvC0RS0523_zXfQK39mMOy-VhQS1fm0Kz5Gq8ziDuw=
+SnVclZSN7Vbr8" style=3D"color:#ed1c24;text-decoration: none">47,49 =E2=82=
+=AC</a></p></div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-6" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word">=0A=
+<tr><td class=3D"pad" style=3D"padding-bottom:10px;padding-left:5px;padding=
+-right:5px"><div style=3D"color:#767676;direction:ltr;font-family:Arial,Ari=
+al,Sans-serif;font-size:12px;font-weight:400;letter-spacing:0;line-height:n=
+ormal;text-align:left;mso-line-height-alt:NaNpx"><p style=3D"margin:0">3,39=
+ =E2=82=AC / kg</p></div></td></tr>=0A=
+</table>=0A=
+=0A=
+</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></tab=
+le>=0A=
+<!-- End -->=0A=
+    </td>=0A=
+  </tr>=0A=
+</table>=0A=
+<!--<![endif]-->=0A=
+</div></td></tr></table>=0A=
+</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></tab=
+le>=0A=
+<!-- End --><p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<p style=3D"margin:0"></p>=0A=
+</div></td></tr></table></td></tr>=0A=
+</tbody></table></td></tr></tbody></table>=0A=
+<table class=3D"row row-7" align=3D"center" width=3D"100%" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-l=
+space:0;mso-table-rspace:0"><tbody><tr><td><table class=3D"row-content stac=
+k" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;background=
+-color:#fff;border-radius:0;color:#000;width:600px;margin:0 auto" width=3D"=
+600"><tbody><tr><td class=3D"column column-1" width=3D"100%" style=3D"mso-t=
+able-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;padding-bo=
+ttom:5px;padding-left:5px;padding-right:5px;padding-top:5px;vertical-align:=
+top;border-top:0;border-right:0;border-bottom:0;border-left:0"><table class=
+=3D"paragraph_block block-1" width=3D"100%" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-tab=
+le-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=3D"padding-b=
+ottom:5px;padding-left:10px;padding-right:10px;padding-top:5px"><div style=
+=3D"color:#767676;direction:ltr;font-family:'Open Sans',Arial,Sans-serif;fo=
+nt-size:14px;font-weight:400;letter-spacing:0;line-height:normal;text-align=
+:left;mso-line-height-alt:NaNpx">=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<table class=3D"nl-container" width=3D"100%" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-ta=
+ble-rspace:0;background-color:#fff"><tbody><tr><td><table class=3D"row row-=
+1" align=3D"center" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace=
+:0;background-color:#f2f3f4"><tbody><tr><td><table class=3D"row-content" al=
+ign=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pre=
+sentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;background-color:=
+#f2f3f4;border-bottom:2px solid #3c9700;color:#000;width:600px;margin:0 aut=
+o" width=3D"600"><tbody><tr><td class=3D"column column-1" width=3D"100%" st=
+yle=3D"mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:lef=
+t;padding-left:15px;padding-right:15px;padding-top:5px;vertical-align:top;b=
+order-top:0;border-right:0;border-bottom:0;border-left:0">=0A=
+<table class=3D"html_block block-1" width=3D"100%" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;=
+mso-table-rspace:0"><tr>=0A=
+<td class=3D"pad"><div style=3D"font-family:'Open Sans',Arial,Sans-serif;te=
+xt-align:center" align=3D"center">=0A=
+<a href=3D"https://clicks.zooplus.de/f/a/Qos45HGhvzFdR16LRwF30g~~/AAAHahA~/=
+A61jkC2dQk4T3E1qqtOqpe0YFxf96P3SsyF1I3pA_J5UTi7WSJ6xjl1D6kJGUD7Ce1XLWT0Xpf0=
+tdzK6P6FMWt2rtBbyjCn8Pce-Ymc2OvMzMTWg_7UZbVToDnBYRZji" style=3D"text-decora=
+tion: none;">=0A=
+  </a><table style=3D"width: 100%; padding-top: 10px;">=0A=
+    <tr>=0A=
+      <td align=3D"left" valign=3D"top">=0A=
+        <a href=3D"https://clicks.zooplus.de/f/a/Kh-zBQUQo43F8tsm2t_1VA~~/A=
+AAHahA~/3TUR0tfbHEf65pm2tg4-0RiQG4xRZwktAkTYl-Tv34ifax0-dVxizSa2Ep3sUxuoDUg=
+o7cch7DHsMH_Mw89Zh_jYoUocbq1TSNHLbP9xgOoPPSxZfkQ2nJLmOXrRysEsG_K7DleJkMS0yR=
+wC_JfMb3u2_yBW5Bb1iZJaH8OC3-NlDsdqlbTHKBQL-s4HTA_EHhmFRLbol6SqahG7NEIooj9tY=
+VdLOfPZrcuDzL3Z9XdOPabKIUPQE6KJ0NjKPKnlHJtHV9qeSPFHrh6PYw3YD9kXWvvIVk5GtFsD=
+7K9YAFOXlH0fCzx4qgc8S5rmLOY0Z_6uPk2RssUi4opuoFDNl-8DC4T3UR0csNtPP5lA1Qw~">=
+=0A=
+          <img src=3D"https://cdn.braze.eu/appboy/communication/assets/imag=
+e_assets/images/66cdbc676131684176f48ffc/original.png?1724759142" alt=3D"zo=
+oplus Logo" style=3D"display: block;">=0A=
+        </a>=0A=
+      </td>=0A=
+    </tr>=0A=
+  </table>=0A=
+</div></td>=0A=
+</tr></table>=0A=
+<table class=3D"html_block block-2" width=3D"100%" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;=
+mso-table-rspace:0"><tr><td class=3D"pad"><div style=3D"font-family:'Open S=
+ans',Arial,Sans-serif;text-align:center" align=3D"center">=0A=
+=0A=
+=0A=
+  =0A=
+    =0A=
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">=0A=
+    <style>=0A=
+      body {=0A=
+        font-family: Arial, sans-serif;=0A=
+        /* Set font to Arial */=0A=
+      }=0A=
+=0A=
+      .links-container {=0A=
+        display: flex;=0A=
+        justify-content: space-between;=0A=
+        width: 100%;=0A=
+        /* Set fixed width and height */=0A=
+        margin: auto;=0A=
+        /* Center the container horizontally */=0A=
+      }=0A=
+=0A=
+      .hover-change {=0A=
+        font-family: Arial, sans-serif;=0A=
+        color: #767676;=0A=
+        /* Set initial text color (#767676) */=0A=
+        text-decoration: none;=0A=
+        /* Remove underline */=0A=
+        transition: color 0.3s ease;=0A=
+        /* Add smooth transition effect */=0A=
+        cursor: pointer;=0A=
+        /* Add some spacing between the links */=0A=
+        font-size: 14px;=0A=
+        /* Set text size to 14px */=0A=
+        line-height: 20px;=0A=
+        /* Align text vertically within the link */=0A=
+        font-weight: 700;=0A=
+        /* Set font weight to 700 */=0A=
+      }=0A=
+=0A=
+      .hover-change:hover {=0A=
+        color: #3C9700;=0A=
+        /* Change text color on hover (#3C9700) */=0A=
+      }=0A=
+=0A=
+      a {=0A=
+        color: #3c9700;=0A=
+      }=0A=
+    </style>=0A=
+=0A=
+  =0A=
+=0A=
+  =0A=
+=0A=
+    <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"">=0A=
+      <tr>=0A=
+        <td style=3D"text-align: left; padding: 5px;">=0A=
+          <a class=3D"hover-change" href=3D"https://clicks.zooplus.de/f/a/E=
+hFYOmSIKkgT5CFoUIsxUQ~~/AAAHahA~/Qt-oFu5VcSI79Rmoj-aJs26V30et7RuboEyrgiXRLE=
+bTrCeKOnbUdzzGL7pX7YnNfQwTvKh8ppqrHWb0BjDCEAxYHlfpPI2wki959yO8poiUqfzI-Fi4q=
+jfgY7EPYBQdSLzp01XQYlYWDKr4Jfz5QMKdkow1kICyS0uWCM4WY3Jtr6oB_y1WqERfXl9qggRd=
+RuxezjYg06REoTOJZ-0pdRWQKXJBPXCMEI7xk7Sn8DjwuENIwp81hrjX8nIx1WhqmmfeYQSg0sY=
+-lbbJU8jZoOMHpheVawdOg7Jdg3l1AMCksaZJNou5mpgFQrNb2gohLGEJGchEkFotLnhUw6Z4pJ=
+zaH4wGWu5E2MzjJ0RmJvT2_r8Kkxpn6nF0h8Cg_SdE8Sm9j0BCu0CnDyU9pip_Cw~~" style=
+=3D"color: #767676; text-decoration: none;">Kontakt</a>=0A=
+        </td>=0A=
+        <td style=3D"text-align: center; padding: 5px;">=0A=
+          <a class=3D"hover-change" href=3D"https://clicks.zooplus.de/f/a/s=
+b7KM_kKK5zNAbuf5mdP0g~~/AAAHahA~/dkSWWoiHhMDNXMKoMUtC4K3K2DnnlgSVIcQd6jZmY1=
+J_HvBEss0YyWLqw90F5LQGexjAXZUaVV98L0jt9dE0cDQMSBGxUoon_eHi51bDBuNQZ2aS5TBkg=
+qfN9SlzO9KGSM_ybhvpS72-ZZ5o2MyXnj8eSgJk1HAmo-uZkVzqV0KjZm2N2N4UWEuVa5WknXvt=
+KiuDdSMo9tHZbKZs5CUI4vPCiCMl2VG5JFNO0ZdnczYs2XazkdEAlEpEtP1E-U4KjzdXGQIIEAH=
+tM_ySie-bQ5DVA84YhwYyEQo7IfFjBjPeW8yymyUHs2y0HKMdtidFSdG9jUWD8jy0cANFMJqO_f=
+TiOIiWEzzOZZQYE0FxmseJJCmEE6MES3kTw0dFePdT" style=3D"color: #767676; text-d=
+ecoration: none;">AGB</a>=0A=
+        </td>=0A=
+        <td style=3D"text-align: right; padding: 5px;">=0A=
+          <a class=3D"hover-change" href=3D"https://clicks.zooplus.de/f/a/T=
+OM_FRUkNSjWAfheTdNEpA~~/AAAHahA~/lEwOLbGKK96iPsOyQ-EAYdJAT3EJxc_XekoExWLqMC=
+B-VBVTvO3gNtWiq_sPrRCHDM9Eq45vOONeq7gGxvqPoAk4Osjku6diC0PUv9SMHhKxE8Kn6tvtS=
+GLAni0A--r7yhziuiay_YntZ9EQivHKKUwJkl2c6njQHGNaI6n4GtEkqhX9xQEZCZ780Hgf1nSo=
+ZfkOO9QvdZRHMYwp27OrUfAn1yUgatt6hOqA5Kx_v-Wanyd1NZyTybFU6B9ljPwf-VD02vAh7rI=
+DwXo8doZuLUONv1KMCk1it-cFw5-UxBTpU1bcvKJuwj11ytb6NcJjCNiUgG6Idv4_-GERe85lC3=
+PfqTgCOLd4rYO5mwA3sk_RLEJm2CEvc70nzDk13zkiRS7F3Oi1Up2DVcZhLHZUTQ~~" style=
+=3D"color: #767676; text-decoration: none;">Datenschutz</a>=0A=
+        </td>=0A=
+=0A=
+      </tr>=0A=
+    </table>=0A=
+=0A=
+  =0A=
+=0A=
+</div></td></tr></table>=0A=
+<table class=3D"html_block block-3" width=3D"100%" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;=
+mso-table-rspace:0"><tr><td class=3D"pad"><div style=3D"font-family:'Open S=
+ans',Arial,Sans-serif;text-align:center" align=3D"center">=0A=
+<!--[if mso]>=0A=
+  <style type=3D"text/css">=0A=
+    .mso-img {=0A=
+      display: inline-block !important;=0A=
+      width: 30px !important;=0A=
+    }=0A=
+    .mso-container {=0A=
+      width: 250px !important;=0A=
+    }=0A=
+  </style>=0A=
+<![endif]-->=0A=
+=0A=
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"width: 100=
+%; text-align: left;">=0A=
+  <tr>=0A=
+    <td style=3D"width: 50%; vertical-align: top; text-align: left;">=0A=
+      <table cellpadding=3D"0" cellspacing=3D"10" border=3D"0" style=3D"wid=
+th: auto; text-align: left;">=0A=
+        <tr>=0A=
+          =0A=
+          <td style=3D"vertical-align: top; text-align:left; width: 30px; p=
+adding-right: 10px;">=0A=
+            <a href=3D"https://clicks.zooplus.de/f/a/opF5ciI4RQOKLP-9xzJbWg=
+~~/AAAHahA~/iOK6n8ocE_jjcOLhafdtv6qMTzn6u_Qr-TlP3mjJb2EXK_yB_wpG_6q1nzLA-hV=
+udjweLm3zZwu33Ycc5PuGgaln7QwVaXcQjrujny_qa-aMgv-fMjufyZcVepvHg1CJ3D5Uv2HDpe=
+eiP273iDbHKA~~">=0A=
+              <img src=3D"https://cdn.braze.eu/appboy/communication/assets/=
+image_assets/images/65d3563b1f0cd028660150b6/original.png?1708348987" title=
+=3D"Folge uns auf Facebook" alt=3D"Facebook" style=3D"width: 30px; height: =
+auto; display:block;" class=3D"mso-img"></a>=0A=
+          </td>=0A=
+          =0A=
+          =0A=
+          <td style=3D"vertical-align: top; text-align:left; width: 30px; p=
+adding-right: 10px;">=0A=
+            <a href=3D"https://clicks.zooplus.de/f/a/fhdIlxgWr2IgVOraIti4ZQ=
+~~/AAAHahA~/QVQSiudWZZ4l3W6ldMCj7Kxnvkp5mRB_GeQ6wMbNgYhqQMWMLEUUCkUPqBoeuNV=
+GdtxjABNmugys9w9_kC0VTro-8WZ1XZq0Nbr3hHeNcXB6X63nk7kftoadBt60yqcGY6bGIsobPX=
+HVtu67YpCe7A~~">=0A=
+              <img src=3D"https://cdn.braze.eu/appboy/communication/assets/=
+image_assets/images/65d3563b565e6e21c7e0a171/original.png?1708348987" title=
+=3D"Folge uns auf Instagram" alt=3D"Instagram" style=3D"width: 30px; height=
+: auto; display:block;" class=3D"mso-img"></a>=0A=
+          </td>=0A=
+          =0A=
+          =0A=
+          <td style=3D"vertical-align: top; text-align:left; width: 30px; p=
+adding-right: 10px;">=0A=
+            <a href=3D"https://clicks.zooplus.de/f/a/PCo2kVgHGKMAErEFDuwlEA=
+~~/AAAHahA~/j7vauZbAziAGxvYxqwgL0yYMBy7dkSEwgUEv9A2tHgycLRifBDXCQDmkeB8DcfO=
+CxAFxJGVldzIpiRLytK9-U0OoNON6p-P5IEKpG1ob8qY4XuimVuE8Zh6pg2DemzfxfgLf3qRMrN=
+pJRB-1u7NmjQ~~">=0A=
+              <img src=3D"https://cdn.braze.eu/appboy/communication/assets/=
+image_assets/images/65d3563b1f0cd029f8014654/original.png?1708348987" title=
+=3D"Folge uns auf YouTube" alt=3D"Youtube" style=3D"width: 30px; height: au=
+to; display:block;" class=3D"mso-img"></a>=0A=
+          </td>=0A=
+          =0A=
+          =0A=
+          <td style=3D"vertical-align: top; text-align:left; width: 30px; p=
+adding-right: 10px;">=0A=
+            <a href=3D"https://clicks.zooplus.de/f/a/LZTIrl3k9FsqkBXLG6v9Cw=
+~~/AAAHahA~/NJ6Ltw-7Wdt4AyOE9-AM0TOgBFJAaqbEiPNc8zdhBrZEiyYrDJieKUkhV-hs0r4=
+YYce7riBtbqe6kNStm554hVIA3NMIZ8MzEZQmSIsHJWxmpOIsxz1KvQS9nlmYMJOoM8DeatvQEe=
+N5nJ_pBC88foCcjx4prg9hf9MOHaR3hpk~">=0A=
+              <img src=3D"https://cdn.braze.eu/appboy/communication/assets/=
+image_assets/images/65d3563b2e21a9239d58e7be/original.png?1708348987" title=
+=3D"Folge uns auf Pinterest" alt=3D"Pinterest" style=3D"width: 30px; height=
+: auto; display:block;" class=3D"mso-img"></a>=0A=
+          </td>=0A=
+          =0A=
+        </tr>=0A=
+      </table>=0A=
+    </td>=0A=
+    <td style=3D"width: 50%; vertical-align: top; text-align: left;">=0A=
+      <!-- Add content for the second cell here -->=0A=
+    </td>=0A=
+  </tr>=0A=
+</table>=0A=
+</div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-4" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-bottom:30px;padding-left:5px;padding-right:5px"><div style=3D"c=
+olor:#767676;direction:ltr;font-family:Arial,Sans-serif;font-size:12px;font=
+-weight:400;letter-spacing:0;line-height:120%;text-align:left;mso-line-heig=
+ht-alt:14.399999999999999px">=0A=
+<p style=3D"margin:0;margin-bottom:0">Hauptsitz: zooplus SE, Herzog-Wilhelm=
+-Strasse 18, 80331 M=C3=BCnchen, Deutschland | Firmenbuchnummer: M=C3=BCnch=
+en HRB 273759, UST-ID: DE 200 164 421 | Vorstand: Steffen Sch=C3=BCller | V=
+orsitzender des Aufsichtsrates: Stefan G=C3=B6tz</p>=0A=
+<p style=3D"margin:0;margin-bottom:0">&nbsp;</p>=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<p style=3D"margin:0;margin-bottom:0">Du hast diesen Newsletter erhalten, w=
+eil Du dich bei uns angemeldet hast. | Du kannst dich jederzeit wieder abme=
+lden, indem Du <a href=3D"https://clicks.zooplus.de/f/a/HbCZO8ZDwWwRMNFzX1i=
+BNg~~/AAAHahA~/o3HJlvWEr5K6g8pEbZQ4stn7IWSt-Opx0_NE1GWqJJg4EWtSa4n23d09ZVfU=
+WNrD6ltPOm7VgUtWxXW_64XsHzTqz2sXsDTMmMZaPeklkXZsslLQDQhaIFJmsXwjY72oeYK5HbQ=
+i6txxJaeTTA4u9-mEs1wVgc3K9DRAOX_lWjvnlIvDhJoCB7U5hmZWKmW_AlHVT2aXAiMTUPjNAl=
+bXkwQWKN0zJFPsJtAnGhePOBg~" style=3D"color:#237803">hier</a> klickst. | Du =
+kannst Deine Newsletter-Einstellungen auch jederzeit =C3=BCber <a href=3D"h=
+ttps://clicks.zooplus.de/f/a/W5TiLIGjbwMqQj3ItOwySg~~/AAAHahA~/j7vauZbAziAG=
+xvYxqwgL09Dx2UM9SLHmu35JhxY2wvLRDW6vrOlpYKfRlZqXw8r8O8KGeD1P-WxGC0P0ZSv5iOO=
+aAdlBozBDej027kjq9_Xxutfey4gIBFq6JOC2OpxPniZ0xJFtJN9FrrBg7GzYGg~~" style=3D=
+"color:#237803">&quot;Mein zooplus&quot;</a> =C3=A4ndern oder dich abmelden=
+ | Alternativ wende dich bitte an unseren Kundendienst =C3=BCber unser <a h=
+ref=3D"https://clicks.zooplus.de/f/a/9mIsfiuRasAegYxtLu7nIQ~~/AAAHahA~/H9kM=
+R917XiZfpQxYMAoJo9l6xYvAOYSUcunwmO0l2AkSCQ2pV9sYjSpu1jFQtUKrDR-ALdysyfozkwB=
+o5n-Y8cI9c2-8nIYGbaZlk-JHS_tkR3AqVWNTSkyfw1Db52B_IS1BFGH8SrDfePaIHV0iWLiOrM=
+4fYGt6FlbZGderLk4~" style=3D"color:#237803">Kontaktformular</a> oder unter =
+Tel. 0049-89-211-29-211.</p>=0A=
+<p style=3D"margin:0"></p>=0A=
+</div></td></tr></table>=0A=
+</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></tab=
+le>=0A=
+<!-- End --><p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<p style=3D"margin:0">=0A=
+</p>=0A=
+<table class=3D"nl-container" width=3D"100%" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-ta=
+ble-rspace:0;background-color:#fff"><tbody><tr><td><table class=3D"row row-=
+1" align=3D"center" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace=
+:0"><tbody><tr><td><table class=3D"row-content stack" align=3D"center" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D=
+"mso-table-lspace:0;mso-table-rspace:0;color:#000;width:600px;margin:0 auto=
+" width=3D"600"><tbody><tr><td class=3D"column column-1" width=3D"100%" sty=
+le=3D"mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left=
+;padding-bottom:5px;padding-top:5px;vertical-align:top;border-top:0;border-=
+right:0;border-bottom:0;border-left:0"><table class=3D"paragraph_block bloc=
+k-1" width=3D"100%" border=3D"0" cellpadding=3D"10" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;word-break=
+:break-word"><tr><td class=3D"pad"><div style=3D"color:#767676;direction:lt=
+r;font-family:Arial,Sans-serif;font-size:12px;font-weight:400;letter-spacin=
+g:0;line-height:normal;text-align:left;mso-line-height-alt:NaNpx">=0A=
+<p style=3D"margin:0;margin-bottom:0">Dies ist eine automatische E-Mail. Bi=
+tte antworte nicht darauf, da uns Deine Nachricht auf diese Weise nicht err=
+eicht. Du kannst uns <a href=3D"https://clicks.zooplus.de/f/a/WkGKQr4IemMsj=
+fuJXd8eQg~~/AAAHahA~/H9kMR917XiZfpQxYMAoJo9l6xYvAOYSUcunwmO0l2AkSCQ2pV9sYjS=
+pu1jFQtUKrjgYPZuFa73eIjeWy8rxN4zhFr5zcz7teF87MMvXgHPTJaKtMQ0h-x1jtrNbyXozhg=
+VlOGIFBwe5oQdWd3pULvmFGWIUg5mkyPZ1FjJ2LA8I~" style=3D"color:#237803">hier</=
+a> kontaktieren.</p>=0A=
+<p style=3D"margin:0;margin-bottom:0">&nbsp;</p>=0A=
+<p style=3D"margin:0;margin-bottom:0">Alle Preise verstehen sich inklusive =
+Mehrwertsteuer. Preis=C3=A4nderungen sind jederzeit m=C3=B6glich. Pro Beste=
+llung kann nur ein Rabattcode eingel=C3=B6st werden. Alle Inhalte in dieser=
+ E-Mail sind urheberrechtlich gesch=C3=BCtzt. Alle Logos, Produktnamen, Mar=
+ken und Firmennamen, auf die verwiesen wird, sind Eigentum der jeweiligen I=
+nhaber.</p>=0A=
+<p style=3D"margin:0;margin-bottom:0">&nbsp;</p>=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<p style=3D"margin:0;margin-bottom:0">*Der Gutschein kann auf zooplus.de ei=
+ngel=C3=B6st werden. Der Gutschein kann nur vor Abschluss des Bestellvorgan=
+gs eingel=C3=B6st werden. Eine nachtr=C3=A4gliche Verrechnung ist nicht m=
+=C3=B6glich. Gib den Code in das Feld &quot;Gutscheincode&quot; im Warenkor=
+b ein und klicke auf &quot;Einl=C3=B6sen&quot;. Pro Bestellung kann nur ein=
+ Gutschein eingel=C3=B6st werden. Der Code wird nicht zur=C3=BCckerstattet,=
+ wenn der Kunde im Rahmen seines gesetzlichen Widerrufsrechts die mit dem C=
+ode bezahlte Ware ganz oder teilweise zur=C3=BCckgibt. Der Code ist nicht =
+=C3=BCbertragbar.</p>=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<p style=3D"margin:0;margin-bottom:0">&nbsp;</p>=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+</div></td></tr></table></td></tr></tbody></table></td></tr></tbody></table=
+></td></tr></tbody></table>=0A=
+<!-- End -->=0A=
+</div></td></tr></table></td></tr></tbody></table></td></tr></tbody></table=
+>=0A=
+</td></tr></tbody></table>=0A=
+<!-- End -->=0A=
+</body>=0A=
+</html>=
+
+--_----XAUkjXsFH3LQwSH0s03KOA===_38/D3-21891-69BCD976--

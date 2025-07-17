@@ -1,0 +1,231 @@
+Received: from GV1P195MB2103.EURP195.PROD.OUTLOOK.COM (::1) by
+ DU0P195MB1820.EURP195.PROD.OUTLOOK.COM with HTTPS; Fri, 4 Jul 2025 08:37:30
+ +0000
+Received: from DU7P190CA0022.EURP190.PROD.OUTLOOK.COM (2603:10a6:10:550::8) by
+ GV1P195MB2103.EURP195.PROD.OUTLOOK.COM (2603:10a6:150:a6::21) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.8901.20; Fri, 4 Jul 2025 08:37:29 +0000
+Received: from DU2PEPF00028CFD.eurprd03.prod.outlook.com
+ (2603:10a6:10:550:cafe::71) by DU7P190CA0022.outlook.office365.com
+ (2603:10a6:10:550::8) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.20.8901.23 via Frontend Transport; Fri,
+ 4 Jul 2025 08:37:28 +0000
+Authentication-Results: spf=pass (sender IP is 4.216.155.161)
+ smtp.mailfrom=cusipup.de; dkim=none (message not signed)
+ header.d=none;dmarc=bestguesspass action=none
+ header.from=cusipup.de;compauth=pass reason=109
+Received-SPF: Pass (protection.outlook.com: domain of cusipup.de designates
+ 4.216.155.161 as permitted sender) receiver=protection.outlook.com;
+ client-ip=4.216.155.161; helo=nmpebbij.account.scribd.com; pr=M
+Received: from nmpebbij.account.scribd.com (4.216.155.161) by
+ DU2PEPF00028CFD.mail.protection.outlook.com (10.167.242.181) with Microsoft
+ SMTP Server id 15.20.8901.15 via Frontend Transport; Fri, 4 Jul 2025 08:37:28
+ +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:C756CAB69363E843DFAF494D8F946499D0A4B78D9636B5C4F3865D08AC5FE512;UpperCasedChecksum:C6E33EE5D3E4A2C1DEA68FA9303CEA50F919B41E67E8212FF02837C2BD1F1AEA;SizeAsReceived:375;Count:9
+From: Mcafee™ <support@cusipup.de>
+To: <tomi.g@outlook.com>
+CC: <tomi.g@outlook.com>
+Subject: Letzte Erinnerung: tomi.g, verlängern Sie Ihr McAfee-Abonnement noch heute!
+Sender: Mcafee™  <support@mcafee.com>
+Message-ID: <hY9ReCwKGr0tXtVaZjF6K2OBzq@email.amazonses.com>
+Content-Type: text/html; charset="UTF-8"
+Date: Fri, 4 Jul 2025 06:24:19 +0000
+X-IncomingHeaderCount: 9
+Return-Path: msprvs1=qm2nf3swq-mzq=bounces-JRo8R1-ER@cusipup.de
+X-MS-Exchange-Organization-ExpirationStartTime: 04 Jul 2025 08:37:28.8619
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 3bb6d607-e4f5-4125-99e4-08ddbad602c3
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: DU2PEPF00028CFD:EE_|GV1P195MB2103:EE_|DU0P195MB1820:EE_
+X-MS-Exchange-Organization-AuthSource: DU2PEPF00028CFD.eurprd03.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 7/4/2025 8:12:56 AM
+X-MS-Office365-Filtering-Correlation-Id: 3bb6d607-e4f5-4125-99e4-08ddbad602c3
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 4.216.155.161
+X-SID-PRA: SUPPORT@CUSIPUP.DE
+X-SID-Result: PASS
+X-MS-Exchange-Organization-SCL: 5
+X-Microsoft-Antispam: BCL:7;ARA:1444111002|3600799018|1131999016|970799057|6115599003|9400799033|20103052901057|20103052903057|29080799003|68400799013|10300799035|461199028|58200799018|33080799003|32080799003|21080799006|9000799050|1680799057|47200799021|28110799003;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 04 Jul 2025 08:37:28.3624
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 3bb6d607-e4f5-4125-99e4-08ddbad602c3
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource: DU2PEPF00028CFD.eurprd03.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: GV1P195MB2103
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.2252738
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.8901.020
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;ex:0;auth:1;dest:J;OFR:SpamFilterAuthJ;ENG:(5062000311)(920221119095)(90000117)(920221120095)(90005022)(91005020)(91035115)(9050020)(9100341)(944500132)(2008001181)(2008121020)(4810010)(4910033)(9710001)(9610028)(9525003)(10103005)(9320005)(9215007)(120001);RF:JunkEmail;
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0xO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?d2Vxc3huaDBaTjZ4ZDgzQ1RISFlvMm42eTJ4a1VqTHpTSmVoclBRTzI4bkRa?=
+ =?utf-8?B?bTVqMmNyWERPS0Z2RFc4Q3EwR1VmdHhrS2ZkSCtMODNrSmhWcTkwbDllVkN2?=
+ =?utf-8?B?Q2ZNamhDUWRWckgvWG1FZVpWWVRVM1BtMlVjbkxyL3dMcHdodnhnZTlPbXYy?=
+ =?utf-8?B?ZjBiZEtUaGhEMlFDc01neTU5eU9udDFpbWs0MmhMdXJBSTdpTjNvMXpIZFl6?=
+ =?utf-8?B?WjdreE9xcjBTZ2xmV0tmVVBwMEwrS2dsa3F5RFd6UG5KSGNlMjBwcEM4cnNI?=
+ =?utf-8?B?dnpLZ25jUWU2ZUhyM2krK3hvTS9aZ2JNQWVXZlVIMGhDZU85OTBZMytFY3Q5?=
+ =?utf-8?B?UmNVYTJNaWJicHhhdTRZNjkveml0R2w0SVBmQkdPU1RzYzdubnVzTVFEN1Bw?=
+ =?utf-8?B?VUdKZytRMmt2eHpSQU9FWVVVeCtHaFBMNEt5cG4wbUUwb1pFUGhWS0Y5cTRr?=
+ =?utf-8?B?bHpRVVdQUm1aY2hqUnphY082RnRlQzJhSVNtT3FYd0hTeXc3aERYcC9XM1hq?=
+ =?utf-8?B?ZGQ5Yld0QVVJK1hkMFVNUFR5OVZINXhOejd5T0NjOHRDWExYbFBPVmJYUnRq?=
+ =?utf-8?B?NnVsdFY2MVBsK2hOTUV3TGphMGhPRjRiZHczeElFTHV2dit1VCtFTFNDUk1z?=
+ =?utf-8?B?S3NhMCtNWG1nbW9sM2MvNnlpK25DTE9GcnR1UERYbVBkRzVueEVVaStodCtY?=
+ =?utf-8?B?Sm9DVmUyS2FOOVVwTGk2NElhZjBnemhGN01zdEdMak42Q3A4aTRyMSs0S29J?=
+ =?utf-8?B?R0Z1UklPNFE5WmNZd094bEdQM0hBaTF3Z0lyNnoyN2RxRGpYb2lGamxwV2ov?=
+ =?utf-8?B?TVpSenY5ZktyU2tFYWpOc2hnZGxHM01vT0ZsMHNyN25qdU5Dc0pTRWdJaWxM?=
+ =?utf-8?B?aHIvN3BoYm55OEdydjVrdVZVcHkyODFTdjBsdzBCTGhiRmNjWG9WVGU2UHlF?=
+ =?utf-8?B?VWZRNmdGNjlIcVFHYjNCaHRFenJhelBLZy9ZUVV2QlQxYmxiWFlpS3NaRVhi?=
+ =?utf-8?B?ekRZZkJvOS8wN3ZXcHdEdkpBTTVJSUN2Q1RuTldIRXZ2N000RFYzQXFXVWlj?=
+ =?utf-8?B?ZVpqejhBem51U1NtT1dISUNKRzJIbHpFdWRWWTVnSHNIMGgxUW5zenRrL2lr?=
+ =?utf-8?B?VVliUm1rajhMdkVPbzlZdG11WkVPL3lWU0VGTzNoN1JCR0xFdm1ZL2RPV1E2?=
+ =?utf-8?B?b2p4MFNPdjFPMnRML0VtNHpMWjVIRGtzMWZtWmhHYXZ0SXpRRlFaNzZuNlUw?=
+ =?utf-8?B?U1ZtZ3RMTkhTWmtWZlFIWmZCWEduUERsN2ZvbzNnV3BXRktHVWk4Sk1qdjkr?=
+ =?utf-8?B?SWlpblRLL2hmWXlrb0R5NjBpTEdMWjVuR1Mvbk9IM1Z4WUlZZkhzT0JKOG1w?=
+ =?utf-8?B?b1lXVHF0Q2JRVWpiaTU2NnMxNzhRUEFYanVySjNhWVB3dDdhbUtubGF5dTM2?=
+ =?utf-8?B?SmwrVlpTcFMxbXJISGY5ckdKWVhSb3NRSXJ5Rjk1bWcwMjg3SmhJbFk3akts?=
+ =?utf-8?B?M0p5anZGaHVSY1JJUmZwY2xMTEgrV251aFFXNzlrTDgreDJDNWt1ZW9CRXBN?=
+ =?utf-8?B?Rys5TjVWOEt3bnlJWE9MRFNnWE1abDdBT2p4TUx5ZHhZTVMvQTA3UzFZN3E1?=
+ =?utf-8?B?NmczSEF0bDB2QzJmaUtQR3BrSHlTT2FZZ29kSDY5VkdBc2xKbEQwandtc2p6?=
+ =?utf-8?B?OExJVkJ6SHFhTzFQNW5OOW9ueGptaDd5L3FreDh0aW40SmplRHA2VDdkZDRQ?=
+ =?utf-8?B?bzBReXRZdmwzOFlZeUw1b1dGNlZFVVFERjU1TEEzT3dySW1kWkxmR0YzL3Zt?=
+ =?utf-8?B?RWJSdk53dGRucUc3c0I5Y21sM3VZRTVGOGMrODFINEJ0RWFUdHYyaEVKY21l?=
+ =?utf-8?B?R0dsWXNUZ3lhdTFPQkxSZy9ZdWlSc2NBU1UzRmVGUDZWSVJWczF3bWxyRWtr?=
+ =?utf-8?B?Y3d2dG4yOG9WZ2dyc29JazU4Y0lNZUpKNnVGYVRnOUVNeDR0SDI5SGUrM1Ju?=
+ =?utf-8?B?K1VBTm1vVlc0eUZjQjZiNGUvQjh3UnVtWlZhc1hQbUxIZXBnckIvNVlTWG50?=
+ =?utf-8?B?enkrTW5wa2E1eVdQeDFWSUhoTUFWWjFvcVZ2elEvMm1kK1dlUWt2cXJsTS9H?=
+ =?utf-8?B?LzZKdEoyc2hZT2w4TkRKU1ZmQXB4VGFpTHlNaFdnYXFENGE1UjRCSlN2eC8y?=
+ =?utf-8?B?OXJwV0FoaUFSazVkUFloSWdweGFLTmJEUWNYdmtaYlUxVXZhbG1laHJUSE9v?=
+ =?utf-8?B?ZHZ4ZUpiaGtEM2xaRm5hRUFEWG5MTXRkbFVaOUp1c3hZcDEzUWZpK3YwWDZl?=
+ =?utf-8?B?a2hXd1RwejlkcFNnTXpvbTN6ejhMRjV6dVNOWWdXZkNwK0RUd2NmV01zZmJa?=
+ =?utf-8?B?NUJCOENJdEtnb2ZPMDgyOXNKZEx1TDZXQlVEQXUzRUxUTzNRVE0vRjBzZk1i?=
+ =?utf-8?B?Znh0QVRZNGpROEJNUytUU0NqclNJWStBVG84QkE3d2VUcWtSaStnQ3VpbkJV?=
+ =?utf-8?B?eXNHZUl2MXVhWVJWS2RjZ0EzRTFrd2RWQ1k4MGlBdmRlUTNiekU2LzhDaWx3?=
+ =?utf-8?B?d21IT2JUdmQyQ2g4RE5LRk5tR1M4TmNEK1FocVU0TGNuNFY4MmJYZS92U2Qw?=
+ =?utf-8?B?R2hvQ2xtM2lmMnJPVkJkUFlXTUI1UmlzWk4rNzVvQkRPVUdkQ0tNbklEN0Jq?=
+ =?utf-8?B?THVEYTQrTjB3RWpxNVVLVlpaVlhoNGVQVEh4UlRtbHBndmxiWDRWUWFKQzVz?=
+ =?utf-8?B?S3gvUkpGK0Y4eTdsK2QzVS9OQ2JkNUd5VCtPa3NVdmwzaU5BdEkwRjlVd0dU?=
+ =?utf-8?B?U3IzMW00TUJDMGlyUE1YVUNRcXBURUhCMG1FVDdNcGJhRGdNSUEvVXVCK3c1?=
+ =?utf-8?B?VnhxejlCSmFhR0w2TWpZdE03Mk5MZ2VsSUQ4M2Nnd1ZZay9jTWl5K3ZpWmw1?=
+ =?utf-8?B?SjY5WXUyZGdUVTRyaDJWNVlvV09FUjlqd1crT2dvSEt4bUpuaGM0NG5maUcr?=
+ =?utf-8?B?RUo1TzkyM3JKYjBjZ1c4SlgwYXk3MkNCTXBIL1dpdy83dWxDSVlFcUxwb293?=
+ =?utf-8?B?a3Q4ZVN1WnA5Mzl1Tm16QzROR2tVZnNRcTNnVW9FNEtEQXhabjdhVUtTd1NC?=
+ =?utf-8?B?enZOS2tXRDVtQUd6U1hjZGpYWFdZUUhpWGQzak9LOHYvWVVjQ0lla1JzRzNU?=
+ =?utf-8?B?YXdodmw3ajFlOS82K3ZycEs0V252QUVtVTIyM2h2TTQxSDFjV0FrZGE4bWlB?=
+ =?utf-8?B?OXhndW5YeXQ2TzFHSFNnajdOTjdSMzAvT0x5UjE3MENqd0owZWRmQkpqb2Mv?=
+ =?utf-8?B?eWdwRzRraklMMkwvcjJsSDJxV0x3UENHUStodVl1WDhlY3V5dTRQT1JKS2wv?=
+ =?utf-8?B?OGhpT3hMWFBXMzIvQll2SkJNN0d3TDRONG4zS0laUnhSekNhWG04M3l5bnhR?=
+ =?utf-8?B?WHJkTllDVUdDODRvZ01TWUZyRTBzNlloZTlYK0l4a1VQSFp3SGd6YVVaU05E?=
+ =?utf-8?B?Y05rcXRTUDRJeTJ6SFpNNWMzTlI5K3JiQnN5UW5HVEExK3JHdmp3L3F5bk1Z?=
+ =?utf-8?B?QUtOL2hlWTV5WFpabDVSckZxVklIZ2pMNyt4bGFuSkNBVmlaZVFWY2NKMXJx?=
+ =?utf-8?B?eDd2M3FBM2t4elR1MDBKNTFpWFdveVdtYTBRL2VMdkxYMnFQK0pSR0tOWnVI?=
+ =?utf-8?B?TmxVeFQ3WDU2MTl0dzJEYWdDTm12ek9TTmJET3JPQlVvbnpYaXkxMEVUdEdX?=
+ =?utf-8?B?b3VmWGtrcFA3dGtxdksvZHRNN1dTUER0K0V3Z1dSa3FTR0R1ajQ2czQwMSsw?=
+ =?utf-8?B?M1psWVZGYVRwR0dLNWx3TU0yL2h2MU5WdmNxQ0VtMjJZeU9Remp3Y0swNmFw?=
+ =?utf-8?B?bnZsUjNvNDNYSjVDNEZXYkt5QXV6bmlvVUNJblV5dHRacnNteTJ4b0h6amJQ?=
+ =?utf-8?B?WWRhaWxvbDF6Zzc3MHB2QU85bTVOUWJJQjdxSGJBelBOV1RRMXhueUNrbzEv?=
+ =?utf-8?B?cXFQS3JWN3pUMDM2aXI1NjlzSFVORXVaMWZORzZISjFZSHNWMlRqY0Jqcnhn?=
+ =?utf-8?B?akU5Y2lzeXVzWUxJY054OEw4K1hjenQ4cHNPeTJJQVprVzUyVEF1cXRiK0Zn?=
+ =?utf-8?B?YThleVhBRHkrZjlIWHBVYkR4UnZxd3pVU2JEdmZpRzZKcnpDNGdESnQxeVBs?=
+ =?utf-8?B?cTdGRng3ZzdIVHlPeU5EZHV0Z3B4aTl0VHM3LzNsOHBGZDU3Z3JoOUFMMXRS?=
+ =?utf-8?B?YlF4WUlCOExFMHR1UG9MOXh5c0RaUmE1aldBNDkzMnNYTUZzRmFSUDBMb0ZF?=
+ =?utf-8?B?ekxpaW9EMVFqY0t3UlFYdEQ4Z2luT1E0RzhqMnBkNjNyZlg4bWpZejVycjNE?=
+ =?utf-8?B?STlZZGJGTlFyS3ZBM1BNQlIwZjROek5vbzJ1QkhJTnduZ20ydWxSSWhxbERr?=
+ =?utf-8?B?aGlPTXJxd2lXenRNUEcxZkVuME1zZ1hHMUs1ZjVLby9vT3JWa2U3Ym1kVXFM?=
+ =?utf-8?B?ek1PUG15cGdKTmFtbmZtMTZuOFRPQ3dLeDVPVmtqSlMxMnIyeVVFMnQvR3dz?=
+ =?utf-8?B?bnJhQitzNXRJbGwxN0pNK21RNEhiaFdsVGxqZmFnUnV6dmxVanBJbE54aUhC?=
+ =?utf-8?B?WkxXbzBid0YyZW9aWjBxR2FVamJLQ1pFQm1JcGNBYjRidVVCMHloLzZmemNV?=
+ =?utf-8?B?V2tpZng5cERTcjMydkNSa1hsQWpMVE8xMFNJSmtKK2dnL3Bwc2U1c0tSZ3JP?=
+ =?utf-8?B?UVpSMmFsUzFhaVdpQzIzVXBoZEFvRXYzTlRnckJwVS9uTENLUGZZNjJQNHZa?=
+ =?utf-8?B?ZksyRitvMVIrZEVWRk5wUEdzbWpYQ3p2NkltOElpUVhyN1VKay9KRVFSY3FD?=
+ =?utf-8?B?TEI2L0g1YXB5SVMwZXNBcUJxb0lBakFVRCtHMGVhTmdYNC81SXM3Z2ZoUHd5?=
+ =?utf-8?B?TWdDZ3I3cmxPc0w4ZVN0dWxCeWNESkxieXRtZEJFVjAwUWJBdHEwcHA3ZW5Z?=
+ =?utf-8?B?ZmMyWlJLZHZDeUtONGtIdTRnS0ZKZGZFM2lROGdZbURRN2xUKzlpTFZEcCtI?=
+ =?utf-8?B?YU5hcXRKU2NHTnNYdmsyckt6TDdaRXJyUGRncko2OXROanRrbVFiVjZESHVz?=
+ =?utf-8?Q?yTbfmg3ZjxeexewBmrNU=3D?=
+MIME-Version: 1.0
+
+<!DOCTYPE html><html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head>
+<body style="font-family: Arial, sans-serif; background-color: #f5f5f5; margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; ">
+    <div style="background-color: #fff; border: 1px solid #ddd; border-radius: 10px; width: 600px; padding: 0; box-shadow: 0 0 15px rgba(0,0,0,0.2);">
+        <div style="text-align: center; padding: 20px; background-color: #fffff; border-bottom: 1px solid #7f0000; position: relative; overflow: hidden;">
+      <div style="background:#fffffff;color:#ffffff;padding:0px;font-size:32px;font-weight:700;padding:20px;text-align: center"><a href="https://robertbeautycenter.com/cl/146564_md/133/5814795/3898/449/74102"><img src="https://pbs.twimg.com/media/Ggaa8hfWQAAGfqp?format=png&amp;name=small" width="300px"><br><img src="//pbs.twimg.com/media/Ggaa8hfWQAAGfqp?format=png&amp;name=small" width="300px"></div>
+            <div style="content: ''; position: absolute; top: 50%; left: 50%; width: 200%; height: 200%; background: radial-gradient(circle, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0) 70%); transform: translate(-50%, -50%); z-index: 0;"></div></a>
+        </div>
+        <div style="text-align: center; padding: 20px; background-color: #AF0707; color: #fff; font-size: 24px; font-weight: bold; border-bottom: 1px solid #c62828;">
+            Ihr McAfee-Abonnement ist abgelaufen
+        </div> 
+        <div style="background-color: #ffebee; color: #d32f2f; padding: 15px; text-align: center; font-weight: bold; border-bottom: 1px solid #ffcdd2; font-size: 18px;">
+            Dringend: Ihr Abonnement ist abgelaufen! Sie haben <span style="color: #c62828; font-weight: bold;">24 Stunden</span> um Ihren Schutz zu erneuern und aufrechtzuerhalten.
+        </div>
+        <div style="padding: 20px; text-align: center;">
+            <p style="margin: 15px 0; line-height: 1.6; font-size: 16px; color: #333;">Ihr Abonnement für McAfee Comprehensive für Windows ist abgelaufen am <strong>04.07.2025</strong>.</p>
+            <p style="margin: 15px 0; line-height: 1.6; font-size: 16px; color: #333;">Ohne Erneuerung, <strong>Ihre Geräte können anfällig für Viren, Malware und Identitätsdiebstahl werden.</strong></p>
+            <p style="color: #c62828; font-weight: bold; font-size: 16px;"><strong>Sofortiges Handeln erforderlich! Ihre Geräte sind ungeschützt und gefährdet...</strong></p>
+            <div style="background-color: #fafafa; border: 1px solid #ddd; padding: 20px; border-radius: 10px; margin: 20px 0; text-align: left;">
+            <a href="https://robertbeautycenter.com/cl/146564_md/133/5814795/3898/449/74102" style="text-decoration:none;color:#000000">
+                <table style="width: 100%; border-collapse: collapse;">
+                    <tr>
+                        <td style="padding: 12px; vertical-align: top; font-size: 16px; color: #333; font-weight: bold; color: #555;">Konto-ID:</td>
+                        <td style="padding: 12px; vertical-align: top; font-size: 16px; color: #333; font-weight: normal;"><strong>9935875DE</strong></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 12px; vertical-align: top; font-size: 16px; color: #333; font-weight: bold; color: #555;">Benutzer:</td>
+                        <td style="padding: 12px; vertical-align: top; font-size: 16px; color: #333; font-weight: normal;"><strong>tomi.g@hotmail.de</strong></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 12px; vertical-align: top; font-size: 16px; color: #333; font-weight: bold; color: #555;">Seriennummer:</td>
+                        <td style="padding: 12px; vertical-align: top; font-size: 16px; color: #333; font-weight: normal;">
+                            <span style="display: inline-block; padding: 6px 12px; border: 2px solid #ddd; border-radius: 6px; margin: 0 5px; background-color: #ffe0e0; font-family: monospace; font-weight: bold; color: #c62828;">ZQ2H</span>
+                            <span style="display: inline-block; padding: 6px 12px; border: 2px solid #ddd; border-radius: 6px; margin: 0 5px; background-color: #ffe0e0; font-family: monospace; font-weight: bold; color: #c62828;">MLQ1</span>
+                            <span style="display: inline-block; padding: 6px 12px; border: 2px solid #ddd; border-radius: 6px; margin: 0 5px; background-color: #ffe0e0; font-family: monospace; font-weight: bold; color: #c62828;">GEF4</span>
+                            <span style="display: inline-block; padding: 6px 12px; border: 2px solid #ddd; border-radius: 6px; margin: 0 5px; background-color: #ffe0e0; font-family: monospace; font-weight: bold; color: #c62828;">OW8A</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 12px; vertical-align: top; font-size: 16px; color: #333; font-weight: bold; color: #555;">Rabatt:</td>
+                        <td style="padding: 12px; vertical-align: top; font-size: 16px; color: #333; font-weight: normal;">
+                            <div style="display: inline-block; padding: 4px 12px; background-color: #c62828; color: #fff; font-size: 16px; font-weight: bold; border-radius: 25px; box-shadow: 0 0 10px rgba(0,0,0,0.3); position: relative; overflow: hidden; text-align: center;">
+                                <span style="position: relative; z-index: 1;">95.99% OFF</span>
+                                <div style="content: ''; position: absolute; top: -25px; right: -25px; width: 150%; height: 150%; background-color: #b71c1c; transform: rotate(-30deg); z-index: 0;"></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 12px; vertical-align: top; font-size: 16px; color: #333; font-weight: bold; color: #555;">Angebot gültig bis:</td>
+                        <td style="padding: 12px; vertical-align: top; font-size: 16px; color: #333; font-weight: normal;"><strong>04.07.2025</strong></td>
+                    </tr>
+                </table>
+            </div>
+            <a href="https://robertbeautycenter.com/cl/146564_md/133/5814795/3898/449/74102" style="display: inline-block; padding: 12px 25px; background-color: #d32f2f; color: #fff; text-decoration: none; border-radius: 5px; margin-top: 20px; font-size: 18px; font-weight: bold;">JETZT VERLÄNGERN</a></a>
+            
+            <div style="font-size:18px;padding:10px;color:#000000" align="left">
+<p style="font-size: 16px;line-height: 1.5;margin-top: 20px;color:black">
+      Sehr geehrter tomi.g,<br><br>
+      Trotz mehrfacher Benachrichtigungen und Warnungen haben wir keine Antwort erhalten. <strong>Ihr Schutz vor Cyberbedrohungen ist ernsthaft gefährdet.</strong><br><br>
+      Erneuern Sie Ihr Abonnement umgehend, um einen ununterbrochenen Schutz vor Cyberangriffen und Hackern sicherzustellen. <strong>Ihre Sicherheit hat für uns höchste Priorität.</strong></p></div>
+        </div>
+        <div style="font-size:13px;background-color: #b71c1c; color: #fff; padding: 15px; text-align: center; border-radius: 0 0 0px 0px;">
+            <span style="font-size:10px;">©</span> 2025 McAfee<span style="font-size:7px;">™</span>. Alle Rechte vorbehalten<br>
+            <span style="font-size:10px;">Diese E-Mail wurde gesendet an: tomi.g@hotmail.de</span>
+            
+        </div>
+                    <div align="center" width="100%" style="font-family:Helvetica, Arial, sans-serif; font-size:10px; color:#202020; line-height:15px; padding-bottom:10px;">
+                <br>Wenn Sie keine weiteren E-Mails mehr erhalten möchten <a href="https://robertbeautycenter.com/un/146564_md/133/5814795/3898/449/74102" style="color:#000000;">Hier abmelden</a>
+                <br>
+            </div>
+    </div>
+<br><br><img alt="" src="https://xinmanba.com/op/146564_md/133/5814795/3898/449/74102" width="1px" height="1px" style="visibility:hidden">
+</body>
+</html>

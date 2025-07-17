@@ -1,0 +1,281 @@
+Received: from AM8P193MB0897.EURP193.PROD.OUTLOOK.COM (::1) by
+ PAXP193MB2185.EURP193.PROD.OUTLOOK.COM with HTTPS; Fri, 4 Jul 2025 15:03:15
+ +0000
+Received: from SJ0PR05CA0158.namprd05.prod.outlook.com (2603:10b6:a03:339::13)
+ by AM8P193MB0897.EURP193.PROD.OUTLOOK.COM (2603:10a6:20b:1cb::24) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.8901.20; Fri, 4 Jul
+ 2025 15:03:12 +0000
+Received: from SJ5PEPF00000205.namprd05.prod.outlook.com
+ (2603:10b6:a03:339:cafe::a3) by SJ0PR05CA0158.outlook.office365.com
+ (2603:10b6:a03:339::13) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.20.8901.20 via Frontend Transport; Fri,
+ 4 Jul 2025 15:03:11 +0000
+Authentication-Results: spf=pass (sender IP is 170.203.28.53)
+ smtp.mailfrom=k3.pillows.getnuzzle.com; dkim=pass (signature was verified)
+ header.d=shared.klaviyomail.com;dkim=pass (signature was verified)
+ header.d=pillows.getnuzzle.com;dmarc=pass action=none
+ header.from=getnuzzle.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of k3.pillows.getnuzzle.com
+ designates 170.203.28.53 as permitted sender)
+ receiver=protection.outlook.com; client-ip=170.203.28.53;
+ helo=kl-203-28-53.kmta.shared.klaviyomail.com; pr=C
+Received: from kl-203-28-53.kmta.shared.klaviyomail.com (170.203.28.53) by
+ SJ5PEPF00000205.mail.protection.outlook.com (10.167.244.38) with Microsoft
+ SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.20.8901.20
+ via Frontend Transport; Fri, 4 Jul 2025 15:03:11 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:CECFE1101498A9501F09970CB4B9B2B2F9DEB5E5B20FEA73C1984355D0CB8E42;UpperCasedChecksum:6E35E0DDD44B6134D938D25C561EC0B3FF7982DA5D5E1F16077E83C0D3F49C37;SizeAsReceived:3096;Count:19
+X-Mailer-Info: 10.sGbfJzN5UzM0kzMxUTO.sGbfFDMxEDMxomeh1maxMnY65mNzF2N.uVGehR3
+ byBHapNHaA9Wd0x2bvtmLj9Wb.AyeiATMKpVQZZ0M0cUUTRTWwc1MHl1R3MlTDJVWiozeiMmI6IS
+ VMBHWzhkIsIyYh1mI6EDLi0mI6ICMxokWB1kSxMlQa5kNTF0NFR0QThVOBVTU1ICLiQnI6EzN1Ej
+ N0EzM5ADLiQXbiojIwEjSaFUWGNDNHF1U0kFMXNzRZd0NT50QSllIsICeiojItFmb1FGbi0Xf..E
+ DMxEDMxokWB1kSxMlQa5kNTF0N..
+X-Mailer-Info-Extra: 29443b2d66:0wNBNlNOplQTFjSNFkWKFDMxEDMxAQaA0XfiwW
+ Y15WYtJiOignIsISWSNkTTdzRZd0MXBTW0MVUHRzMGlVQapUMwIiOi0GdiwCM5MTM0YTM
+ 1cTM6ICdiwiI1EVNBlDWTNERFdTQTZjTaJ0UxoUTBplSxAjI6ISbiwSM6ISbhNmIsICSz
+ hFcMVlI6IyYisnOiklUD50U3cUWHNzVwkFNTF1R0MjRZFkWKFDMisHIAMGAt92Yus2bvx
+ Gd19GQoNXaoBncvRXY4VmT++
+Received: from unknown (HELO kmta-worker-prod-go-58756fdc4-vhzf4) (kmta-send@vmta.klaviyomail.com@10.7.221.244)
+  by kmta-mta-blue-075c81204b3d03422.servers.clovesoftware.com with SMTP; 4 Jul 2025 15:03:10 -0000
+CFBL-Address: fbl@kmta.shared.klaviyomail.com; report=arf
+Date: Fri, 04 Jul 2025 15:03:10 +0000
+List-Unsubscribe: <https://manage.kmail-lists.com/subscriptions/unsubscribe?a=ULpXsH&c=01JY7K3ZS07KPCED96JRV57D9H&k=6e76ccfd1dd716ef3e9b315eb9e3d9e5&m=01JZAMJ1SBZN6SA7EDCSX9A5Q5&r=01JZAYF34GQS4Y0W3GYG7SNCRY>,
+ <mailto:unsub1-01JY7K3ZS07KPCED96JRV57D9H-KVGHAWDTJA======@shared.klaviyomail.com?subject=request%20unsubscribe%20ME6VKTDQLBZUQJTDHUYDCSSZG5FTGWSTGA3UWUCDIVCDSNSKKJLDKN2EHFECM2Z5GZSTONTDMNTGIMLEMQ3TCNTFMYZWKOLCGMYTKZLCHFSTGZBZMU2SM3J5GAYUUWSBJVFDCU2CLJHDMU2BG5CUIQ2TLA4UCNKRGUTHEPJQGFFFUQKZIYZTIR2RKM2FSMCXGNDVSRZXKNHEGUSZ>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Message-ID: <mid-01JZAYF34GQS4Y0W3GYG7SNCRY@k3.pillows.getnuzzle.com>
+Subject: =?UTF-8?q?Declare_independence_from_neck_pain_=F0=9F=87=BA=F0=9F=87=B8?=
+X-Kmail-Account: ULpXsH
+X-Kmail-Message: 01JZAMJ1SBZN6SA7EDCSX9A5Q5
+X-Kmail-Ops: 01JY7K3ZS07KPCED96JRV57D9H
+X-Report-Abuse: Please report any spam or abuse to: abuse@klaviyo.com
+DKIM-Signature: a=rsa-sha256; bh=NNamollp7qkP/18jRn1zUHOJKnkBYxofcjFeQhiqd8c=;
+ c=relaxed/relaxed; d=shared.klaviyomail.com;
+ h=DKIM-Signature:List-Unsubscribe:List-Unsubscribe-Post:Date:Subject:From:To:CFBL-Address:Message-ID:Subject:From:To:CC:Date:CFBL-Feedback-ID:CFBL-Address;
+ s=def1; t=1751641390; v=1;
+ b=LnTFt/4QRWOyxM0yOF2o7nPbfUUWQTt/xdYZ3JGuLWXr6e9EcllXsqicF8CzVPSKKZTfWYH7
+ 20FqvdjAIpwgH2xNU5LNeZnEZ/C0rxfCKJCvjDOZMX4XOcGiT64weiZKPSnfkfDVzUw9i33fQ/N
+ lrXTctJZSJSZnoRsscU0E/7s=
+DKIM-Signature: a=rsa-sha256; bh=NNamollp7qkP/18jRn1zUHOJKnkBYxofcjFeQhiqd8c=;
+ c=relaxed/relaxed; d=pillows.getnuzzle.com;
+ h=List-Unsubscribe:List-Unsubscribe-Post:Date:Subject:From:To:CFBL-Address:Message-ID:Subject:From:To:CC:Date:CFBL-Feedback-ID:CFBL-Address;
+ s=mtd1; t=1751641390; v=1;
+ b=Uy3iIt7FP5GjzeNX4AqThBQHT7LFp534pzrlIchfTfkH6TmJQvCdODlORYyAfslg056HYJCe
+ x6KqA7+s8AYHI+05KoybsDABABrsoGiZ0c51T1Z/0q7sac5Rc2++HR5dCPTrx04tbK/8g/+85Gi
+ qkQLPT3ekIGR2qD2dZntDmQI=
+From: "Dr. Patrick @ Nuzzle" <support@getnuzzle.com>
+To: <Nexatorphish@outlook.com>
+Content-Type: multipart/alternative;
+	boundary="32dc7feaba0f354c7e5dbfdaac75fd21d87237b288a46b21677c39ca227a"
+X-IncomingHeaderCount: 19
+Return-Path: bounce-kl_27953493159-kl_101101jzamj1sbzn6sa7-h-29443b2d66=2@k3.pillows.getnuzzle.com
+X-MS-Exchange-Organization-ExpirationStartTime: 04 Jul 2025 15:03:11.5388
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: c48ff214-4258-40ad-d8f5-08ddbb0be4df
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: SJ5PEPF00000205:EE_|AM8P193MB0897:EE_|PAXP193MB2185:EE_
+X-MS-Exchange-Organization-AuthSource: SJ5PEPF00000205.namprd05.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 7/3/2025 7:22:59 PM
+X-MS-Office365-Filtering-Correlation-Id: c48ff214-4258-40ad-d8f5-08ddbb0be4df
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 170.203.28.53
+X-SID-PRA: SUPPORT@GETNUZZLE.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-SCL: 5
+X-Microsoft-Antispam: BCL:5;ARA:1444111002|21080799006|461199028|58200799018|47200799021|23070799003|9400799033|10300799035|56899033|1602099012|1370799030|1380799030|1360799030|4302099013|3412199025|440099028|6106899015|2406899039|2006899018;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 04 Jul 2025 15:03:11.2718
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: c48ff214-4258-40ad-d8f5-08ddbb0be4df
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource: SJ5PEPF00000205.namprd05.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM8P193MB0897
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:03.8147248
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.8901.020
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;ex:0;auth:1;dest:J;OFR:SpamFilterAuthJ;ENG:(5062000311)(920221119095)(90000117)(920221120095)(90005022)(91005020)(90014020)(91030020)(91040095)(9050020)(9100341)(944500132)(2008001181)(4810010)(4910033)(9610028)(9560006)(10180024)(9320005)(9245025)(120001);RF:JunkEmail;
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0xO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?NGk5RXZWbW1XVkJLVzRPU2hqaVQ4QjFYaHRGVCtTSFlIWFNrSi9LOUd3bXNM?=
+ =?utf-8?B?UVJYOHo3d1M2cGVVMjlPNEhqQ0szMGwzSXJ0WURaTnI3bGxXdFA0anZJc3Vr?=
+ =?utf-8?B?V2pBQ0NRdTVCdEg5a003d2p0d1hoQkt2bDFsbmRva3prK1lDOW5SUDJ2WU9o?=
+ =?utf-8?B?S1hFVElYS3QyaE43TjByYlErd3NkYSs4M0NsNGZwaUhRVzM2djBWZXcvME5t?=
+ =?utf-8?B?R3FXQ0hFNnVDQ0FoZXNreWpUY0dXV2FISVROLy9aWUZSc3NpMldOK0F4c3JN?=
+ =?utf-8?B?b3BRVmNPL2FtRFFRSnBRVkYyYk5TdTBCUi91SFdpQ2hWVWtLb3lkZlVHN0Fr?=
+ =?utf-8?B?TGJ3NXhJUXFwbFdYOVFjVk9LTGZGditlNVpMNkQwd1lQRmE5eDVHVVNMNUtR?=
+ =?utf-8?B?ajN6L0F0Y3BCTUVtQnFJbXIyNVhiMUlURFE4QitLZUYvQUJHeHNkZXlCL2p3?=
+ =?utf-8?B?OTdiM1MvQ05ZYjE3NWZ3d3dxUGlXTHBxS3ZpLzRZakdLV2NVSXQ5dTYrZzQ2?=
+ =?utf-8?B?SEFWNEpQUUJUK243QXN2QWZHTGdvMGJCUEJwZDNRSC9FdUZCUVl2Nzg5clpV?=
+ =?utf-8?B?c1dJdDg5MVFnS2FHMldSVWt6M0FNOHNyeVJ0TmFaMW9vckJkT3NuaC80N2FO?=
+ =?utf-8?B?OUlvTTN6OFNhS2VjVm9XTGJ2VzdNdUEzV0piOGZjVHpKWU51UHR4VG9pWWp4?=
+ =?utf-8?B?YkNpL1hsU1dkVDVFWnc4WlEwNnZ0YTBwcnpJM0dOd05hUnE5SCtxVGVkYlpJ?=
+ =?utf-8?B?cXNGY3pQaExPMysxQWMwYWFTQ2ZkYVFYb1pXQmVwR1dxMVdYWHRVc0hxd1g4?=
+ =?utf-8?B?MlM5Yld6bzJkNzdDTHB2TnpDbnFSa0dFTWQ1TzB5WmZMZGxUM28wVVg5WTNC?=
+ =?utf-8?B?MzNudHRlK05XekFacDAwM1IyYlBFTVFJN2c3enFZKzZyeHZtZkRObi9qdytk?=
+ =?utf-8?B?aWZSS1JqclZVUGYzdnA5bGFiMVFCM2w3OWh6c0FEdkZPRmtoQlR5cXBtVFpk?=
+ =?utf-8?B?M0ZHcWM5b3lzUUJKbUFxdlFHR3FKclN5cGpTSnZBc1pBc3VSRDhRWEN1U2NW?=
+ =?utf-8?B?SWZ0aEtJRDRnMkMxQU96TlUvSngvdVNHUFY0S0tWa0QwQm82ZFpxL1g5ZUZ6?=
+ =?utf-8?B?RGxwMFBhQzl6MnFlM0NzajdCdVYyTzdZZmQwb3ZlZFRoS0xIQlQ1dWhFcnIw?=
+ =?utf-8?B?dWhXK1hBTDBkdldSTEdvWnI3L09VbjVDVkZyWmJ2VkdxV3NpZ2k4VHVsOWRC?=
+ =?utf-8?B?TFlqRncxVEljeWU1MG5FNUwwTnlKM2VWcHQxZ0laSFE2UXcvUU05T2JTNlBU?=
+ =?utf-8?B?NFE1aGRKUkd2cjZSYi93dzZ5UGFUZmNYMzYyRnZUZmlFbklxWi8zdGZkOTJJ?=
+ =?utf-8?B?SmlVd0tHM2ZtRENuL09jV25kZTNqUlNhUXZ1dWxSdnhuTkJ3ZzVWcWN3UExl?=
+ =?utf-8?B?QXlnYnFTS05wenZDZTVZSytBQTdVL2tYbFJkUGlXQllxbnpxdG5qRTdRSjNG?=
+ =?utf-8?B?V2E5SWtkVG5JeFhGYkFOZDYvOVhmN3BWS2o2dHNRUko0Y29iUHExMHRwSTFv?=
+ =?utf-8?B?YTNJaFp6ejNUNFlNdmdZeUdyRFFVRVlKeWJPL2hxTTVmUElSVWtIZ0RLQ1k0?=
+ =?utf-8?B?N3FiaHVFemZvWHZObGNkWm9jK3hhN3kybDdjUFZKL3Q3RGt4OCtXL1o4MjNw?=
+ =?utf-8?B?cy83NWVEMmUwZGtTNnZ2aHRPQVFhSFJXWkV3em1SSWtCWEJoVUh5VWttL1RL?=
+ =?utf-8?B?UkxvQlpXYnJwSUEyZk5YT3ZvNlZnR2IrdUlxUjN1SS8veXRPOTBidHZ3SUNs?=
+ =?utf-8?B?dHFuNVZ4R0RUbWROUHBvZWhFQmFkTGRVQ0FSTmZrNG1GbGNQZlM4VGQ5Mzl1?=
+ =?utf-8?B?Lzc2ZkNFZTUwdWlwSUN4aitLcGlKM2JMN0hWU2UyUS9DVHV2b2ZENzZYVkJr?=
+ =?utf-8?B?Ny9SSG9CTzkvM2pNQTNBZDR4RTdzTzdKYWNhWU5kYzdvVVRYUVVTZ1B5MGtt?=
+ =?utf-8?B?SkFoV21YZ1hZd2FRQUl2eWlUOHczalhQZ3RwKzlsb21qeW8zbEtGSGZBNk9x?=
+ =?utf-8?B?Z2R0Z3FPcU9LR0N2eXFZcGJ5cGdtQW5BbjBnT3djYlBiY1lVRGVLMnVvY3hs?=
+ =?utf-8?B?Tkh2cG9vYWs0Z2U0aWRkRWlDWXU0MXlJeUI2RW1GaUwxMkJ6OFZzRWtPZE92?=
+ =?utf-8?B?aDdXNjNkazI1NDZvekZUNWlrSW5ITVB4V3crTnNTTkxvMU52aXg2dEwwaGF2?=
+ =?utf-8?B?ZThnVm9QVTRia3lkbGVtdVp1QTlUczFIYnhrNWNHRjhPSFliaU1OUEtjbThh?=
+ =?utf-8?B?VjhDOVZ2cENyU1VnZWxoeXczcFJiTU5XSFJWeC9ZcWlkelZGb1NPbmVpZGdW?=
+ =?utf-8?B?RkxwY2lpWlB2RTJwV0JKZ3V5ZFh3cVdKR28vaWNXUXhQTVAwWFMyUGE2T0Nx?=
+ =?utf-8?B?SFp0dEgycWloWGJMZGFZUCtvQ05wZ3lvMHRsM1lScWppb29mYjkyUVEzY3lw?=
+ =?utf-8?B?Vm9TVWpUQm5EemFUNFYyRlFyRDhVSkxLK0RFQ3k1dXlRdEg0cjdYS2Jvbnp5?=
+ =?utf-8?B?TmtJUUNXaXJKM0xRb0dEWUZBYkhlQUw5bUVGQUh1NE5CQlF4a21telBDNkFt?=
+ =?utf-8?B?anVoZm5TWGc4UndEQTFZcEEzcy8zMCsyZlNTcTE2bTdoZm1CM1RLVEh0OGlO?=
+ =?utf-8?B?VDJWU2pab0wxcXU3Mis0WENJRUJjNWloVkE3VndEay8yS3ZGQmhUbVRSYTJy?=
+ =?utf-8?B?KzNJb1J3NFR5dVY0dW9QY2pxalc1OUg1UFVzVTJndGJHcUZHcy9DU2JMUm00?=
+ =?utf-8?B?QURIUzZvK3B1cTk2M3N0VmJPSjl4M1Z0UjBPYm0zdlp3K3NNMXlDaFNXdHlD?=
+ =?utf-8?B?QUZHVG1MTDBkbDlHaDVJdWZzOHRwclo3Q1VkeW9FbktiOU1HNW9NQUthNmRr?=
+ =?utf-8?B?Y0FMSzZFSXZZemdCV2EwZmVZQlFUSG1HL2VXZVdWbU15bFNnenZIdlVWS3hH?=
+ =?utf-8?B?T0pQOFRXaTBESVVQRjMybnNtQUxtUnMzYjdycGYwKzRycGVzWDBUVnpGZWpx?=
+ =?utf-8?B?ZVdIOHZRLzExVHg4bmhTY05pOEpCbHVCSENpdWc1NkEvQm9JVnVGenRSOWRJ?=
+ =?utf-8?B?SEJnV0UrQjlsTExVRnZQVlRrbGlwcGhEbS9jdGMvUT09?=
+MIME-Version: 1.0
+
+--32dc7feaba0f354c7e5dbfdaac75fd21d87237b288a46b21677c39ca227a
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset="US-ASCII"
+
+Hi friend,
+
+Dr. Patrick Silva here, and I think the history books got it WRONG about wh=
+at really held back our Founding Fathers...
+
+I mean, once you know the truth, how couldn't I flip on our [biggest 4th of=
+ July sale yet...](https://offer.getnuzzle.com/)
+Get 3 Pillows @ 60% OFF + We'll throw in an extra pillow.
+
+Because have=C2=A0you seen their posture? It wasn't great.
+
+George Washington hunched over those documents, Benjamin Franklin with that=
+ forward head position, Thomas Jefferson probably waking up with a crick in=
+ his neck after writing the Declaration of Independence.
+
+They were brilliant men, but their spinal alignment was... let's call it "c=
+olonial."
+
+Truth is, poor posture has been plaguing America since 1776, that's why I f=
+lipped on our biggest 4th Of July Sale yet:=C2=A0[Get 3 Pillows @ 60% OFF +=
+ We'll throw in an extra pillow.](https://offer.getnuzzle.com/)
+
+Don't worry... Jack and I made amends.
+
+Because while other companies make pillows as a side business, we're revolu=
+tionizing how America sleeps:
+
+=E2=9C=93 3-in-1 adjustable design (works for all sleep positions)
+=E2=9C=93 Proprietary Nanocoil Support Fibers
+=E2=9C=93 NASA-inspired cooling technology=C2=A0
+=E2=9C=93 Chiropractor recommended and tested
+=E2=9C=93 90-day money-back guarantee
+
+The Founding Fathers fought for independence. We're fighting for independen=
+ce from neck pain.
+
+Because nothing says "independence" like freedom from morning stiffness.
+=C2=A0
+[>> Declare Independence From Neck Pain With Nuzzle @ 60% OFF](https://offe=
+r.getnuzzle.com/)
+
+Best,
+Dr. Patrick Silva Chiropractor & Sleep Expert
+
+You received this email from Nuzzle. If you would like to unsubscribe, [cli=
+ck here](https://manage.kmail-lists.com/subscriptions/unsubscribe?a=3DULpXs=
+H&c=3D01JY7K3ZS07KPCED96JRV57D9H&k=3D6e76ccfd1dd716ef3e9b315eb9e3d9e5&m=3D0=
+1JZAMJ1SBZN6SA7EDCSX9A5Q5&r=3D01JZAYF34GQS4Y0W3GYG7SNCRY).
+--32dc7feaba0f354c7e5dbfdaac75fd21d87237b288a46b21677c39ca227a
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+
+<!DOCTYPE html><html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"></=
+head><body><div><span style=3D"font-size: 18px;">Hi friend,<br><br></span><=
+/div>
+<div><span style=3D"font-size: 18px;"><span style=3D"font-weight: bold;">Dr=
+. Patrick Silva here, and I think the history books got it WRONG about what=
+ <span style=3D"font-style: normal;">really</span> held back our Founding F=
+athers...<br></span><br>I mean, once you know the truth, how couldn't I fli=
+p on our <a href=3D"https://ctrk.klclick.com/l/01JZAYZ36S5TYQHE23HP4JG4G3_0=
+">biggest 4th of July sale yet...</a><br><span style=3D"font-weight: bold; =
+font-style: italic; font-family: Times; color: rgb(0, 0, 0); text-align: st=
+art; font-size: 14px;">Get 3 Pillows @ 60% OFF + We'll throw in an extra pi=
+llow.</span><br><br>Because have&nbsp;you seen their <span style=3D"font-st=
+yle: italic; text-decoration: underline;">posture</span>?<span style=3D"fon=
+t-weight: bold;"> It wasn't great.</span> <br><br>George Washington hunched=
+ over those documents, Benjamin Franklin with that forward head position, T=
+homas Jefferson probably waking up with a crick in his neck after writing t=
+he Declaration of Independence.<br><br>They were brilliant men, <span style=
+=3D"font-style: italic;">but their spinal alignment was...</span> <span sty=
+le=3D"font-weight: bold;">let's call it &quot;colonial.&quot;</span><br><br=
+>Truth is, poor posture has been plaguing America since 1776, that's why I =
+flipped on our biggest 4th Of July Sale yet:&nbsp;<a href=3D"https://ctrk.k=
+lclick.com/l/01JZAYZ36S5TYQHE23HP4JG4G3_1">Get 3 Pillows @ 60% OFF + We'll =
+throw in an extra pillow.</a></span></div>
+<div><span style=3D"font-size: 18px;"><br>Don't worry... Jack and I made am=
+ends.<br><br><span style=3D"font-weight: bold;">Because while other compani=
+es make pillows as a side business, we're revolutionizing how America sleep=
+s:</span><br></span><br><span style=3D"font-size: 18px;">=E2=9C=93 3-in-1 a=
+djustable design <span style=3D"font-style: italic;">(works for all sleep p=
+ositions)</span></span><br><span style=3D"font-size: 18px;">=E2=9C=93 Propr=
+ietary Nanocoil Support Fibers</span><br><span style=3D"font-size: 18px;">=
+=E2=9C=93 NASA-inspired cooling technology&nbsp;</span><br><span style=3D"f=
+ont-size: 18px;">=E2=9C=93 Chiropractor recommended and tested</span><br><s=
+pan style=3D"font-size: 18px;">=E2=9C=93 90-day money-back guarantee<br></s=
+pan><br><span style=3D"font-size: 18px;">The Founding Fathers fought for in=
+dependence. <span style=3D"font-weight: bold;">We're fighting for independe=
+nce from neck pain.</span><br></span><br><span style=3D"font-size: 18px;">B=
+ecause nothing says &quot;independence&quot; like freedom from morning stif=
+fness.</span></div>
+<div><span style=3D"font-size: 18px;">&nbsp;</span></div>
+<div><span style=3D"font-size: 18px;"><span style=3D"font-weight: bold;"><a=
+ style=3D"font-weight: bold;" href=3D"https://ctrk.klclick.com/l/01JZAYZ36S=
+5TYQHE23HP4JG4G3_2">&gt;&gt; Declare Independence From Neck Pain With Nuzzl=
+e @ 60% OFF</a></span><br><br></span></div>
+<div><span style=3D"font-size: 18px;">Best,</span><br><span style=3D"font-s=
+ize: 18px;">Dr. Patrick Silva Chiropractor &amp; Sleep Expert</span></div><=
+table align=3D"left" style=3D"text-align:left;background:#fff;">
+    <tbody><tr>
+        <td align=3D"left" valign=3D"top" style=3D"color:#888;font-family:H=
+elvetica,Arial,sans-serif;font-size:12px;line-height:110%;padding-top:20px;=
+text-align:left;">
+            <br><br>
+            You received this email from Nuzzle. If you would like to unsub=
+scribe, <a style=3D"color:#888;" href=3D"https://ctrk.klclick.com/l/01JZAYZ=
+36S5TYQHE23HP4JG4G3_3">click here</a>.
+        </td>
+    </tr>
+</tbody></table><img src=3D"https://ctrk.klclick.com/o/01JZAYZ36S5TYQHE23HP=
+4JG4G3" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px =
+!important;width:1px !important;border-width:0 !important;margin-top:0 !imp=
+ortant;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !=
+important;padding-top:0 !important;padding-bottom:0 !important;padding-righ=
+t:0 !important;padding-left:0 !important;"></body></html>=
+
+--32dc7feaba0f354c7e5dbfdaac75fd21d87237b288a46b21677c39ca227a--

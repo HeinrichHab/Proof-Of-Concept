@@ -1,0 +1,2686 @@
+Received: from DB9P195MB1492.EURP195.PROD.OUTLOOK.COM (2603:10a6:10:33a::12)
+ by DU0P195MB1820.EURP195.PROD.OUTLOOK.COM with HTTPS; Thu, 22 May 2025
+ 04:17:28 +0000
+Received: from DUZPR01CA0289.eurprd01.prod.exchangelabs.com
+ (2603:10a6:10:4b7::20) by DB9P195MB1492.EURP195.PROD.OUTLOOK.COM
+ (2603:10a6:10:33a::12) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.8769.19; Thu, 22 May
+ 2025 04:17:27 +0000
+Received: from DB1PEPF000509FF.eurprd03.prod.outlook.com
+ (2603:10a6:10:4b7:cafe::e8) by DUZPR01CA0289.outlook.office365.com
+ (2603:10a6:10:4b7::20) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.20.8746.32 via Frontend Transport; Thu,
+ 22 May 2025 04:17:31 +0000
+Authentication-Results: spf=pass (sender IP is 172.82.209.144)
+ smtp.mailfrom=infomails.microsoft.com; dkim=pass (signature was verified)
+ header.d=infomails.microsoft.com;dmarc=pass action=none
+ header.from=infomails.microsoft.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of infomails.microsoft.com
+ designates 172.82.209.144 as permitted sender)
+ receiver=protection.outlook.com; client-ip=172.82.209.144;
+ helo=r144.engage.microsoft.com; pr=C
+Received: from r144.engage.microsoft.com (172.82.209.144) by
+ DB1PEPF000509FF.mail.protection.outlook.com (10.167.242.41) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.8769.18 via Frontend Transport; Thu, 22 May 2025 04:17:27 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:7E4B9A25A9DD9038FE1218D7F58F28D17B6670BDFAD65F3BE586F3DF005C1A4C;UpperCasedChecksum:29E063C547000F7019CE419E54BC4A11C621783FE665707B56DB86DC4F0D352E;SizeAsReceived:2074;Count:16
+Return-Path: bounce@infomails.microsoft.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=infomails.microsoft.com; s=mscom; t=1747887440;
+	bh=fDs/DVAHWQiD2APjKNpAUL/+QtaYFSQVXzPiMep5jdU=;
+	h=From:Date:Subject:To:MIME-Version:Message-ID:List-Unsubscribe:
+	 List-Unsubscribe-Post:Content-Type;
+	b=AIWm4qSOfsQJLNGRjIqgwEHdwezAc08tGBE0awnPRh27fV8P2Mpel4OJc9TaBKNL7
+	 Fm7ry7BmKpM3KXcLzoPB9DI43fa1juq7+49I5YMlf7inEgZc1uVs8XOE9tUgwukVo6
+	 u+rF1hh8L03xy1M/0wccjbA9EyxV6rlOw2SYenztdky5EB1+NqPCEVWJDwykTRH17N
+	 0Ex7y/QjMmilLxV2LkF/EKOb8sCeA6TiPcPFUHwijNAAZDSFBjr9IFyVqE01qnguPg
+	 7KKTxnjiZUNY2oGMhIO+VDC0qLGem1utAq5LNy/endpXKTI6xccKT+NyF+VHYjSpoa
+	 WANR71ukkd6Tw==
+X-MSFBL: jHmAClZ8OUMHtkxW23ItPpmtOHLC3QP9vLgZ2Y3DBkk=|eyJnIjoiYmF0Y2h0cml
+	nZ2VybWFya2V0aW5nX2I1OWYwNWM4LTg4NjAtNGUzZC1iNGZlLTRhMDMwY2MxNTA
+	3NSIsImIiOiJtc2NvbV8xNzIuODIuMjA5LjE0NF9iYXRjaHRyaWdnZXJtYXJrZXR
+	pbmdfYjU5ZjA1YzgtODg2MC00ZTNkLWI0ZmUtNGEwMzBjYzE1MDc1IiwiciI6InR
+	vbWkuZ0Bob3RtYWlsLmRlIiwicmNwdF9tZXRhIjp7ICJpbiI6ICJtc2NvbV9ta3R
+	fcHJvZDEyNiIsICJyIjogInRvbWkuZ0Bob3RtYWlsLmRlIiwgIm0iOiAiNTA3OTU
+	0NzIwIiwgImQiOiAiNTQxMzI5NDg5IiwgImkiOiAiRUE3NkFERTk1Nzc2RDJFQzd
+	GMDAwMTAxQEFkb2JlT3JnIiB9fQ==
+Received: from [10.1.1.199] ([10.1.1.199:49098] helo=r154.engage.microsoft.com) by or2-prod1-mta-i-07b45b16f433239e9 (envelope-from <bounce@infomails.microsoft.com>) (ecelerity 4.4.1.20033 r(msys-ecelerity:tags/4.4.1.0^0)) with ESMTP id 86/38-40063-055AE286; Thu, 22 May 2025 04:17:20 +0000
+From: "Microsoft Copilot" <Copilot@infomails.microsoft.com>
+Date: Wed, 21 May 2025 21:17:01 -0700
+Subject: =?windows-1252?Q?Sie_sind_startklar_=96_lassen_Sie_jetzt_Copilot?=
+ =?windows-1252?Q?_f=FCr_sich_arbeiten?=
+To: <tomi.g@hotmail.de>
+Reply-To: "noreply" <replies@microsoft.com>
+X-mailer: nlserver, Build 7.0.0.10695
+Message-ID: <AC7000000001E46C62020440851mscom_mkt_prod126@infomails.microsoft.com>
+List-Unsubscribe:
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+X-IncomingHeaderCount: 16
+X-MS-Exchange-Organization-ExpirationStartTime: 22 May 2025 04:17:27.5936
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 92e588ff-8e61-422c-b982-08dd98e78feb
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: DB1PEPF000509FF:EE_|DB9P195MB1492:EE_|DU0P195MB1820:EE_
+X-MS-Exchange-Organization-AuthSource: DB1PEPF000509FF.eurprd03.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 5/21/2025 4:23:04 PM
+X-MS-Office365-Filtering-Correlation-Id: 92e588ff-8e61-422c-b982-08dd98e78feb
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 172.82.209.144
+X-SID-PRA: COPILOT@INFOMAILS.MICROSOFT.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:4;ARA:1444111002|9400799033|68400799013|12001999021|10300799035|12005499003|461199028|28045499009|970799057|5301999021|9000799050|6401999021|8301999021|21080799006|1680799057|23015499003|3412199025|4302099013|440099028|18042799006|18021999003|21101999018|17072799003|1380799030|1370799030|1360799030|56899033|1602099012|2406899039;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 22 May 2025 04:17:27.0371
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 92e588ff-8e61-422c-b982-08dd98e78feb
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource: DB1PEPF000509FF.eurprd03.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DB9P195MB1492
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.3702403
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.8746.028
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000308)(920221119095)(90000117)(920221120095)(90005022)(91005020)(91035115)(9050020)(9100341)(944500132)(4810010)(4910033)(9575002)(10195002)(9320005)(120001);
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?bHl6MzA4cW9DcWlLVU9kWGJTR1I4NjlpMU1YZHc3aXNnelJvTWRNallBTWNM?=
+ =?utf-8?B?eWFaaUVQNlQ4WGord3FpUkI2emJHcng4Yjd5bmZCUXNjZ0ZqRnVUcEsxcGVj?=
+ =?utf-8?B?cXRiTS9ZTy92OHVrN2pkbU1Fd2ZIWUJmNnBrYlQrZWx6dUh6UkNzRDhVM2Vj?=
+ =?utf-8?B?ZndzV09DbXRySEZQMmVsVXlDZEJkdk56dWhNanJ5c09jM1BTRUN6UGdaVjFs?=
+ =?utf-8?B?S3lQWGRWNU1lNXMwOVc3cm9ES2NBUTdFbXZ5TGF0SUs0OGlHSENzYVRXc2s0?=
+ =?utf-8?B?VVZGZGRBZE5GSXRsd3NOb3UwR1dRbXZmeTVVblVTeG1HWVB3TnhPdVhGbHhV?=
+ =?utf-8?B?Y2V2QkZBSFlZbzRROXN3OHgrMTNmWmpkUkNaZ2tXS2VCbmxCY0JZMmRRajN1?=
+ =?utf-8?B?S0hIMG9Ib2pBOGgxS0ozWjlGQi9YTTZkQXRPR1E3RGZBNG5zK0JSUjFrUHZT?=
+ =?utf-8?B?REVUOFJteTNGOW5iSVBiRkJJN3ZOdklkTnlqYzMzWXRsYnQ3Zk5KbUttSDB3?=
+ =?utf-8?B?Y1gvM05MdlZwVm56NENuWTEvY29kcVphc1U0dVBHVWdWKzl0TGFBT0k1R2xa?=
+ =?utf-8?B?ZG1jSVpsemZZMGxqWi8walVRcDFHMnBhVW4xSDd3L1pzOUNXRWJtS3U1SEtp?=
+ =?utf-8?B?UWtDeTJsZWV3NHQxYk5rdDBsdmtIN0JESVVud005V2xLWVQwQzJpeG1LVzl2?=
+ =?utf-8?B?ekRrRW1zUHNNNVdMT1dGUmIxQlU4bVQvMXI2N0h4U05TcUhCVllIVkxZLzEw?=
+ =?utf-8?B?b0pCZ2RzUW5OTmI5SVhwS0xEckpZanBVcFpBNWtkcTgyNEdrcndDVGxrYTRL?=
+ =?utf-8?B?T0NoSWMwTnlJamowMU1yejVpcXFoK1h6OXZ3aWFUTG03V2VWZlVGSVNjOWNn?=
+ =?utf-8?B?R3JQeUUybTF3bjFpVHFLRWIrMnBhemR0ZmdtNWl3ZjJkZm9FaFY5QzczaGxw?=
+ =?utf-8?B?bEt3ekx5QzNlWDZxeUNWd2tVL3JTcmVnWHdmdndXd3NkNE5QdmlNRUR3WU1M?=
+ =?utf-8?B?c1Zib3d3d3M2MkhRTmpRMGQwYjMyN1FCbWsrdExzOHlPTnFTNm9JUGcvaU9h?=
+ =?utf-8?B?MWpKV2NSenNmWFhZVk5JZGcwSHAwZjN4VWpFaTMvSVkzY1JmOHEyQi80K0hq?=
+ =?utf-8?B?Z0ZQa1I3VkxDTWN2UmRuYlRpVFNMbzRQTDRlQTNKUHA2SHU1bE5kNFVDVFlF?=
+ =?utf-8?B?bTA4NHU3ZlhoY0psTUxOeEdkcmFBU3M2bVh6dWpUbTJlQVErWlVreHFsRDYy?=
+ =?utf-8?B?eDZFUDZpL0JiY2hQN3JIQWt5b1V1VmxVWGh1c3Q5TWZxZ2FqSENDM29PbUhw?=
+ =?utf-8?B?MHBGV3FkOTV0a2R3MTdxSGh5MTF2NGdPR0YwNUlYR3lraE9JazRzZmVIdVl3?=
+ =?utf-8?B?NVkvSUNVQjlSb1Q5ZHJzV09FWURRVThEd0J6QVoweGZleDBkcEl1bERaYk1Y?=
+ =?utf-8?B?VXBWYXZkVU15VGZRV2lQbnVZU2k0M3VMM2dDaEkyY2FQWnlJbEpYQ3VTdk5F?=
+ =?utf-8?B?UzFlbE5YNkwzWVRKR001MFJzdjVVSlhwdlJMcnEwUmdhNEhWQk1vQ1BZbjFQ?=
+ =?utf-8?B?SExCSTk3UEo3NXloclRBV3ZlQjVXQ09hRU55dmxXUDJYZEJhZVBqeGl3SjFX?=
+ =?utf-8?B?M0JBOEY0MmhZL3dlVExjUmhSY21qZlkrbUw5VE9zVFhxQ0FZbXB3NDJUZkRT?=
+ =?utf-8?B?L09SaW1la0JQNHR2cEdyNHFsZUt3K0NSQkJSQ24xTndxbTErVTJSM2FBRHZS?=
+ =?utf-8?B?dzRNa0RYdWdRMGJhMEU2Y09QYlF1bmRDUmFWMFhnVk5XNFRwdUVkOERaYVpW?=
+ =?utf-8?B?bWg2OW9CSENvTHdhS1pMUE5FUnY3emV6cFZIUDQybVZpbTZlYXV5RGczYlpN?=
+ =?utf-8?B?SkcrK3JEVGlZZ2pEdG5wWU82dEFSeHpOT3ZyejdBaVNnTVAxZTFBN29YNFBz?=
+ =?utf-8?B?VVhOVnZwcGIxSE1IWjFHeW16QktGaEhxUmo5Ty9SbW5sSEhnL041dS81bFNv?=
+ =?utf-8?B?TWJ3azg0ZHlyQjJxTkUwejdUTDRDc1BCU0t2SkNmU0V0aXFPZVduZDUvOEFp?=
+ =?utf-8?B?MnBJUUdkSkEzUXR1Y2NOWlJ1cUNiMzlJRk1XQWdqMk52Z0NxbDJlUUhlMnh1?=
+ =?utf-8?B?S21XMDk0dnlYOG02RTFNOVB6aW1VSXNvSW8ydXhPdmlHcHRnY2R5dEZQa3RU?=
+ =?utf-8?B?T1E2b0t6bWFEdTNQN2ZTM0xYc3ljVDJFSFBmOHRzU0JFSVZVMlNPQVFVaVcv?=
+ =?utf-8?B?RzMxK2IxR0VOc2cvdjZYaDlkUGZHV3FxV056eUdpQ2RuQUoxdGJ5TmxjK3dp?=
+ =?utf-8?B?MURGcnhvMEh0L29ML282YnA2OFNST3lzWTFDWFgzZlRrNXArbTNYVXFqN2FH?=
+ =?utf-8?B?OW5Kb1BUSWZFM2JiWnM1RW52dXRKMUthNVJRT3I2WUlza1JMc3ZRMVYza3Q4?=
+ =?utf-8?B?a2wyQnVaQ2dYKzU2ZWhMTVBPL1ZieHE5QUJhcmVEb3Y5aHZZVEF0ZUVjTk9E?=
+ =?utf-8?B?Sm5TYTFBYUlqRjhYTjJIRCtGL1Z5Rk02UDRRYjhTNFUwK0lNQVE5N1B6Wk1V?=
+ =?utf-8?B?ZFA0Tm1qMXdKaTY0ZmtrWWtTb2tOZWJQRFlHekVaNE1yVEdsUmx4VjRLUlRX?=
+ =?utf-8?B?Z244K0FHNUFmbFRjQTdoNmc4bG1CSGx2ZTZBTVFrbzlsYWlIZE9rc0xhejRT?=
+ =?utf-8?B?cVBUUS9WaVVHNjd5RWxlT2xIZG5IN2J6ZE5XSURPcmVjeUdDb2tHbHRPTGdR?=
+ =?utf-8?B?SGN0NnB1VDZBeFJ4dndwOWxjL09MYWtYUWw2UjhVb09kdm5ZbmFHUXBEV0Jn?=
+ =?utf-8?B?L3daS2JSU1NBdE1odzBVWHFRbWV1YjlWdFU2bW9NdU9COGtIcEtTOXNkVWFH?=
+ =?utf-8?B?SUNydXZBNGtaVUNWcm5TS1Q5QXUxN3ZkYmZuK0JObldEZzJUNVROdmlPMUlF?=
+ =?utf-8?B?VVUxWVd3ZnRnRFR4bk1CS3VFUElHazlBeVplZUFsYjc1NnRlMHc9PQ==?=
+MIME-Version: 1.0
+
+<!DOCTYPE HTML><html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:o=3D"urn:=
+schemas-microsoft-com:office:office" xmlns:v=3D"urn:schemas-microsoft-com:v=
+ml" dir=3D"ltr" lang=3D"de-de"><head><!--[if gte mso 9]>
+      <xml>
+         <o:OfficeDocumentSettings>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+         </o:OfficeDocumentSettings>
+      </xml>
+    <![endif]-->
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+    <meta name=3D"HandheldFriendly" content=3D"true">
+    <meta name=3D"x-apple-disable-message-reformatting">
+	<title>Sie sind startklar =E2=80=93 lassen Sie jetzt Copilot f=C3=BCr sich=
+ arbeiten</title>
+	<link rel=3D"canonical" href=3D"/content/campaigns/microsoft-365-consumer/=
+de-de/868d6ebqm_cge_copilotfreewelcome1refresh-rowaprilfy25copilot/you-re-i=
+n---let-s-make-copilot-work-for-you.html">
+	<link rel=3D"shortcut icon" href=3D"/apps/settings/wcm/designs/default/fav=
+icon.ico">
+	<meta name=3D"description" content=3D"Gewinner-Inhalte ">
+	<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1=
+.0">
+=09
+
+	<meta name=3D"format-detection" content=3D"telephone=3Dno">
+    <meta name=3D"format-detection" content=3D"date=3Dno">
+    <meta name=3D"format-detection" content=3D"address=3Dno">
+    <meta name=3D"format-detection" content=3D"email=3Dno">
+
+   =20
+
+   =20
+   =20
+       =20
+   =20
+<link rel=3D"stylesheet" href=3D"/etc.clientlibs/microsoft_email/clientlibs=
+/clientlib-dependencies.min.css" type=3D"text/css">
+<link rel=3D"stylesheet" href=3D"/etc.clientlibs/microsoft_email/clientlibs=
+/clientlib-site.min.css" type=3D"text/css">
+<script src=3D"/etc.clientlibs/microsoft_email/clientlibs/clientlib-depende=
+ncies.min.js"></script>
+<script src=3D"/etc.clientlibs/microsoft_email/clientlibs/clientlib-site.mi=
+n.js"></script>
+
+
+
+   =20
+   =20
+   =20
+   =20
+
+   =20
+   =20
+
+   =20
+   =20
+
+   =20
+   =20
+
+   =20
+    <style media=3D"all" type=3D"text/css">
+    	@-ms-viewport { width: device-width;}
+    </style>
+    <style type=3D"text/css">
+    	 sup{line-height: 0;}
+    	.xf-content-height { margin:0 !important; }
+		.xf-content-height .newpar { margin: 0; height: 100% !important; }
+		.desktop-block { display:block; }
+	    .rtl-template,  .rtl-template td { direction: rtl !important; text-ali=
+gn: right !important; }
+		.rtl-template .text-rtl-center td, .rtl-template .hero-text-center{text-a=
+lign:center !important}
+		.rtl-template .btn-rtl th { direction: rtl !important; }
+        .rtl-template ul { margin: 0 !important; padding-right: 22px !impor=
+tant;text-align: right !important;direction: rtl !important; }
+        .rtl-template ol { margin-top: 0 !important;margin-bottom:0 !import=
+ant; padding-right: 22px !important;text-align: right !important;}
+        .rtl-template .social-icons { padding-left: 12px !important; paddin=
+g-right: 0 !important; }
+        .rtl-template .text-align-right th { text-align: right !important;p=
+adding-right:0px !important; padding-left:3px !important; }
+		.rtl-template .txt-align-right, .rtl-template .block-text-align-right {te=
+xt-align: right !important;}
+		.rtl-template li { padding: 0 12px 8px 0 !important; }
+		.rtl-template .rating-thumbs-up { padding-left: 30px; padding-right: 0; }
+		.rtl-template .reward-tile-card {padding-left: 20px; padding-right: 0; }
+        .rtl-template .ribbon-cta .block-max-width {text-align: left !impor=
+tant;}
+		.rtl-template .block-max-width, .rtl-template .btn-block-right {text-alig=
+n: right !important;}
+		.rtl-template .block-max-width-center {text-align: center !important;}
+		u+.rtl-template a { color:#0067B8 !important; }
+		.rtl-template .table-ruler td, .rtl-template .table-ruler th, .rtl-templa=
+te .table-zebra td, .rtl-template .table-zebra th,
+		.rtl-template .table-hr-icon td, .rtl-template .table-zebra-icon td { pad=
+ding: 20px 20px 20px 0 !important;	text-align: right !important; }
+		.rtl-template .table-ruler-mobile th, .rtl-template .table-zebra-mobile t=
+h { text-align: right !important; 	}
+		.rtl-template .text-rtl-center td {text-align: center !important;}
+    	.rtl-template .text-rtl-center {display:block; margin:0 auto;}
+		.email-table .text-center p,.email-table .text-center td {text-align:cent=
+er !important;}
+        .email-table .text-center img {Margin:0 auto;margin:0 auto;}
+        .email-table .text-left p,.email-table .text-left td {text-align:le=
+ft !important;}
+        .email-table .text-right p,.email-table .text-right td {text-align:=
+right !important;}
+        .rtl-template .email-table .text-center p,.rtl-template .email-tabl=
+e .text-center td {direction: rtl !important;text-align: center !important;=
+}
+		.rtl-template .btn-rtl th {direction: rtl !important;}
+		.rtl-template .tile-headline, .rtl-template .tile-paragraph { padding: 0 =
+20px 0 20px;}
+		.rtl-template .small-tile-image { padding: 20px 20px 0px 20px;}
+		.rtl-template .tile-button { padding: 0 20px 20px 20px; }
+		.rtl-template .padd-left-right-40 { padding: 0 40px 0 40px !important;}
+		.rtl-template .padd-left-20 { padding-left: 20px !important; padding-righ=
+t: 0 !important;}
+		.rtl-template .intro-tile-image {padding:10px 10px 10px 20px}
+		.rtl-template .intro-tile-text {padding:0 0 0 10px}
+        .rtl-template .image-tile-10 { padding:10px 10px 0px 0px !important=
+;}
+        .rtl-template .image-tile-20 {padding: 20px 20px 0px 0px !important=
+;}
+        .footer-address-center td,.footer-address-center td p,.footer-addre=
+ss-center td p a{text-align:center !important;direction:ltr !important;}
+		 table.groupthree a {text-decoration: underline !important;}
+		.txt-center ul li, .txt-center ol li{text-align: center !important; list-=
+style-position: inside;}
+         body {margin:0;padding:0;}
+         table td {border-collapse:collapse;margin:0;padding:0;}
+         table td p {margin:0;padding:0;}
+		 table td p a {color:#0067B8;text-decoration:underline;font-weight: norma=
+l;}
+		 table th {font-weight: normal !important;}
+         .desktopHidden, .desktop-hidden, .table-ruler-mobile, .table-zebra=
+-mobile {display: none !important;}
+         .gutter {padding:0 30px;}
+		 .tile-pad-large-4 {padding-left: 50px !important; padding-right: 50px !i=
+mportant;}
+         .tile-pad-large {padding-left: 30px !important; padding-right: 30p=
+x !important;}
+         .tile-pad-small-v1 {padding-left: 50px !important; padding-right: =
+50px !important;}
+         .tile-pad-small-v2 {padding-left: 84px !important; padding-right: =
+84px !important;}
+         .tile-pad-small-v3 {padding-left: 119px !important; padding-right:=
+ 119px !important;}
+         .tile-pad-small-v5 {padding-left: 154px !important; padding-right:=
+ 154px !important;}
+		 .padd-left-right-40 { padding:0 40px 0 40px !important;}
+		 .padd-left-right-20 { padding:0 20px 0 20px !important;}
+		 .padd-left-right-10 { padding:0 10px 0 10px !important;}
+		 .padd-left-right-28 { padding:0 28px 0 28px !important;}
+		 .padd-right-26 { padding:0 26px 0 0 !important;}
+		 .padd-left-26 { padding:0 0 0 26px !important;}
+		 .tile-small-box .btn-block {vertical-align:top}
+		 .tile-image {padding: 10px 20px 10px 10px;}
+		 .reward-tile-card {padding-right: 20px;}
+         .lg-tile-image, .lg-tile-headline, .lg-tile-paragraph, .lg-tile-bu=
+tton {padding: 0 40px 0 40px;}
+         .tile-headline, .tile-paragraph { padding: 0 20px 0 20px;}
+         .small-tile-image { padding: 20px 20px 0px 20px;}
+         .tile-button { padding: 0 20px 20px 20px;}
+         .tile-txt-small {font-family: 'Segoe=C2=A0UI', Helvetica, Arial, s=
+ans-serif; font-size: 12px; font-style: normal; color: #505050; line-height=
+: 16px; letter-spacing: -0.01em; text-align: center; padding-left: 5px; pad=
+ding-right: 5px; word-wrap: break-word; word-break: break-all;}
+         .tile-txt-large {font-family: 'Segoe UI', Helvetica, Arial, sans-s=
+erif; font-size: 14px; font-style: normal; color: #505050; line-height: 20p=
+x; letter-spacing: -0.01em; text-align: center; padding-left: 10px; padding=
+-right: 10px; word-wrap: break-word; word-break: break-all;}
+         .boxed-list-wrapper {padding: 20px 30px 0;}
+		 .block-padd-top-30 {padding-top: 0px;}
+		 .rating-thumbs-up {padding-right: 30px;}
+		 .text-card-padding {padding: 0 80px 0px 80px;}
+         .rte-spacer-20 p,.rte-spacer-20 ul,.rte-spacer-20 ol {padding-bott=
+om: 20px !important;}
+		 .rte-spacer-10 p,.rte-spacer-10 ul,.rte-spacer-10 ol {padding-bottom: 10=
+px !important;}
+         .rte-footerspacer-10 p,.rte-footerspacer-10 ul,.rte-footerspacer-1=
+0 ol {padding-top: 10px !important;}
+		 .semibold{font-weight:600;}
+		 .strikethrough { text-decoration: line-through;}
+		 .spacer-ln-ht-0 {line-height: 0px;font-size: 0px;}
+		 .table-ruler-mobile td, .table-ruler-mobile th, .table-zebra-mobile td, =
+.table-zebra-mobile th, .table-hr-icon td, .table-zebra-icon td {
+      		height: 30px !important; padding: 20px 0 20px 20px !important; text=
+-align: left !important;	word-wrap: break-word !important;	overflow-wrap: b=
+reak-word !important; }
+		 .table-ruler th, .table-ruler td { height: 30px !important;	padding: 20p=
+x 0 20px 20px !important; text-align: left !important; word-wrap: break-wor=
+d !important; overflow-wrap: break-word !important; }
+		 .table-zebra th, .table-zebra td { height: 30px !important;	padding: 20p=
+x 0 20px 20px !important; text-align: left !important; word-wrap: break-wor=
+d !important; overflow-wrap: break-word !important; }
+         .table-ruler th, .table-ruler td, .table-ruler-mobile th, .table-r=
+uler-mobile td, .table-hr-icon td {
+         border-bottom: 1px solid #E0E0E0 !important;}
+         .table-zebra-mobile th, .table-zebra-mobile td {border-bottom : 1p=
+x solid #ffffff !important;}
+         .table-ruler-mobile, .table-hr-icon {border-top: 1px solid #E0E0E0=
+;}
+         .table-ruler-mobile th, .table-zebra-mobile th {font-weight: 600 !=
+important;}
+         .table-zebra-icon .odd-row td, .table-zebra .odd-row td, .table-ze=
+bra-mobile .odd-row td {background-color: #F6F6F6;}
+         .table-zebra th, .table-zebra-mobile th {background-color: #e7e7e7=
+;}
+		 .hero-text-center {text-align: center !important;padding: 0 30px !import=
+ant;}
+		 .intro-tile-image { padding:10px 20px 10px 10px !important;}
+		 .intro-tile-text  {padding:0 10px 0 0}
+		 .intro-tile-text-20 {padding: 0 20px 0 0;}
+         .intro-tile-image-20 {padding: 20px 20px 20px 20px !important;}
+         .image-tile-10 { padding:10px 0px 0px 10px !important;}
+         .image-tile-20 {padding: 20px 0px 0px 20px !important;}
+         .email-table th table td { font-weight:600 !important;}
+         @media only screen and (max-width: 640px) {
+         .mobileHide {display:none;line-height:0; mso-hide: all;max-height:=
+ 0; max-width: 0; width:0;}
+         }
+         @media only screen and (max-width: 480px) {
+		 .wrapper, .table-hr-icon, .table-zebra-icon, .email-table {width: 100%!i=
+mportant;}
+		 .text-card-padding {padding: 0px 40px 0px 40px !important;}
+         .block, .block-text-align-right, .desktopHidden {width:100% !impor=
+tant; display:block !important;}
+		 .app-download-block th, .btn-block, .btn-block-right {display: block !im=
+portant; width: auto !important;}
+		 .block-max-width, .block-max-width-center{ max-width: none !important; d=
+isplay: block !important; width: auto !important;}
+         .addressText {font-size:10px !important;}
+		 .mobileHidden, .table-ruler, .table-zebra {display: none !important;}
+         .mobileBodyPadding {padding:10px 20px 35px 20px !important; width:=
+288px !important;}
+         .mobileNoPadding {padding:0 !important;}
+		 .mobile-block-padd-top-30 {display: block !important;padding-top: 30px;w=
+idth: 100%;}
+         .mobileTopPad5 { padding-top: 5px !important; }
+         .mobileTopPad10 { padding-top: 10px !important; }
+         .hide{display:none;}
+         .show{display:none;}
+         .desktophide{display:block!important;}
+         .w-100p{width:100%!important;}
+         .p-0{padding:0!important;}
+         .flex{display:block!important;width:100%!important;box-sizing:bord=
+er-box!important;}
+         .thold{display:table!important;width:100%!important;}
+         .thead{display:table-header-group!important;width:100%!important;}
+         .tfoot{display:table-footer-group!important;width:100%!important;}
+         .mobile-padding-20{padding-left:20px!important; padding-right:20px=
+!important;}
+         .mobile-padding-rght-20{padding-left:0px!important; padding-right:=
+20px!important;}
+         .mobile-social-table{text-align:center!important;}
+         .mobile-social-padd-btm{padding-bottom:35px!important;}
+		 .mobile-social-padd-btm-top{padding-bottom:35px!important;}
+         .mobile-social-marg-btm{margin-top:20px!important;}
+		 .mobile-social-inline{display:inline-block!important; padding-right:2px!=
+important;}
+		 .logo-mobile-img{width:85px!important;height:18px!important;}
+		 .mobile-monthly-padd-left{padding-left:20px!important;}
+		 .secondary-logo-padd-left{ padding-left:0px!important;}
+         .secondary-logo-padd-left-20{ padding-left:20px!important;}
+         .mobile-txt-center {text-align: center!important;}
+         .social-text-pad-rght{padding-right:20px!important;padding-bottom:=
+0px!important;}
+		 .followus-pad-top{padding-top:20px!important;}
+		.card-padding {padding-left: 20px!important; padding-right: 20px!importan=
+t; padding-top: 40px!important; padding-bottom: 40px!important;}
+		.thead {display: table-header-group!important; width: 100%!important;}
+		.mobile-txt-center {text-align: center!important;}
+		.tfoot {display: table-footer-group!important; width: 100%!important;}
+		.tile-pad-large-4 {padding-left: 20px !important; padding-right: 20px !im=
+portant;}
+		.tile-pad-large {padding-left: 60px !important; padding-right: 60px !impo=
+rtant;}
+		.tile-pad-small-v1 {padding-left: 20px !important; padding-right: 20px !i=
+mportant;}
+		.tile-pad-small-v2 {padding-left: 20px !important; padding-right: 20px !i=
+mportant;}
+		.tile-pad-small-v3 {padding-left: 20px !important; padding-right: 20px !i=
+mportant;}
+		.tile-pad-small-v5 {padding-left: 55px !important; padding-right: 55px !i=
+mportant;}
+		.mob-padd-top-zero {padding-top: 0px !important;}
+        .boxed-list-wrapper {padding: 20px 20px 0 !important;}
+        .gutter {padding:0 20px!important;}
+		.block-padd-top-30 { display: block !important; padding-top: 30px; }
+		.mobile-bottom-padding-20 { padding: 0 0 20px 0 !important;}
+		.hero-mobile { width: 100% !important; max-width: 100% !important; height=
+: auto !important;}
+        .hero-text-center {padding: 0 20px !important;}
+         .spacer-mob-30 {height: 30px !important;}
+         .spacer-mob-20 {height: 20px !important;}
+         .table-zebra-mobile, .table-ruler-mobile {display: table !importan=
+t;}
+         .table-ruler-mobile td, .table-zebra-mobile td, .table-ruler-mobil=
+e th, .table-zebra-mobile th {padding: 20px !important;}
+         .table-hr-icon td, .table-zebra-icon td {min-width: 16px !importan=
+t; max-width: 150px !important;}
+		.rtl-template .block-text-align-right { text-align: right !important;}
+        .thold { display: table !important; width: 100% !important; }
+		.thead { display: table-header-group !important; width: 100% !important; =
+}
+		.tfoot { display: table-footer-group !important; width: 100% !important; =
+}
+        .email-banner-padding { padding-left:20px !important; padding-right=
+:20px !important; }
+    .social-link{display: inline-block;padding-right:20px;}
+		.rtl-template .social-link{display: inline-block;padding-left:20px !impor=
+tant;padding-right:0 !important;}
+		.social-link:last-child { padding-right: 0;}
+		.rtl-template .social-link:last-child{padding-left: 0;}
+         }
+         ul { margin:0 !important;padding-left:22px !important;text-align: =
+left !important;}
+         ol { margin-top:0 !important;margin-bottom:0 !important;padding-le=
+ft:22px !important;text-align: left !important;}
+		 li{padding: 0 0 8px 12px !important;margin: 0 !important;}
+		 li a {text-decoration: underline; color: #0067B8;}
+         *[class].gmailfix {display:none; display:none!important;}
+      </style>
+     <!--[if gte mso 16]>
+		<style type=3D"text/css">
+		p { mso-hyphenate: none;}
+        .rtl-template,
+        .rtl-template td{
+        direction: ltr !important;
+        text-align: right !important;
+        }
+        .rtl-template p {
+        direction: rtl !important;
+        text-align: right !important;
+        }
+        .text-rtl-center .list-item-right p {
+		text-align: right !important;
+		direction: rtl !important;
+		}
+        .rtl-template .email-header p {
+        direction: rtl !important;
+        text-align: left !important;
+        }
+        .email-table th table td {
+		font-weight:600 !important;
+		}
+		.text-rtl-center p,
+        .rtl-template .email-table .text-center p,
+        .rtl-template .email-table .text-center td {
+			direction: rtl !important;
+			text-align: center !important;
+		}
+		.email-table .text-center p,
+		.email-table .text-center td {
+			text-align:center !important;
+		}
+        .email-table .text-left p,
+        .email-table .text-left td {
+         text-align:left !important;
+        }
+        .footer-address-center td,
+		.footer-address-center td p,
+		.footer-address-center td p a{
+				text-align:center !important;
+				direction:ltr !important;
+		}
+ 		.cta-button{
+		font-weight:normal !important;
+		}
+		li
+         {
+         margin: 0 0 8px 0 !important;
+         text-align: left !important;
+         }
+         div.list ul li {
+         mso-special-format: bullet;
+         }
+         div.list {
+         margin: 0 0 0 -20px;
+         }
+         div li.list-bottom{
+            margin-bottom: 28px !important;
+         }
+         .rtl-template li
+         {
+         margin: 0 0 8px 0 !important;
+         text-align: right !important;
+         direction : rtl !important;
+         }
+        .rtl-template div.list
+         {
+         Margin: 0 -20px 0 0;
+         }
+		 .rtl-template .footeraddressrtl p,
+         .rtl-template .footeraddressrtl  {
+         direction: ltr !important;
+         text-align:right !important;
+         }
+         .footeraddressrtl {
+         mso-padding-alt: 0 30px !important;
+         }
+         .text-rtl-center .footeraddressrtl p,
+         .rtl-template .footeraddressrtl  {
+         direction: ltr !important;
+         text-align:center !important;
+         }
+         .text-rtl-center .txt-align-right td {
+		  text-align:right !important;
+			}
+		 .txt-center ul li,
+         .txt-center ol li
+         {
+            text-align:center !important;
+         }
+		 .rte-spacer-20 p
+		 {
+			mso-margin-bottom-alt: 20px;
+		 }
+		 .rte-spacer-10 p
+		 {
+	        mso-margin-bottom-alt: 10px;
+         }
+         .rte-footerspacer-10 p {
+	        mso-margin-top-alt: 10px;
+         }
+         .rtl-template th.tileimage {
+         	direction: ltr !important;
+         }
+		 .table-hr-icon td,
+         .table-zebra-icon td,
+         .table-zebra td,
+         .table-zebra th,
+         .table-zebra-mobile td,
+         .table-zebra-mobile th,
+         .table-ruler td,
+         .table-ruler th,
+         .table-ruler-mobile td,
+         .table-ruler-mobile th
+         {
+			mso-padding-alt: 20px 0 20px 20px !important;
+         }
+		 .rtl-template .table-ruler th,
+		 .rtl-template .table-zebra th {
+			direction: rtl !important;
+		 }
+		 .rtl-template .rating-thumbs-down {
+			padding-left:1px;
+		 }
+		 table {
+			border-spacing: 0;
+			mso-margin-bottom-alt: 0;
+			mso-margin-top-alt: 0;
+			mso-table-lspace: 0pt;
+			mso-table-rspace: 0pt;
+		}
+		td ,th {
+		mso-table-lspace: 0pt !important;
+		mso-table-rspace: 0pt !important;
+		}
+		.mso-line-ht-rule {
+		  mso-line-height-rule: exactly;
+		}
+        .hero-text-center p{
+            text-align: center !important;
+        }
+        </style>
+	<![endif]-->
+
+   =20
+   </head>
+   =20
+=09
+<body dir=3D"ltr" style=3D"font-family:Segoe UI, Helvetica, Arial, sans-ser=
+if; font-size:12px; color:#4d4d4d; background-color:#ffffff; line-height:20=
+px; -webkit-text-size-adjust: none;">
+
+<div class=3D"root container responsivegrid">
+      <div style=3D"display:none;font-size:1px;color:#ffffff;line-height:1p=
+x;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;">Ihr=
+ KI-Begleiter ist einsatzbereit</div>
+			<div style=3D"display:none;font-size:1px;color:#ffffff;line-height:1px;m=
+ax-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;">
+				=CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp;=
+ =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =
+=CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=
+=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F=
+ =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =
+=E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=
+=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=
+=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C=
+ &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &n=
+bsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp=
+; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =
+=CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=
+=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F=
+ =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =
+=E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=
+=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=
+=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C=
+ &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp;=CD=8F =E2=80=8C &nb=
+sp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp;=
+ =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =
+=CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=
+=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F=
+ =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =
+=E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=
+=80=8C &nbsp;=CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=
+=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C=
+ &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &n=
+bsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp=
+; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =
+=CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=
+=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp;=CD=8F =E2=80=8C &nbsp; =CD=8F =
+=E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=
+=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=
+=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C=
+ &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &n=
+bsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp=
+; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp;=
+=CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=
+=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F=
+ =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =
+=E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=
+=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=
+=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C=
+ &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &n=
+bsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp=
+; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =
+=CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=
+=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F=
+ =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =
+=E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=
+=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=
+=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C=
+ &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &nbsp; =CD=8F =E2=80=8C &n=
+bsp;
+			</div>
+      <!--Gmail App Scaling Fix Don't Remove these &nbsp; s its required fo=
+r gmail apps -->
+      <div class=3D"gmailfix" style=3D"white-space:nowrap; font:15px courie=
+r; line-height:0;">
+         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp;=20
+         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp;=20
+         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      </div>
+      <!--PARENT TABLE Starts Here -->
+	 =20
+	  		 =20
+	  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"660" al=
+ign=3D"center" class=3D"wrapper" style=3D"width:660px; margin:0 auto;" role=
+=3D"presentation">
+	 =20
+         <tbody>
+      		<tr>
+               <td>
+                  <!--SECONDARY TABLE FOR OTHER COMPONENT Starts here -->
+				  <!--[if gte mso 16]>
+                  <table cellspacing=3D"0" cellpadding=3D"0" class=3D"" ali=
+gn=3D"" style=3D"width:660px; margin:0 auto; margin-top:2px;">
+				  <![endif]-->
+				  <!--[if !mso]><!-->
+				  <table cellspacing=3D"0" cellpadding=3D"0" class=3D" wrapper" style=
+=3D"width:660px; margin:0 auto; margin-top:2px;" role=3D"presentation">
+				  <!--<![endif]-->
+                     <tbody>
+					    <!-- Eyebrow component starts-->
+						<tr>
+						   <td>
+							=09
+   =20
+   =20
+   =20
+        <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" width=3D"10=
+0%" style=3D"background-color: #FFFFFF;" role=3D"presentation">
+            <tbody>
+                <tr>
+                    <td>
+                       =20
+                       =20
+                            <table border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" width=3D"100%" style=3D"background-color: #FFFFFF;" role=3D"presen=
+tation">
+                                <tbody>
+                                    <tr>
+                                        <td class=3D"mobile-padding-20" ali=
+gn=3D"center" style=3D"color:#000000; font-family:Segoe UI, Helvetica, Aria=
+l, sans-serif; font-size:10px; line-height:14px;letter-spacing: -0.02em;pad=
+ding:10px 30px 10px 30px;">
+                                            <p style=3D"color:#000000; font=
+-family:Segoe UI, Helvetica, Arial, sans-serif; font-size:10px; line-height=
+:14px;margin:0;padding:0;letter-spacing: -0.02em;">
+                                               =20
+                                                <a href=3D"https://t2.infom=
+ails.microsoft.com/r/?id=3Dh1e46c620,20440851,20440a91&amp;e=3Db2NpZD1DR0Vf=
+ZW1sX0NvcGlsb3RfRnJlZV84NjhkNmVicW0mcDE9QGNhcEVZQU55cklsN0hQNDhPZlY4VElZYlV=
+0bFN3WDdMandGMDdwVGRKQ1ZCZ3BONU16U3BpblZZdlFNQjhNaGhpcV9sRXdoa0tfX0VlR0ppMk=
+VrQVZTOUhaNHV5X2tvcVY4MUw3cUg4RmR5d2NfeVc&amp;s=3D-AajYy_yQ4cYzmuw87kMmgHsg=
+a7hvK1Mk4ifTwXqbkw" style=3D"white-space: nowrap;font-weight:400;color:#000=
+000;">                                                    Im Browser anzeig=
+en
+                                                </a>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                       =20
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+   =20
+
+							</td>
+						</tr>
+						<!-- Eyebrow component ends-->
+				=09
+                     	<!-- HEADER SECTION STARTS HERE-->
+                     	<tr>
+                     		<td>
+                     		=09
+=09
+=09
+	=09
+=09
+=09
+=09
+		<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" bg=
+color=3D"#000000" role=3D"presentation">
+			<tbody>
+		=09
+			=09
+   <tr>
+       <td height=3D"20px">&nbsp;</td>
+   </tr>
+
+				<tr>
+					<td class=3D"gutter">
+					=09
+					=09
+						=09
+=09
+    <img src=3D"https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp=
+/Brand%20logos-5?scl=3D1&amp;fmt=3Dpng-alpha" alt=3D"Microsoft-Logo" style=
+=3D"display:block; height:20px;" height=3D"20">
+=09
+=09
+
+					=09
+					</td>
+				</tr>
+			=09
+   <tr>
+       <td height=3D"20px">&nbsp;</td>
+   </tr>
+
+		=09
+			</tbody>
+		</table>
+=09
+
+	=09
+	=09
+	=09
+	=09
+	=09
+=09
+
+
+                     		</td>
+                     	</tr>
+                     	<!-- HEADER SECTION ENDS HERE-->
+						<tr>
+                     		<td>
+                               =20
+
+   =20
+=09
+=09
+=09
+		<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" st=
+yle=3D"background-color: #E7614C" role=3D"presentation">
+			<tbody>
+		=09
+		=09
+   =20
+   =20
+        <tr>
+            <td height=3D"40">&nbsp;</td>
+        </tr>
+   =20
+
+		=09
+		=09
+		=09
+				<tr>
+					<td>
+					=09
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" styl=
+e=3D"background-color: ;" role=3D"presentation">
+   <tr>
+       <td>
+          =20
+          =20
+              =20
+=09
+    <img src=3D"https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp=
+/Welcome%201-Copilot_Beige?scl=3D1&amp;fmt=3Dpng-alpha" alt=3D"Copilot-=C3=
+=9Cberschrift" style=3D"width: 100%;vertical-align:bottom;max-height:1200px=
+;" border=3D"0" class=3D"hero-mobile" height=3D"auto" width=3D"660">
+=09
+=09
+
+          =20
+       </td>
+   </tr>
+</table>
+
+					=09
+					=09
+					=09
+					=09
+					</td>
+				</tr>
+		=09
+			<tr>
+				<td>
+					<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"=
+ role=3D"presentation">
+					=09
+						=09
+   =20
+       =20
+       =20
+            <tr>
+               =20
+                <td height=3D"10" style=3D"font-size:0px;line-height:0px" c=
+lass=3D"spacer-ln-ht-0">&nbsp;</td>
+            </tr>
+       =20
+   =20
+   =20
+
+					=09
+					=09
+						<tr>
+							<td class=3D"hero-text-center" align=3D"center">
+							=09
+							=09
+								=09
+   =20
+
+   =20
+       =20
+
+       =20
+
+       =20
+
+       =20
+
+       =20
+            <p style=3D"color:#FFF3D7;
+         font-family:Segoe UI, Helvetica, Arial, sans-serif;font-style: nor=
+mal;font-weight:400; font-size:24px;line-height:30px;letter-spacing:-0.02em=
+; margin:0; padding:0;" role=3D"heading" aria-level=3D"1"> Hilft Ihnen, die=
+ Welt besser zu verstehen </p>
+       =20
+
+       =20
+
+       =20
+	   =20
+       =20
+
+       =20
+
+       =20
+	=09
+	=09
+	 =20
+   =20
+
+							=09
+							</td>
+						</tr>
+					=09
+					=09
+						=09
+							<tr>
+								<td align=3D"center" class=3D"txt-center" style=3D"padding-top:20px=
+; padding-bottom:10px;">
+									<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"1=
+00%" class=3D"rte-spacer-20" role=3D"presentation">
+									=09
+										<tr>
+										=09
+										=09
+												<td class=3D"hero-text-center" align=3D"center" style=3D"color:=
+#FFF3D7;font-family:Segoe UI, Helvetica, Arial, sans-serif; font-size:16px;=
+ font-style:normal;line-height:24px;letter-spacing: -0.02em;">
+													<!--[if mso]>
+													<div class=3D"list">
+													<![endif]-->
+													<p>Sie haben Copilot bereits genutzt =E2=80=93 sehen Sie jetzt=
+, was noch alles in ihm steckt. Ersetzen Sie die Zutaten in Ihrem n=C3=A4ch=
+sten Dinner-Rezept, erarbeiten Sie einen fertigen Entwurf aus einer losen G=
+liederung oder holen Sie sich Hilfe, um eine verwirrende E-Mail zu verstehe=
+n. Egal, was Sie brauchen =E2=80=93 Copilot k=C3=BCmmert sich um die Detail=
+s, damit Sie sich auf das Wesentliche konzentrieren k=C3=B6nnen.</p>
+													<!--[if mso]>
+													</div>
+													<![endif]-->
+												</td>
+										=09
+										</tr>
+									=09
+									</table>
+								</td>
+							</tr>
+					=09
+					=09
+						=09
+							<tr>
+								<td style=3D"text-align:center" align=3D"center">
+								=09
+  =20
+  =20
+  =20
+  =20
+  =20
+  =20
+  =20
+   <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" s=
+tyle=3D"background-color: #E7614C;" role=3D"presentation">
+      <tbody>
+         <tr>
+            <td class=3D"gutter">
+               <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" alig=
+n=3D"center" role=3D"presentation">
+			    <tr>
+                    <td>
+                        <table border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" align=3D"center" role=3D"presentation">
+                  <tbody>
+                     <tr>
+                       =20
+                          =20
+                          =20
+                             =20
+                                =20
+                                =20
+                                 <!--[if mso]>
+                                 <td class=3D"btn-block" >
+                                 <![endif]-->=09
+                                =20
+                                 <!-- hide from outlook -->
+                                 <!--[if !mso]><\!-->
+                                 <td class=3D"btn-block">
+                                    <!-- <![endif]-->
+                                    <table class=3D"btn-rtl" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0" align=3D"center" role=3D"presentation">
+                                       <tbody>
+                                          <tr>
+                                             <td>
+                                                <table border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" width=3D"100%" dir=3D"ltr" role=3D"presentatio=
+n">
+                                                  =20
+   =20
+   =20
+=09
+       =20
+       =20
+            <th class=3D"block-max-width-center" align=3D"center" style=3D"=
+border-radius:2px; font-family:Segoe UI, Helvetica, Arial, sans-serif; font=
+-style: normal; font-weight:600 !important; font-size:18px; line-height:24p=
+x; mso-line-height-rule: exactly; padding:8px 20px; min-width:100px; border=
+: 1px solid #41403B;" bgcolor=3D"#41403B">
+                <a href=3D"https://t2.infomails.microsoft.com/r/?id=3Dh1e46=
+c620,20440851,20440a92&amp;e=3Db2NpZD1DR0VfZW1sX0NvcGlsb3RfRnJlZV84NjhkNmVi=
+cW0&amp;s=3DxYJfyJGFkXM9qOc9q6jkOj3QPFHMQ7Kx2giXn2I_zr8" title=3D"Jetzt aus=
+probieren" style=3D"text-decoration:none; ; color : #FFFFFF;" aria-label=3D=
+"Jetzt ausprobieren, =C3=B6ffnet in einem neuen Fenster" target=3D"_blank">=
+<strong class=3D"cta-button" style=3D"color : #FFFFFF; font-weight:600;">Je=
+tzt ausprobieren</strong>
+                </a>
+            </th>
+       =20
+=09
+=09
+   =20
+
+                                                </table>
+                                             </td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                 </td>
+                             =20
+                             =20
+                          =20
+                       =20
+                     </tr>
+                  </tbody>
+				 </table>
+                </td>
+               </tr>
+               </table>
+            </td>
+         </tr>
+      </tbody>
+   </table>
+
+								</td>
+							</tr>
+						=09
+					=09
+					=09
+					</table>
+				</td>
+			</tr>
+		=09
+		=09
+		=09
+		=09
+		=09
+		=09
+			=09
+			=09
+		=09
+		=09
+   =20
+   =20
+        <tr>
+            <td height=3D"40">&nbsp;</td>
+        </tr>
+   =20
+
+		=09
+			</tbody>
+		</table>
+=09
+
+
+   =20
+   =20
+   =20
+
+   =20
+       =20
+	=09
+=09
+=09
+	<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" rol=
+e=3D"presentation" style=3D"background-color: #FDF7F2">
+		<tr>
+			<td valign=3D"top" style=3D"padding-top:30px;padding-bottom:40px;">
+				<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" =
+role=3D"presentation" dir=3D"ltr">
+					<tr class=3D"thold">
+						<td valign=3D"middle">
+							<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"pres=
+entation">
+							=09
+							=09
+									<tr>
+										<td class=3D"email-banner-padding" align=3D"left" dir=3D"ltr" sty=
+le=3D"padding-left:30px; padding-right:20px; font-family:Segoe UI, Helvetic=
+a, Arial, sans-serif;font-style: normal;font-weight: 400;font-size:16px;lin=
+e-height: 24px;color:#303030;margin:0">
+											<p><b>Was auch immer Sie brauchen =E2=80=93 fragen Sie einfach d=
+anach</b></p><p><br></p><p>Copilot ist f=C3=BCr Ihren Alltag gemacht. Ob Si=
+e sich auf ein Vorstellungsgespr=C3=A4ch vorbereiten, etwas Neues lernen od=
+er eine Reise planen m=C3=B6chten =E2=80=93 Copilot hilft Ihnen, voranzukom=
+men. Entdecken Sie, was Copilot alles kann =E2=80=93 und wie Sie Ihren Tag =
+mit Leichtigkeit gestalten k=C3=B6nnen.</p>
+										</td>
+									</tr>
+							=09
+							=09
+									<tr>
+										<td class=3D"email-banner-padding" align=3D"left" dir=3D"ltr" sty=
+le=3D"padding-left:30px; padding-right:20px; padding-top:20px; padding-bott=
+om:20px;">
+											<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D=
+"100%" role=3D"presentation">
+												<tr>
+													<td class=3D"btn-rtl">
+														<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=
+=3D"" role=3D"presentation">
+															<tr>
+																<td>
+																	<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" al=
+ign=3D"" role=3D"presentation">
+																		<tr>
+																			<td class=3D"btn-block">
+																				<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"100%" role=3D"presentation">
+																					<tr>
+																						<td>
+																							<table class=3D"btn-rtl" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"" role=3D"presentation">
+																								<tr>
+																								=09
+																									=09
+																										=09
+																										=09
+																											=09
+																											=09
+																													<th class=3D"btn-block-right" align=3D"left" s=
+tyle=3D"font-family:Segoe UI, Helvetica, Arial, sans-serif; font-style: nor=
+mal; font-weight:600 !important; font-size:16px; line-height:24px; text-ali=
+gn:left; width:100%; letter-spacing: -0.02em;mso-hyphenate: none;">
+																														<a href=3D"https://t2.infomails.microsoft.com=
+/r/?id=3Dh1e46c620,20440851,20440a93&amp;e=3Db2NpZD1DR0VfZW1sX0NvcGlsb3RfRn=
+JlZV84NjhkNmVicW0&amp;s=3DCWH2mS3LRBoVobJySgOBjXjZtqilwzRXJQ6jmvTAT3k" titl=
+e=3D"Erfahren Sie mehr hier" style=3D"text-decoration:none;; color:#E7614C;=
+" aria-label=3D"Erfahren Sie mehr hiersich ein neue Fenster =C3=B6ffnet" ta=
+rget=3D"_blank"><strong style=3D"color:#E7614C; text-decoration:underline;f=
+ont-weight:600;">Erfahren Sie mehr hier</strong><strong style=3D"color:#E76=
+14C; text-decoration:none;mso-ansi-font-weight:normal;font-weight:normal !i=
+mportant;mso-ansi-font-size:10px;font-size:10px !important;line-height:17px=
+ !important;">&nbsp;&nbsp;=E2=9D=AF</strong>
+																														</a>
+																													</th>
+																											=09
+																										=09
+																										=09
+																									=09
+																								=09
+																								</tr>
+																							</table>
+																						</td>
+																					</tr>
+																				</table>
+																			</td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+							=09
+							</table>
+						</td>
+						<td valign=3D"top" class=3D"thead" width=3D"330">
+						=09
+								<a target=3D"_blank" href=3D"https://t2.infomails.microsoft.com/r/?=
+id=3Dh1e46c620,20440851,20440a94&amp;e=3Db2NpZD1DR0VfZW1sX0NvcGlsb3RfRnJlZV=
+84NjhkNmVicW0&amp;s=3DvwTXEz-n0FrCOXZQwVmfLrg90wppWk7yCx7dHKWJ2IA"><img cla=
+ss=3D"hero-mobile" width=3D"330" alt=3D"Eine dunkelgr=C3=BCne Karte zeigt d=
+ie Frage: =E2=80=9EWie kann ich ein besserer Redner werden?=E2=80=9C in wei=
+=C3=9Fer Schrift. Links befindet sich eine Illustration eines roten Rednerp=
+ults mit Mikrofon vor einem farbenfrohen Hintergrund. Hinter der gr=C3=BCne=
+n Karte sind drei =C3=BCberlagerte pastellfarbene Karten in Pfirsich, Blau =
+und Hellgelb teilweise sichtbar." src=3D"https://cdn-dynmedia-1.microsoft.c=
+om/is/image/microsoftcorp/DE-DE-868d6ebqm-Mod1P-2x?scl=3D1&amp;fmt=3Dpng-al=
+pha" border=3D"0" height=3D"auto" style=3D"display:block; outline:none; -ms=
+-interpolation-mode:bicubic; border:none; width:330px; height:auto;">
+								=09
+								=09
+								</a>
+						=09
+						=09
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+
+   =20
+
+
+   =20
+  =20
+  =20
+  =20
+      <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" style=3D"background: #FDF7F2;" role=3D"presentation">
+         <tbody>
+        =20
+            <tr>
+               <td>
+                  <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" w=
+idth=3D"100%" role=3D"presentation">
+                     <tr>
+                        <td height=3D"20" style=3D"background: #FDF7F2; bor=
+der: none; color: #FDF7F2;font-size:1px;mso-line-height-rule:exactly;line-h=
+eight:1px;">&nbsp;</td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+        =20
+         </tbody>
+      </table>
+  =20
+
+
+
+   =20
+  =20
+  =20
+     =20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" styl=
+e=3D"background-color: #FDF7F2;" role=3D"presentation">
+   <tr>
+       <td class=3D"gutter">
+          =20
+               <a target=3D"_blank" href=3D"https://t2.infomails.microsoft.=
+com/r/?id=3Dh1e46c620,20440851,20440a95&amp;e=3Db2NpZD1DR0VfZW1sX0NvcGlsb3R=
+fRnJlZV84NjhkNmVicW0&amp;s=3DBa9J_Hpre8B86HLOoBFtQ99T1XO6eiwI744REwi0gmw"><=
+img src=3D"https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/DE_D=
+E-1?scl=3D1&amp;fmt=3Dpng-alpha" alt=3D"Eine abgerundete Eingabeleiste mit =
+dem Copilot-Symbol =E2=80=93 einem mehrfarbigen Farbverlaufswirbel =E2=80=
+=93 neben einem Pluszeichen auf der linken Seite und einem schwarzen Mikrof=
+onsymbol auf der rechten Seite." style=3D"width: 100%;vertical-align:bottom=
+;max-height:1200px;" border=3D"0" class=3D"hero-mobile" height=3D"auto" wid=
+th=3D"600">
+=09
+=09
+
+               </a>
+          =20
+          =20
+       </td>
+   </tr>
+</table>
+
+		 =09
+     =20
+     =20
+     =20
+     =20
+     =20
+		 =09
+     =20
+  =20
+
+
+   =20
+  =20
+  =20
+  =20
+      <table class=3D"tile-small-box" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" width=3D"100%" style=3D"background-color: #FDF7F2;" role=3D"pre=
+sentation">
+         <tbody>
+           =20
+              =20
+              =20
+                 =20
+   =20
+   =20
+        <tr>
+            <td height=3D"40">&nbsp;</td>
+        </tr>
+   =20
+
+              =20
+           =20
+           =20
+           =20
+            <!-- Multifield Starts -->
+           =20
+              =20
+                  <tr>
+                     <td class=3D"gutter">
+                        <table class=3D"btn-rtl" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" width=3D"100%" role=3D"presentation">
+                           <tr>
+                              <td>
+                                 <table class=3D"btn-rtl" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0" width=3D"100%" role=3D"presentation">
+                                    <tbody>
+                                       <tr>
+                                         =20
+                        =20
+                                             <th width=3D"100%" class=3D"bt=
+n-block" align=3D"center" bgcolor=3D"#FDF7F2" style=3D" #FDF7F2; word-break=
+:break-word; word-wrap:break-word; overflow-wrap:break-word;">
+                                               =20
+                                                  =20
+
+  =20
+
+  =20
+
+  =20
+
+	  =20
+     =20
+     =20
+     =20
+     =20
+     =20
+	<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" sty=
+le=3D"background-color: #FDF7F2" role=3D"presentation">
+		<tbody>
+	=09
+		</tbody>
+	</table>
+	<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" sty=
+le=3D"background-color: #FDF7F2" role=3D"presentation">
+		<tbody>
+		<tr>
+		=09
+				<th valign=3D"top">
+				=09
+				=09
+					=09
+=09
+    <img src=3D"https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp=
+/Mic%20(2)?scl=3D1&amp;fmt=3Dpng-alpha" alt=3D"Ein schwarzes Mikrofonsymbol=
+, zentriert auf einem abgerundeten Quadrat mit hellgelbem Hintergrund." sty=
+le=3D"vertical-align: top;" border=3D"0" height=3D"96" width=3D"96">
+=09
+=09
+
+				=09
+				</th>
+		=09
+			<th style=3D"padding-right: 20px;"></th>
+			<th valign=3D"top" align=3D"left" width=3D"100%">
+				<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" =
+role=3D"presentation">
+					<tbody>
+				=09
+				=09
+				=09
+				=09
+					=09
+						<tr>
+						=09
+						=09
+								<td style=3D"color:#303030;font-family:Segoe UI, Helvetica, Arial, =
+sans-serif; font-style: normal; font-weight: 400; font-size: 16px; line-hei=
+ght: 24px; letter-spacing: -0.02em; margin:0;padding-top:0px !important; pa=
+dding-bottom:0px !important;mso-padding-top-alt:0px;mso-padding-bottom-alt:=
+0px">
+									<!--[if mso]>
+									<div class=3D"list">
+									<![endif]-->
+									<p><span style=3D"color: #303030"><b>Immer raus damit<br><br _rte_=
+temp_br=3D"brEOB"></b></span></p><p>Sprechen Sie aus, was Sie bewegt. Sei e=
+s, dass Sie einen schweren Tag hatten und einen Rat brauchen oder eine schn=
+elle Antwort unterwegs. Wann immer Sie sprechen m=C3=B6chten =E2=80=93 Copi=
+lot Voice ist bereit. Jederzeit und =C3=BCberall.</p>
+									<!--[if mso]>
+									</div>
+									<![endif]-->
+								</td>
+						=09
+						</tr>
+				=09
+				=09
+					<!-- FIRST ADDITIONAL ELEMENT STARTS -->
+				=09
+					=09
+					=09
+						=09
+   =20
+   =20
+        <tr>
+            <td height=3D"20">&nbsp;</td>
+        </tr>
+   =20
+
+							<tr>
+								<td>
+									<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"pr=
+esentation">
+										<tbody>
+										<tr>
+											<td>
+											=09
+  =20
+  =20
+  =20
+  =20
+  =20
+  =20
+  =20
+   <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" s=
+tyle=3D"background-color: ;" role=3D"presentation">
+      <tbody>
+         <tr>
+            <td class=3D"btn-rtl">
+               <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" alig=
+n=3D"" role=3D"presentation">
+			    <tr>
+                    <td>
+                        <table border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" align=3D"" role=3D"presentation">
+                  <tbody>
+                     <tr>
+                       =20
+                          =20
+                          =20
+                             =20
+                             =20
+                                =20
+                                =20
+                                 <!--[if mso]>
+                                 <td class=3D"btn-block">
+                                 <![endif]-->
+                                =20
+                                 <!--[if !mso]><\!-->
+                                 <td class=3D"btn-block">
+                                    <!-- <![endif]-->
+                                    <table class=3D"btn-rtl" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0" align=3D"" role=3D"presentation">
+                                       <tbody>
+                                          <tr>
+                                             <td>
+                                                <table border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" width=3D"100%" dir=3D"ltr" role=3D"presentatio=
+n">
+                                                  =20
+   =20
+       =20
+       =20
+            <th class=3D"block-max-width" align=3D"left" style=3D"font-fami=
+ly:Segoe UI, Helvetica, Arial, sans-serif; font-style: normal; font-weight:=
+600 !important; font-size:16px; line-height:24px;  max-width:280px; padding=
+:8px 0; letter-spacing: -0.02em;">
+                <a href=3D"https://t2.infomails.microsoft.com/r/?id=3Dh1e46=
+c620,20440851,20440a96&amp;e=3Db2NpZD1DR0VfZW1sX0NvcGlsb3RfRnJlZV84NjhkNmVi=
+cW0&amp;s=3D9uLcQHtVyvFv4tVIewz_BMIA2J0Im640sSw0J7Ro5gg" title=3D"Jetzt los=
+legen" style=3D"text-decoration:none;; color:#797904;" aria-label=3D"Jetzt =
+loslegensich ein neue Fenster =C3=B6ffnet" target=3D"_blank"><strong class=
+=3D"cta-button" style=3D"color:#797904; text-decoration:underline;font-weig=
+ht:600;">Jetzt loslegen</strong><strong style=3D"color:#797904; text-decora=
+tion:none; font-weight:600;">&nbsp;=E2=9D=AF</strong>
+                </a>
+            </th>
+       =20
+   =20
+   =20
+
+                                                </table>
+                                             </td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                 </td>
+                             =20
+                          =20
+                       =20
+                     </tr>
+                  </tbody>
+				 </table>
+                </td>
+               </tr>
+               </table>
+            </td>
+         </tr>
+      </tbody>
+   </table>
+
+											</td>
+										</tr>
+									=09
+										</tbody>
+									</table>
+								</td>
+							</tr>
+					=09
+					=09
+					=09
+					=09
+				=09
+					<!-- FIRST   ADDITIONAL ELEMENT ENDS -->
+					<!-- SECOND ADDITIONAL ELEMENT STARTS -->
+				=09
+					<!-- SECOND ADDITIONAL ELEMENT ENDS -->
+					<!-- THIRD ADDITIONAL ELEMENT STARTS -->
+				=09
+					<!-- THIRD ADDITIONAL ELEMENT ENDS -->
+					</tbody>
+				</table>
+			</th>
+		</tr>
+		</tbody>
+	</table>
+
+     =20
+     =20
+     =20
+     =20
+
+  =20
+
+
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                             </th>
+                                            =20
+                                         =20
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                        </table>
+                     </td>
+                  </tr>
+                 =20
+              =20
+           =20
+            <!-- Multifield Ends -->
+           =20
+              =20
+                 =20
+   =20
+   =20
+        <tr>
+            <td height=3D"60">&nbsp;</td>
+        </tr>
+   =20
+
+              =20
+              =20
+           =20
+         </tbody>
+      </table>
+  =20
+
+
+   =20
+  =20
+  =20
+  =20
+      <table class=3D"tile-small-box" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" width=3D"100%" style=3D"background-color: #FDF7F2;" role=3D"pre=
+sentation">
+         <tbody>
+           =20
+              =20
+              =20
+                 =20
+   =20
+   =20
+        <tr>
+            <td height=3D"40">&nbsp;</td>
+        </tr>
+   =20
+
+              =20
+           =20
+           =20
+           =20
+            <!-- Multifield Starts -->
+           =20
+              =20
+                  <tr>
+                     <td class=3D"gutter">
+                        <table class=3D"btn-rtl" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" width=3D"100%" role=3D"presentation">
+                           <tr>
+                              <td>
+                                 <table class=3D"btn-rtl" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0" width=3D"100%" role=3D"presentation">
+                                    <tbody>
+                                       <tr>
+                                         =20
+                        =20
+                                             <th width=3D"100%" class=3D"bt=
+n-block" align=3D"center" bgcolor=3D"#FDF7F2" style=3D" #FDF7F2; word-break=
+:break-word; word-wrap:break-word; overflow-wrap:break-word;">
+                                               =20
+                                                  =20
+
+  =20
+
+  =20
+
+  =20
+
+	  =20
+     =20
+     =20
+     =20
+     =20
+     =20
+	<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" sty=
+le=3D"background-color: #FDF7F2" role=3D"presentation">
+		<tbody>
+	=09
+		</tbody>
+	</table>
+	<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" sty=
+le=3D"background-color: #FDF7F2" role=3D"presentation">
+		<tbody>
+		<tr>
+		=09
+				<th valign=3D"top">
+				=09
+				=09
+					=09
+=09
+    <img src=3D"https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp=
+/Mic%20(3)?scl=3D1&amp;fmt=3Dpng-alpha" alt=3D"Ein schwarzes, wirbelartiges=
+ Symbol in Schleifenform, zentriert auf einem abgerundeten Quadrat mit hell=
+blauem Hintergrund." style=3D"vertical-align: top;" border=3D"0" height=3D"=
+96" width=3D"96">
+=09
+=09
+
+				=09
+				</th>
+		=09
+			<th style=3D"padding-right: 20px;"></th>
+			<th valign=3D"top" align=3D"left" width=3D"100%">
+				<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" =
+role=3D"presentation">
+					<tbody>
+				=09
+				=09
+				=09
+				=09
+					=09
+						<tr>
+						=09
+						=09
+								<td style=3D"color:#303030;font-family:Segoe UI, Helvetica, Arial, =
+sans-serif; font-style: normal; font-weight: 400; font-size: 16px; line-hei=
+ght: 24px; letter-spacing: -0.02em; margin:0;padding-top:0px !important; pa=
+dding-bottom:0px !important;mso-padding-top-alt:0px;mso-padding-bottom-alt:=
+0px">
+									<!--[if mso]>
+									<div class=3D"list">
+									<![endif]-->
+									<p><span style=3D"color: #303030"><b>Durchdenken Sie es in Ruhe<br=
+><br _rte_temp_br=3D"brEOB"></b></span></p><p>L=C3=B6sen Sie knifflige Math=
+eaufgaben, durchdenken Sie m=C3=B6gliche Karrierewege oder auch Ihre gr=C3=
+=B6=C3=9Ften Probleme. Mit Think Deeper nimmt sich Copilot mehr Zeit f=C3=
+=BCr Ihre Antworten, betrachtet alles aus allen Perspektiven und liefert Ih=
+nen noch bessere Ergebnisse =E2=80=93 ohne, dass Sie etwas tun m=C3=BCssen.=
+</p>
+									<!--[if mso]>
+									</div>
+									<![endif]-->
+								</td>
+						=09
+						</tr>
+				=09
+				=09
+					<!-- FIRST ADDITIONAL ELEMENT STARTS -->
+				=09
+					=09
+					=09
+						=09
+   =20
+   =20
+        <tr>
+            <td height=3D"20">&nbsp;</td>
+        </tr>
+   =20
+
+							<tr>
+								<td>
+									<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"pr=
+esentation">
+										<tbody>
+										<tr>
+											<td>
+											=09
+  =20
+  =20
+  =20
+  =20
+  =20
+  =20
+  =20
+   <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" s=
+tyle=3D"background-color: ;" role=3D"presentation">
+      <tbody>
+         <tr>
+            <td class=3D"btn-rtl">
+               <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" alig=
+n=3D"" role=3D"presentation">
+			    <tr>
+                    <td>
+                        <table border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" align=3D"" role=3D"presentation">
+                  <tbody>
+                     <tr>
+                       =20
+                          =20
+                          =20
+                             =20
+                             =20
+                                =20
+                                =20
+                                 <!--[if mso]>
+                                 <td class=3D"btn-block">
+                                 <![endif]-->
+                                =20
+                                 <!--[if !mso]><\!-->
+                                 <td class=3D"btn-block">
+                                    <!-- <![endif]-->
+                                    <table class=3D"btn-rtl" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0" align=3D"" role=3D"presentation">
+                                       <tbody>
+                                          <tr>
+                                             <td>
+                                                <table border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" width=3D"100%" dir=3D"ltr" role=3D"presentatio=
+n">
+                                                  =20
+   =20
+       =20
+       =20
+            <th class=3D"block-max-width" align=3D"left" style=3D"font-fami=
+ly:Segoe UI, Helvetica, Arial, sans-serif; font-style: normal; font-weight:=
+600 !important; font-size:16px; line-height:24px;  max-width:280px; padding=
+:8px 0; letter-spacing: -0.02em;">
+                <a href=3D"https://t2.infomails.microsoft.com/r/?id=3Dh1e46=
+c620,20440851,20440a97&amp;e=3Db2NpZD1DR0VfZW1sX0NvcGlsb3RfRnJlZV84NjhkNmVi=
+cW0&amp;s=3D4XEocpJH6hCQdi44NC8jTqtGNnywoQZ6ETjYNcQOzi0" title=3D"Testen Si=
+e Think Deeper" style=3D"text-decoration:none;; color:#0D4175;" aria-label=
+=3D"Testen Sie Think Deepersich ein neue Fenster =C3=B6ffnet" target=3D"_bl=
+ank"><strong class=3D"cta-button" style=3D"color:#0D4175; text-decoration:u=
+nderline;font-weight:600;">Testen Sie Think Deeper</strong><strong style=3D=
+"color:#0D4175; text-decoration:none; font-weight:600;">&nbsp;=E2=9D=AF</st=
+rong>
+                </a>
+            </th>
+       =20
+   =20
+   =20
+
+                                                </table>
+                                             </td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                 </td>
+                             =20
+                          =20
+                       =20
+                     </tr>
+                  </tbody>
+				 </table>
+                </td>
+               </tr>
+               </table>
+            </td>
+         </tr>
+      </tbody>
+   </table>
+
+											</td>
+										</tr>
+									=09
+										</tbody>
+									</table>
+								</td>
+							</tr>
+					=09
+					=09
+					=09
+					=09
+				=09
+					<!-- FIRST   ADDITIONAL ELEMENT ENDS -->
+					<!-- SECOND ADDITIONAL ELEMENT STARTS -->
+				=09
+					<!-- SECOND ADDITIONAL ELEMENT ENDS -->
+					<!-- THIRD ADDITIONAL ELEMENT STARTS -->
+				=09
+					<!-- THIRD ADDITIONAL ELEMENT ENDS -->
+					</tbody>
+				</table>
+			</th>
+		</tr>
+		</tbody>
+	</table>
+
+     =20
+     =20
+     =20
+     =20
+
+  =20
+
+
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                             </th>
+                                            =20
+                                         =20
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                        </table>
+                     </td>
+                  </tr>
+                 =20
+              =20
+           =20
+            <!-- Multifield Ends -->
+           =20
+              =20
+                 =20
+   =20
+   =20
+        <tr>
+            <td height=3D"20">&nbsp;</td>
+        </tr>
+   =20
+
+              =20
+              =20
+           =20
+         </tbody>
+      </table>
+  =20
+
+
+   =20
+  =20
+  =20
+  =20
+      <table class=3D"tile-small-box" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" width=3D"100%" style=3D"background-color: #FDF7F2;" role=3D"pre=
+sentation">
+         <tbody>
+           =20
+              =20
+              =20
+                 =20
+   =20
+   =20
+        <tr>
+            <td height=3D"40">&nbsp;</td>
+        </tr>
+   =20
+
+              =20
+           =20
+           =20
+           =20
+            <!-- Multifield Starts -->
+           =20
+              =20
+                  <tr>
+                     <td class=3D"gutter">
+                        <table class=3D"btn-rtl" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" width=3D"100%" role=3D"presentation">
+                           <tr>
+                              <td>
+                                 <table class=3D"btn-rtl" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0" width=3D"100%" role=3D"presentation">
+                                    <tbody>
+                                       <tr>
+                                         =20
+                        =20
+                                             <th width=3D"100%" class=3D"bt=
+n-block" align=3D"center" bgcolor=3D"#FDF7F2" style=3D" #FDF7F2; word-break=
+:break-word; word-wrap:break-word; overflow-wrap:break-word;">
+                                               =20
+                                                  =20
+
+  =20
+
+  =20
+
+  =20
+
+	  =20
+     =20
+     =20
+     =20
+     =20
+     =20
+	<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" sty=
+le=3D"background-color: #FDF7F2" role=3D"presentation">
+		<tbody>
+	=09
+		</tbody>
+	</table>
+	<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" sty=
+le=3D"background-color: #FDF7F2" role=3D"presentation">
+		<tbody>
+		<tr>
+		=09
+				<th valign=3D"top">
+				=09
+				=09
+					=09
+=09
+    <img src=3D"https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp=
+/Mic%20(4)?scl=3D1&amp;fmt=3Dpng-alpha" alt=3D"Ein schwarzes Pluszeichen, z=
+entriert auf einem abgerundeten Quadrat mit pfirsichfarbenem Hintergrund." =
+style=3D"vertical-align: top;" border=3D"0" height=3D"96" width=3D"96">
+=09
+=09
+
+				=09
+				</th>
+		=09
+			<th style=3D"padding-right: 20px;"></th>
+			<th valign=3D"top" align=3D"left" width=3D"100%">
+				<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" =
+role=3D"presentation">
+					<tbody>
+				=09
+				=09
+				=09
+				=09
+					=09
+						<tr>
+						=09
+						=09
+								<td style=3D"color:#303030;font-family:Segoe UI, Helvetica, Arial, =
+sans-serif; font-style: normal; font-weight: 400; font-size: 16px; line-hei=
+ght: 24px; letter-spacing: -0.02em; margin:0;padding-top:0px !important; pa=
+dding-bottom:0px !important;mso-padding-top-alt:0px;mso-padding-bottom-alt:=
+0px">
+									<!--[if mso]>
+									<div class=3D"list">
+									<![endif]-->
+									<p><span style=3D"color: #303030"><b>Lesen Sie zwischen den Zeilen=
+<br><br _rte_temp_br=3D"brEOB"></b></span></p><p>Mit Copilot k=C3=B6nnen Si=
+e ganz einfach Bilder und Dokumente hochladen und Erkenntnisse gewinnen, di=
+e sonst unerkannt bleiben w=C3=BCrden. Egal, ob Sie Ihren Dokumenten Erinne=
+rungen entlocken oder Daten entschl=C3=BCsseln: Mit Copilot holen Sie das B=
+este aus jeder Datei.</p>
+									<!--[if mso]>
+									</div>
+									<![endif]-->
+								</td>
+						=09
+						</tr>
+				=09
+				=09
+					<!-- FIRST ADDITIONAL ELEMENT STARTS -->
+				=09
+					=09
+					=09
+						=09
+   =20
+   =20
+        <tr>
+            <td height=3D"20">&nbsp;</td>
+        </tr>
+   =20
+
+							<tr>
+								<td>
+									<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"pr=
+esentation">
+										<tbody>
+										<tr>
+											<td>
+											=09
+  =20
+  =20
+  =20
+  =20
+  =20
+  =20
+  =20
+   <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" s=
+tyle=3D"background-color: ;" role=3D"presentation">
+      <tbody>
+         <tr>
+            <td class=3D"btn-rtl">
+               <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" alig=
+n=3D"" role=3D"presentation">
+			    <tr>
+                    <td>
+                        <table border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" align=3D"" role=3D"presentation">
+                  <tbody>
+                     <tr>
+                       =20
+                          =20
+                          =20
+                             =20
+                             =20
+                                =20
+                                =20
+                                 <!--[if mso]>
+                                 <td class=3D"btn-block">
+                                 <![endif]-->
+                                =20
+                                 <!--[if !mso]><\!-->
+                                 <td class=3D"btn-block">
+                                    <!-- <![endif]-->
+                                    <table class=3D"btn-rtl" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0" align=3D"" role=3D"presentation">
+                                       <tbody>
+                                          <tr>
+                                             <td>
+                                                <table border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" width=3D"100%" dir=3D"ltr" role=3D"presentatio=
+n">
+                                                  =20
+   =20
+       =20
+       =20
+            <th class=3D"block-max-width" align=3D"left" style=3D"font-fami=
+ly:Segoe UI, Helvetica, Arial, sans-serif; font-style: normal; font-weight:=
+600 !important; font-size:16px; line-height:24px;  max-width:280px; padding=
+:8px 0; letter-spacing: -0.02em;">
+                <a href=3D"https://t2.infomails.microsoft.com/r/?id=3Dh1e46=
+c620,20440851,20440a98&amp;e=3Db2NpZD1DR0VfZW1sX0NvcGlsb3RfRnJlZV84NjhkNmVi=
+cW0&amp;s=3D2eEFo4i9C7Ip1O8cGIe7xahVCgmVY_KYROXWNA8XRec" title=3D"Probieren=
+ Sie's aus" style=3D"text-decoration:none;; color:#EF8F4B;" aria-label=3D"P=
+robieren Sie's aussich ein neue Fenster =C3=B6ffnet" target=3D"_blank"><str=
+ong class=3D"cta-button" style=3D"color:#EF8F4B; text-decoration:underline;=
+font-weight:600;">Probieren Sie's aus</strong><strong style=3D"color:#EF8F4=
+B; text-decoration:none; font-weight:600;">&nbsp;=E2=9D=AF</strong>
+                </a>
+            </th>
+       =20
+   =20
+   =20
+
+                                                </table>
+                                             </td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                 </td>
+                             =20
+                          =20
+                       =20
+                     </tr>
+                  </tbody>
+				 </table>
+                </td>
+               </tr>
+               </table>
+            </td>
+         </tr>
+      </tbody>
+   </table>
+
+											</td>
+										</tr>
+									=09
+										</tbody>
+									</table>
+								</td>
+							</tr>
+					=09
+					=09
+					=09
+					=09
+				=09
+					<!-- FIRST   ADDITIONAL ELEMENT ENDS -->
+					<!-- SECOND ADDITIONAL ELEMENT STARTS -->
+				=09
+					<!-- SECOND ADDITIONAL ELEMENT ENDS -->
+					<!-- THIRD ADDITIONAL ELEMENT STARTS -->
+				=09
+					<!-- THIRD ADDITIONAL ELEMENT ENDS -->
+					</tbody>
+				</table>
+			</th>
+		</tr>
+		</tbody>
+	</table>
+
+     =20
+     =20
+     =20
+     =20
+
+  =20
+
+
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                               =20
+                                             </th>
+                                            =20
+                                         =20
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                        </table>
+                     </td>
+                  </tr>
+                 =20
+              =20
+           =20
+            <!-- Multifield Ends -->
+           =20
+              =20
+                 =20
+   =20
+   =20
+        <tr>
+            <td height=3D"60">&nbsp;</td>
+        </tr>
+   =20
+
+              =20
+              =20
+           =20
+         </tbody>
+      </table>
+  =20
+
+
+   =20
+
+
+
+   <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" s=
+tyle=3D"background-color: #FDF7F2" role=3D"presentation">
+      <tbody>
+     =20
+   =20
+   =20
+        <tr>
+            <td height=3D"40">&nbsp;</td>
+        </tr>
+   =20
+
+         <tr>
+            <td>
+              =20
+	<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" sty=
+le=3D"background-color: #FDF7F2" role=3D"presentation">
+		<tbody>
+	=09
+		<tr>
+			<td class=3D"gutter">
+				<table class=3D"app-download-block" border=3D"0" cellspacing=3D"0" cell=
+padding=3D"0" align=3D"center" role=3D"presentation">
+					<tr>
+						<td>
+							<table class=3D"app-download-block" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0" align=3D"center" role=3D"presentation">
+								<tbody>
+								<tr>
+								=09
+										<th align=3D"center" style=3D"vertical-align:top;">
+											<a target=3D"_blank" href=3D"https://t2.infomails.microsoft.com/=
+r/?id=3Dh1e46c620,20440851,20440a99&amp;e=3Db2NpZD1DR0VfZW1sX0NvcGlsb3RfRnJ=
+lZV84NjhkNmVicW0&amp;s=3DrJFgeP5hUY5Owx0vm0HCKJcVAZgHc7PwPerYbwj3VW0"><img =
+height=3D"40" alt=3D"Apple App Store" src=3D"https://cdn-dynmedia-1.microso=
+ft.com/is/image/microsoftcorp/Apple_App_Store_Badge_US-UK@2x-5?scl=3D1&amp;=
+fmt=3Dpng-alpha" style=3D"outline:none;border:none;display:block;">
+											</a>
+										</th>
+									=09
+											<th class=3D"mobileHidden" style=3D"padding-right: 20px;">
+											<th class=3D"desktopHidden" height=3D"20">&nbsp;</th>
+									=09
+								=09
+										<th align=3D"center" style=3D"vertical-align:top;">
+											<a target=3D"_blank" href=3D"https://t2.infomails.microsoft.com/=
+r/?id=3Dh1e46c620,20440851,20440a9a&amp;e=3Db2NpZD1DR0VfZW1sX0NvcGlsb3RfRnJ=
+lZV84NjhkNmVicW0&amp;s=3Dpn6InOjVXKbwzJ_Zg0znxGO_EYdNJMh_iyk64IFxoO0"><img =
+height=3D"40" alt=3D"Google Play" src=3D"https://cdn-dynmedia-1.microsoft.c=
+om/is/image/microsoftcorp/Google-Play-badge@2x-6?scl=3D1&amp;fmt=3Dpng-alph=
+a" style=3D"outline:none;border:none;display:block;">
+											</a>
+										</th>
+									=09
+								=09
+								</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		</tbody>
+	</table>
+
+            </td>
+         </tr>
+     =20
+   =20
+   =20
+        <tr>
+            <td height=3D"40">&nbsp;</td>
+        </tr>
+   =20
+
+      </tbody>
+   </table>
+
+
+
+   =20
+ =20
+   =20
+   =20
+ =20
+   =20
+   =20
+ =20
+ =20
+
+   =20
+=09
+=09
+=09
+		<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" st=
+yle=3D"background-color:#FFFFFF;" role=3D"presentation" bgcolor=3D"#FFFFFF"=
+>
+			<tbody>
+			<tr>
+			=09
+			=09
+					<td height=3D"20" class=3D"spacer-ln-ht-0">&nbsp;</td>
+							=20
+			</tr>
+		=09
+				<tr>
+					<td class=3D"gutter">
+						<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" role=3D"presentation">
+							<tr>
+								<td height=3D"1" style=3D"background:#d2d2d2;border:none;color:#d2d=
+2d2;font-size:1px;mso-line-height-rule:exactly;line-height:1px;">&nbsp;</td=
+>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			=09
+   <tr>
+       <td height=3D"20">&nbsp;</td>
+   </tr>
+
+		=09
+		=09
+				<tr>
+					<td class=3D"gutter">
+						<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"prese=
+ntation">
+							<tr>
+								<td>
+									<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"pr=
+esentation">
+										<tr>
+										=09
+												<th>
+													<a target=3D"_blank" title=3D"Microsoft Social Icon" href=3D"h=
+ttps://t2.infomails.microsoft.com/r/?id=3Dh1e46c620,20440851,20440a9b&amp;e=
+=3Db2NpZD1DR0VfZW1sX0NvcGlsb3RfRnJlZV84NjhkNmVicW0&amp;s=3Duio1pfCLuiSk-MCw=
+yq_ONcta5occuEdchBXzH21M3Dg"><img src=3D"https://cdn-dynmedia-1.microsoft.c=
+om/is/image/microsoftcorp/MicrosoftSocialIcon?scl=3D1&amp;fmt=3Dpng-alpha" =
+alt=3D"Microsoft Social Icon" style=3D"display:block" border=3D"0" height=
+=3D"31" width=3D"32">
+=09
+=09
+
+													</a>
+												</th>
+											=09
+													<th style=3D"padding-right:12px;"></th>
+											=09
+										=09
+												<th>
+													<a target=3D"_blank" title=3D"Copilot Social Icon" href=3D"htt=
+ps://t2.infomails.microsoft.com/r/?id=3Dh1e46c620,20440851,20440a9c&amp;e=
+=3Db2NpZD1DR0VfZW1sX0NvcGlsb3RfRnJlZV84NjhkNmVicW0&amp;s=3DmM5reRXRMyx076Oo=
+zR51hWSxsezUI8U_mydzVrXEFmQ"><img src=3D"https://cdn-dynmedia-1.microsoft.c=
+om/is/image/microsoftcorp/CopilotSocialLogo?scl=3D1&amp;fmt=3Dpng-alpha" al=
+t=3D"Copilot Social Icon" style=3D"display:block" border=3D"0" height=3D"31=
+" width=3D"32">
+=09
+=09
+
+													</a>
+												</th>
+											=09
+													<th style=3D"padding-right:12px;"></th>
+											=09
+										=09
+												<th>
+													<a target=3D"_blank" title=3D"TikTok icon" href=3D"https://t2.=
+infomails.microsoft.com/r/?id=3Dh1e46c620,20440851,20440a9d&amp;e=3Db2NpZD1=
+DR0VfZW1sX0NvcGlsb3RfRnJlZV84NjhkNmVicW0&amp;s=3Dg7XqRjhTNpruT_K0JhTYRY0vLv=
+N27s2ZR8fET1SGdBU"><img src=3D"https://cdn-dynmedia-1.microsoft.com/is/imag=
+e/microsoftcorp/TIKTOK_1x?scl=3D1&amp;fmt=3Dpng-alpha" alt=3D"TikTok icon" =
+style=3D"display:block" border=3D"0" height=3D"31" width=3D"32">
+=09
+=09
+
+													</a>
+												</th>
+											=09
+													<th style=3D"padding-right:12px;"></th>
+											=09
+										=09
+												<th>
+													<a target=3D"_blank" title=3D"Instagram Icon" href=3D"https://=
+t2.infomails.microsoft.com/r/?id=3Dh1e46c620,20440851,20440a9e&amp;e=3Db2Np=
+ZD1DR0VfZW1sX0NvcGlsb3RfRnJlZV84NjhkNmVicW0&amp;s=3DQbdAiwpCtmZekjdbOtduP6l=
+NwDMwu2wxDLCQG92j-eY"><img src=3D"https://cdn-dynmedia-1.microsoft.com/is/i=
+mage/microsoftcorp/Instagram@2x%20Light%20Theme?scl=3D1&amp;fmt=3Dpng-alpha=
+" alt=3D"Instagram Icon" style=3D"display:block" border=3D"0" height=3D"31"=
+ width=3D"32">
+=09
+=09
+
+													</a>
+												</th>
+											=09
+													<th style=3D"padding-right:12px;"></th>
+											=09
+										=09
+												<th>
+													<a target=3D"_blank" title=3D"X icon" href=3D"https://t2.infom=
+ails.microsoft.com/r/?id=3Dh1e46c620,20440851,20440a9f&amp;e=3Db2NpZD1DR0Vf=
+ZW1sX0NvcGlsb3RfRnJlZV84NjhkNmVicW0&amp;s=3Dgz4UrSxx63nJ44M-pRgIWAZOVLerNwi=
+oGAfcFZJnipI"><img src=3D"https://cdn-dynmedia-1.microsoft.com/is/image/mic=
+rosoftcorp/Twitter-%20XCorp-black@2x?scl=3D1&amp;fmt=3Dpng-alpha" alt=3D"X =
+icon" style=3D"display:block" border=3D"0" height=3D"31" width=3D"32">
+=09
+=09
+
+													</a>
+												</th>
+											=09
+													<th style=3D"padding-right:12px;"></th>
+											=09
+										=09
+												<th>
+													<a target=3D"_blank" title=3D"YouTube icon" href=3D"https://t2=
+.infomails.microsoft.com/r/?id=3Dh1e46c620,20440851,20440aa0&amp;e=3Db2NpZD=
+1DR0VfZW1sX0NvcGlsb3RfRnJlZV84NjhkNmVicW0&amp;s=3DigutjsBTtVHlCDIT3bS8VVsgU=
+xRkV4LgRvR1N4aIV0Q"><img src=3D"https://cdn-dynmedia-1.microsoft.com/is/ima=
+ge/microsoftcorp/YouTube@2x%20Light%20Theme?scl=3D1&amp;fmt=3Dpng-alpha" al=
+t=3D"YouTube icon" style=3D"display:block" border=3D"0" height=3D"31" width=
+=3D"32">
+=09
+=09
+
+													</a>
+												</th>
+											=09
+										=09
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+		=09
+		=09
+   <tr>
+       <td height=3D"20">&nbsp;</td>
+   </tr>
+
+		=09
+			<tr>
+				<td class=3D"gutter">
+					<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ role=3D"presentation">
+						<tr>
+							<td height=3D"1" style=3D"background:#d2d2d2;border:none;color:#d2d2=
+d2;font-size:1px;mso-line-height-rule:exactly;line-height:1px;">&nbsp;</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+			=09
+			=09
+					<td height=3D"20" class=3D"spacer-ln-ht-0">&nbsp;</td>
+			=09
+			</tr>
+			</tbody>
+		</table>
+=09
+
+
+   =20
+  =20
+  =20
+  =20
+      <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" style=3D"background-color: #ffffff;" role=3D"presentation">
+         <tbody>
+			<tr>
+               <td height=3D"0" class=3D"spacer-ln-ht-0">&nbsp;</td>
+            </tr>
+            <tr>
+               <td class=3D"txt-align-right" align=3D"left">
+                  <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" w=
+idth=3D"100%" class=3D"rte-footerspacer-10" role=3D"presentation">
+                     <tr>
+                        <td class=3D"gutter" style=3D"color:#000000;font-fa=
+mily:Segoe UI, Helvetica, Arial, sans-serif;font-size:10px;line-height:14px=
+;letter-spacing:-0.02em;font-style:normal;">
+                           <p>Sie erhalten diese Nachricht, da Sie Microsof=
+t Copilot k=C3=BCrzlich verwendet haben. Sie ist Teil einer limitierten Ser=
+ie von informativen E-Mails =C3=BCber erste Schritte mit Copilot.</p>
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+            <tr>
+               <td height=3D"0" class=3D"spacer-ln-ht-0">&nbsp;</td>
+            </tr>
+         </tbody>
+      </table>
+  =20
+
+
+
+
+
+                            </td>
+                     	</tr>
+
+                        <!-- FOOTER SECTION STARTS HERE -->
+
+                        <tr>
+                     		<td>
+                               =20
+
+
+
+
+                            </td>
+                     	</tr>
+
+                        <tr>
+                     		<td>
+                 			=09
+  =20
+
+  =20
+  =20
+      <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" style=3D"background-color:#FFFFFF;" role=3D"presentation">
+         <tbody>
+           =20
+		=09
+           =20
+           =20
+           =20
+           =20
+            <tr>
+               <td>
+                 =20
+                 =20
+                 =20
+                 =20
+                 =20
+=09
+
+
+
+
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%">
+   <tr>
+   	<td height=3D"20">&nbsp;</td>
+   </tr>
+   <!--Privacy text-->
+  =20
+    =20
+   =20
+   <tr>
+      <td class=3D"gutter" style=3D"font-family:Segoe UI,Helvetica,Arial,sa=
+ns-serif;font-size:10px;line-height:14px;color:#0067B8;">
+         <a title=3D"Datenschutzerkl=C3=A4rung=E2=80=8B" href=3D"https://t2=
+.infomails.microsoft.com/r/?id=3Dh1e46c620,20440851,20440abf&amp;e=3Db2NpZD=
+1DR0VfZW1sX0NvcGlsb3RfRnJlZV84NjhkNmVicW0&amp;s=3DVqchbXloG87haNjaIh3snmAtZ=
+n1sDfKx4fOtYRDZnPI" _label=3D"Privacy Link" _type=3D"Email click"><strong s=
+tyle=3D"color:#0067B8;text-decoration:underline;font-weight: normal;">Daten=
+schutzerkl=C3=A4rung=E2=80=8B</strong></a>&nbsp;|&nbsp;<a title=3D"Impressu=
+m" href=3D"https://t2.infomails.microsoft.com/r/?id=3Dh1e46c620,20440851,20=
+440ac0&amp;e=3Db2NpZD1DR0VfZW1sX0NvcGlsb3RfRnJlZV84NjhkNmVicW0&amp;s=3D6dfJ=
+NoAPcR2fKQmdBCyUA8TD5dSwu5PwSxaCVAydDMM" _label=3D"PrivacyMisc Link" _type=
+=3D"Email click"><strong style=3D"color:#0067B8;text-decoration:underline;f=
+ont-weight: normal;">Impressum</strong></a>
+      </td>
+   </tr>
+  =20
+   <tr>
+      <td height=3D"5" style=3D"font-size:0px;line-height:5px">&nbsp;</td>
+   </tr>
+   <tr>
+      <!--[if gte mso 9]>
+				<td class=3D"footeraddressrtl" style=3D"color:#000000;font-family:Segoe=
+ UI,Helvetica,Arial,sans-serif;font-size:10px;line-height:14px;letter-spaci=
+ng:-0.02em;font-style:normal;">    =20
+			<![endif]-->
+			<!--[if !gte mso 9]><!-- -->
+				<td class=3D"gutter" style=3D"color:#000000;font-family:Segoe UI,Helvet=
+ica,Arial,sans-serif;font-size:10px;line-height:14px;letter-spacing:-0.02em=
+;font-style:normal;">
+			<!--<![endif]-->
+         <p>Microsoft Corporation,&nbsp;One Microsoft Way,&nbsp;Redmond, WA=
+ 98052
+         </p>
+      </td>
+   </tr>
+  =20
+   <tr>
+     <td style=3D"line-height:1px; mso-line-height-rule:exactly;">
+       <img border=3D"0" src=3D"https://cam-pixel-tracker-prod.azure-api.ne=
+t/api/p126/track.png" height=3D"1" width=3D"1" style=3D"display:block;heigh=
+t:1px;">
+     </td>
+</tr>
+</table>
+
+=09
+
+               </td>
+            </tr>           =20
+            <tr>
+              =20
+   =20
+   =20
+        <tr>
+            <td height=3D"20">&nbsp;</td>
+        </tr>
+   =20
+
+               <td>
+                  <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" w=
+idth=3D"100%" role=3D"presentation">
+                     <tr>
+                          <td class=3D"gutter" width=3D"100" style=3D"line-=
+height:14px;">
+                               =20
+                                 =20
+                                         =20
+=09
+    <img src=3D"https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp=
+/microsoft%20logo-1?scl=3D1&amp;fmt=3Dpng-alpha" alt=3D"Microsoft-Logo" sty=
+le=3D"display:block; height:20px;" height=3D"20">
+=09
+=09
+
+                                   =20
+							</td>
+                       </tr>
+                  </table>
+               </td>
+            </tr>
+           =20
+   =20
+   =20
+        <tr>
+            <td height=3D"30">&nbsp;</td>
+        </tr>
+   =20
+
+         </tbody>
+      </table>
+  =20
+
+                 			</td>
+                 		</tr>
+                  		<!-- FOOTER SECTION ENDS HERE -->
+
+                     </tbody>
+                  </table>
+                </td>
+              </tr>
+      	=09
+      	 </tbody>
+      </table>
+      <!--PARENT TABLE Ends Here -->
+      <p style=3D"line-height:1px;">&nbsp;</p>
+	</div>
+
+<img height=3D"0" width=3D"0" alt=3D"" src=3D"https://t2.infomails.microsof=
+t.com/r/?id=3Dh1e46c620,20440851,1">
+</body>
+</html>
+

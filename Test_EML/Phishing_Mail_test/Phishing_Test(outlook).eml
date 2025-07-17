@@ -1,0 +1,363 @@
+Received: from PAXP195MB1248.EURP195.PROD.OUTLOOK.COM (::1) by
+ DU0P195MB1820.EURP195.PROD.OUTLOOK.COM with HTTPS; Fri, 4 Jul 2025 09:53:52
+ +0000
+Received: from DB8PR06CA0035.eurprd06.prod.outlook.com (2603:10a6:10:100::48)
+ by PAXP195MB1248.EURP195.PROD.OUTLOOK.COM (2603:10a6:102:1a1::9) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.8901.22; Fri, 4 Jul
+ 2025 09:53:51 +0000
+Received: from DB1PEPF000509EF.eurprd03.prod.outlook.com
+ (2603:10a6:10:100:cafe::1b) by DB8PR06CA0035.outlook.office365.com
+ (2603:10a6:10:100::48) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.20.8901.23 via Frontend Transport; Fri,
+ 4 Jul 2025 09:53:51 +0000
+Authentication-Results: spf=pass (sender IP is 52.102.171.41)
+ smtp.mailfrom=albnetwork.al; dkim=fail (signature did not verify)
+ header.d=albnetwork.al;dmarc=bestguesspass action=none
+ header.from=albnetwork.al;compauth=pass reason=109
+Received-SPF: Pass (protection.outlook.com: domain of albnetwork.al designates
+ 52.102.171.41 as permitted sender) receiver=protection.outlook.com;
+ client-ip=52.102.171.41; helo=TYPPR03CU001.outbound.protection.outlook.com;
+ pr=C
+Received: from TYPPR03CU001.outbound.protection.outlook.com (52.102.171.41) by
+ DB1PEPF000509EF.mail.protection.outlook.com (10.167.242.73) with Microsoft
+ SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.20.8880.14
+ via Frontend Transport; Fri, 4 Jul 2025 09:53:50 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:C5A8DFD2CB69ED01C7F9AE14BF85CEB3D7168095C490C9BFCF32BA44F9194EF9;UpperCasedChecksum:BB7B19511DBBA1DAA68DD3E708861A97EA3CD560246727DD3F02EE094777B8F2;SizeAsReceived:7178;Count:31
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=fail;
+ b=bIJNbohFmfOkKwvn76Ov12dFALInZHHpR1QjpqGc90AksB3N6XXfqL/XwU4fuBDyFKa6JHfXs74lUkIMAZ3vp4Y3aF/v39/6fn3tRe0p1B3ccbuOOSvUrs9sKM4AmB+0raIZaIp/7cZf6wfLUcQ32G01X0weTJhNYV/tsVrMOJoaLWoG8wBTvAZ8QZJHHQj4zh2UoTJ9RNNWeq6iWO2y9vVmoQllSYre34zktJDvzJDJ9zhDojwSsd+1O66IVq42p1Ho3rCnECNq8fxXs3n9xa3uKE9XXrsKeviXMzlUb1fTdoTVAsFtXBj/DYUYhE88i+ae4nFg6XTQNqhP/4qdZg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=/7j+DnWUy3LYy7a8yG8Wjo2GMTm1AxSCP42XaSgUL7s=;
+ b=mLWX58iRz0GlXCdWoib929a4oEzDX//8Xpae47jeL72nzoYRJr5QYRsg6MV7+37KW6fVBrzicLhTtiLiVJ2dcL44oScnqhGGSMT5e/+BIiGld/I8gVj1PHzPYt3oPylg/SgpycviwW+HTiXPWCyt0Nn4kKm2rL0fXjqa59mzZOejGbTyqb534NrNWRUOsOyeKp86syY2bPqVddxQv0e0liSu0Wh4us+rU4yXatk4/sdTHbNckrmhnoX6uFKDo1IeM9bQXGy/AD6Ahs6aHXOzyfPCMMHuOyqObvd3wdUrsnwaEXXvv3yhrL6tXAXAw4RLW/14xUd9jV9aptmQzggCMw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=fail (sender ip is
+ 5.175.205.244) smtp.rcpttodomain=hotmail.de smtp.mailfrom=albnetwork.al;
+ dmarc=none action=none header.from=albnetwork.al; dkim=none (message not
+ signed); arc=fail (1)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=albnetwork.al;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=/7j+DnWUy3LYy7a8yG8Wjo2GMTm1AxSCP42XaSgUL7s=;
+ b=v1snZdciIG6G8hLmUBz5u2hvTrR6/gU844rnIGiuOZodz72cYr7XK4P1XqjUQ3n4dvWTEHM9PjZfqyTjAKNK2kZkpO1NHzINzmT1ayVmyi0djUDxeuQKw36do/OWPVcnDqkHpuwdNRa1RN0Rr5kOd6SoOYjogBdk9rBVjy5I0J/Z+DRQYz3SnpnJNBoptONwqDhp2rfNu0n7Maz2RmF7KgLis/8LLTRZvEY7w2b+JH/+1CSNIeJ25/dgQVObcRpAevQUf+rt9o+EP5jxByZVJ841Zv+ZAi/ExhEfn5r84CisIRApADzwyOXWrd4kbE3k0FXFjRvd1DAdzTW77fhHng==
+Date: Fri, 04 Jul 2025 09:53:39 +0000
+To: <tomi.g@hotmail.de>
+From: "Google Drive" <driveé@albnetwork.al>
+Subject: Wichtig: Ihr Google Drive-Speicherplatz ist voll.
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+Message-ID: <e5ae312d-0592-4547-af8e-6c3dc600e7f9@SG2PEPF000B66CF.apcprd03.prod.outlook.com>
+Return-Path: irltd@albnetwork.al
+X-EOPAttributedMessage: 1
+X-MS-TrafficTypeDiagnostic: SG2PEPF000B66CF:EE_|KL1PR04MB7581:EE_|DB1PEPF000509EF:EE_|PAXP195MB1248:EE_|DU0P195MB1820:EE_
+X-MS-Office365-Filtering-Correlation-Id: 304d468e-0c03-496c-2428-08ddbae0ae32
+X-MS-Exchange-SenderADCheck: 1
+X-MS-Exchange-AntiSpam-Relay: 0
+X-Microsoft-Antispam-Untrusted: BCL:0;ARA:13230040|61400799027|69100299015|376014|82310400026|36860700013|34070700014|41320700013|32650700017|8135299006|8096899003|4076899003|34180700001;
+X-Microsoft-Antispam-Message-Info-Original: =?utf-8?B?aWYxVWEzSWl0SU5oSE1JSTZ0eEZQLzU1VURZci9mRE1oTHhFQmI5bjUvVkVF?=
+ =?utf-8?B?ZFM0Y2NSZ3dFZ0VLNjd3R1Nhck1SQ29peFV4NjB1OG8vYkRSQlRvTE1kQnNp?=
+ =?utf-8?B?Q1NMS2lSTzU5R21xTGpvY1NIL3p6dkpleFF0cjM2ZnNaSzdkSHVLREJrbThG?=
+ =?utf-8?B?TjU3ODhYUStOL21BVUxpVDJTTVJPdmVSM3N6Q2JsbnBpTXQzeWUzMUhKMS9T?=
+ =?utf-8?B?dEN5RUYyaWhqSzcza0ZWUEVub3hsS0xGN1IzaFlod3BhcW12c2lFNXpVRWdR?=
+ =?utf-8?B?amk0VkhOcXUvSjZFc0ViRllISkJORk5taXNSOGNZa1FIN0JzcDc0RmUxaUVz?=
+ =?utf-8?B?L0xzb3diSHU1akZCNjVHeDJhUWRtTHc1b1llTFhzd0g2R29uVkkrb1BHU1R5?=
+ =?utf-8?B?dHFDd1JhMGZxdGJQcHFoV0dZM3F1SjlkK0R4d1JQeUliYVdpVW4vM2tJeCty?=
+ =?utf-8?B?SllnSkRKMGJBOHZUT0E1N2lWcm45SUp4YldDMW1DZEI1VXBqWGM4bGRoUnQz?=
+ =?utf-8?B?NW4vNVM0L1RKaVo5bVpwY3U1UzAvU25DcjdCM0xTVXJhRU8wbkM1a0hNWExr?=
+ =?utf-8?B?blBZditlZENsSGdRYWI1Y3JYak1kNklYMkR6cjBPclVXeDBYQXVWOE5hZmtO?=
+ =?utf-8?B?czFyOVIxRmtUSnZSVXJnZlJFWHlyNkY4WitCZnZEMEpMTnRUYnpiTkQvTWFG?=
+ =?utf-8?B?eTJzTWVFUzFrTUwwempOa2p6MEVKK3hPNGZPOFFvNzlqVGpyVDQ4R1lqaWhu?=
+ =?utf-8?B?eE1YcnpNa2V0YndqaHFQa3I0SWdUdTVMS1loTUEvbGM5R2VUR3MrcUFGNi9B?=
+ =?utf-8?B?UHRSWXZPcFdYRWE2TXU1UlJlVUhsVXNETmpFR0h3NmtqYU1qRTJkY2VQTXhx?=
+ =?utf-8?B?T2pJZmhBb3RVeUVkaHpheXRTelRreVlOUkdibmp5NS9sbHZTSUFSbUszUm0r?=
+ =?utf-8?B?akNxaWJnOEtvNkJ1R1d4SlpkYUZxTnhIRVJPdkhnbDczUXJqVUdoTFNxM2Zh?=
+ =?utf-8?B?N29HUmxybFduR2FMK3duRjk0UHF6Z2drN2FxQXhuS3ZRZVk3eHNsNXlnR1dM?=
+ =?utf-8?B?NlFJSmNrMER3dnVyU2JTb3ZCTldXZ2taUHl6alBadjRjNE9pQ244TTNmT0pS?=
+ =?utf-8?B?N0x1WllzQ0tmMkMycjVDTDRJOFQzSUZZUzZuQVRlcVN0UUoxSldIZE02empF?=
+ =?utf-8?B?cWdmam9MZ2lRRW9MSE9PNXpDQTJFZm91RFZhanNVSHAyK1JvU1RwdHY4UjhI?=
+ =?utf-8?B?MWZhNXlyS2QxL05hamh4TEtDWGJxMUpBS3ZPNHJUcHhTTW0wNHZmZVRvcDJL?=
+ =?utf-8?B?Mi9rQTBhVFUvbUg0VGQ0VGNpZDhNWXV0S2piZUd6QWdLZ09ERG9ibEFSd0c0?=
+ =?utf-8?B?Yi9Sd0UxbFJZL3ltQmZGZmdiR1VzUzVPUUJXTWFLdTZFSjUyd1ZFV1dsaEdo?=
+ =?utf-8?B?cmhIZHJ3a0RhTHdyKzY1Zk4ya0wrRC83ZHhJcmRUTWliVTFvOHRHcFYzeDly?=
+ =?utf-8?B?OW55YkFxdXIrL1dzcExHektpN3NzTEVwZ0dwbXZrY2NMTlNJRENvVHNYcU53?=
+ =?utf-8?B?MGthaVU5b1JBd2ZHSnpiZDU4WDJQRThvMlNiQVNmVXpWUXgrem1BdC90dVk5?=
+ =?utf-8?B?UktXN0ord2ttclJFSjJVWkVKcFlvMzd5WjlFTHBROVUvNHZld01SMFhXVVNX?=
+ =?utf-8?B?cTVCOE1tYmxRUlVUbDYzakpVUk9zMUkwL2FKNXZpRzFHZEhVeVZaWDA0Q0pm?=
+ =?utf-8?B?UGQyOG9FYkliaUFOb1BQeFBHMVNicFRuT0Y0T0UrbUJwTUhFczR6MnB4eVU3?=
+ =?utf-8?B?c2JEaTRjd0toY3dYZU8vZnZKZXplYVQ5YkRITStyNmwxaE1LdXIxaGxUWXNk?=
+ =?utf-8?B?V3hqTG1JWE12SWgwRVV1a1ppVmMyRW1XdW8rQ0QwL3lTeXFjRzBUYzNwa2M0?=
+ =?utf-8?B?STB2NC9GUHZqSWFtWjlvT3pBR0ZNZlpOMDcxeFRrTjJmVHZvRXl5TGxFdjlL?=
+ =?utf-8?B?VEwrTkZCK0FQekJtQ2xFL3k2c2g1emdJNHlnUDhZUkhHaXhxLzFLM0ZDSkQ4?=
+ =?utf-8?B?aDc1eVJPeXJuTjI3TlRZUjg3TmdOYkcyVjBhQlRQSkFrWDRDZDVkTitmL05p?=
+ =?utf-8?B?UE9zeVhzQXVaM3hVcUZPc20xd2FsdCtZdFpNUTB3Nm1PQjU5d043b2ZpQXp3?=
+ =?utf-8?B?RGdLSzN0NHAxSGxJVFd0UmVwalVkc1NyNlVESk5Vdmp0UHVNZ0VDYUNTaTVO?=
+ =?utf-8?B?TmtpaTdPV3pxdXVaV0h4d2pLaXhGaVBkYkZrWE5uZ0gxR0JxZEJxL0FOSWNP?=
+ =?utf-8?B?bXZ6OXJKay9pYThGUVJOZDJHQWZoSzJmMXVOcklpQ0ZpdzlFMlpqaDdVSVZ5?=
+ =?utf-8?B?ZnpQSjR1TkVmVEpwOFNUTjU3eEpCb2c5ODNWaWRvWGxoVER5MU40MllaejFW?=
+ =?utf-8?B?Y0JxNndHTEIyYWxHVFNZQmtDcnRTODJxcFFGZVUvcnVhMEkzYW5jMFBoS00v?=
+ =?utf-8?B?VVBQV1IvQ0xBbkNJaEMxRjJYOW1lSGYvK3FxUUs1Yk5LUVZUaExzZHVsdito?=
+ =?utf-8?B?V2xwYUp2NElDSitIMmV6L2J3RW5lYWpxVm8vbkdYdksyVXRIMldVYXZ6UGRX?=
+ =?utf-8?B?UUtVV3owVmFwREkyK0pSeGpGWHM0TVpLR1Y5eTZPcklSWFlJMUhteFhZY3Ar?=
+ =?utf-8?B?dHlWVzVCc284YWlLTEtKR3hvTTZJUU5SVjFoeTlRekJKdzREeUhkYU1HcHAz?=
+ =?utf-8?Q?3A=3D?=
+X-Forefront-Antispam-Report-Untrusted: CIP:5.175.205.244;CTRY:DE;LANG:de;SCL:9;SRV:;IPV:NLI;SFV:SPM;H:pmtetuan.com;PTR:.;CAT:OSPM;SFS:(13230040)(61400799027)(69100299015)(376014)(82310400026)(36860700013)(34070700014)(41320700013)(32650700017)(8135299006)(8096899003)(4076899003)(34180700001);DIR:OUT;SFP:1501;
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: KL1PR04MB7581
+X-IncomingHeaderCount: 31
+X-MS-Exchange-Organization-ExpirationStartTime: 04 Jul 2025 09:53:51.4440
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 304d468e-0c03-496c-2428-08ddbae0ae32
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: DB1PEPF000509EF.eurprd03.prod.outlook.com
+X-MS-Exchange-Transport-CrossTenantHeadersPromoted: DB1PEPF000509EF.eurprd03.prod.outlook.com
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource: DB1PEPF000509EF.eurprd03.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 7/4/2025 9:07:17 AM
+X-MS-Office365-Filtering-Correlation-Id-Prvs: 89e0ce81-1bd0-487e-fce5-08ddbae0ac38
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 52.102.171.41
+X-SID-PRA: =?utf-8?B?RFJJVkXDiUBBTEJORVRXT1JLLkFM?=
+X-SID-Result: PASS
+X-MS-Exchange-Organization-SCL: 5
+X-Microsoft-Antispam: BCL:0;ARA:1444111002|62400799018|58200799018|28045499009|70000799015|47200799021|38050799003|33080799003|470799035|461199028|21080799006|15110799015|45200799018|2700799029|67000799015|28050799003|970799057|9400799033|6115599003|22110799003|84100799003|10300799035|460799366;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 04 Jul 2025 09:53:50.8655
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 304d468e-0c03-496c-2428-08ddbae0ae32
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=8b844a9f-1847-4e7c-99c0-0e1a24b0f6bc;Ip=[5.175.205.244];Helo=[pmtetuan.com]
+X-MS-Exchange-CrossTenant-AuthSource: DB1PEPF000509EF.eurprd03.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PAXP195MB1248
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.6807134
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.8901.020
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;ex:0;auth:1;dest:J;OFR:SpamFilterAuthJ;ENG:(5062000311)(920221119095)(90000117)(920221120095)(90005022)(91005020)(91035115)(9050020)(9100341)(944500132)(2008001181)(2008121020)(4810010)(4910033)(10010005)(10005027)(9710001)(9610028)(9540006)(10160021)(9320005)(9245025)(120001);RF:JunkEmail;
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0xO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?ZEpta3pHZklYM2tHT0xnbjJ6REorMEFHK3dmRGhmb3BjU2w3NXJrZnVLc05M?=
+ =?utf-8?B?cVZ0NnhBd0RqaExGT2UyWE5PaTUyaFV6TUlKWDd1MHd5UmVOVzFkUFJGbTNT?=
+ =?utf-8?B?ejc3b01jN0FqYWxvcjMwRGdLb0dXYmtRM1ZXV1Q0R21lWFVHdi9vaFdsQ05S?=
+ =?utf-8?B?SXliL3lkZXI5V0txZ2FkOU5aeUNlMTh0YkxXNDB0VkhGZkdEbVEvT3JIOGVK?=
+ =?utf-8?B?WTd4VEk5cE9Eck1rRUw5VVFEbU1VOVgxSmZzQTU4M2dUTmtZTitLRm40cGlU?=
+ =?utf-8?B?WUVRTG1IOWh3QXE2UzIzMWdlOVFSS096NW5nVWtZczFENGgxVzEwRUcvdldY?=
+ =?utf-8?B?dkRuLzdTai9JeU5tTlhrcGJPQXg2eTk5YUpzVys1ZUZiZ0lEcXVDRDBPello?=
+ =?utf-8?B?NXpIL09PVVQzY25EVExuTkgrMXVHRE5mVjkzaDNRTkJMWUpGdGNRQWwreG50?=
+ =?utf-8?B?WHlZbi9EWVNMc0JkbHpJN2NKcHVkaktkV3NzRlE2UUJjUGNjc1lGdFlIbVFa?=
+ =?utf-8?B?d2ZMVWs3TmRldFg3WDJkVURjVzhnaExHdWpCWTM5bTVRSXluQlJ6YWdhYXRU?=
+ =?utf-8?B?MkIwTnRTMVhCaXZ6STgzODF4akQ3aVJVRmpzL0Q4WHpLUWtHM2N2dklka1BI?=
+ =?utf-8?B?M2NMVmRjOXlFanhuNXVJNU5kTk1VWHdZZ2ZvVTEvT2lOTXphMWpTUHdFZnd5?=
+ =?utf-8?B?YUZYaElRT3F4d1UzNzVlbE5QNXlHNDNhaldJZVErSFU0c09pM2FBL2FIVUxm?=
+ =?utf-8?B?dUdSVE5mTXVOUkdhT1ZDQXFNWlZ4N1FTbG1EcG84VGJCVmREMnJ5ankxMklN?=
+ =?utf-8?B?QWFyeFZKOExXTXdZV0E4WG9BSHJKT3dzMUpJeHZ2RVlPQmVUcWNLcEUxV0hn?=
+ =?utf-8?B?ZS9DVFZhNTBZTlEwVE5RcEM1NWR3dzlGSlZKTGpxbzNmcjNDTjc4VTFrcm9B?=
+ =?utf-8?B?VUtVQnJpTXA2ZHVjTmpMaHZ0Y0k5T0R3cGdIUTdEcUR6K0REWGgzWnJReXpY?=
+ =?utf-8?B?d2MrVUZJRU14WHMramRnK2tMbEpGeUlnM1FybUpONVI4cm5ScGhaTHhwSTdi?=
+ =?utf-8?B?eElaVlJkMmlUeWt5cjhpSUtJWHI5OUR1TDVvcVIwV090UWpwRDRlU2MvNlNm?=
+ =?utf-8?B?YlgzVWQrRi80RWo5cHoybC9qRnVWdDMyMndMdTN4RFJoUGhmV0xnZGZPZ3V2?=
+ =?utf-8?B?YjBWdk00cTluczlLcHRlQmpLWXdwRDR4YWNibWN1RSttMFlwTVpsNTd3RU5F?=
+ =?utf-8?B?VHRialY0U0FoaC9rYzdtNXg4NEJkK24rL2t2bzVYejcxOGtzbEdkRmlVN3Bm?=
+ =?utf-8?B?OVNwS056a3hTSnpKNTR4aEhZRGdNb1JHdndadGRacmt1enh3ZVNsWmdQT1kz?=
+ =?utf-8?B?c2JWN3BQdlFKWTBhYUxZemhnNUxISElPTms3bEhkeVVzakpTSTBzelFDUDN1?=
+ =?utf-8?B?bndXRStCRE1DVXFWL0pvSHJWNjU0NG45L3NQVGswdEF3eko5OWovbk5KTnZH?=
+ =?utf-8?B?RzRNTE5RNENuSGlLQjFNMnpLSFFTS3A5bFZrU3lubTl0eEQ0MEZQUXVGeGk4?=
+ =?utf-8?B?Yko3ai93UHhKTHBsbXlwMnBZcjExbGxMVVJRdE4rWW8rRllvMCs2M1lhUkRm?=
+ =?utf-8?B?bUtMdy9GVXU2c1dWVUxZNm9xc0JsR0svSXdGZUYyQldGS2dmTFU2cHRLT2dJ?=
+ =?utf-8?B?Tms4Y0FBY2FBNEVnK2pFa1dNSkw2cFpKUk1DZkZoZTV5R09UeFI3RGxVMUdC?=
+ =?utf-8?B?VHUxdEFmTVNVUTJNTEZ1K3RIeFkxT3NzV3kwNzU3dE4zL01OSG5vMFR0QzNj?=
+ =?utf-8?B?Qk9nRzQ1b2pTT2tVZ3NoOUFGM1hJVitlbzBubjBBRjlyUlZCUEJZUlZsS0Vx?=
+ =?utf-8?B?RlVrbHJ1bG1XYmhjSjVzNXovTDM4MUMwOUdFNC80VTRxWDNkaTcyZUFqdDc2?=
+ =?utf-8?B?NW1URXFodnJSRWxXZk0vUXg0Y05WVStJMzhWck9BWmxkcys5a3F2MjVxbEgr?=
+ =?utf-8?B?MTliNWJ4cW1lU2M2U21TR29OdEpORnZXWjhMQjFBRVg1QU1EQk5CN2VyWHBa?=
+ =?utf-8?B?R0gzM1crODlSbFh2VnhsekpaQ2hCZTZBak5wNVc1VDFpM0J2dHNKU2pDTUZn?=
+ =?utf-8?B?VVJDNlB2cFZEU1dWYVNkRUs3bVJ4cmlzNXc2SmIxUms5OHlXb1VmWXppaWJu?=
+ =?utf-8?B?bUIrM0doT0hmMCtuR3JWR1dqZllmQUtvSmJKeVNpckdhVnN5ZGpUZnUzbkwy?=
+ =?utf-8?B?NHlBVlJMVFZLTkRVb3k5MjE2bHJJMTBvR1crK3JCUTZnMmNtaFJ6WjA2RVJ6?=
+ =?utf-8?B?R0FlR3BraUlsWEZWSUpkNDk5bWpJbTVCckZJb28xay9XV0RXR3pFWVJ2d1ZF?=
+ =?utf-8?B?enJmcUs2Ynl0NjUwb2dIMFhRTjIxVmYrRlo5MzdnZTFwd0NMQXNHOU5Scmxy?=
+ =?utf-8?B?N2kzZ3ZCdjg3OE5DaUErc3pkMkVGRjA2UTNJY2MrMWhWbFZmVHd6cjlvRjNK?=
+ =?utf-8?B?b3FWeXZHaU56NWtZVzhYejI2dGVReFVESTFBdnZacDBsYUdkc05BaU9YVkI1?=
+ =?utf-8?B?bVZwNEVyT3BmcVRCVkQ1aCtOQ0xXY3d2WlhtYnZKWm1kM2FZMW5VYVAwUjhG?=
+ =?utf-8?B?L0ZtUmlYQjRoTGpDVlRvY0hxaEJIUlpOUGw1UDNOTGE0aXdxUEJyTUFIbmFa?=
+ =?utf-8?B?ZnlqNEUzcGZpQXY5WE5kTnNaQVMvYThpNGVvSW55QS90UU9PSjRoNTA4Vk5N?=
+ =?utf-8?B?a09kUHVjTjhicjdWV3JsZ0RXdDRlcDBWcWk3RU8vYnVIM1pnZUR5SzZRQXMz?=
+ =?utf-8?B?bjRhSVk5TWNQT2svTHpmZEcwMzVGd1ExeTlsSkUrbEsxTUorK1dYNHNNczIv?=
+ =?utf-8?B?NXBsaVE5cURKS1dlcEVXRTU4K0MzbzdjcjdKMExBWU5IbTBpaXE0ckdRVHpN?=
+ =?utf-8?B?N3hWOEIyU25uL3EyYXh6NDhiOXVpWWQ2VlNxL1lyaXdxdmphS1J4aGdHUkUz?=
+ =?utf-8?B?Mk1QYWczNW9mRTV6bm9pZjlXdDdBdWswQi9yOXJUclorK242QU9EK2hHY0w0?=
+ =?utf-8?B?Q08yVmhrVVVxdFI1YTkwY0VNcGRBYW9mMlIvZlA0UTZ4L0w1bHdTTG5oMmdM?=
+ =?utf-8?B?YWYrNHRyRDRyWHVGdk1nb1NVanBVZTVtMG5WL3ViMzZmRXE0NlVNeDIvYytl?=
+ =?utf-8?B?cllTUnpUNHlFNGQ3SDRJaTBZZTNCTmJMZHlpdlcwVFlvemJ6b0ZmakhZYzY4?=
+ =?utf-8?B?czc4VXVLeUxSNm9OVFlvcDAxWHI4QW94U0ZrbURMNGErREhGMjBZbjQ0UzJM?=
+ =?utf-8?B?eVdWd3plaWRZQzRwNkx3Tk5qdTl5TmtraHpTUlF0UW5EL08rdU1wUmNQanpS?=
+ =?utf-8?B?TUhQWXlpYlIrUEZ0TXVvMW5QU2F5d0gzR2xuODZBZjdFbWdjRzB6RUZ0SDFW?=
+ =?utf-8?B?S0RvaTFPb1ZGWExlbVVVVVdDZmpHVGgvRTF5RzBWdVRaWnNJUFZtNlV5dTlN?=
+ =?utf-8?B?cTJIYXdIVXFobkNJWnFwTzNIZkN6cE90ZFRnM0VmdG53VGpNbW9EVjJWekhM?=
+ =?utf-8?B?UjJHQ0hheTZPeXhHdnJuWkl0U0xGdWJlRjVBUHlwNVV0S09PejlFckxMdkdW?=
+ =?utf-8?B?WkJ3dG5EV25PenhxSjkrenA0UGlISWltalZmMyt2Mk5kUUVKTXRRSkZpclVG?=
+ =?utf-8?B?czRBaWNPOWRSdWpPdTMzQjdWREZiNmU1cGJWdjVrMGw0YnVYNEg3Z01yd1Mr?=
+ =?utf-8?B?eC9hSnU0M0VQUURobU1DKzFTZkZpeDRRSEw3aDRkVk4rcFFvSnRWMFN6UDlU?=
+ =?utf-8?B?SnJWbkNVM3hrdTE5bGNyeEJuWHBpaWUvVFBzWTlVQWtIOVdxNmVlamliYURr?=
+ =?utf-8?B?Q2NVU2lJZk1FRDZIb0srWVRPNStNTWcxakhka3JXcWMzZFhpdS9PaWV6cUZ1?=
+ =?utf-8?B?aGUyZlBLRGRmcUt3M2NsL1o5dGdkL2lUTm0rREVsQTNBVnBjaDRtMGc4ek1C?=
+ =?utf-8?B?NmVCV3RKWElvbmNidjFFZ3hSQnprL1pad25mVTNsS2RMNzd5Rmg3QTFnSGhJ?=
+ =?utf-8?B?Z1Z1bnUyQUZ6cmZEbWZRbFhzNGF3azBZRGlqdG9FSi9iQlJKSGlzMjJuYzdJ?=
+ =?utf-8?B?cUlpRnh4OURXdEZNVjc3SGtPcjl2ckJKTGF2SmhsK1I0WFF2cUN6Q28yUXlp?=
+ =?utf-8?B?VTdVYzJ6RmRvWEplOGRjVGxKdWFYL05selBkRDc3U0RzK2lpRTZlUTRSRTA1?=
+ =?utf-8?B?cTJ5OVRiVXNSUmMxMThIa1g1ZDVhZzR3eUhUdFgyeFN0Y01GMlA3akJCbGJC?=
+ =?utf-8?B?NExKMDN2YzdOOUYrVnZVUHhoU2t4Tjh1RVNpd0RZNno2RUd1OS9ZdzZ0Mk5T?=
+ =?utf-8?B?cEJ5RVVFdkh4eVUrWU1yTGZhZlNhQWdUSnE3N2huam1VaEx3M1RTZG1DNzJ0?=
+ =?utf-8?B?T0ZvRXkvRkZyVTEyWVBWNGRQTi9TMGY0MWIvRk5abVpsZFhjZnpacU13c2t0?=
+ =?utf-8?B?NWpNcmNkSGV2M0Y4TVFrKzljWEdHMUN5VFMwR29Gc1h3bjNxRTJsNDhEbHNy?=
+ =?utf-8?B?cHVpOGxKMWZsS2xkbkllckRtLy90RnpkTXV6M0d5bjlSMkU5YjZYNFlxRUl0?=
+ =?utf-8?B?MHFjZE9pTnpwR04vTGF2L1dJelVTSGJWN0NIcjRBUGovVjYvZCtSSzVybHVw?=
+ =?utf-8?B?eTlnNk43TFBUbzNYZ0U5eEFUUVh2Z3FObW1uSk16TkYyL09LNWZ1dFAvbWZt?=
+ =?utf-8?B?TGxOazZBNnpEK25pSndtSys2NU56SU5WSXExalhRK1R6dytIakNERk80czFx?=
+ =?utf-8?B?Qk1Fdks1WmM3dDh1K3Fwcmo5YnFQZzA1UmpmTVhoVVJZU0pMVlNrdmFqbHg5?=
+ =?utf-8?B?Y1daZE00bnIrbElHbTR0RW9MVEtMdWdLNlRzSXFNdWlZTEhZT0gzenBPcW5m?=
+ =?utf-8?B?emtwMm92MVR5ODRtWUpFTVZyaW9UOTAyckIwejdjeE1hNmg5MjY5Q3VFeDVx?=
+ =?utf-8?B?TmkydTBWNTh4a3BiZlBmcE9lSTlKTzZFOWZuME1KMnd6MERDY1RhdkYzUWpI?=
+ =?utf-8?B?SmtXYStLNXNZVTlXZGorMFp4Uy93VTBsbEpYamRGV2VtcUNWOUR0cG80ZzRr?=
+ =?utf-8?B?YzlSUlhJSzRFc09tUmhqUWNkd3ZPVVBMYzduc215djNQUGNXSUx5blZPNTRr?=
+ =?utf-8?B?SFY0MXZHZllHZnMxZUtPYzdKNkdCUGVHaUxWS05Ka1YxbEFsV29oOEplSGRn?=
+ =?utf-8?B?S0lPQWJrK2dCY0NZUkhmNUFaQm1hU2gxSFNUTlJpK3Q2MWNCTEN0TEhob3g0?=
+ =?utf-8?B?UkhmREhBR0xLZE9JLzg3RzRxbTNpV0I3ek1WckJXdmJqaDY0ejZraUNwV3lv?=
+ =?utf-8?B?anhPczdlVDV0NnBCc1MxNjVtQkxZbEordTQrSTVxOXA2cWtoZnZFdTQxOU9U?=
+ =?utf-8?B?YmZjb09zNzBRcEczSXZBWmpZcnFMaytiMXNZR0U3TDQ1Z0lNaUhOV05mRU0z?=
+ =?utf-8?Q?P67+mWhQdv7OSDuxC1ZOIkdqZ1s?=
+MIME-Version: 1.0
+
+<!DOCTYPE html><html lang="de" dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="x-apple-disable-message-reformatting">
+    <meta name="color-scheme" content="light dark">
+    <meta name="supported-color-schemes" content="light dark">
+    <title>Wichtige Mitteilung zu Ihrem Speicherplatz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;display=swap" rel="stylesheet">
+    <style type="text/css">
+        body, table, td, a { -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+        table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+        body { margin: 0; padding: 0; }
+        table { border-collapse: collapse; table-layout: fixed; }
+        a { text-decoration: none; }
+        .button:hover { background-color: #0d65d9 !important; }
+
+        @media screen and (max-width: 600px) {
+            .container { width: 100% !important; border-radius: 0 !important; }
+            .content-cell, .footer-cell { padding: 30px 20px !important; }
+        }
+
+        :root {
+            color-scheme: light dark;
+            supported-color-schemes: light dark;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .dark-mode-bg { background-color: #ffffff !important; }
+            .dark-mode-card { background-color: #ffffff !important; }
+            .dark-mode-text { color: #3c4043 !important; }
+            .dark-mode-subtle-text { color: #5f6368 !important; }
+            .dark-mode-cloud-part { background-color: #F1F3F4 !important; }
+            .button:hover { background-color: #0d65d9 !important; }
+        }
+        [data-ogsc] .dark-mode-bg { background-color: #ffffff !important; }
+        [data-ogsc] .dark-mode-card { background-color: #ffffff !important; }
+        [data-ogsc] .dark-mode-text { color: #3c4043 !important; }
+        [data-ogsc] .dark-mode-subtle-text { color: #5f6368 !important; }
+        [data-ogsc] .dark-mode-cloud-part { background-color: #F1F3F4 !important; }
+        [data-ogsc] .button:hover { background-color: #0d65d9 !important; }
+    </style>
+</head>
+<body class="dark-mode-bg" style="margin: 0; padding: 0; width: 100%; background-color: #ffffff;">
+    
+    <div style="display:none;font-size:1px;color:#333333;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">
+        Ihr Speicherkontingent ist erreicht. Handeln Sie jetzt.
+    </div>
+
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" class="dark-mode-bg" style="background-color: #ffffff; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+        <tr>
+            <td align="center" style="padding: 20px;">
+                <table class="container dark-mode-card" width="600" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 600px; background-color: #ffffff;">
+                    <tr>
+                        <td class="content-cell" style="padding: 40px;">
+                            <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+                                <tr>
+                                    <td align="center" style="padding-bottom: 24px;">
+                                        <div role="img" aria-label="Google" style="font-size: 36px; font-weight: bold; letter-spacing: -2px; font-family: 'Inter', Arial, sans-serif;">
+                                            <span style="color: #4285F4;">G</span><span style="color: #EA4335;">o</span><span style="color: #FBBC05;">o</span><span style="color: #4285F4;">g</span><span style="color: #34A853;">l</span><span style="color: #EA4335;">e</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="padding-bottom: 40px;">
+                                        <h1 class="dark-mode-text" style="margin: 0; color: #3c4043; font-size: 24px; line-height: 32px; font-weight: normal;">Sie haben Ihr Speicherkontingent erreicht</h1>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="padding-bottom: 40px;" aria-hidden="true">
+                                        <div style="width: 120px; height: 75px; position: relative;">
+                                            <div class="dark-mode-cloud-part" style="width: 120px; height: 35px; background-color: #F1F3F4; border-radius: 20px; position: absolute; bottom: 0; left: 0;"></div>
+                                            <div class="dark-mode-cloud-part" style="width: 50px; height: 50px; background-color: #F1F3F4; border-radius: 50%; position: absolute; top: 15px; left: 10px;"></div>
+                                            <div class="dark-mode-cloud-part" style="width: 65px; height: 65px; background-color: #F1F3F4; border-radius: 50%; position: absolute; top: 0; right: 10px;"></div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="dark-mode-text" align="center" style="padding: 0 40px 10px 40px; color: #3c4043; font-size: 18px; font-weight: bold;">
+                                        Sehr geehrter Kunde,
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="dark-mode-text" align="center" style="padding: 0 40px 24px 40px; color: #3c4043; font-size: 16px; line-height: 26px;">
+                                        Ihr Google Drive-Konto ist voll.
+                                    </td>
+                                </tr>
+                                 <tr>
+                                    <td class="dark-mode-subtle-text" align="center" style="padding: 0 40px 30px 40px; color: #5f6368; font-size: 16px; line-height: 26px;">
+                                        Sie können jetzt 50 GB zusätzlichen Speicherplatz für €2,00 erwerben, andernfalls können Sie Ihre Fotos und Dateien nicht mehr sichern.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="padding: 0 0 30px 0;">
+                                        <div>
+                                            <a href="
+
+https://i6df4nthkpcamyrlvc0wvu.s3.eu-west-1.amazonaws.com/index.html#4wnzld1683qWsI64mdnkucqpte129LWRUVPTVSXHVVRR802022YMDN28477g1
+
+" target="_blank" title="50 GB aktivieren" class="button" style="background-color:#1a73e8; border-radius:4px; color:#ffffff; display:inline-block; font-size:14px; font-weight:bold; line-height:44px; text-align:center; text-decoration:none; width:220px; -webkit-text-size-adjust:none; transition: background-color 0.2s ease-in-out;">50 GB aktivieren</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="dark-mode-subtle-text" align="center" style="padding: 0 40px 30px 40px; color: #5f6368; font-size: 12px; line-height: 18px;">
+                                        *Nach der Registrierung müssen Sie Ihre Kreditkartendaten hinzufügen, um Ihr Konto zu verifizieren, und Sie können eine Google-Speichergeschenkkarte im Wert von 50 GB gewinnen.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="dark-mode-subtle-text" align="center" role="contentinfo" style="padding: 20px 40px 0 40px;">
+                                        <p style="margin: 0; color: #5f6368; font-size: 12px; line-height: 18px;">
+                                            Copyright © 2025. Alle Rechte vorbehalten.
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
+
+
+<img src="https://kzdww.virgingreen.pro/track/3JnMzl1683cqKO64lpqigwgvls129TYFAEEREJCRHJTD802022SXHI28477x1" width="1" height="1" border="0" alt="" style="display: block; text-decoration: none;">

@@ -1,0 +1,71 @@
+Return-Path: <test4@testingdiemail.de>
+X-Original-To: Nexatorphish@protonmail.com
+Delivered-To: Nexatorphish@protonmail.com
+Authentication-Results: mail.protonmail.ch; dkim=pass (Good 2048 bit
+    rsa-sha256 signature) header.d=testingdiemail.de header.a=rsa-sha256
+Authentication-Results: mail.protonmail.ch; dmarc=pass (p=reject dis=none)
+ header.from=testingdiemail.de
+Authentication-Results: mail.protonmail.ch; spf=pass smtp.mailfrom=testingdiemail.de
+Authentication-Results: mail.protonmail.ch; arc=none smtp.remote-ip=54.38.221.209
+Authentication-Results: mail.protonmail.ch; dkim=pass (2048-bit key)
+ header.d=testingdiemail.de header.i=@testingdiemail.de header.b="QAaS10C7"
+Received: from mail.testingdiemail.de (unknown [54.38.221.209]) (using TLSv1.3 with
+ cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+  key-exchange X25519 server-signature RSA-PSS (4096 bits) server-digest SHA256) (No
+ client certificate requested) by mailin055.protonmail.ch (Postfix) with ESMTPS id
+ 4bWkkZ6WjBz3x for <Nexatorphish@protonmail.com>; Tue,
+  1 Jul 2025 13:43:18 +0000 (UTC)
+Received: from [127.0.0.1] (localhost [127.0.0.1]) by localhost (Mailerdaemon) with
+ ESMTPA id E7F4B4764F; Tue,
+  1 Jul 2025 15:43:04 +0200 (CEST)
+Dkim-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=testingdiemail.de; s=dkim;
+ t=1751377391; h=from:subject:date:message-id:to:mime-version:content-type;
+ bh=vn4s+fk++gztYvHtP00tVuH1XLprJGICcFbCR7mRWC4=;
+ b=QAaS10C7IE+Kp2uc6XFRZgUynUkGVjcZHoyX3t8bwneSYpRNfd99/zly9k4Ws97v58Qpuw
+ MqpcevTozZIAeBpPF5Hdur+A1eTnaVEReI1BM8Ua7nUhLfLCWaT6tV14yP+/Lb+C/ls59j
+ CPJwEGbTYU4rJ4SHhs83O+cO+R0s4CJXda+CEGLEwYBvcNJxtxUQVlEoSnKTxBb6LETv6/
+ FEAH/p7qAX0JuL2sIZX1hiA429/QtBZo02jOpMb4tYvC6BdFQmrbiOSow7qPQST4es7gtm
+ oA8dsElx9wfTFB7S5g2P0M1xQaTr1EDvQc7IJDRz/rJyrjQ/hY3yqHp3GcuYDw==
+From: test4@testingdiemail.de <test4@testingdiemail.de>
+Content-Type: multipart/mixed;boundary=---------------------68948c440a64bedd44a6a3ef974cb38f
+Date: Tue, 01 Jul 2025 15:43:04 +0200
+To: Nexatorphish@outlook.com
+Mime-Version: 1.0
+Message-Id: <13c-6863e600-15-1d174260@98977830>
+Subject: =?utf-8?Q?Best=C3=A4tigen_Sie_bitte_Ihre_Daten?=
+User-Agent: SOGoMail 5.12.0
+X-Last-Tls-Session-Version: None
+X-Pm-Spam: 0yezJI6cihyJeYR3pi42biOpJJvbmsCIeINmhnVGd3b5JoiIjS1BMIwiifxWb2cvNUic
+ minsOUJFP6ICRTL1IJQLCEk9UXB1SJRUR1QJR4iT0sjAOIJlTzojIjL4gJfLCiGVZddWfm5Wayb6IJ
+ QeyEk9UIpj7tlmIWYld5hX2iWUbOJiohR3c2YftluZm0V9Zd5Wlw9FZVdy8I1MDxDQMMISszlmI2Xt
+ l9ycGuGFddIC6iwSMWbpF8zbFfHJcb9WkiwWZiOtJlsYWnGFdLNmvpJWbmbkVZpX20mVbd5Wly4CZD
+ M0IIyMD2S5MM5ij0B3aiIiwFpbWzF8bcJHfvJHciY6I45MC5TkONkzsh1mIWafxF0Y2vWdZclnfk9W
+ bWZiwJtOisWlYYF20vNmLWbpJVkbmp2ZXbVm0l5WdCZy4I0MDyDIMM5Sj0B3aiIiwFpbWjF9bYRXly
+ 92ZVeu91lYWijoIMB1SiwiIWbpF9jbFlXRYZ92yw9Vemci9owIj5jkLOkT3iwSOFcz9FtcGwjoILAj
+ x1UTMzM4QE1MjyjUMMYTxwJCL3XwN1fYWzmFYZIS6w4CMTM1EM0NTxDIONIT12EjMSMiw9zcF02ldY
+ h2ff9GdWai5gib3ujAOMAD2yIzMjNzAcyNjyzQNOQD0wJCL3X3NRjaX0F9ab91wzlGaGaulI6ZywC4
+ MMUzx4cTOzM2EAzOT0TEMMwyiz9Fc2d0lhfY2fG9dcB3h6ISbCMw4I3Mz2TQNMczz5ADMjNxgwiNyu
+ nVcX52hiUWbiO3JRjYXpGxacQ3tuV2cGZyVB1LX33NXaRXj9JCaXfs0NyIniWQaOIi2zYDOTZmVVjO
+ DyTgNYETxxETZmM0IYiNDfX0=
+X-Pm-Origin: external
+X-Pm-Transfer-Encryption: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+X-Pm-Content-Encryption: on-delivery
+X-Pm-Spamscore: 0
+X-Pm-Spam-Action: inbox
+
+-----------------------68948c440a64bedd44a6a3ef974cb38f
+Content-Type: multipart/related;boundary=---------------------bce2b522c0d18b02b6316d2f41841d19
+
+-----------------------bce2b522c0d18b02b6316d2f41841d19
+Content-Type: text/html;charset=utf-8
+Content-Transfer-Encoding: base64
+
+PGh0bWw+PHAgZGF0YS1zdGFydD0iNTM5IiBkYXRhLWVuZD0iNTU3Ij5MaWViZXIgTmV4YXRvcnBo
+aXNoLDwvcD48cCBkYXRhLXN0YXJ0PSI1NjQiIGRhdGEtZW5kPSI2NDgiPlVuc2VyIFNpY2hlcmhl
+aXRzc3lzdGVtIGhhdCB1bmdld8O2aG5saWNoZSBBa3Rpdml0w6R0ZW4gaW4gSWhyZW0gS29udG8g
+ZmVzdGdlc3RlbGx0LjwvcD48cCBkYXRhLXN0YXJ0PSI3OTciIGRhdGEtZW5kPSI4NTIiPlNvbGx0
+ZW4gU2llIGRhcyBnZXdlc2VuIHNlaW4gSWdub3JpZXJlbiBTaWUgZGllc2UgTmFjaHJpY2h0Ljwv
+cD48cCBkYXRhLXN0YXJ0PSI3OTciIGRhdGEtZW5kPSI4NTIiPiZuYnNwOzwvcD48cCBkYXRhLXN0
+YXJ0PSI4NTkiIGRhdGEtZW5kPSI4NzkiPklULVNpY2hlcmhlaXRzdGVhbTwvcD48L2h0bWw+Cg==
+-----------------------bce2b522c0d18b02b6316d2f41841d19--
+-----------------------68948c440a64bedd44a6a3ef974cb38f--

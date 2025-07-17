@@ -1,0 +1,1175 @@
+Received: from DU0P195MB2300.EURP195.PROD.OUTLOOK.COM (2603:10a6:10:424::13)
+ by DU0P195MB1820.EURP195.PROD.OUTLOOK.COM with HTTPS; Thu, 30 Jan 2025
+ 21:06:26 +0000
+Received: from AS4PR10CA0006.EURPRD10.PROD.OUTLOOK.COM (2603:10a6:20b:5dc::6)
+ by DU0P195MB2300.EURP195.PROD.OUTLOOK.COM (2603:10a6:10:424::13) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.8398.18; Thu, 30 Jan
+ 2025 21:06:25 +0000
+Received: from AM2PEPF0001C714.eurprd05.prod.outlook.com
+ (2603:10a6:20b:5dc:cafe::20) by AS4PR10CA0006.outlook.office365.com
+ (2603:10a6:20b:5dc::6) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.20.8398.18 via Frontend Transport; Thu,
+ 30 Jan 2025 21:06:25 +0000
+Authentication-Results: spf=pass (sender IP is 167.89.87.200)
+ smtp.mailfrom=em9113.info.ebay.de; dkim=pass (signature was verified)
+ header.d=info.ebay.de;dmarc=pass action=none
+ header.from=info.ebay.de;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of em9113.info.ebay.de
+ designates 167.89.87.200 as permitted sender)
+ receiver=protection.outlook.com; client-ip=167.89.87.200;
+ helo=o14.m.reply1.ebay.com; pr=C
+Received: from o14.m.reply1.ebay.com (167.89.87.200) by
+ AM2PEPF0001C714.mail.protection.outlook.com (10.167.16.184) with Microsoft
+ SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.20.8398.14
+ via Frontend Transport; Thu, 30 Jan 2025 21:06:24 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:D547ADD35B2D74ED6D6DB130C5BB3C68970BB57BD83B432E9EBCB0A4F9FEA2AD;UpperCasedChecksum:8DF3C3139E3552C15618A81614E342D1FDB1AF44843FA45A23FF68D169C3B9D2;SizeAsReceived:2128;Count:14
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=info.ebay.de;
+	h=content-transfer-encoding:content-type:from:mime-version:subject:to:
+	cc:content-type:from:subject:to;
+	s=s1; bh=N6eEHlT/jYfb+kOV3pWF8PGhk1R8L/1UtnOLQoNXJC4=;
+	b=HlbELhOXUMLr81Pc6IcEGF0KA2xahgQiA4FrGXVxxAMrmo9aPlluLpjInsbAMfBEew3D
+	7d0qFblbKv+RYH32gIASAwKAibKzE0Mgn4QwaV9a5lAk1z+Y9VUAv6yjO7Aq1kij9401lq
+	ARATRJ7gZY4KQ5c4t1hIdqm1aceKtYcgmylFK9E2mJf0wxLW5uG6TJxuE+ifeaSO7v6qSH
+	slte63eRxayau1qq3y9TSAQubBSxK7ZyVn15KxYE5dDDK329Eee1SWKZ4wkgrlXjnY0mrW
+	Xol4MEm0lFvermsXTiZ/LgV10ucpiL53mxz3Docgv0/8xaYGkGQ21o8JuGA2TtBg==
+Received: by recvd-7cf7589bf9-7vmnk with SMTP id recvd-7cf7589bf9-7vmnk-1-679BE9CF-22
+	2025-01-30 21:06:23.887763578 +0000 UTC m=+6651656.748921841
+Received: from MjY2MTkwMTQ (unknown)
+	by geopod-ismtpd-8 (SG) with HTTP
+	id 9wOUnJeLSXWGSIEeb14xHg
+	Thu, 30 Jan 2025 21:06:23.865 +0000 (UTC)
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+Date: Thu, 30 Jan 2025 21:06:23 +0000
+From: eBay <ebay@info.ebay.de>
+Message-ID: <9wOUnJeLSXWGSIEeb14xHg@geopod-ismtpd-8>
+Subject: Heinrich, so =?UTF-8?B?c2Now7x0enQ=?= du dein Konto
+X-SG-EID: =?us-ascii?Q?u001=2E+Ks5bUSvMZrMeqHdFBdsstb=2F2zhsCFoMJA2epuL3UEIt41ZGr8o5MKhEF?=
+ =?us-ascii?Q?bgaj0grQTKzqG4+rGIXdCAayRxu9x7jf4TcBbdM?=
+ =?us-ascii?Q?+Z8wcxLhnXPOABVbzYbayDSktuEUclAKGXMbP91?=
+ =?us-ascii?Q?cmc7nFPhHqGIi3R8tBQG2KS85pBwKdH40F2XyMn?=
+ =?us-ascii?Q?DpjsgUK0+SjFMVu4=2F1Rla99PpUjwGcd6uGOmone?=
+ =?us-ascii?Q?HNsIT3H9EMDvF9+aNmyFyA=3D?=
+X-SG-ID: =?us-ascii?Q?u001=2ESdBcvi+Evd=2FbQef8eZF3BpTL9BgbK5wfSJMJGMsmprD6E6PxUP6CH+ndg?=
+ =?us-ascii?Q?=2FyBbwMLcUvgf9X10GVKQYnkDMBtRUt9y41MIh1N?=
+ =?us-ascii?Q?IJkO3k6kdrMyTFQGKXDcDoLLAipOdyGuqQdizpr?=
+ =?us-ascii?Q?BWRZQh7pCdMYSRJaC4I5AmK5H1hA1uxnIlx9N2r?=
+ =?us-ascii?Q?=2F=2FIz4+AKaBTnl+Dcl2gxPJ3dm=2FvcwAtOfZRmyRj?=
+ =?us-ascii?Q?MWQ8Y654zX+3bOT5WPP+qyqOKZbpWpw6v=2FX=2FVZ2?=
+ =?us-ascii?Q?wBTIEgHsd1tvCGHjc4fJFVMI9OIbPfjr9Ul81G8?=
+ =?us-ascii?Q?JZClKDr0=3D?=
+To: "tomi.g@hotmail.de" <tomi.g@hotmail.de>
+X-Entity-ID: u001.xDiTSLehIldEZxpg72N1Kw==
+X-IncomingHeaderCount: 14
+Return-Path: bounces+26619014-84b2-tomi.g=hotmail.de@em9113.info.ebay.de
+X-MS-Exchange-Organization-ExpirationStartTime: 30 Jan 2025 21:06:25.0330
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 89f44c18-b09c-4ad0-e83b-08dd4171f4c7
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: AM2PEPF0001C714:EE_|DU0P195MB2300:EE_|DU0P195MB1820:EE_
+X-MS-Exchange-Organization-AuthSource: AM2PEPF0001C714.eurprd05.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 1/30/2025 4:10:34 PM
+X-MS-Office365-Filtering-Correlation-Id: 89f44c18-b09c-4ad0-e83b-08dd4171f4c7
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 167.89.87.200
+X-SID-PRA: EBAY@INFO.EBAY.DE
+X-SID-Result: PASS
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:3;ARA:1444111002|9000799050|970799057|21080799006|58200799018|47200799021|9400799030|1680799057|461199028|10300799035|3412199025|440099028|21101999018|1122599019|4302099013|1380799030|1370799030|1360799030|56899033|1602099012;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 30 Jan 2025 21:06:24.6736
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 89f44c18-b09c-4ad0-e83b-08dd4171f4c7
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource: AM2PEPF0001C714.eurprd05.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DU0P195MB2300
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.4465006
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.8398.013
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000308)(920221119095)(90000117)(920221120095)(90005022)(91005020)(91035115)(9050020)(9100341)(944500132)(4810010)(4910033)(9575002)(10195002)(9320005)(120001);
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?QlJ0ZWk0TzV1a3VQM2hDR0xSa2F6MU8raVBBV1Vuai92RzYvT0lIUll2dU00?=
+ =?utf-8?B?R1NJUnFTdmRPUXIzM0lWNktIY1RvU1R2VHdIYTZmTEx1azZ2bHNXdFBMZmlr?=
+ =?utf-8?B?eFVMYlpzV282QUJmNS85Q0RldE5BLzF1blQwZkRnR0lhQnlXUis2allMSWln?=
+ =?utf-8?B?S2xuQUNqcHIrOHFNKzJ0MWZRbndzbTlHRVRySU1Tc2JEdkdNU1dJbEN0dHVW?=
+ =?utf-8?B?eHpVTFlMckhvcTliYVpkSlozc2tqYXZUWCtodWNaV2NBcjVnV1d5Tyt5S1BS?=
+ =?utf-8?B?VnMzU1FpZ25RSnRLcFhsSzZzSlYvQkIxbDBkOTd0aTI4MXh1OHF0d0VUUmZh?=
+ =?utf-8?B?c01PNEJueUZ3NUh6cDB2Tzd4RjZaTW4wYWF1RDlqN3BRSDRKSCtpTkRnNGZm?=
+ =?utf-8?B?bmM0YW5VcjFGZGphRXBOQWZSNG50OHNLamRLUnQvVURSWFVQNEJXL2RKeFRu?=
+ =?utf-8?B?cldDV3NPOHpUb00vdjJBTWYwREVOdklEbG9ic1lpYjlTUldoNW9yN0R5MXBG?=
+ =?utf-8?B?a1dBdGpFakJNUUlzMkhtOGZoVm9CWEdYZXRLckhZcDc2Umt6Z29DTldPTnVh?=
+ =?utf-8?B?eVVWcm04TzJRSnRvSWNTMVl0S0Z1Z0pBSW1VR29SYlFmdnRXRi9xWjR6NEVl?=
+ =?utf-8?B?Y3lrWWtQL1RycHQ1enNuSFlJMjBWMDVJZlBsQ3piUWMydU1IV09IQ3NlNEtm?=
+ =?utf-8?B?QjJ3WitaY0VrUXpqR2tQelJva3ZoMi9HMmtvdUdvQm9saVpIc04rSWtma3U4?=
+ =?utf-8?B?Sjl5N3NTN2RBb0NyUS9zT2pPYU82MVFFblVJenV4eVNPMzQ3c0VKVkt1dzJ5?=
+ =?utf-8?B?OXVBUThOSTNOSGZGR1U1V2dDcDE1Uk45alZHam5kTUt5MlFBQjRvRUZCWkJo?=
+ =?utf-8?B?aXhXdjhTeVFpY2RYMjB4M1AzN1UxOE1WY3FmVys5TXZGQ2tpM3BnNit0YU5U?=
+ =?utf-8?B?Y2ZGaXROOWtrbnVrK0ZUYTRLSVRmeVZMMkF6Mi9NQ05taXV6WkNIYTRwYTRE?=
+ =?utf-8?B?eGVzckRjTHNwTHdjZ1VwY1FVT0dnRXRHbEd4RXdsajl4eXNORDNBbGwzWjY3?=
+ =?utf-8?B?YU1la2w4WFdraWdBbUNPVG9wejYzWkNJL3A1K2VHbmltNm52MzgzZHhwWUJO?=
+ =?utf-8?B?alNsa1EyTzRUeVlDYnJwU01wK0haVUtDRTBMNWVEcDBIME1zSmc0cDBvRHpl?=
+ =?utf-8?B?VHJqQk80cHpkRXlwRDZHQ1pJWlFRVlFTd2dmMUNVWlRaemt3L3J0T1M5VU9t?=
+ =?utf-8?B?QlZtck5VQk43M0VDTldwUFhWblFQN2VLN0hiS3A3eGdWYy9xbkJCcDhQRWh0?=
+ =?utf-8?B?bEtra2RRa3MwYzdud0tkZDR4eFJVUHgraTFWbmpNanR3bVF3Q01hWERCR3E1?=
+ =?utf-8?B?V2lzbG94eko4WFUyR25GVk5EL1lBTUZtUEV2WE10L1Q1RkJKMmhwQm9DbkFY?=
+ =?utf-8?B?ZGk1N1RIczdKd0pPYzNoMTFuVzlHYnVKL0tBeWxuaVRkeWMyWWFPRzVNaEha?=
+ =?utf-8?B?eWdlenI5VnlaenhmUVQ2YXBQM0Q4NExpMkgvSFBiYzRkK3MzVlBPRSt5Zmpq?=
+ =?utf-8?B?ZG5KVzFkQzl3a0QyVVJjWUxqYUdDbWMzbmxRTW9rWWhUazFNOWl2aVJOQ05S?=
+ =?utf-8?B?WFhPQUJ0bU13RCtLUTRodmFkbHU5YmhuODVCZzV1MmswWXExcFdZVWJuU3o5?=
+ =?utf-8?B?eXErTGlMK2xVbnlmTmFraTZ0akJRMlRtUkp2NlI2RFl3bkk5ZjVqc3k1V2Z4?=
+ =?utf-8?B?ZGY1eitNQjJhdnUvdUpleXQvZmIzNUxrR0Mvb1N3ZElJVjNGQjBUMEt5RzlP?=
+ =?utf-8?B?dW1NZ3BYMDYvOUVuUkxPbXlXM2duMTRRZCtxRUJaZFRLRFYyaVBqMnJ1Vno1?=
+ =?utf-8?B?RkNFcFdEeTU0YXRIOXBBbm5KTU9Wa3BCNEo0ekpxNUFaWDRFaFB0YTc2SDR3?=
+ =?utf-8?B?cURxMTExQytwamd2aGxSTTBlSVlqTXdZVk41V0hYeXlTN3E0NGk3dmpFL21x?=
+ =?utf-8?B?T1Q0YThRZ0xZTEtJR1VwclNLdlRhTlhxN201STRjUUJHMzFyS0ZZN2xXVU9r?=
+ =?utf-8?B?WFNWL3hJSzZLNm4ybzF4bTJ5VFVBdVpyV0hxZzFLZSt0RVdjUnRiMFBjNXFL?=
+ =?utf-8?B?QlEybVVhd1c0Z3d3cDZzWDMzN2FxbVJuY2lQSGY2UkVzcnFyQk1JcTFuS1Nn?=
+ =?utf-8?B?U3VBQ0FjbnF6TzhRVWtvb3ZCK2lUVEVPVkZzQ3NqR2pNMFVDMzlyY09laXo1?=
+ =?utf-8?B?RE5ObC81ZXRYbEE2YUo0UDRyVUUvVTJEaEowQXRubitnYkRSN011SmF5TWdV?=
+ =?utf-8?B?R0NBUjJJREdNTlF2anlWOFBoYXk4YlliLytxdUtRaWk5T0E5UnovRTNpakFt?=
+ =?utf-8?B?aUFTaE5kLzM4NVlJZ3VKVkZwUDBaT3V4VG9RdnVxUnpBK0w0c2xVcWpFVnFx?=
+ =?utf-8?B?eCswa2NNdkU3WjhwK2I5a3NSalR2bXMvRVhLb2FCNWhmMDVVT1dyOEh5YWZi?=
+ =?utf-8?B?MWR1RDQ2aWozUmpCUkwyR3ZwZWJjTDIzd3o5SzA0SGd2Qi84RWQ4VC8ybUh0?=
+ =?utf-8?B?TkkxczFOVGtYblJyanVYYWpwQmFTWUhFaGtabHljMEJIQ2xjeVBYUVhhb01M?=
+ =?utf-8?B?N2hoYWg3VWp0UEFWcmtaQTFQVFFBRnZ2NS9MOFM1NjBlaGhIak5FWldndkZ3?=
+ =?utf-8?B?VElNbVZyeWp0TlI1Nzk1UEp5Sm5KVXAvU0E9PQ==?=
+MIME-Version: 1.0
+
+<!DOCTYPE html><!--cfbae00c-5248-454f-9079-f5f828919db9_v2--><html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+  </head>
+  <body yahoo=3D"fix">
+    <!--4d72fb63-a8c1-4bcf-8373-953432f13665_START--><!DOCTYPE html PUBLIC =
+"-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/x=
+html1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office" lang=3D"de"=
+ xml:lang=3D"de">
+<head>
+<!--[if !mso]><!-->
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+<!--<![endif]-->
+
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+<meta name=3D"ProgId" content=3D"Word.Document">
+<meta name=3D"color-scheme" content=3D"light dark only">
+<meta name=3D"supported-color-schemes" content=3D"light dark only">
+<title>eBay Newsletter</title>
+<!--| START: style/style |-->
+<style type=3D"text/css">
+@media handheld, only screen and (-webkit-min-device-pixel-ratio:3.0) and (=
+max-width:1080px), screen and (max-width:480px){@media {div.generic{min-wid=
+th:100vw!important;}}}
+</style>
+<style type=3D"text/css">
+[class~=3D"x_fallbackfont"]{font-family:Arial,sans-serif!important;}
+</style>
+<style type=3D"text/css">
+:root{color-scheme:light dark only;supported-color-schemes:light dark only;=
+}
+</style>
+<style type=3D"text/css">
+body{margin:0;padding:0;}
+table,td{border-collapse:collapse;border-spacing:0;mso-table-lspace:0pt;mso=
+-table-rspace:0pt;}
+.ExternalClass *{line-height:100%;margin:0px;padding:0px;}
+img{display:block!important;}
+a{text-decoration:none;}
+a,td{-webkit-text-size-adjust:none;}
+th{font-weight:normal;padding:0px;margin:0px;}
+button{font-weight:normal;padding:0px;margin:0px;}
+h1,h2,h3,h4,h5,h6,p{margin:0;}
+a[x-apple-data-detectors]{color:inherit!important;text-decoration:none!impo=
+rtant;font-size:inherit!important;font-family:inherit!important;font-weight=
+:inherit!important;line-height:inherit!important;}
+@font-face{
+font-family:"Market Sans";
+src:url('https://ir.ebaystatic.com/cr/v/c1/market-sans/v1.0/MarketSans-Regu=
+lar-WebS.eot');
+src:url('https://ir.ebaystatic.com/cr/v/c1/market-sans/v1.0/MarketSans-Regu=
+lar-WebS.eot?#iefix') format('embedded-opentype'), url('https://ir.ebaystat=
+ic.com/cr/v/c1/market-sans/v1.0/MarketSans-Regular-WebS.woff2') format('wof=
+f2'), url('https://ir.ebaystatic.com/cr/v/c1/market-sans/v1.0/MarketSans-Re=
+gular-WebS.woff') format('woff'), url('https://ir.ebaystatic.com/cr/v/c1/ma=
+rket-sans/v1.0/MarketSans-Regular-WebS.ttf') format('truetype'), url('https=
+://ir.ebaystatic.com/cr/v/c1/market-sans/v1.0/MarketSans-Regular-WebS.svg#M=
+arketSans-Regular-WebS') format('svg');
+font-weight:normal;
+font-style:normal;
+}
+@font-face {
+font-family:"Market Sans";
+src:url('https://ir.ebaystatic.com/cr/v/c1/market-sans/v1.0/MarketSans-Semi=
+Bold-WebS.eot');
+src:url('https://ir.ebaystatic.com/cr/v/c1/market-sans/v1.0/MarketSans-Semi=
+Bold-WebS.eot?#iefix') format('embedded-opentype'), url('https://ir.ebaysta=
+tic.com/cr/v/c1/market-sans/v1.0/MarketSans-SemiBold-WebS.woff2') format('w=
+off2'), url('https://ir.ebaystatic.com/cr/v/c1/market-sans/v1.0/MarketSans-=
+SemiBold-WebS.woff') format('woff'), url('https://ir.ebaystatic.com/cr/v/c1=
+/market-sans/v1.0/MarketSans-SemiBold-WebS.ttf') format('truetype'), url('h=
+ttps://ir.ebaystatic.com/cr/v/c1/market-sans/v1.0/MarketSans-SemiBold-WebS.=
+svg#MarketSans-SemiBold-WebS') format('svg');
+font-weight:bold;
+font-style:normal;
+}
+[style*=3D'Market Sans']{font-family:'Market Sans',Helvetica,Arial,sans-ser=
+if!important;}
+div.WordSection1 > div > table.MsoNormalTable > tbody > tr > td > div > tab=
+le.MsoNormalTable{width:600px!important;}
+div.WordSection1 table.MsoNormalTable{width:initial!important;}
+.noWrap{white-space:nowrap!important;}
+.d-noWrap{white-space:nowrap;}
+.show_on_mobile,.de_footer{display:none!important;height:0px;max-height:0px=
+;mso-hide:all;}
+@media handheld, only screen and (-webkit-min-device-pixel-ratio:3.0) and (=
+max-width:1080px), screen and (max-width:480px){
+img{display:block!important;}
+div.generic{min-width:calc(100vw - 30px)!important;}
+.backgroundnone{background-image:none!important;background-color:#ffffff!im=
+portant;background:#ffffff!important;}
+.hide{display:none!important;font-size:0!important;max-height:0!important;l=
+ine-height:0!important;}
+.de_footer{display:block!important;width:100%!important;max-height:none!imp=
+ortant;height:auto!important;overflow:visible!important;float:none!importan=
+t;}
+.show_on_mobile{display:block!important;width:auto!important;max-height:non=
+e!important;height:auto!important;overflow:visible!important;float:none!imp=
+ortant;}
+.de_footer table,.de_footer td{max-height: none!important;height: auto!impo=
+rtant;overflow: visible!important;float: none!important;}
+.de_footer table{display:table!important;width:100%!important;}
+.de_footer td{display:block!important;}
+.break{display:block!important;width:100%!important;height:1px!important;li=
+ne-height:1px!important;min-height:1px!important;max-height:1px!important;}
+.linebreak{display:block!important;width:100%!important;}
+.floatleft{float:left!important;}
+.floatright{float:right!important;}
+.floatoff{float:none!important;}
+.heightauto{height:auto!important;}
+.fullheight{height:100%!important;}
+.widthauto{width:auto!important;}
+.fullwidth{width:100%!important;}
+.halfwidth{width:50%!important;}
+.imgfullwidth{width:100%!important;height:auto!important;}
+.imgfullheight{width:auto!important;height:100%!important;}
+.perc10{width:10%!important;}
+.perc20{width:20%!important;}
+.perc30{width:30%!important;}
+.alc{text-align:center!important;}
+.all{text-align:left!important;}
+.alr{text-align:right!important;}
+.m-noWrap{white-space:nowrap!important;}
+.d-noWrap{white-space:normal!important;}
+.tablewidth300{width:300px!important;}
+.tablewidth280{width:280px!important;}
+.fs12{font-size:12px!important;line-height:1.3!important;}
+.fs14{font-size:14px!important;line-height:1.3!important;}
+.fs16{font-size:16px!important;line-height:1.3!important;}
+.fs20{font-size:20px!important;line-height:1.3!important;}
+.fs22{font-size:22px!important;line-height:1.3!important;}
+.fs24{font-size:24px!important;line-height:1.3!important;}
+.fs30{font-size:30px!important;line-height:1.3!important;}
+.fs48{font-size:48px!important;line-height:1.3!important;}
+.lhHl{line-height:1.3!important;}
+.lhSl{line-height:1.5!important;}
+.w50{width:50px!important;}
+.w60{width:60px!important;}
+.w97{width:97px!important;}
+.w100{width:100px!important;}
+.w110{width:110px!important;}
+.w150{width:150px!important;}
+.w178{width:178px!important;}
+.w180{width:180px!important;}
+.w200{width:200px!important;}
+.w250{width:250px!important;}
+.w260{width:260px!important;}
+.w268{width:268px!important;}
+.w280{width:280px!important;}
+.w300{width:300px!important;}
+.h50{height:50px!important;}
+.h100{height:100px!important;}
+.h150{height:150px!important;}
+.h160{height:160px!important;}
+.mt16{margin-top:16px!important;}
+.mt24{margin-top:24px!important;}
+.mt32{margin-top:32px!important;}
+.mb16{margin-bottom:16px!important;}
+.mb24{margin-bottom:24px!important;}
+.mb32{margin-bottom:32px!important;}
+.p0{padding:0px!important;}
+.p4{padding:4px!important;}
+.p5{padding:5px!important;}
+.p8{padding:8px!important;}
+.p10{padding:10px!important;}
+.p15{padding:15px!important;}
+.p16{padding:16px!important;}
+.p20{padding:20px!important;}
+.p24{padding:24px!important;}
+.p25{padding:25px!important;}
+.p30{padding:30px!important;}
+.p32{padding:32px!important;}
+.p35{padding:35px!important;}
+.pt0{padding-top:0px!important;}
+.pt4{padding-top:4px!important;}
+.pt5{padding-top:5px!important;}
+.pt8{padding-top:8px!important;}
+.pt10{padding-top:10px!important;}
+.pt15{padding-top:15px!important;}
+.pt16{padding-top:16px!important;}
+.pt20{padding-top:20px!important;}
+.pt24{padding-top:24px!important;}
+.pt25{padding-top:25px!important;}
+.pt30{padding-top:30px!important;}
+.pt32{padding-top:32px!important;}
+.pt35{padding-top:35px!important;}
+.pt40{padding-top:40px!important;}
+.pr0{padding-right:0px!important;}
+.pr4{padding-right:4px!important;}
+.pr5{padding-right:5px!important;}
+.pr8{padding-right:8px!important;}
+.pr10{padding-right:10px!important;}
+.pr15{padding-right:15px!important;}
+.pr16{padding-right:16px!important;}
+.pr20{padding-right:20px!important;}
+.pr24{padding-right:24px!important;}
+.pr25{padding-right:25px!important;}
+.pr30{padding-right:30px!important;}
+.pr32{padding-right:32px!important;}
+.pr35{padding-right:35px!important;}
+.pb0{padding-bottom:0px!important;}
+.pb4{padding-bottom:4px!important;}
+.pb5{padding-bottom:5px!important;}
+.pb8{padding-bottom:8px!important;}
+.pb10{padding-bottom:10px!important;}
+.pb15{padding-bottom:15px!important;}
+.pb16{padding-bottom:16px!important;}
+.pb20{padding-bottom:20px!important;}
+.pb24{padding-bottom:24px!important;}
+.pb25{padding-bottom:25px!important;}
+.pb30{padding-bottom:30px!important;}
+.pb32{padding-bottom:32px!important;}
+.pb35{padding-bottom:35px!important;}
+.pb40{padding-bottom:40px!important;}
+.pl0{padding-left:0px!important;}
+.pl4{padding-left:4px!important;}
+.pl5{padding-left:5px!important;}
+.pl8{padding-left:8px!important;}
+.pl10{padding-left:10px!important;}
+.pl15{padding-left:15px!important;}
+.pl16{padding-left:16px!important;}
+.pl20{padding-left:20px!important;}
+.pl24{padding-left:24px!important;}
+.pl25{padding-left:25px!important;}
+.pl30{padding-left:30px!important;}
+.pl32{padding-left:32px!important;}
+.pl35{padding-left:35px!important;}
+.borderleft{border-left:1px solid #C7C7C7!important;}
+.borderright{border-right:1px solid #C7C7C7!important;}
+.bl0{border-left:0px solid transparent!important;}
+.br0{border-right:0px solid transparent!important;}
+.bt0{border-top:0px solid transparent!important;}
+.bb0{border-bottom:0px solid transparent!important;}
+.bb10{border-bottom:10px!important;border-style:solid!important;}
+.bb16{border-bottom:16px!important;border-style:solid!important;}
+.bb24{border-bottom:24px!important;border-style:solid!important;}
+.bb32{border-bottom:32px!important;border-style:solid!important;}
+.noradius{border-radius:initial!important;}
+.radius8{border-radius:8px!important;}
+.radius20{border-radius:20px!important;}
+.topradius8{border-top-left-radius:8px!important;border-top-right-radius:8p=
+x!important;}
+.bottomradius8{border-bottom-left-radius:8px!important;border-bottom-right-=
+radius:8px!important;}
+img.imgval{min-height:0px!important;max-height:calc(0px + 160% - 1.59px)!im=
+portant;}
+.opacity{opacity:0!important;}
+.valignbottom{vertical-align:bottom!important;}
+.valignmiddle{vertical-align:middle!important;}
+.valigntop{vertical-align:top!important;}
+.th{display:table-header-group!important;}
+}
+</style>
+<style type=3D"text/css">
+a:-webkit-any-link:focus{outline-offset:0px!important;}
+a:focus,.focus:focus{outline:3px solid #000000!important;padding:0px!import=
+ant;}
+.focusFb:focus{outline:3px solid #00FF00!important;}
+.focusTw:focus,.focusPin:focus,.focusInst:focus,.focusYt:focus{outline:3px =
+solid #000000!important;padding:0px!important;}
+img.focus{display:inline-block!important;}
+.button tr td p a:focus{transition:none;}
+.focus__content:focus{outline:none;}
+@media handheld, only screen and (-webkit-min-device-pixel-ratio:3.0) and (=
+max-width:1080px), screen and (max-width:480px){a.focus,img.focus{display:i=
+nline-block!important;}}
+</style>
+<style type=3D"text/css">
+.button,.button tr td p a{transition:0.4s;animation-duration:1.3s;animation=
+-timing-function:ease-in-out;animation-iteration-count:1;}
+.button tr td p a{transition:0.4s;}
+</style>
+<style type=3D"text/css">
+@media (prefers-color-scheme: dark) {
+.generic,.wrapperMod{background-color:#333333;}
+a:focus,.focus:focus{outline:3px solid #FFFFFF!important;padding:0px!import=
+ant;}
+.focusFb:focus,.focusTw:focus,.focusPin:focus,.focusInst:focus,.focusYt:foc=
+us{outline:3px solid #FFFFFF!important;padding:0px!important;}
+img{color:#FFFFFF!important;}
+.headerMod,.preheaderMod,.preheaderMod+table[class~=3D"imgfullwidth"],.preh=
+eaderMod+table[class~=3D"x_imgfullwidth"],.placeholderMod,.footerNavModAU,.=
+footerNavModDE,.footerDividerMod,.footerSocialMod,.footerTermsMod,.footerMo=
+d,.gmailFixMod{background-color:#171717;}
+.preheaderMod a,.headerMod a,.footerMod div,.footerMod p,.footerNavModAU p,=
+.footerNavModAU a,.footerNavModDE a{color:#FFFFFF!important;}
+.footerMod a{color:#5CABFF!important;}
+.whiteText{color:#FFFFFF!important;}
+.dark-image{display:block!important;width:auto!important;overflow:visible!i=
+mportant;float:none!important;max-height:inherit!important;max-width:inheri=
+t!important;line-height:auto!important;margin-top:0px!important;visibility:=
+inherit!important;}
+.light-image,img.light-image{display:none!important;}
+}
+</style>
+<style type=3D"text/css">.button1:hover {
+background-color: #ffffff!important;
+box-shadow: inset 0 0 0 25px #ffffff;
+border-color: #3665F3!important;
+}
+.button1:hover tr td p a {
+color: #3665F3!important;
+}
+.focus1:focus {
+outline: 3px solid #FFFFFF!important;
+padding: 0px!important;
+}
+.gmailFixMod,.footerSocialMod, .footerMod, .preheaderMod, .headerMod {
+background-color: #F7F7F7;
+}
+.textColor {
+color: #414141 !important;
+}
+@media handheld,
+only screen and (-webkit-min-device-pixel-ratio:3) and (max-width:1080px),
+screen and (max-width:480px) {
+.perc10 {
+max-width: 20px !important;
+width: 20px !important;
+}
+.perc100 {
+width: 100% !important;
+padding-left: 18px !important;
+}
+}
+</style><style type=3D"text/css">
+@media (prefers-color-scheme: dark) {
+.gmailFixMod,.footerSocialMod, .footerMod, .preheaderMod, .headerMod {backg=
+round-color: #212121;}
+.heroMod { background-color: #212121;}
+.listMod { background-color: #171717;}
+.listMod p { color: #9C9C9C !important;}
+.listMod .bull p { color: #DCDCDC !important;}
+.listMod h2 { color: #DCDCDC !important;}
+.heroMod h1 { color: #DCDCDC !important;}
+.textColor {color: #ABABAB !important; }
+}</style>
+<!--[if gte mso 9]><xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml><![endif]-->
+</head>
+<body class=3D"generic" bgcolor=3D"#F7F7F7">
+<!--| START: global_v3_2/partial/gmail_promo_tab |-->
+<!-- Promotional Banner -->
+<div itemscope=3D"" itemtype=3D"http://schema.org/PromotionCard">
+<meta itemprop=3D"image" content=3D"">
+</div>
+<!-- Custom Logo -->
+<div itemscope=3D"" itemtype=3D"http://schema.org/Organization">
+<meta itemprop=3D"name" content=3D"eBay">
+<meta itemprop=3D"logo" content=3D"https://secureir.ebaystatic.com/cr/mscdn=
+/28efc1f9a5ed3b4031a5766ba9d13a2d/ebay_logo_placeholder_176x176.png">
+</div>
+<!-- Deal Description -->
+<div itemscope=3D"" itemtype=3D"http://schema.org/DiscountOffer">
+<meta itemprop=3D"description" content=3D"">
+<meta itemprop=3D"discountCode" content=3D"">
+<meta itemprop=3D"availabilityStarts" content=3D"">
+<meta itemprop=3D"availabilityEnds" content=3D"">
+</div>
+<!--| START: global_v3_2/wrapper_top |-->
+<table lang=3D"de" role=3D"article" aria-roledescription=3D"email" aria-lab=
+el=3D"eBay Newsletter" align=3D"center" width=3D"100%" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" class=3D"wrapperMod">
+<tr>
+<td align=3D"center">
+<table align=3D"center" width=3D"600" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" class=3D"inWrapperMod fullwidth" role=3D"presentation">
+<tr>
+<td align=3D"center">
+<!--| START: preheader |-->
+<table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=
+=3D"center" class=3D"preheaderMod fullwidth" role=3D"presentation">
+<tr>
+<td height=3D"1" style=3D"font-size:1px;line-height:1px;max-height:1px;">
+<p style=3D"margin:0;font-size:1px;line-height:1px;max-height:1px;color:#F7=
+F7F7;display:none;visibility:hidden;overflow:hidden;" aria-hidden=3D"true">
+Nutze ein sicheres Passwort, die Passkey-Funktion und aktiviere die zweistu=
+fige Verifizierung.
+</p>
+</td>
+</tr>
+</table>
+<!--| START: header |-->
+<table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=
+=3D"center" class=3D"headerMod fullwidth" role=3D"presentation">
+<!-- Start Below img tag is added to support open tracking, put it below pr=
+eheader -->
+<img src=3D"https://www.ebayadservices.com/marketingtracking/v1/impression?=
+mkevt=3D4&amp;mkpid=3D2&amp;emsid=3D0&amp;siteId=3D77&amp;mkcid=3D8&amp;bu=
+=3D45116485872&amp;osub=3Dc1108e196ac40c5da5e4299ec47a274e%257E173739353047=
+7EM_T_ALL_T&amp;segname=3D1737393530477EM_T_ALL_T&amp;crd=3D20250130030000&=
+amp;ch=3Dosgood" alt=3D"" style=3D"border:0; height:1px; display:block; lin=
+e-height:1px;" width=3D"1" height=3D"1" border=3D"0">
+<!-- End Below img tag is added to support open tracking, put it below preh=
+eader -->
+<tr>
+<td style=3D"font-size:1px;line-height:1px;padding:24px 16px 24px 16px;" al=
+ign=3D"center">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" alig=
+n=3D"center" role=3D"presentation">
+<tr>
+<td style=3D"font-size:1px;line-height:1px;" align=3D"center">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" alig=
+n=3D"center" role=3D"presentation">
+<tr>
+<th width=3D"80" style=3D"font-size:1px;line-height:1px;vertical-align:bott=
+om;" valign=3D"bottom" align=3D"left" class=3D"floatleft fullwidth">
+<table width=3D"80" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=
+=3D"left" role=3D"presentation">
+<tr>
+<td height=3D"40" style=3D"font-size:1px;line-height:1px;vertical-align:bot=
+tom;" valign=3D"bottom" class=3D"heightauto">
+<a href=3D"https://www.ebay.de?mkevt=3D1&amp;mkpid=3D2&amp;emsid=3D0&amp;mk=
+cid=3D8&amp;bu=3D45116485872&amp;osub=3Dc1108e196ac40c5da5e4299ec47a274e%25=
+7E1737393530477EM_T_ALL_T&amp;segname=3D1737393530477EM_T_ALL_T&amp;crd=3D2=
+0250130030000&amp;ch=3Dosgood" style=3D"text-decoration:none;display:inline=
+-block;" class=3D"focus">
+<span class=3D"focus__content" tabindex=3D"-1">
+<img src=3D"https://secureir.ebaystatic.com/cr/mscdn/28efc1f9a5ed3b4031a576=
+6ba9d13a2d/ebay_logo_placeholder.png" width=3D"80" height=3D"32" alt=3D"eBa=
+y" border=3D"0" style=3D"display:inline-block!important;font-family:Helveti=
+ca,Arial,sans-serif,'Market Sans';font-size:14px;line-height:17px;color:#00=
+0000;font-weight:bold;text-decoration:none;" class=3D"focus logo">
+</span>
+</a>
+</td>
+</tr>
+</table>
+</th>
+<th style=3D"font-size:1px;line-height:1px;vertical-align:bottom;" valign=
+=3D"bottom" align=3D"right" class=3D"hide">
+<table width=3D"488" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=
+=3D"right" role=3D"presentation">
+<tr>
+<td style=3D"font-size:1px;line-height:1px;" align=3D"right">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"right" rol=
+e=3D"presentation">
+<tr>
+<td height=3D"18" style=3D"font-size:1px;line-height:1px;vertical-align:bot=
+tom;padding-bottom:1px;" valign=3D"bottom" align=3D"right">
+<p style=3D"mso-line-height-rule:exactly;margin:0;line-height:18px;font-fam=
+ily:Helvetica,Arial,sans-serif,'Market Sans';font-size:12px;color:#767676;f=
+ont-weight:normal;text-decoration:none;" align=3D"right">
+<a href=3D"https://svcs.ebay.com/imageser/v1/image/digestinbrowser?id=3D451=
+16485872&amp;loc=3Dde-DE&amp;tv=3DY2ZiYWUwMGMtNTI0OC00NTRmLTkwNzktZjVmODI4O=
+TE5ZGI5XzI%3D&amp;0=3D0&amp;1=3Dc1108e196ac40c5da5e4299ec47a274e%257E173739=
+3530477EM_T_ALL_T&amp;2=3D45116485872&amp;3=3D1737393530477EM_T_ALL_T&amp;4=
+=3D20250130030000&amp;6=3D77&amp;7=3D99011&amp;8=3D1&amp;9=3D10.184.251.146=
+&amp;10=3Dtomi.g%40hotmail.de&amp;11=3D77&amp;12=3Debay%40noreply1.ebay.com=
+&amp;13=3D0&amp;14=3DHTML&amp;15=3Dtom_2657&amp;16=3D2401179037&amp;17=3D74=
+61ab29-1b89-42e9-9719-98a9fd4295db&amp;18=3DEMAIL&amp;20=3DALL_T&amp;21=3Dt=
+omi.g%40hotmail.de&amp;22=3DHeinrich+Habermann&amp;23=3Dtom_2657&amp;24=3DH=
+einrich&amp;newVibEncoding=3Dtrue&amp;mkevt=3D1&amp;mkpid=3D2&amp;emsid=3D0=
+&amp;mkcid=3D8&amp;bu=3D45116485872&amp;osub=3Dc1108e196ac40c5da5e4299ec47a=
+274e%257E1737393530477EM_T_ALL_T&amp;segname=3D1737393530477EM_T_ALL_T&amp;=
+crd=3D20250130030000&amp;ch=3Dosgood" style=3D"font-family: Helvetica, aria=
+l, sans-serif, 'Market Sans';text-decoration:none;color:#77777a;font-weight=
+: normal;font-size:12px;line-height:12px;">Im Browser anzeigen</a>
+</p>
+</td>
+</tr>
+<tr>
+<td height=3D"18" style=3D"font-size:1px;line-height:1px;" align=3D"right">
+<p style=3D"mso-line-height-rule:exactly;margin:0;line-height:18px;font-fam=
+ily:Helvetica,Arial,sans-serif,'Market Sans';font-size:12px;color:#767676;f=
+ont-weight:normal;text-decoration:none;" align=3D"right">
+</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!--| START: global_v3_2/categories/Hero |-->
+<table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=
+=3D"center" bgcolor=3D"#F7F7F7" class=3D"heroMod01 heroMod fullwidth" role=
+=3D"presentation">
+<tr>
+<td style=3D"font-size:1px;line-height:1px;vertical-align:top;" valign=3D"t=
+op" align=3D"center">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" alig=
+n=3D"left" role=3D"presentation">
+<tr>
+<td height=3D"40" style=3D"font-size:1px;line-height:1px;padding:40px 16px =
+64px 16px;" align=3D"left" class=3D"pl16 pr16">
+<h1 style=3D"mso-line-height-rule:exactly;margin:0;line-height:40px;font-fa=
+mily:Helvetica,Arial,sans-serif,'Market Sans';font-size:30px;color:#111820;=
+font-weight:bold;text-decoration:none;" align=3D"left" class=3D"">
+<span role=3D"text">So machst du dein Konto sicher</span>
+</h1>
+</td>
+</tr>
+</table>
+</td>
+</tr></table>
+<!--| START: global_v3_2/categories/List |-->
+<table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=
+=3D"center" role=3D"presentation" class=3D"listMod01 listMod fullwidth" bgc=
+olor=3D"#ffffff">
+<tr>
+<td style=3D"font-size:1px;line-height:1px;" align=3D"center">
+<table width=3D"568" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=
+=3D"center" role=3D"presentation" class=3D"fullwidth">
+<tr>
+<td style=3D"font-size:1px;line-height:1px;vertical-align:top;" valign=3D"t=
+op" align=3D"center">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" alig=
+n=3D"center" role=3D"presentation">
+<tr>
+<td height=3D"19" style=3D"font-size:1px;line-height:1px;padding:32px 16px =
+0px 0px;" align=3D"left" class=3D"pl16 pr16">
+<p style=3D"mso-line-height-rule:exactly;margin:0;line-height:19px;font-fam=
+ily:-apple-system,BlinkMacSystemFont,-webkit-system-font,Roboto,Arial,sans-=
+serif;font-size:14px;color:#707070;font-weight:normal;text-decoration:none;=
+" align=3D"left" class=3D"fallbackfont">
+Hallo Heinrich,
+</p>
+</td>
+</tr>
+<tr>
+<td height=3D"19" style=3D"font-size:1px;line-height:1px;padding:16px 16px =
+24px 0px;" align=3D"left" class=3D"pl16 pr16">
+<p style=3D"mso-line-height-rule:exactly;margin:0;line-height:19px;font-fam=
+ily:-apple-system,BlinkMacSystemFont,-webkit-system-font,Roboto,Arial,sans-=
+serif;font-size:14px;color:#707070;font-weight:normal;text-decoration:none;=
+" align=3D"left" class=3D"fallbackfont">
+wir m=C3=B6chten dich daran erinnern, wie wichtig es ist, dein eBay-Konto z=
+u sch=C3=BCtzen. Mit ein paar einfachen Ma=C3=9Fnahmen kannst du zur Sicher=
+heit deines Kontos beitragen.
+</p>
+</td>
+</tr>
+<tr>
+<td height=3D"27" style=3D"font-size:1px;line-height:1px;padding:0px 0px 0p=
+x 0px;" align=3D"left" class=3D"pb0 pl16 pr16">
+<h2 style=3D"mso-line-height-rule:exactly;margin:0;line-height:27px;font-fa=
+mily:Helvetica,Arial,sans-serif,'Market Sans';font-size:20px;color:#111820;=
+font-weight:bold;text-decoration:none;" align=3D"left" class=3D" fs20">
+So einfach geht=E2=80=99s:
+</h2>
+</td>
+</tr>
+<tr>
+<td style=3D"font-size:1px;line-height:1px;" align=3D"center" class=3D"pl16=
+">
+<!--[if gte mso 9]>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" alig=
+n=3D"center" role=3D"list">
+<tr>
+<td style=3D"font-size:1px;line-height:1px;" align=3D"center">
+<![endif]-->
+<!--[if !mso]><!-->
+<ul style=3D"margin:0;padding:0;list-style-type:none;" role=3D"list">
+<!--<![endif]-->
+<!--[if !mso]><!-->
+<li style=3D"margin:0;padding:0;list-style-type:none;" class=3D"pr16" role=
+=3D"listitem">
+<!--<![endif]-->
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" alig=
+n=3D"center" role=3D"listitem">
+<tr>
+<td width=3D"20px" height=3D"21" style=3D"font-size:1px;line-height:1px;pad=
+ding:8px 0px 0px 8px;vertical-align:top;" valign=3D"top" align=3D"left" cla=
+ss=3D"perc10 bull">
+<p style=3D"mso-line-height-rule:exactly;margin:0;line-height:21px;font-fam=
+ily:Helvetica,Arial,sans-serif,'Market Sans';font-size:14px;color:#111820;f=
+ont-weight:bold;text-decoration:none;mso-ansi-font-size:21px;" align=3D"lef=
+t">
+<span style=3D"font-size:28px;display:block;mso-ansi-font-size:21px;">=E2=
+=80=A2</span>
+</p>
+</td>
+<td width=3D"94%" height=3D"21" style=3D"font-size:1px;line-height:1px;padd=
+ing:8px 0px 0px 4px;vertical-align:top;" valign=3D"top" align=3D"left" clas=
+s=3D"pr0 perc100">
+<p style=3D"mso-line-height-rule:exactly;margin:0;line-height:21px;font-fam=
+ily:-apple-system,BlinkMacSystemFont,-webkit-system-font,Roboto,Arial,sans-=
+serif;font-size:14px;color:#707070;font-weight:normal;text-decoration:none;=
+" align=3D"left" class=3D"fallbackfont">
+<b>Nutze die neue Passkey-Funktion:</b> Passkeys sind eine Alternative zu P=
+assw=C3=B6rtern. Damit kannst du dich =C3=BCber Muster, PIN oder biometrisc=
+he Authentifizierung wie deinen Fingerabdruck in dein eBay-Konto einloggen.=
+ <a alias=3D"here" conversion=3D"false" data-linkto=3D"https://" href=3D"ht=
+tps://www.ebay.de/help/account/protecting-account/sicherheitstipps-fr-ihr-e=
+baykonto?id=3D4872&amp;mkevt=3D1&amp;mkpid=3D2&amp;emsid=3De99011.m2.l1&amp=
+;mkcid=3D8&amp;bu=3D45116485872&amp;osub=3Dc1108e196ac40c5da5e4299ec47a274e=
+%257E1737393530477EM_T_ALL_T&amp;segname=3D1737393530477EM_T_ALL_T&amp;crd=
+=3D20250130030000&amp;ch=3Dosgood#passkey" style=3D"text-decoration:underli=
+ne;" title=3D"here">Mehr erfahren</a>
+</p>
+</td>
+</tr>
+</table>
+<!--[if !mso]><!-->
+</li>
+<!--<![endif]-->
+<!--[if !mso]><!-->
+<li style=3D"margin:0;padding:0;list-style-type:none;" class=3D"pr16" role=
+=3D"listitem">
+<!--<![endif]-->
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" alig=
+n=3D"center" role=3D"listitem">
+<tr>
+<td width=3D"6%" height=3D"21" style=3D"font-size:1px;line-height:1px;paddi=
+ng:8px 0px 0px 8px;vertical-align:top;" valign=3D"top" align=3D"left" class=
+=3D"perc10 bull">
+<p style=3D"mso-line-height-rule:exactly;margin:0;line-height:21px;font-fam=
+ily:Helvetica,Arial,sans-serif,'Market Sans';font-size:14px;color:#111820;f=
+ont-weight:bold;text-decoration:none;mso-ansi-font-size:21px;" align=3D"lef=
+t">
+<span style=3D"font-size:28px;display:block;mso-ansi-font-size:21px;">=E2=
+=80=A2</span>
+</p>
+</td>
+<td width=3D"94%" height=3D"21" style=3D"font-size:1px;line-height:1px;padd=
+ing:8px 0px 0px 4px;vertical-align:top;" valign=3D"top" align=3D"left" clas=
+s=3D"pr0 perc100">
+<p style=3D"mso-line-height-rule:exactly;margin:0;line-height:21px;font-fam=
+ily:-apple-system,BlinkMacSystemFont,-webkit-system-font,Roboto,Arial,sans-=
+serif;font-size:14px;color:#707070;font-weight:normal;text-decoration:none;=
+" align=3D"left" class=3D"fallbackfont">
+<b>Aktiviere die zweistufige Verifizierung:</b> Diese zus=C3=A4tzliche Sich=
+erheitsebene stellt sicher, dass nur du Zugriff auf dein Konto hast =E2=80=
+=93 selbst wenn jemand dein Passwort kennt. <a alias=3D"here" conversion=3D=
+"false" data-linkto=3D"https://" href=3D"https://www.ebay.de/help/account/p=
+rotecting-account/sicherheitstipps-fr-ihr-ebaykonto?id=3D4872&amp;mkevt=3D1=
+&amp;mkpid=3D2&amp;emsid=3De99011.m2.l1&amp;mkcid=3D8&amp;bu=3D45116485872&=
+amp;osub=3Dc1108e196ac40c5da5e4299ec47a274e%257E1737393530477EM_T_ALL_T&amp=
+;segname=3D1737393530477EM_T_ALL_T&amp;crd=3D20250130030000&amp;ch=3Dosgood=
+#section2" style=3D"text-decoration:underline;" title=3D"here">Mehr erfahre=
+n</a>
+</p>
+</td>
+</tr>
+</table>
+<!--[if !mso]><!-->
+</li>
+<!--<![endif]-->
+<!--[if !mso]><!-->
+<li style=3D"margin:0;padding:0;list-style-type:none;" class=3D"pr16" role=
+=3D"listitem">
+<!--<![endif]-->
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" alig=
+n=3D"center" role=3D"listitem">
+<tr>
+<td width=3D"6%" height=3D"21" style=3D"font-size:1px;line-height:1px;paddi=
+ng:8px 0px 0px 8px;vertical-align:top;" valign=3D"top" align=3D"left" class=
+=3D"perc10 bull">
+<p style=3D"mso-line-height-rule:exactly;margin:0;line-height:21px;font-fam=
+ily:Helvetica,Arial,sans-serif,'Market Sans';font-size:14px;color:#111820;f=
+ont-weight:bold;text-decoration:none;mso-ansi-font-size:21px;" align=3D"lef=
+t">
+<span style=3D"font-size:28px;display:block;mso-ansi-font-size:21px;">=E2=
+=80=A2</span>
+</p>
+</td>
+<td width=3D"94%" height=3D"21" style=3D"font-size:1px;line-height:1px;padd=
+ing:8px 0px 0px 4px;vertical-align:top;" valign=3D"top" align=3D"left" clas=
+s=3D"pr0 perc100">
+<p style=3D"mso-line-height-rule:exactly;margin:0;line-height:21px;font-fam=
+ily:-apple-system,BlinkMacSystemFont,-webkit-system-font,Roboto,Arial,sans-=
+serif;font-size:14px;color:#707070;font-weight:normal;text-decoration:none;=
+" align=3D"left" class=3D"fallbackfont">
+<b>=C3=84ndere dein Passwort regelm=C3=A4=C3=9Fig:</b> W=C3=A4hle ein siche=
+res Passwort, das f=C3=BCr andere schwer zu erraten ist und sich von deinem=
+ E-Mail-Passwort unterscheidet.
+</p>
+</td>
+</tr>
+</table>
+<!--[if !mso]><!-->
+</li>
+<!--<![endif]-->
+<!--[if !mso]><!-->
+<li style=3D"margin:0;padding:0;list-style-type:none;" class=3D"pr16" role=
+=3D"listitem">
+<!--<![endif]-->
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" alig=
+n=3D"center" role=3D"listitem">
+<tr>
+<td width=3D"6%" height=3D"21" style=3D"font-size:1px;line-height:1px;paddi=
+ng:8px 0px 0px 8px;vertical-align:top;" valign=3D"top" align=3D"left" class=
+=3D"perc10 bull">
+<p style=3D"mso-line-height-rule:exactly;margin:0;line-height:21px;font-fam=
+ily:Helvetica,Arial,sans-serif,'Market Sans';font-size:14px;color:#111820;f=
+ont-weight:bold;text-decoration:none;mso-ansi-font-size:21px;" align=3D"lef=
+t">
+<span style=3D"font-size:28px;display:block;mso-ansi-font-size:21px;">=E2=
+=80=A2</span>
+</p>
+</td>
+<td width=3D"94%" height=3D"21" style=3D"font-size:1px;line-height:1px;padd=
+ing:8px 0px 0px 4px;vertical-align:top;" valign=3D"top" align=3D"left" clas=
+s=3D"pr0 perc100">
+<p style=3D"mso-line-height-rule:exactly;margin:0;line-height:21px;font-fam=
+ily:-apple-system,BlinkMacSystemFont,-webkit-system-font,Roboto,Arial,sans-=
+serif;font-size:14px;color:#707070;font-weight:normal;text-decoration:none;=
+" align=3D"left" class=3D"fallbackfont">
+<b>Halte deine Kontaktdaten aktuell:</b> Falls wir dich dringend kontaktier=
+en m=C3=BCssen, ist es wichtig, dass deine Kontaktinformationen auf dem neu=
+esten Stand sind.
+</p>
+</td>
+</tr>
+</table>
+<!--[if !mso]><!-->
+</li>
+<!--<![endif]-->
+<!--[if !mso]><!-->
+<li style=3D"margin:0;padding:0;list-style-type:none;" class=3D"pr16" role=
+=3D"listitem">
+<!--<![endif]-->
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" alig=
+n=3D"center" role=3D"listitem">
+<tr>
+<td width=3D"6%" height=3D"21" style=3D"font-size:1px;line-height:1px;paddi=
+ng:8px 0px 0px 8px;vertical-align:top;" valign=3D"top" align=3D"left" class=
+=3D"perc10 bull">
+<p style=3D"mso-line-height-rule:exactly;margin:0;line-height:21px;font-fam=
+ily:Helvetica,Arial,sans-serif,'Market Sans';font-size:14px;color:#111820;f=
+ont-weight:bold;text-decoration:none;mso-ansi-font-size:21px;" align=3D"lef=
+t">
+<span style=3D"font-size:28px;display:block;mso-ansi-font-size:21px;">=E2=
+=80=A2</span>
+</p>
+</td>
+<td width=3D"94%" height=3D"21" style=3D"font-size:1px;line-height:1px;padd=
+ing:8px 0px 0px 4px;vertical-align:top;" valign=3D"top" align=3D"left" clas=
+s=3D"pr0 perc100">
+<p style=3D"mso-line-height-rule:exactly;margin:0;line-height:21px;font-fam=
+ily:-apple-system,BlinkMacSystemFont,-webkit-system-font,Roboto,Arial,sans-=
+serif;font-size:14px;color:#707070;font-weight:normal;text-decoration:none;=
+" align=3D"left" class=3D"fallbackfont">
+<b>Achte auf Phishing-E-Mails:</b> eBay wird dich niemals nach deinem Passw=
+ort oder vertraulichen Informationen fragen. Wenn du verd=C3=A4chtige E-Mai=
+ls erh=C3=A4ltst, klicke keine Links an und =C3=B6ffne keine Anh=C3=A4nge. =
+<a alias=3D"here" conversion=3D"false" data-linkto=3D"https://" href=3D"htt=
+ps://www.ebay.de/help/account/protecting-account/sicherheitstipps-fr-ihr-eb=
+aykonto?id=3D4872&amp;mkevt=3D1&amp;mkpid=3D2&amp;emsid=3De99011.m2.l1&amp;=
+mkcid=3D8&amp;bu=3D45116485872&amp;osub=3Dc1108e196ac40c5da5e4299ec47a274e%=
+257E1737393530477EM_T_ALL_T&amp;segname=3D1737393530477EM_T_ALL_T&amp;crd=
+=3D20250130030000&amp;ch=3Dosgood#section5" style=3D"text-decoration:underl=
+ine;" title=3D"here">Mehr erfahren</a>
+</p>
+</td>
+</tr>
+</table>
+<!--[if !mso]><!-->
+</li>
+<!--<![endif]-->
+<!--[if !mso]><!-->
+<li style=3D"margin:0;padding:0;list-style-type:none;" class=3D"pr16" role=
+=3D"listitem">
+<!--<![endif]-->
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" alig=
+n=3D"center" role=3D"listitem">
+<tr>
+<td width=3D"6%" height=3D"21" style=3D"font-size:1px;line-height:1px;paddi=
+ng:8px 0px 0px 8px;vertical-align:top;" valign=3D"top" align=3D"left" class=
+=3D"perc10 bull">
+<p style=3D"mso-line-height-rule:exactly;margin:0;line-height:21px;font-fam=
+ily:Helvetica,Arial,sans-serif,'Market Sans';font-size:14px;color:#111820;f=
+ont-weight:bold;text-decoration:none;mso-ansi-font-size:21px;" align=3D"lef=
+t">
+<span style=3D"font-size:28px;display:block;mso-ansi-font-size:21px;">=E2=
+=80=A2</span>
+</p>
+</td>
+<td width=3D"94%" height=3D"21" style=3D"font-size:1px;line-height:1px;padd=
+ing:8px 0px 0px 4px;vertical-align:top;" valign=3D"top" align=3D"left" clas=
+s=3D"pr0 perc100">
+<p style=3D"mso-line-height-rule:exactly;margin:0;line-height:21px;font-fam=
+ily:-apple-system,BlinkMacSystemFont,-webkit-system-font,Roboto,Arial,sans-=
+serif;font-size:14px;color:#707070;font-weight:normal;text-decoration:none;=
+" align=3D"left" class=3D"fallbackfont">
+<b>Ungew=C3=B6hnliche Aktivit=C3=A4ten melden:</b> Wenn du feststellst, das=
+s etwas in deinem Konto nicht stimmt oder =C3=84nderungen vorgenommen wurde=
+n, die du nicht autorisiert hast, melde dich direkt bei uns. <a alias=3D"he=
+re" conversion=3D"false" data-linkto=3D"https://" href=3D"https://www.ebay.=
+de/help/account/protecting-account/sicherheitstipps-fr-ihr-ebaykonto?id=3D4=
+872&amp;mkevt=3D1&amp;mkpid=3D2&amp;emsid=3De99011.m2.l1&amp;mkcid=3D8&amp;=
+bu=3D45116485872&amp;osub=3Dc1108e196ac40c5da5e4299ec47a274e%257E1737393530=
+477EM_T_ALL_T&amp;segname=3D1737393530477EM_T_ALL_T&amp;crd=3D2025013003000=
+0&amp;ch=3Dosgood#section6" style=3D"text-decoration:underline;" title=3D"h=
+ere">Kontaktiere uns</a>
+</p>
+</td>
+</tr>
+</table>
+<!--[if !mso]><!-->
+</li>
+<!--<![endif]-->
+<!--[if !mso]><!-->
+</ul>
+<!--<![endif]-->
+<!--[if gte mso 9]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</td>
+</tr>
+<tr>
+<td style=3D"font-size:1px;line-height:1px;padding:24px 0px 32px 0px;" alig=
+n=3D"center" class=3D"pl16 pr16 ">
+<div style=3D"font-size:1px;line-height:1px;" align=3D"left" class=3D"all">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" bgcolor=3D"#3665F3"=
+ style=3D"display:inline-table;border-radius:20px;border-collapse:separate;=
+" class=3D"button" role=3D"presentation">
+<tr>
+<td height=3D"38" style=3D"font-size:1px;line-height:1px;vertical-align:mid=
+dle;border:1px solid #3665F3;padding:0px 17px 0px 17px;border-radius:20px;b=
+order-collapse:separate;" align=3D"center" valign=3D"middle">
+<p style=3D"mso-line-height:exactly;margin:0;line-height:19px;font-family:H=
+elvetica,Arial,sans-serif,'Market Sans';font-size:14px;font-weight:bold;col=
+or:#ffffff;text-align:center;vertical-align:middle;" align=3D"center">
+<a href=3D"https://www.ebay.de/help/account?mkevt=3D1&amp;mkpid=3D2&amp;ems=
+id=3D0&amp;mkcid=3D8&amp;bu=3D45116485872&amp;osub=3Dc1108e196ac40c5da5e429=
+9ec47a274e%257E1737393530477EM_T_ALL_T&amp;segname=3D1737393530477EM_T_ALL_=
+T&amp;crd=3D20250130030000&amp;ch=3Dosgood#account-safety" style=3D"color:#=
+ffffff;text-decoration:none;" class=3D"focus focus1">
+<span class=3D"focus__content" tabindex=3D"-1">
+Weitere M=C3=B6glichkeiten, dein Konto zu sch=C3=BCtzen
+</span>
+</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!--| START: footer |-->
+<table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=
+=3D"center" class=3D"footerMod fullwidth" role=3D"presentation" bgcolor=3D"=
+#F5F5F5">
+<tr>
+<td style=3D"font-size:1px;line-height:1px;padding:32px 16px 18px 16px;" al=
+ign=3D"center" class=3D"pt40">
+<table width=3D"568" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=
+=3D"center" class=3D"fullwidth" role=3D"presentation">
+<tr>
+<td width=3D"50%" style=3D"font-size:1px;line-height:1px;padding:0px 0px 0p=
+x 0px;" align=3D"left">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"left" role=
+=3D"presentation">
+<tr>
+<td style=3D"font-size:1px;line-height:1px;padding:0px 10px 0px 0px;">
+<a href=3D"https://www.ebay.de/ulk/start/shop?mkevt=3D1&amp;mkpid=3D2&amp;e=
+msid=3D0&amp;mkcid=3D8&amp;bu=3D45116485872&amp;osub=3Dc1108e196ac40c5da5e4=
+299ec47a274e%257E1737393530477EM_T_ALL_T&amp;segname=3D1737393530477EM_T_AL=
+L_T&amp;crd=3D20250130030000&amp;ch=3Dosgood" style=3D"text-decoration:none=
+;display:inline-block;" class=3D"focus focus">
+<span class=3D"focus__content" tabindex=3D"-1">
+<img src=3D"https://secureir.ebaystatic.com/cr/mscdn/ca15e7a97968c0908f749c=
+535d40db26/eBayLogo-b54AQ.png" width=3D"84" alt=3D"eBay" title=3D"eBay" bor=
+der=3D"0" style=3D"display:inline-block!important;font-family:Helvetica,Ari=
+al,sans-serif,'Market Sans';font-size:14px;line-height:17px;color:#000000;f=
+ont-weight:bold;text-decoration:none;">
+</span>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=
+=3D"center" class=3D"footerMod fullwidth" role=3D"presentation" bgcolor=3D"=
+#F5F5F5">
+<tr>
+<td style=3D"font-size:1px;line-height:1px;padding:0px 16px 24px 16px;" ali=
+gn=3D"center" class=3D"pb48">
+<table width=3D"568" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=
+=3D"center" class=3D"fullwidth" role=3D"presentation">
+<tr>
+<td height=3D"16" style=3D"font-size:1px;line-height:1px;padding:8px 0px 0p=
+x 0px;" align=3D"center">
+<p style=3D"mso-line-height-rule:exactly;margin:0;line-height:22px;font-fam=
+ily:Helvetica,Arial,sans-serif,'Market Sans';font-size:12px;color:#414141;f=
+ont-weight:normal;text-decoration:none;-webkit-font-smoothing:antialiased;-=
+moz-osx-font-smoothing:grayscale; text-align:left;" align=3D"left" class=3D=
+"lm_copy">
+Mehr erfahren zum <a href=3D"https://pages.ebay.de/help/account/protecting-=
+account.html?mkevt=3D1&amp;mkpid=3D2&amp;emsid=3D0&amp;mkcid=3D8&amp;bu=3D4=
+5116485872&amp;osub=3Dc1108e196ac40c5da5e4299ec47a274e%257E1737393530477EM_=
+T_ALL_T&amp;segname=3D1737393530477EM_T_ALL_T&amp;crd=3D20250130030000&amp;=
+ch=3Dosgood" style=3D"text-decoration:underline;color:#111820;">Schutz Ihre=
+s eBay-Kontos.</a>
+</p>
+</td>
+</tr>
+<tr>
+<td height=3D"16" style=3D"font-size:1px;line-height:1px;padding:0px 0px 0p=
+x 0px;" align=3D"center">
+<p style=3D"mso-line-height-rule:exactly;margin:0;line-height:22px;font-fam=
+ily:Helvetica,Arial,sans-serif,'Market Sans';font-size:12px;color:#414141;f=
+ont-weight:normal;text-decoration:none;-webkit-font-smoothing:antialiased;-=
+moz-osx-font-smoothing:grayscale; text-align:left;" align=3D"left" class=3D=
+"lm_copy">
+Informieren Sie sich =C3=BCber unsere <a href=3D"https://www.ebay.de/help/p=
+olicies/member-behavior-policies/allgemeine-geschftsbedingungen-fr-die-nutz=
+ung-der-deutschen-ebaydienste?id=3D4259&amp;mkevt=3D1&amp;mkpid=3D2&amp;ems=
+id=3D0&amp;mkcid=3D8&amp;bu=3D45116485872&amp;osub=3Dc1108e196ac40c5da5e429=
+9ec47a274e%257E1737393530477EM_T_ALL_T&amp;segname=3D1737393530477EM_T_ALL_=
+T&amp;crd=3D20250130030000&amp;ch=3Dosgood" style=3D"text-decoration:underl=
+ine;color:#111820;">Allgemeinen Gesch=C3=A4ftsbedingungen.</a> N=C3=A4here =
+Informationen zur Verarbeitung Ihrer personenbezogenen Daten finden Sie in =
+unserer <a href=3D"https://www.ebay.de/help/policies/member-behavior-polici=
+es/datenschutzerklrung?id=3D4260&amp;mkevt=3D1&amp;mkpid=3D2&amp;emsid=3D0&=
+amp;mkcid=3D8&amp;bu=3D45116485872&amp;osub=3Dc1108e196ac40c5da5e4299ec47a2=
+74e%257E1737393530477EM_T_ALL_T&amp;segname=3D1737393530477EM_T_ALL_T&amp;c=
+rd=3D20250130030000&amp;ch=3Dosgood" style=3D"text-decoration:underline;col=
+or:#111820;">Datenschutzerkl=C3=A4rung.</a>
+</p>
+</td>
+</tr>
+<tr>
+<td height=3D"16" style=3D"font-size:1px;line-height:1px;padding:0px 0px 0p=
+x 0px;" align=3D"center">
+<p style=3D"mso-line-height-rule:exactly;margin:0;line-height:22px;font-fam=
+ily:Helvetica,Arial,sans-serif,'Market Sans';font-size:12px;color:#414141;f=
+ont-weight:normal;text-decoration:none;-webkit-font-smoothing:antialiased;-=
+moz-osx-font-smoothing:grayscale; text-align:left;" align=3D"left" class=3D=
+"lm_copy">
+Bei Fragen <a href=3D"https://www.ebay.de/help/home?mkevt=3D1&amp;mkpid=3D2=
+&amp;emsid=3D0&amp;mkcid=3D8&amp;bu=3D45116485872&amp;osub=3Dc1108e196ac40c=
+5da5e4299ec47a274e%257E1737393530477EM_T_ALL_T&amp;segname=3D1737393530477E=
+M_T_ALL_T&amp;crd=3D20250130030000&amp;ch=3Dosgood" style=3D"text-decoratio=
+n:underline;color:#111820;">kontaktieren Sie uns bitte.</a>
+</p>
+</td>
+</tr>
+<tr>
+<td height=3D"16" style=3D"font-size:1px;line-height:1px;padding:8px 0px 0p=
+x 0px;" align=3D"center">
+<p style=3D"mso-line-height-rule:exactly;margin:0;line-height:22px;font-fam=
+ily:Helvetica,Arial,sans-serif,'Market Sans';font-size:12px;color:#414141;f=
+ont-weight:normal;text-decoration:none;-webkit-font-smoothing:antialiased;-=
+moz-osx-font-smoothing:grayscale; text-align:left;" align=3D"left" class=3D=
+"lm_copy">
+eBay GmbH, Albert-Einstein-Ring 2-6, 14532 Kleinmachnow, Deutschland<br>
+Amtsgericht Potsdam, HRB 13754 P, Gesch=C3=A4ftsf=C3=BChrerin: Dr. Saskia M=
+eier-Andrae
+</p>
+</td>
+</tr>
+<tr>
+<td height=3D"16" style=3D"font-size:1px;line-height:1px;padding:8px 0px 0p=
+x 0px;" align=3D"center">
+<p style=3D"mso-line-height-rule:exactly;margin:0;line-height:22px;font-fam=
+ily:Helvetica,Arial,sans-serif,'Market Sans';font-size:12px;color:#414141;f=
+ont-weight:normal;text-decoration:none;-webkit-font-smoothing:antialiased;-=
+moz-osx-font-smoothing:grayscale; text-align:left;" align=3D"left" class=3D=
+"lm_copy">
+=C2=A9 1995-2025 eBay Inc. oder Tochtergesellschaften
+</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!--| START: global_v3_2/gmailfix_simple |-->
+<table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" cl=
+ass=3D"gmailFixMod hide" role=3D"presentation"><tr><td style=3D"font-size:1=
+px;line-height:1px;min-width:600px;width:600px;" aria-hidden=3D"true"><img =
+src=3D"https://secureir.ebaystatic.com/cr/mscdn/28efc1f9a5ed3b4031a5766ba9d=
+13a2d/spacer.gif" width=3D"600" height=3D"1" border=3D"0" alt=3D"" style=3D=
+"display:block;min-width:600px;width:600px;visibility:hidden;" role=3D"pres=
+entation"></td></tr></table>
+<table width=3D"600" align=3D"center" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" class=3D"gmailFixMod fullwidth" role=3D"presentation"><tr><td s=
+tyle=3D"font-size:1px;line-height:1px;min-width:600px;" height=3D"5" width=
+=3D"600" class=3D"hide" aria-hidden=3D"true"><img src=3D"https://secureir.e=
+baystatic.com/cr/mscdn/28efc1f9a5ed3b4031a5766ba9d13a2d/spacer.gif" height=
+=3D"5" width=3D"600" class=3D"hide" border=3D"0" alt=3D"" style=3D"display:=
+block;max-height:5px;min-height:5px;width:600px;min-width:600px;visibility:=
+hidden;" role=3D"presentation"></td></tr></table>
+<!-- gmail on ios fix -->
+<div style=3D"display:none;white-space:nowrap;font:15px courier;line-height=
+:0;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+;
+</div>
+<!--| START: global_v3_2/wrapper_bottom |-->
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>=20
+    <!--4d72fb63-a8c1-4bcf-8373-953432f13665_END-->
+  </body>
+</html>

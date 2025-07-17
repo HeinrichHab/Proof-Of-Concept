@@ -1,0 +1,1157 @@
+Received: from PAXP195MB1606.EURP195.PROD.OUTLOOK.COM (2603:10a6:102:28a::9)
+ by DU0P195MB1820.EURP195.PROD.OUTLOOK.COM with HTTPS; Sun, 15 Jun 2025
+ 16:02:07 +0000
+Received: from DB8PR03CA0014.eurprd03.prod.outlook.com (2603:10a6:10:be::27)
+ by PAXP195MB1606.EURP195.PROD.OUTLOOK.COM (2603:10a6:102:28a::9) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.8835.23; Sun, 15 Jun
+ 2025 16:02:06 +0000
+Received: from DU6PEPF0000A7E1.eurprd02.prod.outlook.com
+ (2603:10a6:10:be:cafe::99) by DB8PR03CA0014.outlook.office365.com
+ (2603:10a6:10:be::27) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.20.8792.34 via Frontend Transport; Sun,
+ 15 Jun 2025 16:02:06 +0000
+Authentication-Results: spf=pass (sender IP is 137.22.230.64)
+ smtp.mailfrom=mail.mcfit.com; dkim=pass (signature was verified)
+ header.d=mail.mcfit.com;dmarc=pass action=none
+ header.from=mail.mcfit.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of mail.mcfit.com
+ designates 137.22.230.64 as permitted sender)
+ receiver=protection.outlook.com; client-ip=137.22.230.64;
+ helo=jce6tgbm.mail.mcfit.com; pr=E
+Received: from jce6tgbm.mail.mcfit.com (137.22.230.64) by
+ DU6PEPF0000A7E1.mail.protection.outlook.com (10.167.8.40) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.8835.15 via Frontend Transport; Sun, 15 Jun 2025 16:02:06 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:B6CA94F3CAD5BA11025B12C7E1ABF5A8E5B8224C4CA0127D8055B808FDB3E50E;UpperCasedChecksum:841A607BB50194B7ADFEDA54FFE778A67BB32BD33B3ECCEFB413F8BFC8D28B36;SizeAsReceived:1389;Count:12
+Return-Path: msprvs1=20261pUBeymrC=bounces-1898-887@mail.mcfit.com
+X-MSFBL: jsGNstTK/PESBxfNbwOMHyAk1L1ve2mblzzxhP2ZCSU=|eyJ0ZW5hbnRfaWQiOiJ
+	zcGNldSIsInN1YmFjY291bnRfaWQiOiI4ODciLCJyIjoidG9taS5nQGhvdG1haWw
+	uZGUiLCJtZXNzYWdlX2lkIjoiNjg0NzdkZWU0ZTY4M2NiZTc3NDciLCJjdXN0b21
+	lcl9pZCI6IjE4OTgifQ==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mail.mcfit.com;
+	s=scph1123; t=1750003325; i=@mail.mcfit.com;
+	bh=++jkt+4Rpv5dukSB2J+0orY6bR89xf1asJuIwmND4Tg=;
+	h=To:Message-ID:Date:Content-Type:Subject:From:From:To:Cc:Subject;
+	b=WIeOwYmsjEpPFrHSCqutHpJ/2n3FuzeBSIh1Lf5/t8sjM7tKyxqBo46Gp2eLNbRlM
+	 plPImVqCLc7PLpLGc0iUEjAzsBC5QIcBz4CEAL+kUysm1PaYLj28GFABk9pBKAaHLo
+	 2DbOIQJbk8nfsEHFHWMccjpFsSSZgTNlsL5RRZ/g=
+Received: from [10.95.208.11] ([10.95.208.11])
+	by i-0bbe8a3d9a14d01ae.mta3vrest.sd.prd.sparkpost (ecelerity 5.0.0.74454 r(msys-ecelerity:tags/5.0.0.5)) with REST
+	id 74/77-12116-D7EEE486; Sun, 15 Jun 2025 16:02:05 +0000
+To: tomi.g@hotmail.de
+Message-ID: <74.77.12116.D7EEE486@i-0bbe8a3d9a14d01ae.mta3vrest.sd.prd.sparkpost>
+Date: Sun, 15 Jun 2025 16:02:05 +0000
+Content-Type: multipart/alternative; boundary="_----cq7CscYUguNNRWAhCy66qA===_C3/77-12116-D7EEE486"
+Reply-To: no-reply@mcfit.com
+Subject: =?utf-8?B?TWNGSVQgQ2hhbGxlbmdlOiAyNSBXb3Jrb3V0cyBiaXMgenVtIFNv?=
+	=?utf-8?B?bW1lciDwn5Kq?=
+From: "McFIT" <hello@mail.mcfit.com>
+X-IncomingHeaderCount: 12
+X-MS-Exchange-Organization-ExpirationStartTime: 15 Jun 2025 16:02:06.3221
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 072e3ace-7520-4bda-ba7f-08ddac25f9eb
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: DU6PEPF0000A7E1:EE_|PAXP195MB1606:EE_|DU0P195MB1820:EE_
+X-MS-Exchange-Organization-AuthSource: DU6PEPF0000A7E1.eurprd02.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 6/15/2025 3:52:09 PM
+X-MS-Office365-Filtering-Correlation-Id: 072e3ace-7520-4bda-ba7f-08ddac25f9eb
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 137.22.230.64
+X-SID-PRA: HELLO@MAIL.MCFIT.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:2;ARA:1444111002|3151999006|10300799035|58200799018|5301999021|6401999021|21080799006|8301999021|9000799050|1680799057|28045499009|47200799021|461199028|9400799033|11001999021|23070799003|12005499003|4302099013|3412199025|440099028|18021999003|18042799006|26104999006|21101999018|16125499006|1380799030|1370799030|1360799030|56899033|1602099012;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 15 Jun 2025 16:02:06.1532
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 072e3ace-7520-4bda-ba7f-08ddac25f9eb
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource: DU6PEPF0000A7E1.eurprd02.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PAXP195MB1606
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.4244855
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.8835.025
+X-Microsoft-Antispam-Mailbox-Delivery:
+	wl:1;pcwl:1;ucf:0;jmr:0;ex:0;auth:1;dest:I;OFR:TrustedSenderList;ENG:(5062000311)(920221119095)(90000117)(920221120095)(91040095)(9050020)(9060121)(9100341)(944500132)(4810010)(4910033)(9930004)(9545005)(10172021)(9439006)(9310011)(9220031)(120001);
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0xO1NDTD0tMQ==
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?SUU3ai9MUElINGloWEVoeExUTzBQdHdWZTBQMjBybEIycG1hUnoxbFNGSEgy?=
+ =?utf-8?B?QlBDa09ueFpPeE5ZQU8xMEc5NGFJNXpLZ25VYlI1ajdmbEVueVdKc3EwaXk4?=
+ =?utf-8?B?Y3VXK0dhdE5SajhxYmZLeUNPZXVLNW5DSVowYmNmdUh1R1dGd1ZBTkYvek91?=
+ =?utf-8?B?aDJaZUhJajBTc2J4cG9uZDEyQTJvUkF4MUpFc2FHMDV3QTczd09JWjNXb0tZ?=
+ =?utf-8?B?ZThlMEp1YW5VZ3ltNDlNZmh1MlZUODR5TVl3VDZCK0MvRFBKeXNRSDQvMG84?=
+ =?utf-8?B?aVB3UGo2MkoySS9PUnVxMjNweGtzTm5WN0hWUTNVRFIwK2Y5c3VNc1l3aytM?=
+ =?utf-8?B?cDUzOWdtbmZ6NzhtM1JUVG45TEpqZncyNFhqVXNsbVZxUjVFbkU1angrLzJC?=
+ =?utf-8?B?bE1QRTlnVG53NGsvWW1vNXRTdmdhMVBheFduSy9qdFJRbkVoM3FFUUhhSTNS?=
+ =?utf-8?B?NnlDb0tkVGJIdnhwbzV6enUwZmVkVlBncEo1R3NzOW55NDJhbTdCclIzOVh5?=
+ =?utf-8?B?L05Vdkw2blpzeEcwcXZUUUwva2F0UGlEb2Q2azh4a1pwUWxZdVBPUTlXc2JM?=
+ =?utf-8?B?K2FjOHh1dXBlN2t1bUhocTJTVlh5WmkzQjc5Q3JJWm5Sd0NLYUdybTZCUDR0?=
+ =?utf-8?B?U3lzQTh1RVRMUGUycHNBUGhkUHFiaVAxaU9iaWp6eGl0TEVOYm5LTnp3d3pn?=
+ =?utf-8?B?MGpFKzVoRVVFY1l1OWk4UHdIaWo4aGZ2T3E4U2JFaFhPTzZhSitlUmdQNVJo?=
+ =?utf-8?B?VnFtNWIwUFVpcTJiVUlPMm96bzFDRXhabk8wOUdxMnkydzVWeUh1L0VtTWRn?=
+ =?utf-8?B?RUVrZER1OHpGV1Mxa3pSdGk3L2ZQTWVSSU5ySi8ydklHb2V3S3hOcjBzb2hJ?=
+ =?utf-8?B?VnpmZE5EUk9BNHY5WDlGcVhGeDhqT1lWQnNoYXZ2NFJXOGk0ZTBOTVZrZWxI?=
+ =?utf-8?B?Tm1KU3NaOXAvQXlQSjJXcHR0bWE5QzN6UC9PU1hVYzZFOFdjZVBzanE1cmNR?=
+ =?utf-8?B?SjNQeEFyRmRwR2FUaGR1VzY3dkFVQlovTTRmRmltUko5MDZIdW82KzZzeUxr?=
+ =?utf-8?B?T1dBbWkwMnFPOEYrUzJ6SDllS3JlVGg5dVppRDJmTVhWY20vZkFWVkdjN21x?=
+ =?utf-8?B?N0xXR05nNHZHRXFMN0VKUWp1OVdoQ1hrRWlOd3FPdXFrcGVESUdxMllISkx3?=
+ =?utf-8?B?TXF3YklRaVpreHFLdkJzS3g4bXFHLys3dkVhMnpDazFudlVmUHBEd0lTaUVn?=
+ =?utf-8?B?bXplTGtQSW5yN2Q0UEY0b3BGckRYRTE5S3I0Y0QrRDVZaHRFMklHeFJ2TE54?=
+ =?utf-8?B?QmFucGEwanFqTi8rYk00WU8zZzZWaVc3ZUh1YnpmaktndFhvT1J5NEhpQ0dr?=
+ =?utf-8?B?enU0SEZpNWRKR0dPWXhCOEw5VWpaTTRDMUlDTnJwRlJIamF1dWhPc1JMOG5G?=
+ =?utf-8?B?bWt6QldiU3BEeTNacWJsS1F0R0pCcUlqSm11RVNFeG1zUTVQNXlmbUNvQWUx?=
+ =?utf-8?B?M1AxcE84UFFkTjRCU3NqeU1FUU1kQi9HbFZyanpqSE5kdVhQMVhjeVdiSGx1?=
+ =?utf-8?B?d21mbmVva2psR1Y3c2h1ZHlpUTd6Y3h4RGEvSzZkaHZieEVTSURDclBnUnVG?=
+ =?utf-8?B?Tm1QTmhMOExZamlaWVRYai9BOGdROU1LbWlaWUpyNEd3K1ZSVWxuNzVxakx6?=
+ =?utf-8?B?cmJqa00wMHU0anA1NndjTFlZenR5Q3JJVGxSWm84KzNaTGpkbThCMU8xRjd1?=
+ =?utf-8?B?ak5KV2U2ZGhFbk42UnhublFvQ0tzY2FqRTFPZUJzbExSN3JERGtrYWF0QXk2?=
+ =?utf-8?B?RmhaMHlPbTlQcmc5aVdCUThwdjg3OVhud0dLNk9SeHhPd2cxbGMvWGJ6Smwx?=
+ =?utf-8?B?c05vQWZjSFhyNGttbHJscmFXUUlwcVNlR2FaRExLem1SR1lKR3JHTFd6ejl1?=
+ =?utf-8?B?WithVGpMZTRIR3ZwbTBUTk92dHNJOTVEUjZ0UkVsN3pLZUk4cFZrNGRHL1Zt?=
+ =?utf-8?B?TzhsOTZFY3dHeEpLSWxVN3Nudm94Q2VmYnIwZzYrU0xIcit4b1ROa1dtZGdV?=
+ =?utf-8?B?cTJ4bUREWXp2b3llWXJLaWM0OGl0clRXTUVRSVlORTJ3L2F5SmhEcW5sMGJw?=
+ =?utf-8?B?UEhiUUFuRmJObjZCckRadkRxUEZ5d05PK05ZWTRpU1hodkMwZWZ0dWpLZElt?=
+ =?utf-8?B?VVhSNUM2M2tFQ203a2FtTmh3VktxT1NJMHVIdnNTMUZYMmZjY3FzZGFWczdL?=
+ =?utf-8?B?UjRGVk4vQlJQL0VXbFpRS1krZSswYjRLR2QrNFBtd1M5cjloTmdWOEZwcTNE?=
+ =?utf-8?B?SmNsNml2VTYzQVo5aDQzSnBtRnVTMjdkSnVwWFN6S0pCNVJmTHQwWTNzZit1?=
+ =?utf-8?B?NUtiS085UmdrNnFZWjRFRDltd0J5aWZnOExacXdObndlQ2k3SlllWjQ0QzFY?=
+ =?utf-8?B?ZytVS1NRbkFhK3JybHdyUUVmQ2E1OWJZdWdGbmdLNzBFMkFsU25oLzNDemZ1?=
+ =?utf-8?B?aWo4MWk4Rk0yeEJ2QTBhUjlWV3c3RkNVdDRjUWRJcXVrSTlKcUQyN0VUOG1s?=
+ =?utf-8?B?U2RFOXg4bnUzTk1UNDNaejh4aE5BTEx6a01ER2RRcm85Z3A1Z29HdVVMTjF5?=
+ =?utf-8?B?amllK211ZGppeHlsY0JpMWk4WVhSTVRxYkswNUgxOVQxV29FVkNKYVFGRFl4?=
+ =?utf-8?B?RDZkdndZRWhOWWNsMWNsSytDcGw4SS85d09FSkxGcFJwY2VQSHRwQXl6MzR3?=
+ =?utf-8?B?NmtlbnZKS3U2dkp3WGQ5NzBuRUVHbzhnazBSWUdXZ3R2UzNucFBZU2I4cVdC?=
+ =?utf-8?B?Sm1INXAvUTJZWHZDa3lZYjFibXZab2RZWGVCUWtLam8welBpWWczUWd4Zk9v?=
+ =?utf-8?B?b3V3Z0h6Ui9wOGV0T1psUDlZdlNKVDY5VzZjOXYrVWh3eWM4K2J3N2Z2c1Bh?=
+ =?utf-8?B?WndXelUrTXZ6VldrelpDYUFwN3BQSEY5eE5vREFlK0E2ZXFjNTdXbWJvcEU0?=
+ =?utf-8?B?Rm52RWFJRlJWQkpCbTlLY3hHb1Jta3YyblhxVnhwQkE0UmkvSkI1ZGxROVlu?=
+ =?utf-8?B?bEtiK2dZN0Yxb3E1RWk3TUg4ZW5rQ0RjdmF0aWNtRGdEdGVNa0xCMDRmNjBS?=
+ =?utf-8?B?WGFlU2VRTWcwTmM4aHNFRTJidXVnVWpVRklMZWpzak1qVG5GRmdrQUNFT3VL?=
+ =?utf-8?B?QzJtdEg4OFdnOWZ3Y1dLNDJicjNxWFE1MnovZm9CeTRGa0M5WGZEWE5XS3F3?=
+ =?utf-8?B?aFZzMkFDeStOcGh5VnNNT3hRck8wRGJsK2k5YUtnamI4TjN1TWREOGpUQlFD?=
+ =?utf-8?B?S0Y0VWdmb0t2UFpLV3hVdHRHOW9aeE9pdzJkbWdZQVJXYktyMlhMWlhXdGVV?=
+ =?utf-8?B?cndGME80ZGI5THVGRGNyQmhOYm1DOHVWOU9RaWdRMUZaakp1VzRuaERxMFZJ?=
+ =?utf-8?B?RWNsVFMyMTAwMSs1MWJLK3FQd1kxL2c4SlZPZlJxb1pySlpUVGVsbmE4Q29p?=
+ =?utf-8?B?VXp1djA0VGVtVWo1OU5NMG4wa2lLZytFNnJOMTZEV3BVWEp3THJRbDF6YjVz?=
+ =?utf-8?B?Sm01MlN5MFh2Q2l1WTdrT2l0LzY0VjdIVzg3VDA1bGFXK3JSbWxqVC9uYWR6?=
+ =?utf-8?Q?wP2sTbBX+YJsEoWYnT67zkNXi6wqEn3fG?=
+MIME-Version: 1.0
+
+--_----cq7CscYUguNNRWAhCy66qA===_C3/77-12116-D7EEE486
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="UTF-8"
+
+Kostenlos mitmachen und gewinnen=0A=0A=0A=0A=0A( https://clicks.mcfit.com/f=
+/a/PmHXqCuQal3W-hYRlnQrEg~~/AAAHahA~/kateG1KAbLF7orbgS3r7UBclQiD5UYwi1DrO7N=
+bLRHj0mQEkLAEDaZe5XaB9jLF5uVJpUxlJepW4wzfr_lBy3SadtpWn2avulZkmZSHY_5MmKVMsx=
+frFf-lDYyJI40DB )=0A=0A=0A=0A=0A=0A=0AHallo Heinrich,=0A=0A=0A=0ADu bist je=
+tzt Teil des Sweat Teams! Wir w=C3=A4r=E2=80=99s mit einer=0Astarken Challe=
+nge, um so richtig durchzustarten=3F Dann sag hallo=0Azur Mission 25: Fit i=
+n den Sommer.=0A=0A=F0=9F=9A=80 Dein Ziel: 25 Workouts in 90 Tagen=0A=0AEga=
+l, ob du gerade erst mit dem Training beginnst oder deine=0ARoutine aufs n=
+=C3=A4chste Level pushen willst, jetzt kannst du zeigen,=0Awas in dir steck=
+t.=0A=0ADas Beste=3F Es erwarten dich jede Menge Goodies auf deinem Weg!=0A=
+=0ASo geht's:=0A=0A* Melde dich =C3=BCber den Button "jetzt kostenlos anmel=
+den" an.=0A* Die Challenge startet sofort nach deiner Anmeldung. Sie endet=
+=0Anach 90 Tagen oder wenn du die 25 Workouts geschafft hast.=0A* Zieh durc=
+h. Mit 2-3 Workouts pro Woche schaffst du es. Dein=0AFortschritt wird autom=
+atisch erfasst, so dass du dich komplett=0Aaufs Training fokussieren kannst=
+.=0AJETZT KOSTENLOS ANMELDEN  =0A( https://clicks.mcfit.com/f/a/SKZOScVK5s=
+hsJoJdiDiL6g~~/AAAHahA~/n4O4IYDl-BjtrrkUpJCi6teqsaQNovRyrgOdsvnCP4G9iihuXIJ=
+oMX-bPlmcj2vxaoXNSDyH0GqJbnWq4OJ2zG_e8Ky53LttRvf4hayzchqLhHk-hYKHaD3-lgEtB3=
+KF-mPQFRULRK44t7sPH_RFQqpLT9TwVlG06Iv-gEWF1DXa70ZMIrEiY4X3FnrxANlykzXE62lwg=
+YZPZCUevR3vypmVUsUbISqk2naPbiJF1vRJg6zY3t4YuO1dft7BhAX5VAUhRcGrH-RjTQmztGoj=
+6RICL9UAUV97gCsu9XOoK3YVQwLDWpAl_6ZxLLTcqFAe )=0A  Mit dem Anklicken des Bu=
+ttons =E2=80=9Ejetzt kostenlos teilnehmen=E2=80=9C=0Astimmst du unseren Tei=
+lnahmebedingungen =0A( https://clicks.mcfit.com/f/a/Jo5QzAAo46raY5G9yOXs4w~=
+~/AAAHahA~/5TrZAvq4h7D1Ittc2Jpa_EJ55EjpLf6HzIy1gd3DZxEIjaWwL9H1EonebGXkjR1Z=
+qQ-K3Tygl6vJHQILy1C55U5lJgLFjNvLv3b0xxGA9Rjyv2oIeltRjt6nxxNpwvHqp4o9j0VRrxM=
+ewxRtZQ-gOd4FzP7cdLRfySA_iTnTv2k-H6tzAIlwBntW08kr9LMx )=0A zu und erkl=C3=
+=A4rst, dass du die Datenschutzrichtlinien =0A( https://clicks.mcfit.com/f/=
+a/vm7fYSNtGuv3oYWV2jIPug~~/AAAHahA~/O1x237ncLGIdFw8xe1h8uNHGrxarVphz2fpbjWD=
+OAaJRahfd-v7O-czOLv65lqm-8wE3pTamyY007vcdI-3L5aX7Y6NuhAaGFxrz8_lRCMxfzeapxQ=
+1Z2SHVqymieUgr3jnBJdqpOpRuqLgueWtawq6p2EZj5lqRrLdHFEM7tz8~ )=0A zur Kenntni=
+s genommen hast. Dein Teilnahmelink ist=0Apersonalisiert und kann nicht an =
+andere weitergegeben werden.=0A=0AGIB ALLES.=0A=0ABEKOMM ALLES:=0A=0A------=
+--------=0AANMELDE=C2=ADPR=C3=84MIE=0A--------------=0A=0A=0A=0ADeine Anmel=
+depr=C3=A4mie: eine stylische McFIT-Trinkflasche*. Hol sie=0Adir im Studio =
+ab.=0A=0A=0A=0A--------------=0AERFOLGS=C2=ADPR=C3=84MIE=0A--------------=
+=0A=0ADeine Belohnung, wenn du die Challenge meisterst: 80% Rabatt f=C3=BCr=
+=0AGold=E2=80=99s Gym Apparel.=0A=0A-------------=0AGEWINN=C2=ADCHANCE=0A--=
+-----------=0A=0AUnter allen Teilnehmenden verlosen wir zus=C3=A4tzlich 1 v=
+on 15=0Anutribullet=C2=AE FLIP Mixern, 500=E2=82=AC ICIW Gutschein, 1.000=
+=E2=82=AC WeRoad=0AReisegutschein=0A=0ABist du dabei=3F Dann los!=0A=0AJETZ=
+T KOSTENLOS ANMELDEN  =0A( https://clicks.mcfit.com/f/a/a8yMXS3efBQqvW8J250=
+t7A~~/AAAHahA~/n4O4IYDl-BjtrrkUpJCi6teqsaQNovRyrgOdsvnCP4G9iihuXIJoMX-bPlmc=
+j2vxaoXNSDyH0GqJbnWq4OJ2zG_e8Ky53LttRvf4hayzchqOVSGcrmN02OCK2jbQlFNNnn10A5q=
+axfmDzY-MLiKxvSDfbUsMTc3ksU8cnSslv6XpMh7TkfDk-lzrZD3_XgCi-rC6D17anmmmqjnhvM=
+fj-oaFYqEV4JxIRXZsj_4TJ8pTv9xinLQ73Ef657hNEVgBUbKZZ4kS-eoc0cUl-xAMgDNDRgS7m=
+kTYYvYhMPBtn_RLmar_5kiKYAN47-JHHQsU )=0A   Mit dem Anklicken des Buttons =
+=E2=80=9Ejetzt kostenlos teilnehmen=E2=80=9C=0Astimmst du unseren Teilnahme=
+bedingungen =0A( https://clicks.mcfit.com/f/a/m1hashUq2jArLzMiKZKUHA~~/AAAH=
+ahA~/5TrZAvq4h7D1Ittc2Jpa_EJ55EjpLf6HzIy1gd3DZxEIjaWwL9H1EonebGXkjR1ZqQ-K3T=
+ygl6vJHQILy1C55ZSbK9u4gmu-nffZ6SaSiNVWl__tFUvX6J1PB-lSPyn81wAoH-VHTVJwcCSI2=
+BnL82TkuTW7ODXVBRR7o4xSZocJQIcwKolFF7dU7oVT0wtl )=0A zu und erkl=C3=A4rst, =
+dass du die Datenschutzrichtlinien =0A( https://clicks.mcfit.com/f/a/7mXpq-=
+ozETyqAzXLJcSG7Q~~/AAAHahA~/O1x237ncLGIdFw8xe1h8uNHGrxarVphz2fpbjWDOAaJRahf=
+d-v7O-czOLv65lqm-8wE3pTamyY007vcdI-3L5d1sAgUrDxApcFb83giUlAfTdvoAcB_tq1ky2Z=
+uX_2Aahd3l0NVqjmr90wzvjykwtbhguYdO9JMSBwREFr5Z2Kc~ )=0A zur Kenntnis genomm=
+en hast. Dein Teilnahmelink ist=0Apersonalisiert und kann nicht an andere w=
+eitergegeben werden.=0A=0AViel Erfolg!=0ADein=0AMcFIT-Team=0A=0A#Mission25 =
+#FitInDenSommer=0A=0A*Abzuholen in dem McFIT, in dem=0Adu deinen Vertrag ge=
+schlossen hast. Nur solange der Vorrat=0Areicht. Es gelten unsere Teilnahme=
+bedingungen sowie die=0ADatenschutzrichtlinien. Teilnahme nur f=C3=BCr Mitg=
+lieder ab 18=0AJahren. =0A=0A=0A( https://clicks.mcfit.com/f/a/9dmEQh2wYE46=
+E4-KIwxXnQ~~/AAAHahA~/jQczbcRk6ViV480Aqr10AJAaX_2M4Nyq7JhN5pakKhpIjhrXlAhe1=
+4WHPoixLNagUi9KCEKh_XgJKnsMkoFYwQ2safuQzQYfR1xvozR-Ug3RYnpUVpk15q66wSwuYIi_=
+eSBAzHZEFE21eWbCgTC06PvU5RNkYN98ZnYMBth1gpM~ )=0A    ( https://clicks.mcfit=
+.com/f/a/YHZ0zJyN2yJpJ9R2YVqmng~~/AAAHahA~/4m0j_WtMsVWm2SyZ1tRg3iy23VD2Qr-=
+8-rOa-LRPV6iO1JWTiPO1mPyJIMhyTsMBXlpSMEloEeuuBcK_Q9WHQKk_j-9oOYQqlbpsRQrYVZ=
+i7IUsFif7qmwjN9pZQQQduF7vssGBEcB3WI6HoIWTiyg~~ )=0A=0A=0A( https://clicks.m=
+cfit.com/f/a/uGSUIYuX5eGt-tjmfE_4RA~~/AAAHahA~/kateG1KAbLF7orbgS3r7UKOdJjkg=
+gFPesU0FHAtGArsDXJSnGi0XGtkNe_hmNBs0wWH_4Fx5yO9CkrybcVEXw6c7eNZjAgeUsmk8H0X=
+Qlb7MCKDRK9sRgDB0xV-9VzC7 )=0A=0A=0A( https://clicks.mcfit.com/f/a/fPsHVECt=
+AD5QM7SHzsxN3Q~~/AAAHahA~/KwtI076oeLZAKPoAYUOy2SCHLUIzXwx9sOgYfOLwQPoiUCslT=
+gSWt3zPOKe8PEst81dkHpEJ1032HpIm54XJ0mea2aIT5jhTwbVz03wyAqNxf_0Jo8FWhgEh7sbR=
+wFjmgIcG6lZ9cDxBBj-7lWvBnA~~ )=0AFacebook =0A( https://clicks.mcfit.com/f/a=
+/lbW8Rk0435iCT6qMZiUPHg~~/AAAHahA~/jQczbcRk6ViV480Aqr10AJAaX_2M4Nyq7JhN5pak=
+KhpIjhrXlAhe14WHPoixLNagwYq_CHPL1Vf3FmSpxa-7wUctFdHbJOYy1FNlblIPvHlmGOs60_g=
+jd22FQjNhRCAjQ4zHt1kPALi4KjsJrPEPmxsTpNBae1NPzahnLYgZeBk~ )=0A=0A=0AInstagr=
+am =0A( https://clicks.mcfit.com/f/a/7zEkVPIG814Kh2CMt8CjIA~~/AAAHahA~/4m0j=
+_WtMsVWm2SyZ1tRg3iy23VD2Qr-8-rOa-LRPV6iO1JWTiPO1mPyJIMhyTsMBNJh2FpQhdaHD4ys=
+7sZYL6l1y90OYWuWAhyWUzuUtR26wBYkctxfYlYzGSNEEAxBrjEu1Uf6BLxJVup3P9ySHMA~~ )=
+=0A=0AApp ( https://clicks.mcfit.com/f/a/G0FjCSjS2P2sn8BwPCNxcw~~/AAAHahA~/=
+kateG1KAbLF7orbgS3r7UPBDoEX6shfEhFb5tlImrL3EaK1FeEBRSVwaJpuVi6wK03seEIaQe82=
+is0uYUzdz_N9NJfzYvKLmgYp-Y8ztUdfiJkmBrjyJLTgxpD-RBD_x )=0A=0ABlog=0A=0A=0A=
+=0AImpressum=0AVerantwortlich f=C3=BCr journalistisch-redaktionelle Inhalte=
+ gem. =C2=A7=0A18 Abs. 2 MStV: RSG Group GmbH, Tannenberg 4, 96132=0ASchl=
+=C3=BCsselfeld; Amtsgericht Bamberg HRB 3145; UID-Nr. DE 185 786=0A214; Ver=
+tretungsberechtigter Gesch=C3=A4ftsf=C3=BChrer: Dr. Gerd Schaller,=0AHagen =
+Wingertszahn, Jobst M=C3=BCller-Trimbusch=0A=0AInfos & Kontakt=0ADu erh=C3=
+=A4ltst diese Email, weil du dich f=C3=BCr den McFIT Newsletter=0Aangemelde=
+t hast.=0AE-Mail-Pr=C3=A4ferenzen bearbeiten (=0Ahttps://clicks.mcfit.com/f=
+/a/530yPJ1YimUNKrooky_vFQ~~/AAAHahA~/KW1WcBCrwtykey8DYT7ZhJebW40qQkkxItC7GY=
+yroJDY9aZXnMyRXCKhY8fRHo62ipR6RNRj1HQsL0LJ8KNxDKaZZ4hWW6Q8UtOiNxJ1i3fNS_Ida=
+_ZkwmjxDIBETn5TLhqv1Tw6_I4APIILOhobeXMbPXGqYnnITHl-94nYTFP2_09W8gOZA3ujH42O=
+a6XeYk1N8FuuaHicGQ-oQb7CMAbobBgwd8pTW8_-AsWaSwDSya_A2VxjvTYE7P_6aZ6Qdg1zmY4=
+N-zU3lm5FvRM5159zeFylPiCL2BnYX3b-lIFp47R4C7mGQuzNuiEnrQdBVYWi0UTxt1e0pdwQ-H=
+QVxrxBq43P-W1_sZKThipNBDIv9dIsCndLojE3P3y4UErZrELAcPe5XknweON8G6wtBtALCTDu5=
+_m_b9ha7lLvTSsphZjuvGbZ58JRi2p733FwA1Ks2v-3a7vJWIoRaCOmkgOBSnjF0hui8cOqzpOz=
+nsmNyWcfyzcveivJvnMo3tJ5G0WBVDjTX7sh5RXut-pcNVybgfbKTTo-KyizQVhmwmXimdDrWoC=
+2AuGttaC5jGumN08_3yOnsOPqtyVu9G4a8s-rxI87DxFCSWngaPA3TJG9fy6nIQINzuMspJtbtD=
+ntaFzw3caQRETx5YPphn_L0fX6AFm1aRtPOC2Ikg2ZwsZOF9JSUY4t6y_CoGeXEV5VHiG3eEkF6=
+PopgjJkGeDrtQyN7WqEOSpLbsBYRSS0oFD002xzrLuBq5qouYOYfqvkUtEJ-0bIBgsKzJBFv1ZR=
+frcV5jGxDvV507SADWmLgkAVRk9gbrUJix_Ti0KQYcuiTmhLE7Px727BKQje-_w3XSmCvYqqksD=
+f_jf7ItkXONdrD4tSYPCE7_olni4GIQkBVZ-EVRDRtPRaNm8nURg7UEMef-8vpjE-ITXaJ-gwG2=
+Bdp_7fO5OGPonQCNLJ-P5zjoJ3_xOgOMom6GxrOdrP2TV_h3iqObofd6buD5JQ6Lwhy7eaHkWtr=
+QfAlBBBuMTB1HOa6VE6EaFyveIS8zIYDKS2A9a2BsMgy_scwOiaOkc3TF1E9KD1NYb2BY7rPJHI=
+_JWmjeCKWDJxtXTU3YMU2FJbjbORI4GrkybK7fMQkCShcUDsfn_rLsfoRs3Byt1lDUJqsGOGgZD=
+d87ii1TJN4gkZrXbZJNDOrDVV_nvAYu8~ )=0A=0ADu brauchst Support=3F Unser Helpc=
+enter findest du hier =0A( https://clicks.mcfit.com/f/a/DpvrxBgNWAu98L4SrfG=
+k1g~~/AAAHahA~/pLlJrZnaH3D8ChDgg5LAoXwud-cikJxeDK6VDI-oZ3lXr5GfjZIsVd8JUwxU=
+OAwq38sswhBwMyix6kopcUiMEFk_RnDy6B88uQ8OYiSPr3eHvC19I8M3_WwSdtedzbg1 ).
+--_----cq7CscYUguNNRWAhCy66qA===_C3/77-12116-D7EEE486
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+
+<!DOCTYPE html><html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"u=
+rn:schemas-microsoft-com:office:office" lang=3D"en"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><t=
+itle></title>=0A=
+=0A=
+<meta name=3D"viewport" content=3D"width=3Ddevice-width,initial-scale=3D1">=
+=0A=
+<!--[if mso]>=0A=
+<xml><w:WordDocument xmlns:w=3D"urn:schemas-microsoft-com:office:word"><w:D=
+ontUseAdvancedTypographyReadingMail/></w:WordDocument>=0A=
+<o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch><o:AllowPNG/=
+></o:OfficeDocumentSettings></xml>=0A=
+<![endif]--><!--[if !mso]><!--><link href=3D"https://use.typekit.net/irs5uk=
+i.css" rel=3D"stylesheet" type=3D"text/css">=0A=
+<!--<![endif]--><style>=0A=
+*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{c=
+olor:inherit!important;text-decoration:inherit!important}#MessageViewBody a=
+{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.de=
+sktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.im=
+age_block img+div{display:none}sub,sup{font-size:75%;line-height:0}#convert=
+ed-body .list_block ol,#converted-body .list_block ul,.body [class~=3Dx_lis=
+t_block] ol,.body [class~=3Dx_list_block] ul,u+.body .list_block ol,u+.body=
+ .list_block ul{padding-left:20px} @media (max-width:620px){.image_block di=
+v.fullWidth{max-width:100%!important}.mobile_hide{display:none}.row-content=
+{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{=
+min-height:0;max-height:0;max-width:0;overflow:hidden;font-size:0}.desktop_=
+hide,.desktop_hide table{display:table!important;max-height:none!important}=
+}=0A=
+</style>=0A=
+<!--[if mso ]><style>sup, sub { font-size: 100% !important; } sup { mso-tex=
+t-raise:10% } sub { mso-text-raise:-10% }</style> <![endif]-->=0A=
+</head>=0A=
+<body class=3D"body" style=3D"margin:0;padding:0;-webkit-text-size-adjust:n=
+one;text-size-adjust:none;background-color:#fff">=0A=
+<div style=3D"display:none !important;visibility:hidden;mso-hide:all;font-s=
+ize:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:=
+0;overflow:hidden;">Kostenlos mitmachen und gewinnen</div>=0A=
+<div style=3D"display:none !important;visibility:hidden;mso-hide:all;font-s=
+ize:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:=
+0;overflow:hidden;">=CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=
+=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=
+=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=
+=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=
+=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =
+=CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=
+=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =
+&nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=
+=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =
+=EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbs=
+p; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =
+=E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=
+=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =
+=E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=
+=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=
+=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=
+=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=
+=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =
+=CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=
+=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =
+&nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=
+=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =
+=EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbs=
+p; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =
+=E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=
+=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =
+=E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=
+=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=
+=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=
+=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=
+=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =
+=CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=
+=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =
+&nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=
+=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =
+=EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbs=
+p; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =
+=E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=
+=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =
+=E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=
+=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=
+=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=
+=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=
+=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =
+=CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=
+=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =
+&nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=
+=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =
+=EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbs=
+p; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =
+=E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=
+=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =
+=E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=
+=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=
+=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=
+=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=
+=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =
+=CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=
+=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =
+&nbsp; =E2=80=87 =EF=BB=BF </div>=0A=
+<table class=3D"nl-container" width=3D"100%" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-ta=
+ble-rspace:0;background-color:#fff"><tbody>=0A=
+<tr><td>=0A=
+<table class=3D"row row-1" align=3D"center" width=3D"100%" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-l=
+space:0;mso-table-rspace:0"><tbody><tr><td><table class=3D"row-content" ali=
+gn=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pres=
+entation" style=3D"mso-table-lspace:0;mso-table-rspace:0;background-color:#=
+fff;border-radius:0;color:#000;width:600px;margin:0 auto" width=3D"600"><tb=
+ody><tr><td class=3D"column column-1" width=3D"100%" style=3D"mso-table-lsp=
+ace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top=
+">=0A=
+<table class=3D"paragraph_block block-1" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad"><div s=
+tyle=3D"color:#f0077b;direction:ltr;font-family:Courier,Tahoma,Geneva,Arial=
+,Sans-serif;font-size:14px;font-weight:400;letter-spacing:0;line-height:1.2=
+;text-align:center;mso-line-height-alt:17px">=0A=
+<p style=3D"margin:0"></p></div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-4" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad"><div s=
+tyle=3D"color:#222e39;direction:ltr;font-family:Courier,Tahoma,Geneva,Arial=
+,Sans-serif;font-size:16px;font-weight:400;letter-spacing:0;line-height:1.5=
+;text-align:center;mso-line-height-alt:24px">=0A=
+<p style=3D"margin:0"></p>=0A=
+<table class=3D"nl-container" width=3D"100%" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-ta=
+ble-rspace:0;background-color:#fff"><tbody><tr><td><table class=3D"row row-=
+1" align=3D"center" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace=
+:0"><tbody><tr><td><table class=3D"row-content" align=3D"center" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-t=
+able-lspace:0;mso-table-rspace:0;background-color:#fff;border-radius:0;colo=
+r:#000;width:600px;margin:0 auto" width=3D"600"><tbody><tr>=0A=
+<td class=3D"column column-1" width=3D"41.666666666666664%" style=3D"mso-ta=
+ble-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;padding-bot=
+tom:40px;padding-left:40px;padding-right:40px;padding-top:40px;vertical-ali=
+gn:middle"><table class=3D"empty_block block-1" width=3D"100%" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-tab=
+le-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad"><div></div></td></tr>=
+</table></td>=0A=
+<td class=3D"column column-2" width=3D"16.666666666666668%" style=3D"mso-ta=
+ble-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;padding-bot=
+tom:5px;padding-top:5px;vertical-align:middle">=0A=
+<table class=3D"paragraph_block block-1" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad"><div s=
+tyle=3D"color:#222e39;direction:ltr;font-family:Bitter,Tahoma,Geneva,Arial,=
+Sans-serif;font-size:12px;font-weight:400;letter-spacing:0;line-height:120%=
+;text-align:left;mso-line-height-alt:14.399999999999999px"><p style=3D"marg=
+in:0"></p></div></td></tr></table>=0A=
+<table class=3D"image_block block-4" width=3D"100%" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0=
+;mso-table-rspace:0"><tr><td class=3D"pad" style=3D"width:100%;padding-righ=
+t:0;padding-left:0"><div class=3D"alignment" align=3D"center" style=3D"line=
+-height:10px"><div style=3D"max-width:50px"><a href=3D"https://clicks.mcfit=
+.com/f/a/PmHXqCuQal3W-hYRlnQrEg~~/AAAHahA~/kateG1KAbLF7orbgS3r7UBclQiD5UYwi=
+1DrO7NbLRHj0mQEkLAEDaZe5XaB9jLF5uVJpUxlJepW4wzfr_lBy3SadtpWn2avulZkmZSHY_5M=
+mKVMsxfrFf-lDYyJI40DB" target=3D"_blank" style=3D"outline:none" tabindex=3D=
+"-1"><img src=3D"https://cdn.braze.eu/appboy/communication/assets/image_ass=
+ets/images/6554cb1f6fce81100aa82f54/original.png?1700055839" style=3D"displ=
+ay:block;height:auto;border:0;width:100%" width=3D"50" alt=3D"" title=3D"" =
+height=3D"auto"></a></div></div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-5" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad"><div s=
+tyle=3D"color:#222e39;direction:ltr;font-family:Bitter,Tahoma,Geneva,Arial,=
+Sans-serif;font-size:12px;font-weight:400;letter-spacing:0;line-height:120%=
+;text-align:left;mso-line-height-alt:14.399999999999999px"><p style=3D"marg=
+in:0"></p></div></td></tr></table>=0A=
+</td>=0A=
+<td class=3D"column column-3" width=3D"41.666666666666664%" style=3D"mso-ta=
+ble-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;padding-bot=
+tom:5px;padding-top:5px;vertical-align:middle"><table class=3D"empty_block =
+block-1" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" ro=
+le=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td=
+ class=3D"pad"><div></div></td></tr></table></td>=0A=
+</tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table>=
+=0A=
+<!-- End -->=0A=
+</div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-5" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad"><div s=
+tyle=3D"color:#f0077b;direction:ltr;font-family:Courier,Tahoma,Geneva,Arial=
+,Sans-serif;font-size:14px;font-weight:400;letter-spacing:0;line-height:1.2=
+;text-align:center;mso-line-height-alt:17px"><p style=3D"margin:0"></p></di=
+v></td></tr></table>=0A=
+</td></tr></tbody></table></td></tr></tbody></table>=0A=
+<table class=3D"row row-2" align=3D"center" width=3D"100%" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-l=
+space:0;mso-table-rspace:0">=0A=
+<tbody><tr><td>=0A=
+<table class=3D"row-content stack" align=3D"center" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0=
+;mso-table-rspace:0;background-color:#fff;border-radius:0;color:#000;width:=
+600px;margin:0 auto" width=3D"600"><tbody><tr><td class=3D"column column-1"=
+ width=3D"100%" style=3D"mso-table-lspace:0;mso-table-rspace:0;font-weight:=
+400;text-align:left;padding-bottom:5px;padding-top:5px;vertical-align:top">=
+<table class=3D"image_block block-1" width=3D"100%" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0=
+;mso-table-rspace:0"><tr><td class=3D"pad" style=3D"width:100%"><div class=
+=3D"alignment" align=3D"center"><div style=3D"max-width:600px"><img src=3D"=
+https://cdn.braze.eu/appboy/communication/assets/image_assets/images/67e6a3=
+7a3d241f0065477976/original.jpg?1743168377" style=3D"display:block;height:a=
+uto;border:0;width:100%" width=3D"600" alt=3D"" title=3D"" height=3D"auto">=
+</div></div></td></tr></table></td></tr></tbody></table>=0A=
+</td></tr></tbody>=0A=
+</table>=0A=
+<table class=3D"row row-3" align=3D"center" width=3D"100%" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-l=
+space:0;mso-table-rspace:0"><tbody><tr><td><table class=3D"row-content stac=
+k" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;background=
+-color:#fff;color:#000;width:600px;margin:0 auto" width=3D"600"><tbody><tr>=
+<td class=3D"column column-1" width=3D"100%" style=3D"mso-table-lspace:0;ms=
+o-table-rspace:0;font-weight:400;text-align:left;padding-bottom:5px;padding=
+-top:5px;vertical-align:top">=0A=
+<table class=3D"paragraph_block block-1" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad"><div s=
+tyle=3D"color:#f0077b;direction:ltr;font-family:canada-type-gibson,Tahoma,G=
+eneva,Arial,Sans-serif;font-size:14px;font-weight:400;letter-spacing:0;line=
+-height:1.2;text-align:center;mso-line-height-alt:17px"><p style=3D"margin:=
+0"></p></div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-2" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-bottom:10px;padding-left:20px;padding-right:20px;padding-top:10=
+px"><div style=3D"color:#222e39;direction:ltr;font-family:gibson-book,Arial=
+,Sans-serif;font-size:18px;font-weight:400;letter-spacing:0;line-height:1.5=
+;text-align:left;mso-line-height-alt:27px"><p style=3D"margin:0">Hallo Hein=
+rich,</p></div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-3" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad"><div s=
+tyle=3D"color:#f0077b;direction:ltr;font-family:canada-type-gibson,Tahoma,G=
+eneva,Arial,Sans-serif;font-size:14px;font-weight:400;letter-spacing:0;line=
+-height:1.5;text-align:center;mso-line-height-alt:21px"><p style=3D"margin:=
+0"></p></div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-6" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-bottom:5px;padding-left:20px;padding-right:20px;padding-top:10p=
+x"><div style=3D"color:#222e39;direction:ltr;font-family:gibson-book,Arial,=
+Sans-serif;font-size:18px;font-weight:400;letter-spacing:0;line-height:1.5;=
+text-align:left;mso-line-height-alt:27px">=0A=
+<p style=3D"margin:0;margin-bottom:0">=0A=
+Du bist jetzt Teil des Sweat Teams! Wir w=C3=A4r=E2=80=99s mit einer starke=
+n Challenge, um so richtig durchzustarten? <strong>Dann sag hallo zur Missi=
+on 25: Fit in den Sommer.&nbsp;</strong></p>=0A=
+<p style=3D"margin:0;margin-bottom:0">&nbsp;</p>=0A=
+<p aria-level=3D"1" style=3D"margin:0;margin-bottom:0">=F0=9F=9A=80 Dein Zi=
+el: <strong>25 Workouts in 90 Tagen</strong>&nbsp;<br>&nbsp;</p>=0A=
+<p style=3D"margin:0;margin-bottom:0">=0A=
+Egal, ob du gerade erst mit dem Training beginnst oder deine Routine aufs n=
+=C3=A4chste Level pushen willst, jetzt kannst du zeigen, was in dir steckt.=
+&nbsp;<br>&nbsp;</p>=0A=
+<p style=3D"margin:0;margin-bottom:0">Das Beste? Es erwarten dich jede Meng=
+e<strong> Goodies </strong>auf deinem Weg!&nbsp;</p>=0A=
+<p style=3D"margin:0;margin-bottom:0">&nbsp;</p>=0A=
+<p style=3D"margin:0"><strong>So geht's:</strong></p>=0A=
+</div></td></tr></table>=0A=
+<table class=3D"list_block block-7" width=3D"100%" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;=
+mso-table-rspace:0;word-break:break-word;color:#222e39;direction:ltr;font-f=
+amily:gibson-book,Arial,Sans-serif;font-size:16px;font-weight:400;letter-sp=
+acing:0;line-height:1.5;text-align:left;mso-line-height-alt:24px"><tr><td c=
+lass=3D"pad" style=3D"padding-bottom:10px;padding-left:40px;padding-right:4=
+0px"><div style=3D"margin-left:-20px"><ul start=3D"1" style=3D"margin-top:0=
+;margin-bottom:0;list-style-type:disc">=0A=
+<li style=3D"Margin:0 0 1px 0">=0A=
+Melde dich =C3=BCber den Button &quot;jetzt kostenlos anmelden&quot; an.</l=
+i>=0A=
+<li style=3D"Margin:0 0 1px 0">Die Challenge startet sofort nach deiner Anm=
+eldung. Sie endet nach 90 Tagen oder wenn du die 25 Workouts geschafft hast=
+.</li>=0A=
+<li style=3D"Margin:0 0 1px 0">Zieh durch. Mit 2-3 Workouts pro Woche schaf=
+fst du es. Dein Fortschritt wird automatisch erfasst, so dass du dich kompl=
+ett aufs Training fokussieren kannst.</li>=0A=
+</ul></div></td></tr></table>=0A=
+<table class=3D"button_block block-8" width=3D"100%" border=3D"0" cellpaddi=
+ng=3D"10" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace=
+:0;mso-table-rspace:0"><tr><td class=3D"pad"><div class=3D"alignment" align=
+=3D"center"><a href=3D"https://clicks.mcfit.com/f/a/SKZOScVK5shsJoJdiDiL6g~=
+~/AAAHahA~/n4O4IYDl-BjtrrkUpJCi6teqsaQNovRyrgOdsvnCP4G9iihuXIJoMX-bPlmcj2vx=
+aoXNSDyH0GqJbnWq4OJ2zG_e8Ky53LttRvf4hayzchqLhHk-hYKHaD3-lgEtB3KF-mPQFRULRK4=
+4t7sPH_RFQqpLT9TwVlG06Iv-gEWF1DXa70ZMIrEiY4X3FnrxANlykzXE62lwgYZPZCUevR3vyp=
+mVUsUbISqk2naPbiJF1vRJg6zY3t4YuO1dft7BhAX5VAUhRcGrH-RjTQmztGoj6RICL9UAUV97g=
+Csu9XOoK3YVQwLDWpAl_6ZxLLTcqFAe" target=3D"_blank" style=3D"color:#222e39;t=
+ext-decoration:none;"><!--[if mso]>=0A=
+<v:roundrect xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schem=
+as-microsoft-com:office:word"  href=3D"https://clicks.mcfit.com/f/a/SKZOScV=
+K5shsJoJdiDiL6g~~/AAAHahA~/n4O4IYDl-BjtrrkUpJCi6teqsaQNovRyrgOdsvnCP4G9iihu=
+XIJoMX-bPlmcj2vxaoXNSDyH0GqJbnWq4OJ2zG_e8Ky53LttRvf4hayzchqLhHk-hYKHaD3-lgE=
+tB3KF-mPQFRULRK44t7sPH_RFQqpLT9TwVlG06Iv-gEWF1DXa70ZMIrEiY4X3FnrxANlykzXE62=
+lwgYZPZCUevR3vypmVUsUbISqk2naPbiJF1vRJg6zY3t4YuO1dft7BhAX5VAUhRcGrH-RjTQmzt=
+Goj6RICL9UAUV97gCsu9XOoK3YVQwLDWpAl_6ZxLLTcqFAe"  style=3D"height:64px;widt=
+h:574px;v-text-anchor:middle;" arcsize=3D"0%" fillcolor=3D"#ffcc00">=0A=
+<v:stroke dashstyle=3D"Solid" weight=3D"3px" color=3D"#ffcc00"/>=0A=
+<w:anchorlock/>=0A=
+<v:textbox inset=3D"0px,0px,0px,0px">=0A=
+<center dir=3D"false" style=3D"color:#222e39;font-family:sans-serif;font-si=
+ze:16px">=0A=
+<![endif]-->=0A=
+<span class=3D"button" style=3D"background-color: #ffcc00; border-bottom: 3=
+px solid transparent; border-left: 3px solid transparent; border-radius: 0p=
+x; border-right: 3px solid transparent; border-top: 3px solid transparent; =
+color: #222e39; display: inline-block; font-family: 'canada-type-gibson', '=
+Tahoma', 'Impact', 'Geneva', Sans-serif; font-size: 16px; font-weight: 700;=
+ mso-border-alt: none; padding-bottom: 16px; padding-top: 16px; padding-lef=
+t: 60px; padding-right: 60px; text-align: center; width: 100%; word-break: =
+keep-all; letter-spacing: normal;"><span style=3D"word-break: break-word; l=
+ine-height: 32px;">JETZT KOSTENLOS ANMELDEN</span></span>=0A=
+<!--[if mso]></center></v:textbox></v:roundrect><![endif]--></a></div></td>=
+</tr></table>=0A=
+<table class=3D"paragraph_block block-9" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-bottom:30px;padding-left:20px;padding-right:20px;padding-top:15=
+px"><div style=3D"color:#222e39;direction:ltr;font-family:gibson-book,Arial=
+,Sans-serif;font-size:12px;font-weight:400;letter-spacing:0;line-height:1.5=
+;text-align:left;mso-line-height-alt:18px"><p style=3D"margin:0">=0A=
+Mit dem Anklicken des Buttons =E2=80=9Ejetzt kostenlos teilnehmen=E2=80=9C =
+stimmst du unseren <a href=3D"https://clicks.mcfit.com/f/a/Jo5QzAAo46raY5G9=
+yOXs4w~~/AAAHahA~/5TrZAvq4h7D1Ittc2Jpa_EJ55EjpLf6HzIy1gd3DZxEIjaWwL9H1Eoneb=
+GXkjR1ZqQ-K3Tygl6vJHQILy1C55U5lJgLFjNvLv3b0xxGA9Rjyv2oIeltRjt6nxxNpwvHqp4o9=
+j0VRrxMewxRtZQ-gOd4FzP7cdLRfySA_iTnTv2k-H6tzAIlwBntW08kr9LMx" target=3D"_bl=
+ank" title=3D"http://clicks.mcfit.com/f/a/aHxPja97AbNbDzWb-O3XPQ~~/AAAHagA~=
+/RgRpJrTZP0S_aHR0cHM6Ly93d3cubWNmaXQuY29tL3JlY2h0bGljaGVzLWZpdG5lc3NjaGFsbG=
+VuZ2U_bGlkPTlicWphMnJiaHRlYyZ1dG1fc291cmNlPUVtYWlsJnV0bV9tZWRpdW09QnJhemUmd=
+XRtX2NhbXBhaWduPURFLUFESE9DLUNPTU0tRU1BSUwtTWNGSVQtRml0bmVzc2NoYWxsZW5nZTEx=
+LzI0LU1haWwtMDEjdGVpbG5haG1lYmVkaW5ndW5nZW5XBXNwY2V1QgpnQNkvRGedQDtJUhJrbGF=
+nZUByc2dncm91cC5jb21YBAAAA3c~" style=3D"text-decoration: underline; color: =
+#222E39;" rel=3D"noopener">Teilnahmebedingungen</a> zu und erkl=C3=A4rst, d=
+ass du die <a href=3D"https://clicks.mcfit.com/f/a/vm7fYSNtGuv3oYWV2jIPug~~=
+/AAAHahA~/O1x237ncLGIdFw8xe1h8uNHGrxarVphz2fpbjWDOAaJRahfd-v7O-czOLv65lqm-8=
+wE3pTamyY007vcdI-3L5aX7Y6NuhAaGFxrz8_lRCMxfzeapxQ1Z2SHVqymieUgr3jnBJdqpOpRu=
+qLgueWtawq6p2EZj5lqRrLdHFEM7tz8~" target=3D"_blank" title=3D"http://clicks.=
+mcfit.com/f/a/i3wvQfYtlGkfX_8m3zUwAw~~/AAAHagA~/RgRpJrTZP0S2aHR0cHM6Ly93d3c=
+ubWNmaXQuY29tL3JlY2h0bGljaGVzLWZpdG5lc3NjaGFsbGVuZ2U_bGlkPWR4dzhsMnF1N244cS=
+Z1dG1fc291cmNlPUVtYWlsJnV0bV9tZWRpdW09QnJhemUmdXRtX2NhbXBhaWduPURFLUFESE9DL=
+UNPTU0tRU1BSUwtTWNGSVQtRml0bmVzc2NoYWxsZW5nZTExLzI0LU1haWwtMDEjZGF0ZW5zY2h1=
+dHpXBXNwY2V1QgpnQNkvRGedQDtJUhJrbGFnZUByc2dncm91cC5jb21YBAAAA3c~" style=3D"=
+text-decoration: underline; color: #222E39;" rel=3D"noopener">Datenschutzri=
+chtlinien</a> zur Kenntnis genommen hast. Dein Teilnahmelink ist personalis=
+iert und kann nicht an andere weitergegeben werden.=0A=
+</p></div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-10" width=3D"100%" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lsp=
+ace:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-bottom:10px;padding-left:20px;padding-right:20px;padding-top:30=
+px"><div style=3D"color:#fc0;direction:ltr;font-family:gibson-book,Arial,Sa=
+ns-serif;font-size:40px;font-weight:400;letter-spacing:0;line-height:1.2;te=
+xt-align:center;mso-line-height-alt:48px">=0A=
+<p style=3D"margin:0;margin-bottom:0"><strong>GIB ALLES.</strong></p>=0A=
+<p style=3D"margin:0"><strong>BEKOMM ALLES:</strong></p>=0A=
+</div></td></tr></table>=0A=
+</td></tr></tbody></table></td></tr></tbody></table>=0A=
+<table class=3D"row row-4" align=3D"center" width=3D"100%" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-l=
+space:0;mso-table-rspace:0"><tbody><tr><td><table class=3D"row-content" ali=
+gn=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pres=
+entation" style=3D"mso-table-lspace:0;mso-table-rspace:0;background-color:#=
+fff;color:#000;width:600px;margin:0 auto" width=3D"600"><tbody><tr>=0A=
+<td class=3D"column column-1" width=3D"66.66666666666667%" style=3D"mso-tab=
+le-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;padding-bott=
+om:5px;padding-left:10px;padding-top:5px;vertical-align:middle">=0A=
+<table class=3D"heading_block block-1" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"10" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspac=
+e:0;mso-table-rspace:0"><tr>=0A=
+<td class=3D"pad"><h2 style=3D"margin:0;color:#222e39;direction:ltr;font-fa=
+mily:gibson-book,Tahoma,Geneva,Arial,Sans-serif;font-size:30px;font-weight:=
+400;letter-spacing:normal;line-height:1.2;text-align:left;margin-top:0;marg=
+in-bottom:0;mso-line-height-alt:36px"><strong><span class=3D"tinyMce-placeh=
+older" style=3D"word-break: break-word;">ANMELDE=C2=ADPR=C3=84MIE</span></s=
+trong></h2></td>=0A=
+</tr></table>=0A=
+<table class=3D"paragraph_block block-2" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad"><div s=
+tyle=3D"color:#f0077b;direction:ltr;font-family:Courier,Tahoma,Geneva,Arial=
+,Sans-serif;font-size:14px;font-weight:400;letter-spacing:0;line-height:1.2=
+;text-align:center;mso-line-height-alt:17px"><p style=3D"margin:0"></p></di=
+v></td></tr></table>=0A=
+<table class=3D"paragraph_block block-5" width=3D"100%" border=3D"0" cellpa=
+dding=3D"10" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lsp=
+ace:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad"><div =
+style=3D"color:#222e39;direction:ltr;font-family:gibson-book,Arial,Sans-ser=
+if;font-size:18px;font-weight:400;letter-spacing:0;line-height:1.5;text-ali=
+gn:left;mso-line-height-alt:27px"><p style=3D"margin:0">Deine Anmeldepr=C3=
+=A4mie: eine stylische McFIT-Trinkflasche*. Hol sie dir im Studio ab.</p></=
+div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-6" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr>=0A=
+<td class=3D"pad"><div style=3D"color:#f0077b;direction:ltr;font-family:Cou=
+rier,Tahoma,Geneva,Arial,Sans-serif;font-size:14px;font-weight:400;letter-s=
+pacing:0;line-height:1.2;text-align:center;mso-line-height-alt:17px"><p sty=
+le=3D"margin:0"></p></div></td>=0A=
+</tr></table>=0A=
+</td>=0A=
+<td class=3D"column column-2" width=3D"33.333333333333336%" style=3D"mso-ta=
+ble-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;background-=
+color:#fe66bb;padding-bottom:5px;padding-left:10px;padding-right:10px;paddi=
+ng-top:5px;vertical-align:middle"><table class=3D"image_block block-1" widt=
+h=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"present=
+ation" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad=
+" style=3D"width:100%;padding-right:0;padding-left:0"><div class=3D"alignme=
+nt" align=3D"center"><div class=3D"fullWidth" style=3D"max-width:126px"><im=
+g src=3D"https://cdn.braze.eu/appboy/communication/assets/image_assets/imag=
+es/67e3b1c72befd80074b5cafd/original.png?1742975430" style=3D"display:block=
+;height:auto;border:0;width:100%" width=3D"126" alt=3D"" title=3D"" height=
+=3D"auto"></div></div></td></tr></table></td>=0A=
+</tr></tbody></table></td></tr></tbody></table>=0A=
+<table class=3D"row row-5" align=3D"center" width=3D"100%" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-l=
+space:0;mso-table-rspace:0"><tbody><tr>=0A=
+<td><table class=3D"row-content stack" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;background-color:#fff;border-radius:0;color:#000;wi=
+dth:600px;margin:0 auto" width=3D"600"><tbody><tr><td class=3D"column colum=
+n-1" width=3D"100%" style=3D"mso-table-lspace:0;mso-table-rspace:0;font-wei=
+ght:400;text-align:left;padding-bottom:5px;padding-top:5px;vertical-align:t=
+op"><div class=3D"spacer_block block-1" style=3D"height:20px;line-height:20=
+px;font-size:1px">=E2=80=8A</div></td></tr></tbody></table></td>=0A=
+</tr></tbody></table>=0A=
+<table class=3D"row row-6" align=3D"center" width=3D"100%" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-l=
+space:0;mso-table-rspace:0"><tbody><tr><td><table class=3D"row-content" ali=
+gn=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pres=
+entation" style=3D"mso-table-lspace:0;mso-table-rspace:0;background-color:#=
+fff;color:#000;width:600px;margin:0 auto" width=3D"600"><tbody><tr>=0A=
+<td class=3D"column column-1" width=3D"33.333333333333336%" style=3D"mso-ta=
+ble-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;background-=
+color:#57d8f8;vertical-align:middle"><table class=3D"image_block block-1" w=
+idth=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pres=
+entation" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D"=
+pad" style=3D"width:100%;padding-right:0;padding-left:0"><div class=3D"alig=
+nment" align=3D"center"><div class=3D"fullWidth" style=3D"max-width:140px">=
+<img src=3D"https://cdn.braze.eu/appboy/communication/assets/image_assets/i=
+mages/67e3b1c77da6f70065a4567c/original.png?1742975430" style=3D"display:bl=
+ock;height:auto;border:0;width:100%" width=3D"140" alt=3D"" title=3D"" heig=
+ht=3D"auto"></div></div></td></tr></table></td>=0A=
+<td class=3D"column column-2" width=3D"66.66666666666667%" style=3D"mso-tab=
+le-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;padding-bott=
+om:5px;padding-right:10px;padding-top:5px;vertical-align:middle">=0A=
+<table class=3D"heading_block block-1" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"10" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspac=
+e:0;mso-table-rspace:0"><tr><td class=3D"pad"><h2 style=3D"margin:0;color:#=
+222e39;direction:ltr;font-family:gibson-book,Tahoma,Geneva,Arial,Sans-serif=
+;font-size:30px;font-weight:400;letter-spacing:normal;line-height:1.2;text-=
+align:right;margin-top:0;margin-bottom:0;mso-line-height-alt:36px"><strong>=
+<span class=3D"tinyMce-placeholder" style=3D"word-break: break-word;">ERFOL=
+GS=C2=ADPR=C3=84MIE</span></strong></h2></td></tr></table>=0A=
+<table class=3D"paragraph_block block-2" width=3D"100%" border=3D"0" cellpa=
+dding=3D"10" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lsp=
+ace:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad"><div =
+style=3D"color:#222e39;direction:ltr;font-family:gibson-book,Arial,Sans-ser=
+if;font-size:18px;font-weight:400;letter-spacing:0;line-height:1.5;text-ali=
+gn:right;mso-line-height-alt:27px"><p style=3D"margin:0">Deine Belohnung, w=
+enn du die Challenge meisterst: 80% Rabatt f=C3=BCr Gold=E2=80=99s Gym Appa=
+rel.</p></div></td></tr></table>=0A=
+</td>=0A=
+</tr></tbody></table></td></tr></tbody></table>=0A=
+<table class=3D"row row-7" align=3D"center" width=3D"100%" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-l=
+space:0;mso-table-rspace:0"><tbody><tr><td><table class=3D"row-content" ali=
+gn=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pres=
+entation" style=3D"mso-table-lspace:0;mso-table-rspace:0;background-color:#=
+fff;color:#000;width:600px;margin:0 auto" width=3D"600"><tbody><tr><td clas=
+s=3D"column column-1" width=3D"100%" style=3D"mso-table-lspace:0;mso-table-=
+rspace:0;font-weight:400;text-align:left;padding-top:30px;vertical-align:mi=
+ddle">=0A=
+<table class=3D"heading_block block-1" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace=
+:0;mso-table-rspace:0"><tr><td class=3D"pad" style=3D"padding-bottom:10px;p=
+adding-left:10px;padding-right:10px;padding-top:25px;text-align:center;widt=
+h:100%"><h2 style=3D"margin:0;color:#222e39;direction:ltr;font-family:gibso=
+n-book,Tahoma,Geneva,Arial,Sans-serif;font-size:30px;font-weight:400;letter=
+-spacing:normal;line-height:1.2;text-align:center;margin-top:0;margin-botto=
+m:0;mso-line-height-alt:36px"><strong><span class=3D"tinyMce-placeholder" s=
+tyle=3D"word-break: break-word;">GEWINN=C2=ADCHANCE</span></strong></h2></t=
+d></tr></table>=0A=
+<table class=3D"paragraph_block block-2" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-bottom:10px;padding-left:20px;padding-right:20px;padding-top:10=
+px"><div style=3D"color:#222e39;direction:ltr;font-family:gibson-book,Arial=
+,Sans-serif;font-size:18px;font-weight:400;letter-spacing:0;line-height:1.5=
+;text-align:center;mso-line-height-alt:27px"><p style=3D"margin:0">=0A=
+Unter allen Teilnehmenden verlosen wir zus=C3=A4tzlich 1 von 15 nutribullet=
+=C2=AE FLIP Mixern, 500=E2=82=AC ICIW Gutschein, 1.000=E2=82=AC WeRoad Reis=
+egutschein</p></div></td></tr></table>=0A=
+</td></tr></tbody></table></td></tr></tbody></table>=0A=
+<table class=3D"row row-8" align=3D"center" width=3D"100%" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-l=
+space:0;mso-table-rspace:0"><tbody><tr><td><table class=3D"row-content" ali=
+gn=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pres=
+entation" style=3D"mso-table-lspace:0;mso-table-rspace:0;background-color:#=
+fff;border-radius:0;color:#000;width:600px;margin:0 auto" width=3D"600"><tb=
+ody><tr>=0A=
+<td class=3D"column column-1" width=3D"33.333333333333336%" style=3D"mso-ta=
+ble-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;background-=
+color:#fe66bb;border-bottom:4px solid #fff;border-left:4px solid #fff;borde=
+r-right:4px solid #fff;border-top:4px solid #fff;padding-left:10px;padding-=
+right:10px;vertical-align:top"><table class=3D"image_block block-1" width=
+=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presenta=
+tion" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad"=
+ style=3D"width:100%;padding-right:0;padding-left:0"><div class=3D"alignmen=
+t" align=3D"center"><div class=3D"fullWidth" style=3D"max-width:120.4px"><i=
+mg src=3D"https://cdn.braze.eu/appboy/communication/assets/image_assets/ima=
+ges/67e3b1d25700bd0064b659ea/original.png?1742975442" style=3D"display:bloc=
+k;height:auto;border:0;width:100%" width=3D"120.4" alt=3D"" title=3D"" heig=
+ht=3D"auto"></div></div></td></tr></table></td>=0A=
+<td class=3D"column column-2" width=3D"33.333333333333336%" style=3D"mso-ta=
+ble-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;background-=
+color:#fc0;border-bottom:4px solid #fff;border-left:4px solid #fff;border-r=
+ight:4px solid #fff;border-top:4px solid #fff;padding-left:10px;padding-rig=
+ht:10px;vertical-align:top"><table class=3D"image_block block-1" width=3D"1=
+00%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation"=
+ style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad" styl=
+e=3D"width:100%;padding-right:0;padding-left:0"><div class=3D"alignment" al=
+ign=3D"center"><div class=3D"fullWidth" style=3D"max-width:120.4px"><img sr=
+c=3D"https://cdn.braze.eu/appboy/communication/assets/image_assets/images/6=
+7f3e6cb0b794d00840c97ed/original.png?1744037579" style=3D"display:block;hei=
+ght:auto;border:0;width:100%" width=3D"120.4" alt=3D"" title=3D"" height=3D=
+"auto"></div></div></td></tr></table></td>=0A=
+<td class=3D"column column-3" width=3D"33.333333333333336%" style=3D"mso-ta=
+ble-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;background-=
+color:#57d8f8;border-bottom:4px solid #fff;border-left:4px solid #fff;borde=
+r-right:4px solid #fff;border-top:4px solid #fff;padding-left:10px;padding-=
+right:10px;vertical-align:top"><table class=3D"image_block block-1" width=
+=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presenta=
+tion" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad"=
+ style=3D"width:100%;padding-right:0;padding-left:0"><div class=3D"alignmen=
+t" align=3D"center"><div class=3D"fullWidth" style=3D"max-width:120.4px"><i=
+mg src=3D"https://cdn.braze.eu/appboy/communication/assets/image_assets/ima=
+ges/67f3e6cb89a0f10082659637/original.png?1744037579" style=3D"display:bloc=
+k;height:auto;border:0;width:100%" width=3D"120.4" alt=3D"" title=3D"" heig=
+ht=3D"auto"></div></div></td></tr></table></td>=0A=
+</tr></tbody></table></td></tr></tbody></table>=0A=
+<table class=3D"row row-9" align=3D"center" width=3D"100%" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-l=
+space:0;mso-table-rspace:0"><tbody><tr><td><table class=3D"row-content" ali=
+gn=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pres=
+entation" style=3D"mso-table-lspace:0;mso-table-rspace:0;background-color:#=
+fff;color:#000;width:600px;margin:0 auto" width=3D"600"><tbody><tr><td clas=
+s=3D"column column-1" width=3D"100%" style=3D"mso-table-lspace:0;mso-table-=
+rspace:0;font-weight:400;text-align:left;padding-top:5px;vertical-align:mid=
+dle">=0A=
+<table class=3D"paragraph_block block-1" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-bottom:15px;padding-left:20px;padding-right:20px;padding-top:50=
+px"><div style=3D"color:#222e39;direction:ltr;font-family:gibson-book,Arial=
+,Sans-serif;font-size:18px;font-weight:400;letter-spacing:0;line-height:1.5=
+;text-align:left;mso-line-height-alt:27px"><p style=3D"margin:0">Bist du da=
+bei? Dann los!</p></div></td></tr></table>=0A=
+<table class=3D"button_block block-2" width=3D"100%" border=3D"0" cellpaddi=
+ng=3D"10" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace=
+:0;mso-table-rspace:0"><tr><td class=3D"pad"><div class=3D"alignment" align=
+=3D"center">=0A=
+<a href=3D"https://clicks.mcfit.com/f/a/a8yMXS3efBQqvW8J250t7A~~/AAAHahA~/n=
+4O4IYDl-BjtrrkUpJCi6teqsaQNovRyrgOdsvnCP4G9iihuXIJoMX-bPlmcj2vxaoXNSDyH0GqJ=
+bnWq4OJ2zG_e8Ky53LttRvf4hayzchqOVSGcrmN02OCK2jbQlFNNnn10A5qaxfmDzY-MLiKxvSD=
+fbUsMTc3ksU8cnSslv6XpMh7TkfDk-lzrZD3_XgCi-rC6D17anmmmqjnhvMfj-oaFYqEV4JxIRX=
+Zsj_4TJ8pTv9xinLQ73Ef657hNEVgBUbKZZ4kS-eoc0cUl-xAMgDNDRgS7mkTYYvYhMPBtn_RLm=
+ar_5kiKYAN47-JHHQsU" target=3D"_blank" style=3D"color:#222e39;text-decorati=
+on:none;"><!--[if mso]>=0A=
+<v:roundrect xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schem=
+as-microsoft-com:office:word"  href=3D"https://clicks.mcfit.com/f/a/a8yMXS3=
+efBQqvW8J250t7A~~/AAAHahA~/n4O4IYDl-BjtrrkUpJCi6teqsaQNovRyrgOdsvnCP4G9iihu=
+XIJoMX-bPlmcj2vxaoXNSDyH0GqJbnWq4OJ2zG_e8Ky53LttRvf4hayzchqOVSGcrmN02OCK2jb=
+QlFNNnn10A5qaxfmDzY-MLiKxvSDfbUsMTc3ksU8cnSslv6XpMh7TkfDk-lzrZD3_XgCi-rC6D1=
+7anmmmqjnhvMfj-oaFYqEV4JxIRXZsj_4TJ8pTv9xinLQ73Ef657hNEVgBUbKZZ4kS-eoc0cUl-=
+xAMgDNDRgS7mkTYYvYhMPBtn_RLmar_5kiKYAN47-JHHQsU"  style=3D"height:64px;widt=
+h:574px;v-text-anchor:middle;" arcsize=3D"0%" fillcolor=3D"#ffcc00">=0A=
+<v:stroke dashstyle=3D"Solid" weight=3D"3px" color=3D"#ffcc00"/>=0A=
+<w:anchorlock/>=0A=
+<v:textbox inset=3D"0px,0px,0px,0px">=0A=
+<center dir=3D"false" style=3D"color:#222e39;font-family:sans-serif;font-si=
+ze:16px">=0A=
+<![endif]-->=0A=
+<span class=3D"button" style=3D"background-color: #ffcc00; border-bottom: 3=
+px solid transparent; border-left: 3px solid transparent; border-radius: 0p=
+x; border-right: 3px solid transparent; border-top: 3px solid transparent; =
+color: #222e39; display: inline-block; font-family: 'canada-type-gibson', '=
+Tahoma', 'Impact', 'Geneva', Sans-serif; font-size: 16px; font-weight: 700;=
+ mso-border-alt: none; padding-bottom: 16px; padding-top: 16px; padding-lef=
+t: 60px; padding-right: 60px; text-align: center; width: 100%; word-break: =
+keep-all; letter-spacing: normal;"><span style=3D"word-break: break-word; l=
+ine-height: 32px;">JETZT KOSTENLOS ANMELDEN</span></span>=0A=
+<!--[if mso]></center></v:textbox></v:roundrect><![endif]--></a>=0A=
+</div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-3" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-bottom:30px;padding-left:20px;padding-right:20px;padding-top:15=
+px"><div style=3D"color:#222e39;direction:ltr;font-family:gibson-book,Arial=
+,Sans-serif;font-size:12px;font-weight:400;letter-spacing:0;line-height:1.5=
+;text-align:left;mso-line-height-alt:18px"><p style=3D"margin:0">=0A=
+Mit dem Anklicken des Buttons =E2=80=9Ejetzt kostenlos teilnehmen=E2=80=9C =
+stimmst du unseren <a href=3D"https://clicks.mcfit.com/f/a/m1hashUq2jArLzMi=
+KZKUHA~~/AAAHahA~/5TrZAvq4h7D1Ittc2Jpa_EJ55EjpLf6HzIy1gd3DZxEIjaWwL9H1Eoneb=
+GXkjR1ZqQ-K3Tygl6vJHQILy1C55ZSbK9u4gmu-nffZ6SaSiNVWl__tFUvX6J1PB-lSPyn81wAo=
+H-VHTVJwcCSI2BnL82TkuTW7ODXVBRR7o4xSZocJQIcwKolFF7dU7oVT0wtl" target=3D"_bl=
+ank" title=3D"http://clicks.mcfit.com/f/a/aHxPja97AbNbDzWb-O3XPQ~~/AAAHagA~=
+/RgRpJrTZP0S_aHR0cHM6Ly93d3cubWNmaXQuY29tL3JlY2h0bGljaGVzLWZpdG5lc3NjaGFsbG=
+VuZ2U_bGlkPTlicWphMnJiaHRlYyZ1dG1fc291cmNlPUVtYWlsJnV0bV9tZWRpdW09QnJhemUmd=
+XRtX2NhbXBhaWduPURFLUFESE9DLUNPTU0tRU1BSUwtTWNGSVQtRml0bmVzc2NoYWxsZW5nZTEx=
+LzI0LU1haWwtMDEjdGVpbG5haG1lYmVkaW5ndW5nZW5XBXNwY2V1QgpnQNkvRGedQDtJUhJrbGF=
+nZUByc2dncm91cC5jb21YBAAAA3c~" style=3D"text-decoration: underline; color: =
+#222E39;" rel=3D"noopener">Teilnahmebedingungen</a> zu und erkl=C3=A4rst, d=
+ass du die <a href=3D"https://clicks.mcfit.com/f/a/7mXpq-ozETyqAzXLJcSG7Q~~=
+/AAAHahA~/O1x237ncLGIdFw8xe1h8uNHGrxarVphz2fpbjWDOAaJRahfd-v7O-czOLv65lqm-8=
+wE3pTamyY007vcdI-3L5d1sAgUrDxApcFb83giUlAfTdvoAcB_tq1ky2ZuX_2Aahd3l0NVqjmr9=
+0wzvjykwtbhguYdO9JMSBwREFr5Z2Kc~" target=3D"_blank" title=3D"http://clicks.=
+mcfit.com/f/a/i3wvQfYtlGkfX_8m3zUwAw~~/AAAHagA~/RgRpJrTZP0S2aHR0cHM6Ly93d3c=
+ubWNmaXQuY29tL3JlY2h0bGljaGVzLWZpdG5lc3NjaGFsbGVuZ2U_bGlkPWR4dzhsMnF1N244cS=
+Z1dG1fc291cmNlPUVtYWlsJnV0bV9tZWRpdW09QnJhemUmdXRtX2NhbXBhaWduPURFLUFESE9DL=
+UNPTU0tRU1BSUwtTWNGSVQtRml0bmVzc2NoYWxsZW5nZTExLzI0LU1haWwtMDEjZGF0ZW5zY2h1=
+dHpXBXNwY2V1QgpnQNkvRGedQDtJUhJrbGFnZUByc2dncm91cC5jb21YBAAAA3c~" style=3D"=
+text-decoration: underline; color: #222E39;" rel=3D"noopener">Datenschutzri=
+chtlinien</a> zur Kenntnis genommen hast. Dein Teilnahmelink ist personalis=
+iert und kann nicht an andere weitergegeben werden.=0A=
+</p></div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-4" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-bottom:15px;padding-left:20px;padding-right:20px;padding-top:15=
+px"><div style=3D"color:#222e39;direction:ltr;font-family:gibson-book,Arial=
+,Sans-serif;font-size:18px;font-weight:400;letter-spacing:0;line-height:1.5=
+;text-align:left;mso-line-height-alt:27px">=0A=
+<p style=3D"margin:0;margin-bottom:0">Viel Erfolg!&nbsp;<br>Dein McFIT-Team=
+</p>=0A=
+<p style=3D"margin:0"><em>#Mission25 #FitInDenSommer&nbsp;</em></p>=0A=
+</div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-5" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-bottom:40px;padding-left:20px;padding-right:20px;padding-top:15=
+px"><div style=3D"color:#222e39;direction:ltr;font-family:gibson-book,Arial=
+,Sans-serif;font-size:12px;font-weight:400;letter-spacing:0;line-height:1.5=
+;text-align:left;mso-line-height-alt:18px"><p style=3D"margin:0">=0A=
+*Abzuholen in dem McFIT, in dem du deinen Vertrag geschlossen hast. Nur sol=
+ange der Vorrat reicht. Es gelten unsere=E2=80=AFTeilnahmebedingungen=E2=80=
+=AFsowie die=E2=80=AFDatenschutzrichtlinien. Teilnahme nur f=C3=BCr Mitglie=
+der ab 18 Jahren. =0A=
+</p></div></td></tr></table>=0A=
+</td></tr></tbody></table></td></tr></tbody></table>=0A=
+<table class=3D"row row-10" align=3D"center" width=3D"100%" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-=
+lspace:0;mso-table-rspace:0;background-color:#f2f2f2"><tbody><tr><td><table=
+ class=3D"row-content" align=3D"center" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-r=
+space:0;background-color:#fff;border-radius:0;color:#000;width:600px;margin=
+:0 auto" width=3D"600"><tbody><tr><td class=3D"column column-1" width=3D"10=
+0%" style=3D"mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-ali=
+gn:left;vertical-align:top"><table class=3D"paragraph_block block-1" width=
+=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presenta=
+tion" style=3D"mso-table-lspace:0;mso-table-rspace:0;word-break:break-word"=
+><tr><td class=3D"pad"><div style=3D"color:#222e39;direction:ltr;font-famil=
+y:Courier,Tahoma,Geneva,Arial,Sans-serif;font-size:16px;font-weight:400;let=
+ter-spacing:0;line-height:1.2;text-align:center;mso-line-height-alt:19px">=
+=0A=
+<p style=3D"margin:0"></p>=0A=
+<table class=3D"nl-container" width=3D"100%" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-ta=
+ble-rspace:0;background-color:#fff"><tbody><tr><td><table class=3D"row row-=
+1" align=3D"center" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace=
+:0;background-color:#f3f3f3"><tbody><tr><td><table class=3D"row-content" al=
+ign=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pre=
+sentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;border-radius:0;c=
+olor:#000;width:600px;margin:0 auto" width=3D"600"><tbody><tr>=0A=
+<td class=3D"column column-1" width=3D"25%" style=3D"mso-table-lspace:0;mso=
+-table-rspace:0;font-weight:400;text-align:left;padding-bottom:10px;padding=
+-top:60px;vertical-align:middle"><table class=3D"image_block block-1" width=
+=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presenta=
+tion" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad"=
+ style=3D"width:100%;padding-right:0;padding-left:0"><div class=3D"alignmen=
+t" align=3D"center"><div style=3D"max-width:37.5px">=0A=
+<a href=3D"https://clicks.mcfit.com/f/a/9dmEQh2wYE46E4-KIwxXnQ~~/AAAHahA~/j=
+QczbcRk6ViV480Aqr10AJAaX_2M4Nyq7JhN5pakKhpIjhrXlAhe14WHPoixLNagUi9KCEKh_XgJ=
+KnsMkoFYwQ2safuQzQYfR1xvozR-Ug3RYnpUVpk15q66wSwuYIi_eSBAzHZEFE21eWbCgTC06Pv=
+U5RNkYN98ZnYMBth1gpM~" target=3D"_blank" style=3D"outline:none" tabindex=3D=
+"-1"><img src=3D"https://cdn.braze.eu/appboy/communication/assets/image_ass=
+ets/images/684bc1ebb37e5100661665f5/original.png?1749795307" style=3D"displ=
+ay:block;height:auto;border:0;width:100%" width=3D"37.5" alt=3D"" title=3D"=
+" height=3D"auto"></a>=0A=
+</div></div></td></tr></table></td>=0A=
+<td class=3D"column column-2" width=3D"25%" style=3D"mso-table-lspace:0;mso=
+-table-rspace:0;font-weight:400;text-align:left;padding-bottom:10px;padding=
+-top:60px;vertical-align:middle"><table class=3D"image_block block-1" width=
+=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presenta=
+tion" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad"=
+ style=3D"width:100%;padding-right:0;padding-left:0"><div class=3D"alignmen=
+t" align=3D"center"><div style=3D"max-width:37.5px">=0A=
+<a href=3D"https://clicks.mcfit.com/f/a/YHZ0zJyN2yJpJ9R2YVqmng~~/AAAHahA~/4=
+m0j_WtMsVWm2SyZ1tRg3iy23VD2Qr-8-rOa-LRPV6iO1JWTiPO1mPyJIMhyTsMBXlpSMEloEeuu=
+BcK_Q9WHQKk_j-9oOYQqlbpsRQrYVZi7IUsFif7qmwjN9pZQQQduF7vssGBEcB3WI6HoIWTiyg~=
+~" target=3D"_blank" style=3D"outline:none" tabindex=3D"-1"><img src=3D"htt=
+ps://cdn.braze.eu/appboy/communication/assets/image_assets/images/684bc20db=
+4619c006532aa50/original.png?1749795341" style=3D"display:block;height:auto=
+;border:0;width:100%" width=3D"37.5" alt=3D"" title=3D"" height=3D"auto"></=
+a>=0A=
+</div></div></td></tr></table></td>=0A=
+<td class=3D"column column-3" width=3D"25%" style=3D"mso-table-lspace:0;mso=
+-table-rspace:0;font-weight:400;text-align:left;padding-bottom:10px;padding=
+-top:60px;vertical-align:middle">=0A=
+<table class=3D"paragraph_block block-1" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad"><div s=
+tyle=3D"color:#222e39;direction:ltr;font-family:canada-type-gibson,Tahoma,G=
+eneva,Arial,Sans-serif;font-size:16px;font-weight:400;letter-spacing:0;line=
+-height:1.2;text-align:left;mso-line-height-alt:19px"><p style=3D"margin:0"=
+></p></div></td></tr></table>=0A=
+<table class=3D"image_block block-6" width=3D"100%" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0=
+;mso-table-rspace:0"><tr><td class=3D"pad" style=3D"width:100%;padding-righ=
+t:0;padding-left:0"><div class=3D"alignment" align=3D"center"><div style=3D=
+"max-width:37.5px"><a href=3D"https://clicks.mcfit.com/f/a/uGSUIYuX5eGt-tjm=
+fE_4RA~~/AAAHahA~/kateG1KAbLF7orbgS3r7UKOdJjkggFPesU0FHAtGArsDXJSnGi0XGtkNe=
+_hmNBs0wWH_4Fx5yO9CkrybcVEXw6c7eNZjAgeUsmk8H0XQlb7MCKDRK9sRgDB0xV-9VzC7" ta=
+rget=3D"_blank" style=3D"outline:none" tabindex=3D"-1"><img src=3D"https://=
+cdn.braze.eu/appboy/communication/assets/image_assets/images/684bc20d2fd3ee=
+0066cc1a9f/original.png?1749795341" style=3D"display:block;height:auto;bord=
+er:0;width:100%" width=3D"37.5" alt=3D"" title=3D"" height=3D"auto"></a></d=
+iv></div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-7" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad"><div s=
+tyle=3D"color:#222e39;direction:ltr;font-family:canada-type-gibson,Tahoma,G=
+eneva,Arial,Sans-serif;font-size:16px;font-weight:400;letter-spacing:0;line=
+-height:1.2;text-align:left;mso-line-height-alt:19px"><p style=3D"margin:0"=
+></p></div></td></tr></table>=0A=
+</td>=0A=
+<td class=3D"column column-4" width=3D"25%" style=3D"mso-table-lspace:0;mso=
+-table-rspace:0;font-weight:400;text-align:left;padding-bottom:10px;padding=
+-top:60px;vertical-align:middle"><table class=3D"image_block block-1" width=
+=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presenta=
+tion" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad"=
+ style=3D"width:100%;padding-right:0;padding-left:0"><div class=3D"alignmen=
+t" align=3D"center"><div style=3D"max-width:37.5px">=0A=
+<a href=3D"https://clicks.mcfit.com/f/a/fPsHVECtAD5QM7SHzsxN3Q~~/AAAHahA~/K=
+wtI076oeLZAKPoAYUOy2SCHLUIzXwx9sOgYfOLwQPoiUCslTgSWt3zPOKe8PEst81dkHpEJ1032=
+HpIm54XJ0mea2aIT5jhTwbVz03wyAqNxf_0Jo8FWhgEh7sbRwFjmgIcG6lZ9cDxBBj-7lWvBnA~=
+~" target=3D"_blank" style=3D"outline:none" tabindex=3D"-1"><img src=3D"htt=
+ps://cdn.braze.eu/appboy/communication/assets/image_assets/images/684bc20d3=
+8d7640065a5b20b/original.png?1749795341" style=3D"display:block;height:auto=
+;border:0;width:100%" width=3D"37.5" alt=3D"" title=3D"" height=3D"auto"></=
+a>=0A=
+</div></div></td></tr></table></td>=0A=
+</tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table>=
+=0A=
+<!-- End --><table class=3D"nl-container" width=3D"100%" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lsp=
+ace:0;mso-table-rspace:0;background-color:#fff"><tbody><tr><td><table class=
+=3D"row row-1" align=3D"center" width=3D"100%" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-=
+table-rspace:0;background-color:#f3f3f3"><tbody><tr><td><table class=3D"row=
+-content" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;borde=
+r-radius:0;color:#000;width:600px;margin:0 auto" width=3D"600"><tbody><tr>=
+=0A=
+<td class=3D"column column-1" width=3D"25%" style=3D"mso-table-lspace:0;mso=
+-table-rspace:0;font-weight:400;text-align:left;padding-bottom:60px;padding=
+-top:10px;vertical-align:top"><table class=3D"paragraph_block block-1" widt=
+h=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"present=
+ation" style=3D"mso-table-lspace:0;mso-table-rspace:0;word-break:break-word=
+"><tr><td class=3D"pad"><div style=3D"color:#222e39;direction:ltr;font-fami=
+ly:gibson-book,Tahoma,Geneva,Arial,Sans-serif;font-size:16px;font-weight:70=
+0;letter-spacing:0;line-height:1.5;text-align:center;mso-line-height-alt:24=
+px"><p style=3D"margin:0"><a href=3D"https://clicks.mcfit.com/f/a/lbW8Rk043=
+5iCT6qMZiUPHg~~/AAAHahA~/jQczbcRk6ViV480Aqr10AJAaX_2M4Nyq7JhN5pakKhpIjhrXlA=
+he14WHPoixLNagwYq_CHPL1Vf3FmSpxa-7wUctFdHbJOYy1FNlblIPvHlmGOs60_gjd22FQjNhR=
+CAjQ4zHt1kPALi4KjsJrPEPmxsTpNBae1NPzahnLYgZeBk~" target=3D"_blank" style=3D=
+"text-decoration: none; color: #222E39;" data-mce-attribute-name-1=3D"" dat=
+a-mce-attribute-value-1=3D"" rel=3D"noopener">Facebook</a></p></div></td></=
+tr></table></td>=0A=
+<td class=3D"column column-2" width=3D"25%" style=3D"mso-table-lspace:0;mso=
+-table-rspace:0;font-weight:400;text-align:left;padding-bottom:60px;padding=
+-top:10px;vertical-align:top"><table class=3D"paragraph_block block-1" widt=
+h=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"present=
+ation" style=3D"mso-table-lspace:0;mso-table-rspace:0;word-break:break-word=
+"><tr><td class=3D"pad"><div style=3D"color:#222e39;direction:ltr;font-fami=
+ly:gibson-book,Tahoma,Geneva,Arial,Sans-serif;font-size:16px;font-weight:70=
+0;letter-spacing:0;line-height:1.5;text-align:center;mso-line-height-alt:24=
+px"><p style=3D"margin:0"><a href=3D"https://clicks.mcfit.com/f/a/7zEkVPIG8=
+14Kh2CMt8CjIA~~/AAAHahA~/4m0j_WtMsVWm2SyZ1tRg3iy23VD2Qr-8-rOa-LRPV6iO1JWTiP=
+O1mPyJIMhyTsMBNJh2FpQhdaHD4ys7sZYL6l1y90OYWuWAhyWUzuUtR26wBYkctxfYlYzGSNEEA=
+xBrjEu1Uf6BLxJVup3P9ySHMA~~" target=3D"_blank" style=3D"text-decoration: no=
+ne; color: #222E39;" data-mce-attribute-name-1=3D"" data-mce-attribute-valu=
+e-1=3D"" rel=3D"noopener">Instagram</a></p></div></td></tr></table></td>=0A=
+<td class=3D"column column-3" width=3D"25%" style=3D"mso-table-lspace:0;mso=
+-table-rspace:0;font-weight:400;text-align:left;padding-bottom:60px;padding=
+-top:10px;vertical-align:top"><table class=3D"paragraph_block block-1" widt=
+h=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"present=
+ation" style=3D"mso-table-lspace:0;mso-table-rspace:0;word-break:break-word=
+"><tr><td class=3D"pad"><div style=3D"color:#222e39;direction:ltr;font-fami=
+ly:gibson-book,Tahoma,Geneva,Arial,Sans-serif;font-size:16px;font-weight:70=
+0;letter-spacing:0;line-height:1.5;text-align:center;mso-line-height-alt:24=
+px"><p style=3D"margin:0"><a href=3D"https://clicks.mcfit.com/f/a/G0FjCSjS2=
+P2sn8BwPCNxcw~~/AAAHahA~/kateG1KAbLF7orbgS3r7UPBDoEX6shfEhFb5tlImrL3EaK1FeE=
+BRSVwaJpuVi6wK03seEIaQe82is0uYUzdz_N9NJfzYvKLmgYp-Y8ztUdfiJkmBrjyJLTgxpD-RB=
+D_x" target=3D"_blank" style=3D"text-decoration: none; color: #222E39;" dat=
+a-mce-attribute-name-1=3D"" data-mce-attribute-value-1=3D"" rel=3D"noopener=
+">App</a></p></div></td></tr></table></td>=0A=
+<td class=3D"column column-4" width=3D"25%" style=3D"mso-table-lspace:0;mso=
+-table-rspace:0;font-weight:400;text-align:left;padding-bottom:60px;padding=
+-top:10px;vertical-align:top"><table class=3D"paragraph_block block-1" widt=
+h=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"present=
+ation" style=3D"mso-table-lspace:0;mso-table-rspace:0;word-break:break-word=
+"><tr><td class=3D"pad"><div style=3D"color:#222e39;direction:ltr;font-fami=
+ly:gibson-book,Tahoma,Geneva,Arial,Sans-serif;font-size:16px;font-weight:70=
+0;letter-spacing:0;line-height:1.5;text-align:center;mso-line-height-alt:24=
+px"><p style=3D"margin:0">Blog</p></div></td></tr></table></td>=0A=
+</tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table>=
+=0A=
+<!-- End --><table class=3D"nl-container" width=3D"100%" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lsp=
+ace:0;mso-table-rspace:0;background-color:#fff"><tbody><tr><td><table class=
+=3D"row row-1" align=3D"center" width=3D"100%" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-=
+table-rspace:0;background-color:#f2f2f2"><tbody><tr><td><table class=3D"row=
+-content" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;backg=
+round-color:#f2f2f2;color:#000;width:600px;margin:0 auto" width=3D"600">=0A=
+<tbody><tr><td class=3D"column column-1" width=3D"100%" style=3D"mso-table-=
+lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;padding-bottom:=
+5px;padding-top:5px;vertical-align:middle"><table class=3D"paragraph_block =
+block-1" width=3D"100%" border=3D"0" cellpadding=3D"10" cellspacing=3D"0" r=
+ole=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;word-br=
+eak:break-word"><tr><td class=3D"pad"><div style=3D"color:#999;direction:lt=
+r;font-family:Helvetica,Tahoma,Impact,Geneva,Sans-serif;font-size:12px;font=
+-weight:400;letter-spacing:0;line-height:120%;text-align:center;mso-line-he=
+ight-alt:14.399999999999999px">=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<p style=3D"margin:0;margin-bottom:0"><strong>Impressum</strong><br>=0A=
+Verantwortlich f=C3=BCr journalistisch-redaktionelle Inhalte gem. =C2=A7 18=
+ Abs. 2 MStV: RSG Group GmbH, Tannenberg 4, 96132 Schl=C3=BCsselfeld; Amtsg=
+ericht Bamberg HRB 3145; UID-Nr. DE 185 786 214; Vertretungsberechtigter Ge=
+sch=C3=A4ftsf=C3=BChrer: Dr. Gerd Schaller, Hagen Wingertszahn, Jobst M=C3=
+=BCller-Trimbusch<br><br><strong>Infos &amp; Kontakt</strong><br>Du erh=C3=
+=A4ltst diese Email, weil du dich f=C3=BCr den McFIT Newsletter angemeldet =
+hast.<br>=0A=
+<a href=3D"https://clicks.mcfit.com/f/a/530yPJ1YimUNKrooky_vFQ~~/AAAHahA~/K=
+W1WcBCrwtykey8DYT7ZhJebW40qQkkxItC7GYyroJDY9aZXnMyRXCKhY8fRHo62ipR6RNRj1HQs=
+L0LJ8KNxDKaZZ4hWW6Q8UtOiNxJ1i3fNS_Ida_ZkwmjxDIBETn5TLhqv1Tw6_I4APIILOhobeXM=
+bPXGqYnnITHl-94nYTFP2_09W8gOZA3ujH42Oa6XeYk1N8FuuaHicGQ-oQb7CMAbobBgwd8pTW8=
+_-AsWaSwDSya_A2VxjvTYE7P_6aZ6Qdg1zmY4N-zU3lm5FvRM5159zeFylPiCL2BnYX3b-lIFp4=
+7R4C7mGQuzNuiEnrQdBVYWi0UTxt1e0pdwQ-HQVxrxBq43P-W1_sZKThipNBDIv9dIsCndLojE3=
+P3y4UErZrELAcPe5XknweON8G6wtBtALCTDu5_m_b9ha7lLvTSsphZjuvGbZ58JRi2p733FwA1K=
+s2v-3a7vJWIoRaCOmkgOBSnjF0hui8cOqzpOznsmNyWcfyzcveivJvnMo3tJ5G0WBVDjTX7sh5R=
+Xut-pcNVybgfbKTTo-KyizQVhmwmXimdDrWoC2AuGttaC5jGumN08_3yOnsOPqtyVu9G4a8s-rx=
+I87DxFCSWngaPA3TJG9fy6nIQINzuMspJtbtDntaFzw3caQRETx5YPphn_L0fX6AFm1aRtPOC2I=
+kg2ZwsZOF9JSUY4t6y_CoGeXEV5VHiG3eEkF6PopgjJkGeDrtQyN7WqEOSpLbsBYRSS0oFD002x=
+zrLuBq5qouYOYfqvkUtEJ-0bIBgsKzJBFv1ZRfrcV5jGxDvV507SADWmLgkAVRk9gbrUJix_Ti0=
+KQYcuiTmhLE7Px727BKQje-_w3XSmCvYqqksDf_jf7ItkXONdrD4tSYPCE7_olni4GIQkBVZ-EV=
+RDRtPRaNm8nURg7UEMef-8vpjE-ITXaJ-gwG2Bdp_7fO5OGPonQCNLJ-P5zjoJ3_xOgOMom6Gxr=
+OdrP2TV_h3iqObofd6buD5JQ6Lwhy7eaHkWtrQfAlBBBuMTB1HOa6VE6EaFyveIS8zIYDKS2A9a=
+2BsMgy_scwOiaOkc3TF1E9KD1NYb2BY7rPJHI_JWmjeCKWDJxtXTU3YMU2FJbjbORI4GrkybK7f=
+MQkCShcUDsfn_rLsfoRs3Byt1lDUJqsGOGgZDd87ii1TJN4gkZrXbZJNDOrDVV_nvAYu8~" tar=
+get=3D"_blank" style=3D"text-decoration: underline; color: #999999;" rel=3D=
+"noopener">E-Mail-Pr=C3=A4ferenzen bearbeiten</a><br><br>Du brauchst Suppor=
+t? Unser Helpcenter findest du <a data-cke-saved-href=3D"https://hilfe.mcfi=
+t.com/hc/de" href=3D"https://clicks.mcfit.com/f/a/0u-WeSqE60vHvsVfmMqRAQ~~/=
+AAAHahA~/TOl-drmgammcvutR5Vc6f9BaO41Yd7lDN7apEEH57c2aIwp-dsm7KH-Ep7mt1sUOUv=
+GoKqUF9fSRE9rmxZ50FWeTckTskRjs7-fMJQ6nKpwerWl7vnMIDWMidK5xzsoAyaIMuMoRcYhqC=
+gmYopYnRQ~~" style=3D"text-decoration: underline; color: #999999;">hier</a>=
+.</p>=0A=
+<p style=3D"margin:0;margin-bottom:0">&nbsp;</p>=0A=
+<p style=3D"margin:0;margin-bottom:0">=0A=
+</p>=0A=
+</div></td></tr></table></td></tr></tbody>=0A=
+</table></td></tr></tbody></table></td></tr></tbody></table>=0A=
+<!-- End -->=0A=
+</div></td></tr></table></td></tr></tbody></table></td></tr></tbody></table=
+>=0A=
+</td></tr>=0A=
+</tbody></table>=0A=
+<!-- End -->=0A=
+
+<img border=3D"0" width=3D"1" height=3D"1" alt=3D"" src=3D"https://clicks.m=
+cfit.com/q/SBsGE25KzgnqEt8HGC_hUQ~~/AAAHahA~/N8cn17tY3R4NHrOCZAiSs3NpivKZnq=
+Oi2zRu9_0YizZOBfiPXzQr71LIctfqIjL6PfiGWq_S0ectd1iNqnOqzw~~">
+</body>=0A=
+</html>=
+
+--_----cq7CscYUguNNRWAhCy66qA===_C3/77-12116-D7EEE486--

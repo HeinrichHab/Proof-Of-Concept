@@ -1,0 +1,54 @@
+Return-Path: <MicroSupport@soft-micro.com>
+X-Original-To: Nexatorphish@protonmail.com
+Delivered-To: Nexatorphish@protonmail.com
+Received: from mail.testingdiemail.de (unknown [54.38.221.209]) (using TLSv1.3 with
+ cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+  key-exchange X25519 server-signature RSA-PSS (4096 bits) server-digest SHA256) (No
+ client certificate requested) by mailinosl1014.protonmail.ch (Postfix) with ESMTPS id
+ 4bWkXp3zwDz9vNQV for <Nexatorphish@protonmail.com>; Tue,
+  1 Jul 2025 13:34:50 +0000 (UTC)
+Received: from [127.0.0.1] (localhost [127.0.0.1]) by localhost (Mailerdaemon) with
+ ESMTPA id 765D947646; Tue,
+  1 Jul 2025 15:34:37 +0200 (CEST)
+Authentication-Results: mail.protonmail.ch; dmarc=none (p=none dis=none)
+ header.from=soft-micro.com
+Authentication-Results: mail.protonmail.ch; spf=none smtp.mailfrom=soft-micro.com
+Authentication-Results: mail.protonmail.ch; arc=none smtp.remote-ip=54.38.221.209
+Authentication-Results: mail.protonmail.ch; dkim=none
+From: "Microsoft Support" <MicroSupport@soft-micro.com>
+Content-Type: multipart/mixed;boundary=---------------------6b5e2b19eea154aafee379c61f43e5b7
+Date: Tue, 01 Jul 2025 15:34:37 +0200
+To: Nexatorphish@outlook.com
+Mime-Version: 1.0
+Message-Id: <13d-6863e400-f-49a59a80@60182740>
+Subject: =?utf-8?Q?Ihr_Konto_wird_in_K=C3=BCrze_deaktiviert?=
+User-Agent: SOGoMail 5.12.0
+X-Last-Tls-Session-Version: None
+X-Spam: Yes
+X-Pm-Spam: 0yezJI6cihyJeYR3pi42biOzJFtcGiiwIcVns6ISZjI2YY1MTjWFOMAjxjBDZmNkVA0M
+ j1WQMNISsyNnIWaiQI2OizDYOZNTm0kzYTNjNMwZGxGIZMID3iEDZfX0=
+X-Pm-Origin: external
+X-Pm-Transfer-Encryption: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+X-Pm-Content-Encryption: on-delivery
+X-Pm-Spamscore: 0
+X-Pm-Spam-Action: spam
+
+-----------------------6b5e2b19eea154aafee379c61f43e5b7
+Content-Type: multipart/related;boundary=---------------------9e3bbec61854fbb61f04f552b6bde0da
+
+-----------------------9e3bbec61854fbb61f04f552b6bde0da
+Content-Type: text/html;charset=utf-8
+Content-Transfer-Encoding: base64
+
+PGh0bWw+PHAgZGF0YS1zdGFydD0iOTg2IiBkYXRhLWVuZD0iMTAwOSI+U2VociBnZWVocnRlciBO
+dXR6ZXIsPC9wPjxwIGRhdGEtc3RhcnQ9IjEwMTYiIGRhdGEtZW5kPSIxMTEwIj5XaXIgaGFiZW4g
+ZmVzdGdlc3RlbGx0LCBkYXNzIElociBLb250byBzZWl0IG1laHIgYWxzIDMwIFRhZ2VuIG5pY2h0
+IG1laHIgYWt0dWFsaXNpZXJ0IHd1cmRlLjwvcD48cCBkYXRhLXN0YXJ0PSIxMTE3IiBkYXRhLWVu
+ZD0iMTIzMiI+PGJyPjxhIGNsYXNzPSJjdXJzb3ItcG9pbnRlciIgZGF0YS1zdGFydD0iMTE4MiIg
+ZGF0YS1lbmQ9IjEyMzAiIHJlbD0ibm9vcGVuZXIiIHRhcmdldD0iX25ldyI+S29udG8gYWt0dWFs
+aXNpZXJlbjwvYT48L3A+PHAgZGF0YS1zdGFydD0iMTExNyIgZGF0YS1lbmQ9IjEyMzIiPiZuYnNw
+OzwvcD48cCBkYXRhLXN0YXJ0PSIxMTE3IiBkYXRhLWVuZD0iMTIzMiI+TWl0IEZyZXVuZGxpY2hl
+biBHcsO8w59lbjwvcD48cCBkYXRhLXN0YXJ0PSIxMTE3IiBkYXRhLWVuZD0iMTIzMiI+SWhyIFRl
+c3RpbmcgZGllIE1haWwgU2VydmljZTwvcD48L2h0bWw+Cg==
+-----------------------9e3bbec61854fbb61f04f552b6bde0da--
+-----------------------6b5e2b19eea154aafee379c61f43e5b7--

@@ -1,0 +1,76 @@
+Return-Path: <test4@testingdiemail.de>
+X-Original-To: Nexatorphish@protonmail.com
+Delivered-To: Nexatorphish@protonmail.com
+Authentication-Results: mail.protonmail.ch; dkim=pass (Good 2048 bit
+    rsa-sha256 signature) header.d=testingdiemail.de header.a=rsa-sha256
+Authentication-Results: mail.protonmail.ch; dmarc=pass (p=reject dis=none)
+ header.from=testingdiemail.de
+Authentication-Results: mail.protonmail.ch; spf=pass smtp.mailfrom=testingdiemail.de
+Authentication-Results: mail.protonmail.ch; arc=none smtp.remote-ip=54.38.221.209
+Authentication-Results: mail.protonmail.ch; dkim=pass (2048-bit key)
+ header.d=testingdiemail.de header.i=@testingdiemail.de header.b="FD65XsHp"
+Received: from mail.testingdiemail.de (unknown [54.38.221.209]) (using TLSv1.3 with
+ cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+  key-exchange X25519 server-signature RSA-PSS (4096 bits) server-digest SHA256) (No
+ client certificate requested) by mailin029.protonmail.ch (Postfix) with ESMTPS id
+ 4bWjkZ19m4z9vNPq for <Nexatorphish@protonmail.com>; Tue,
+  1 Jul 2025 12:58:13 +0000 (UTC)
+Received: from [127.0.0.1] (localhost [127.0.0.1]) by localhost (Mailerdaemon) with
+ ESMTPA id 9671C47644; Tue,
+  1 Jul 2025 14:58:04 +0200 (CEST)
+Dkim-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=testingdiemail.de; s=dkim;
+ t=1751374686; h=from:subject:date:message-id:to:mime-version:content-type;
+ bh=CWe3z1yzExE3Y/aCLVa3VbhHy7+feERxm5nmNv6IvLw=;
+ b=FD65XsHpTnIKbRcuY8tlZIQ3AUALvYvzRLAIG0VebZkIdFnWe3x2HeSpwSrp0agw4CpFiI
+ sibcmfkddH5iLN36IhXk1vQVirHkDFb07G50tIMaMq3m/EWN4BRBpq0Q20wvmWfvTv+LGC
+ 6vWyCzq6HfDvNSbtQ+QZN1LcVaajqBDsCkud50yVsdMyaAizNHLAzGp2VcvzY5OFiGjhtr
+ YYtTIN1MON6GZPNTv0XqI91XnUOutwcinPi16VxRSbi5zwv7bonmk/6iB9ak3N2Fjs+uQt
+ Ua3zfZ4wCKen8ROifI0nbT3QmLlOwSPqRiiz3SVeFRV680KG6ob02YqDExfg2Q==
+From: test4@testingdiemail.de <test4@testingdiemail.de>
+Content-Type: multipart/mixed;boundary=---------------------fb280f0463e3b392cb323a5d1c759c2a
+Date: Tue, 01 Jul 2025 14:58:04 +0200
+To: Nexatorphish@outlook.com
+Mime-Version: 1.0
+Message-Id: <13d-6863db80-d-49a59a80@60182707>
+Subject: =?utf-8?Q?Wichtige_Ma=C3=9Fnahme_erforderlich_=E2=80=93__Sofortiges_Handeln_notwendig!?=
+User-Agent: SOGoMail 5.12.0
+X-Last-Tls-Session-Version: None
+X-Pm-Spam: 0yezJI6cihyJeYR3pi42biOpJJvbmsCIeINmhnVGd3b5JoiIjFU1RUdkFZNkTiIiwxfb
+ Wv2NccUmiisnOFUPJI6RC1TILLJCQE9kU1XSBRJRUJ1RQT40isAjOlITJozIj3jgLLJCfiVGZWdfd5
+ maW6yIbeJyQE9kUjI7pltImlWdYX52hiUWbiOoJRhc3f2tYZlmu09VZWdl59wZFyV8dMID1xQDMSMs
+ IlzImt2lXc9GyuFGdCd6IwiMSpWFbb8FzfJHcWbk9wiZWtiJOYlWsnFGdmLvNJpbWkmVbXZ2p0VmbW
+ dl54yZC0DIMMIDy25SMiMj5B0a3iiwIbFWpz8FbHcfJJvcH6iIYM4CwyADMTNsY1hImfWxaYF20vdW
+ Zncfl9kbWiWwZOJitslWY2Y0FNvLmpWJbbVmkpZ2Xmb0V5ldWyC4ZMID0yIDMSMj5B0a3iiwIbFWpj
+ 9FbXYlR9yZ2uV9eY1WliojIURF1dFUkZkNTIwiipFWbFbj9RlYXy29Ze9Vwi9mcjIwogyLj4DAONkz
+ 4xUTNTN5UUsNDfnBIcB3h6ISbCMw4gzMDzjENOcDw1YjNDNxMIsMDfnBIcB3hi9VbXYlNowIjwjALO
+ MD24MTMzN2AU0NjwzEMMwiiz9Fc2d0lhfY2fG9da5Wiig3bjOuAA2MDyzIMNAjzycjNzNyQQ0ODwCJ
+ LXN33jRXaFa099wb1zGlaalGu6IyZCMw4Q4Mj1TkNOkT3xkjNTM0UgsNDfnBIcd3poNGd3XvRNwX3i
+ W0YOAjuxMDMzM1IkyOT2TkMNkz41IzMCLyJ5fdWtmFbZIS6hdnIGdoNlzbGzC1dZ5WktIXZHcfVdpc
+ 3oGNdI1n9iwSf3cpJI6ZC4jYINNjk4YjYTYyMQ3Zm1jgMMJDijVGMiZ9JfQ==
+X-Pm-Origin: external
+X-Pm-Transfer-Encryption: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+X-Pm-Content-Encryption: on-delivery
+X-Pm-Spamscore: 0
+X-Pm-Spam-Action: inbox
+
+-----------------------fb280f0463e3b392cb323a5d1c759c2a
+Content-Type: multipart/related;boundary=---------------------600e7e7a668c7dee231eee55a7e69987
+
+-----------------------600e7e7a668c7dee231eee55a7e69987
+Content-Type: text/html;charset=utf-8
+Content-Transfer-Encoding: base64
+
+PGh0bWw+PHAgZGF0YS1zdGFydD0iNTM5IiBkYXRhLWVuZD0iNTU3Ij5MaWViZXIgQmVudXR6ZXIs
+PC9wPjxwIGRhdGEtc3RhcnQ9IjU2NCIgZGF0YS1lbmQ9IjY0OCI+VW5zZXIgU2ljaGVyaGVpdHNz
+eXN0ZW0gaGF0IHVuZ2V3w7ZobmxpY2hlIEFrdGl2aXTDpHRlbiBpbiBJaHJlbSBLb250byBmZXN0
+Z2VzdGVsbHQuPC9wPjxwIGRhdGEtc3RhcnQ9IjY1NSIgZGF0YS1lbmQ9Ijc5MCI+Qml0dGUgPHN0
+cm9uZyBkYXRhLXN0YXJ0PSI2NjEiIGRhdGEtZW5kPSI3MTAiPmtsaWNrZW4gU2llIGlubmVyaGFs
+YiBkZXIgbsOkY2hzdGVuIDMwIE1pbnV0ZW48L3N0cm9uZz4gYXVmIGRlbiBmb2xnZW5kZW4gTGlu
+aywgdW0gSWhyIEtvbnRvIHp1IHZlcmlmaXppZXJlbiwgc29uc3Qgd2lyZCBlcyBnZXNwZXJydC48
+L3A+PHAgZGF0YS1zdGFydD0iNzk3IiBkYXRhLWVuZD0iODUyIj48YSBjbGFzcz0iY3Vyc29yLXBv
+aW50ZXIiIGRhdGEtc3RhcnQ9Ijc5NyIgZGF0YS1lbmQ9Ijg1MCIgcmVsPSJub29wZW5lciIgdGFy
+Z2V0PSJfbmV3Ij5KZXR6dCB2ZXJpZml6aWVyZW48L2E+PC9wPjxwIGRhdGEtc3RhcnQ9Ijc5NyIg
+ZGF0YS1lbmQ9Ijg1MiI+Jm5ic3A7PC9wPjxwIGRhdGEtc3RhcnQ9Ijg1OSIgZGF0YS1lbmQ9Ijg3
+OSI+SVQtU2ljaGVyaGVpdHN0ZWFtPC9wPjwvaHRtbD4K
+-----------------------600e7e7a668c7dee231eee55a7e69987--
+-----------------------fb280f0463e3b392cb323a5d1c759c2a--

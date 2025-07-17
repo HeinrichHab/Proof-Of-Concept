@@ -1,0 +1,259 @@
+Received: from GVXP195MB2598.EURP195.PROD.OUTLOOK.COM (::1) by
+ DU0P195MB1820.EURP195.PROD.OUTLOOK.COM with HTTPS; Thu, 23 Jan 2025 17:04:47
+ +0000
+Received: from CH2PR08CA0017.namprd08.prod.outlook.com (2603:10b6:610:5a::27)
+ by GVXP195MB2598.EURP195.PROD.OUTLOOK.COM (2603:10a6:150:1fd::13) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.8356.21; Thu, 23 Jan
+ 2025 17:04:46 +0000
+Received: from DS3PEPF000099D8.namprd04.prod.outlook.com
+ (2603:10b6:610:5a:cafe::3a) by CH2PR08CA0017.outlook.office365.com
+ (2603:10b6:610:5a::27) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.20.8377.18 via Frontend Transport; Thu,
+ 23 Jan 2025 17:04:45 +0000
+Authentication-Results: spf=none (sender IP is 45.95.184.51)
+ smtp.helo=blog.telefonica.de; dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=stayfriends.de;compauth=fail
+ reason=001
+Received-SPF: None (protection.outlook.com: blog.telefonica.de does not
+ designate permitted sender hosts)
+Received: from blog.telefonica.de (45.95.184.51) by
+ DS3PEPF000099D8.mail.protection.outlook.com (10.167.17.9) with Microsoft SMTP
+ Server id 15.20.8377.8 via Frontend Transport; Thu, 23 Jan 2025 17:04:44
+ +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:B3CCD2499A6DB6A5764AD1904467FB43B6150930DB351E17009EBB69576E0D07;UpperCasedChecksum:DA6B3D87FFDF06AB6DAC4A00A2FCF6A43186B47E9F4BFD2B5F86228AC27B7AFB;SizeAsReceived:545;Count:11
+Received: from mine5.server45.95.184.25 (127.0.0.1) by blog.telefonica.de id hi9rao16lt0c for <tomi.g@hotmail.de>; Thu, 23 Jan 2025 12:04:43 -0500 (envelope-from <>)
+emp-Id: 7240736
+Content-Type: text/html; charset="utf-8"
+To: <tomi.g@hotmail.de>
+CC: <tomi.g@hotmail.de>
+From: " ⚠️ Sicherheitswarnung!" <service@stayfriends.de>
+Subject: Achtung: Ihre E-Mail-Adresse wurde von einem anderen Benutzer auf Facebook bestätigt!
+Date: Thu, 23 Jan 2025 12:04:43 -0500
+Message-ID: <fg98bgJ82TOD0c@crayonpagespaint.shop>
+ 
+X-IncomingHeaderCount: 11
+Return-Path: <>
+X-MS-Exchange-Organization-ExpirationStartTime: 23 Jan 2025 17:04:44.9684
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 02dd0bb1-9571-493c-637c-08dd3bd0092d
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: DS3PEPF000099D8:EE_|GVXP195MB2598:EE_|DU0P195MB1820:EE_
+X-MS-Exchange-Organization-AuthSource: DS3PEPF000099D8.namprd04.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 1/23/2025 3:20:45 PM
+X-MS-Office365-Filtering-Correlation-Id: 02dd0bb1-9571-493c-637c-08dd3bd0092d
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 45.95.184.51
+X-SID-PRA: SERVICE@STAYFRIENDS.DE
+X-SID-Result: NONE
+X-MS-Exchange-Organization-SCL: 9
+X-Microsoft-Antispam: BCL:1;ARA:1444111002|9400799030|10300799035|25000799016|9000799050|26400799015|6100799021|22300799015|9800799015|1680799054|461199028|45200799018|69000799018|3151999003|27400799015|68400799013|21080799006|17040799003;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 23 Jan 2025 17:04:44.6871
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 02dd0bb1-9571-493c-637c-08dd3bd0092d
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource: DS3PEPF000099D8.namprd04.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: GVXP195MB2598
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:03.1683965
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.8356.017
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;ex:0;psp:0;auth:0;dest:J;OFR:SpamFilterAuthJ;ENG:(5062000308)(920221119095)(90000117)(920221120095)(90010023)(91010020)(91040095)(9050020)(9100341)(944500132)(2008001181)(4810010)(4910033)(10005027)(9710001)(9610028)(9520007)(10103005)(9320005)(9215007)(120001);RF:JunkEmail;
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0xO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?YkV4VDN2QlEvaEs1b1BsanFaY3lEUTQrajVWTElOaU96ZElzWUk2N1U5UVNu?=
+ =?utf-8?B?djR5N1c5L0FySmRRZ2ovNDdLMSsyc0d2dDhLYjh0SCs2UkRuTmk0aGVWUlFj?=
+ =?utf-8?B?WW44NVJiSEsvbVdkRk4vTEZMUjFPenJybEF1YkZjdE1XcG1tQnlJdHhJb2xQ?=
+ =?utf-8?B?WTlSWnJua3ZZeDI0NUlYc0Z3SmFFUXJxSXRnTjZFdldrOWF5T0NEeUFJTVRG?=
+ =?utf-8?B?VXdFSXFEcFRCcHNJY0VDRE9jdFRob2JMY2RESUI3Si82M0NzbUxoeEx0UDR0?=
+ =?utf-8?B?a1BoeTFuLy9NOGdFZUMya2Erc1RWVXk4MUhOUEc3WURmZHh0VFpmSFdKR1Ur?=
+ =?utf-8?B?d2NqVWk5SnBtSmFUalY3YUJmTjIvaW1PaVNsSTdjZkQxUVFCQVlzcStTdXlm?=
+ =?utf-8?B?ODF2UFMvU3dPRkRBZFpIenVRN3FHbUYrY1gxd0QyYWVQcjNQQ1J6a2lPOGlW?=
+ =?utf-8?B?TGZNZHVVZmFwYWFhT2FYWkx2L3pyRVRxMzNOdG9BKysyelZRcFRUNVlpUUtV?=
+ =?utf-8?B?S2hZWHE2cGVIZjRpWlFBTjVLbWdWL2IrdFNGNjlNU3M3c25kQVpvY0lGdmp4?=
+ =?utf-8?B?eCs1cmVNRzNEemtYUFI2ZlkzbWpYVlBLYWtCR1RNa29iajlNNGhtTko2cFVq?=
+ =?utf-8?B?YVY1VkxRSWZUNGRGSmQrOEpZU1BCL0hkR0IwSVRRdWJvN3Z0bVR6MGh1UFBt?=
+ =?utf-8?B?UGRiS3NHejZTdnkvNVlHVUZMZ245dGorZzNLOGE5Wk0rZFdJRVpRVVV6aWxB?=
+ =?utf-8?B?cmpza3hja2diNkVPQmU4VytsVE9ZVUNuQ0lsc3VqeWtsSWw5dXR5RDBGVG9h?=
+ =?utf-8?B?UW5CbTByZW42VG5TeTZSUkNjT0cwUENwUk94c0d3N1A4S0pmQVhvdE5KRFZ2?=
+ =?utf-8?B?MXcrZ09CeVo1NlUvV1lyQzdnTDdTUCtySjlGWmNDVURvZDFBOXdhYTVycWt5?=
+ =?utf-8?B?N3dQQXgxcFplTGlGNGpYUEEySVVZNDJzdnBkTHpVL3ZVWEp5MjBQOTNta1BO?=
+ =?utf-8?B?REtHcEpjS0V6a3YvQWpxVUM1TXhxOWU3czJMdWNVUUJZNHBxektHbWhjVXhT?=
+ =?utf-8?B?bGVHREdnWk8vRVUvdnozZ3FHaDdzUWwzcGJXakxVRVNUNG1FSUFsSmRvZkJO?=
+ =?utf-8?B?aXRJUTc4V3JYVWlGd2c4V29QVk1qVThtWXFOMmVqREZ4SWpxbTFLL2pEeHBY?=
+ =?utf-8?B?amhrM0NzZ1BJa2hUbXo4MGZKSVpoNkcrNlFGWlF4c3JMekZkUThqYlFDaTJU?=
+ =?utf-8?B?cVZwOXV1RklQVW5SdTBJOWw4YnBDbTUzN05KUmtCMUxCQVFKZkRuL3V1ZEty?=
+ =?utf-8?B?aCs0bGVZRUhPRzZySy9ES21YczBQQXA2NUtyZmpITEZQblFRVnhlSWRsMnh1?=
+ =?utf-8?B?dDhFQi9odG1zTXdkVnFOMDdqVm1zd3dZaUkzSlN6U2Y3RGErSU9pcENuQWVX?=
+ =?utf-8?B?MFpqN3UwbGJZRjFOYTZQeW1QNVZDNC9McVViR2N6U3lpMlR6cUFFekxCOGxT?=
+ =?utf-8?B?NkNFNEVQcGN0MWZPeEFiT0YzcWk3blAwWXNrUlR4eGJubTJocDdrSTZrYzBl?=
+ =?utf-8?B?K0xXM01zN1lxQ3QyVmFVR2Z4bW03VU8rUHp1b2R5WGVtUVYwS0xjMFBCQWdM?=
+ =?utf-8?B?UjQ0L3A4VDJINlhjYlBuRlNZNGV6TDFVWm5KZG95dlpVTjRpb0dzN0U2WG9o?=
+ =?utf-8?B?NEREK1ZDSTlLUmhMbFA1WW1Hd3A2WEJ4SXBqaVpzbTZQSFljZGpzdGIwcXdF?=
+ =?utf-8?B?WnJ0bGRYcFk4Qng5Uk9ESkFUUmJXM3dFRVdqM1ZBaTVKQ29OK3dRUUdNVkIz?=
+ =?utf-8?B?WXBpcU1FTEJDSFJtQTBLVmJxKzFrbC9wTGxCYWlyUGlaR1BaZk9Uc2ZUMnRy?=
+ =?utf-8?B?cUNkdnFUVGFGVWgrN1E3OEt4ZENGaE8xT2J0Nmp5TUNwNkJBWVQ5ck8rSENF?=
+ =?utf-8?B?K3QzdXJiQmFqSk1nSThrMzI5cFRscXhIMnNERjlEVHYvTktHYjBGZE5pVE52?=
+ =?utf-8?B?bWF2YWJoeUFHcno3dzlmNmp3YWR3RUEzbEM1Z1NTZzY4dUMxaEdsYmFjNmxL?=
+ =?utf-8?B?LzErTFZvaVpKNEhYaWI5UXV5dzV5SDVIQU12d1lESFdXMVRhSDZIVkF3NjNw?=
+ =?utf-8?B?U2RqaG9Sc1NaOFA1N1RZZlhRWTlDRXpMUS9WejVDOHl2SUo1d01LSEZXa3Ir?=
+ =?utf-8?B?bUt0V0VGWjZKTzNLdG5pYlRTODFpcHQ4Zm1mUnlUWEJtVCtNS3k1d0VUWnZ6?=
+ =?utf-8?B?dXViaUVFaStsazNKU2M4RkdqY2prTUtCVW41d2FEMlBNR2xpUndsZmJzUldw?=
+ =?utf-8?B?WmFWUExXRXBXVFh1QTB3RWFCYTZ2SFRxTVlESm4rb0xzWEZTOFVWNG9jZFZm?=
+ =?utf-8?B?THE1SU1RRndWOHFmZExhMkVraGdkUVU0Q0ROY01STUxCRzlpMW9tSko4cHUz?=
+ =?utf-8?B?NXFnbFRkbWR6UHVZZlRRYjZjZ0MzT0tLVk1oeHp1V2JrUVdLLzhFb3lHV2Zx?=
+ =?utf-8?B?cWVmQ2VWRmRsbnVaVGVScGwvNVovTVNyUkNQSUdIcG9OZEl4VzlaVkw5MFR2?=
+ =?utf-8?B?UzBKRThNY3hnSkpzalBBd2hIQ3NTWG1PSERFb0pyZ0pvWUN0ZE9FWWtlYVpV?=
+ =?utf-8?B?b05PbVdabytoek54MnZOQjFadjB5d0d0ZU5ORnB1eGJpNDFDT2NXc1dQT0VS?=
+ =?utf-8?B?aHJXUVQvdkZVUnhjY0tmTUxKbGZYWkFNcytBRkpBOU4zR1FoY0dIYXIxOTEv?=
+ =?utf-8?B?VG1URmN4bEl2WWEyTGdQdWRNeGs2QW1FUkpGMm83Y0VSdEpGY1NldlJleC80?=
+ =?utf-8?B?YzN0SHdnWnBzSDZWalZOQ0pjalNDSVQza2d1M1RTNTNJaEJPb0U5QzV5ZXE4?=
+ =?utf-8?B?SHlVRXo3SHMxVXk4aXhjeFB3UnVRdTlROG5LNVhRbzA3MGRwc2s2VVZOakdh?=
+ =?utf-8?B?dzFaSTcwc2xvaXluRjdneklOVUgzQk1CTEJ5S08wT3o2U3AxdUl5RTFuOEQ5?=
+ =?utf-8?B?V1J4VGEzT05ralZ6UW05Q1l2TmU5Z0d3ZzNsVzh4TVFqWFlwVCtzWEMvTU5r?=
+ =?utf-8?B?cUxZYjRiSHNXRi9kai9zMkt6UnZsOXZNcHN0ZjVlMUMvOW1VWTBuVXNjQmJG?=
+ =?utf-8?B?QjJzaFhpQTJWczlvanF2ZFU1am5ZQ2dWalVxSWNOaFNlZnhZNEV5VkU4aUdp?=
+ =?utf-8?B?ODhGYW1vTURSRTRSa05xR2Rmc1R1YWs2QlNWVlJBSitaeDQ5Mms3K3IvaWZH?=
+ =?utf-8?B?Wkd2UVc0NW9teVZJY1BjUDJjTE5KNUY0ejhud0gvK0VENC9TVjd1RmV5aWZi?=
+ =?utf-8?B?UVA5U0FBbytvQVJxdGYzYklhTDJMNDBZQUROQ0xvRTJidkhMdXhIQllxdW1w?=
+ =?utf-8?B?YU9rMFJSVkVDK2FNVWlBalF1aEM0dTBCVkNkZFlqdWRtRmo5SGFISm95TW4w?=
+ =?utf-8?B?NUp5cFFlc2lpUHFPUU9WUm8rN0pYSU1WYVV6RFoxcGZQM0RjMUdKNjBIbVYy?=
+ =?utf-8?B?eUVsdG1mdmFNdGMzWVNKUndYQWJ5ekZvQmVwY1dlLzNRbkk3Y2tYSDBwNFZW?=
+ =?utf-8?B?MDBpdEh0V3I1cmsvNGNsTVdiZEs1bkIrdEFGSUhOV085MFRzWGRlMDFRUlFZ?=
+ =?utf-8?B?QXlNR3A5MXJ0UytYTE9HWUwrMHFPcGF0M2RXVW55VWYzaVd6VE4wdVNGSnFJ?=
+ =?utf-8?B?NnZQTkpVV1BCbjQyMjFhRzNXVjNXV2lyVUhmRmlFR2gwRElzcVdjdlhkRjdG?=
+ =?utf-8?B?RzQxRzNVY3RKMDgzTVFFK2F6bks0UnRnazZqek8rek53dVB0NStVWW5xM2pD?=
+ =?utf-8?B?WHhEakM1NTlxZUhCbk8vUFhWbEN2ZGRPRGN6bkdHd052bWgvMkYyN1JLa1c2?=
+ =?utf-8?B?alUwN3hGU3RXVFp5YUpOVEZDOVN4RVBzalFJMUxGVUNibCtzUEgwSndsd2Rj?=
+ =?utf-8?B?MkFnRjkrdlhWeEx5T1htOFJlV2lQV2EydUx6bm5aWEkzSDZjKzFhL3p3ZlJ2?=
+ =?utf-8?B?YnhWM3R4Y3ZoYUNqTDFwUHUzVmxKMThwdmsxd2JUNkVFaDNkQXNTbGdNY3Ji?=
+ =?utf-8?B?aFZMK0RPRnlaOEpEcS9xaXIrdHlTNXJHYXNWYzF4dVJTbHQ5NnpoOVQ1ek4x?=
+ =?utf-8?B?ODVpSWx5VllpSU0zM1RtMzRSMHMwSWhxek5KcCtCRmxxVm5KUHBma3RFYWhu?=
+ =?utf-8?B?MlM4bDY3NEQ4QWFLQVU3cloyUVByYW1lR202MVdvc0drVHBha3FXZC9idzFU?=
+ =?utf-8?B?dHJkVnRPTFg4TCs4UjFZT2FCbHZ1enBaemR5Q3QwWHlTZ1E5bFpWeHdJVzRy?=
+ =?utf-8?B?SUFBenpNVUlqTHgwSFI4NkRzajU5OFZSa2NZWmlHQS9md0Q4M1FRc01TRURs?=
+ =?utf-8?B?UTBkMkNGbmNNRFBiZUtSYlNSMmQ5dU5yd3FZamUwUS9KbUJBR0lBTlZSeUZn?=
+ =?utf-8?Q?VpRQy9EG+Po4bXZupvFERwY2?=
+MIME-Version: 1.0
+
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head>
+
+<body style="max-width:630px;margin:0 auto;" dir="ltr" bgcolor="#ffffff"><table border="0" width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;"><tbody><tr><td width="100%" align="center" style=""><table border="0" cellspacing="0" cellpadding="0" align="center" style="border-collapse:collapse;"><tbody><tr><td width="1260" align="center" style=""><a href="http://hunterfrosty.shop/fwd/P2Q9MTk4MDgmZWk9NzI0MDczNiZpZj02MDI0JmxpPTU4" style="text-decoration:none;color:black;">
+<table border="0" cellspacing="0" cellpadding="0" align="center" id="email_table" style="border-collapse:collapse;max-width:630px;margin:0 auto;"><tbody><tr><td id="email_content" style="font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana,arial,sans-serif;background:#ffffff;"><table border="0" width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;"><tbody><tr style=""><td height="20" style="line-height:20px;" colspan="3">&nbsp;</td></tr><tr><td height="1" colspan="3" style="line-height:1px;"></td></tr><tr><td width="15" style="display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td><td style=""><table border="0" wi="" dth="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;"><tbody><tr style=""><td height="15" style="line-height:15px;" colspan="3">&nbsp;</td></tr><tr><td width="32" align="left" valign="middle" style="height:32;line-height:0px;">
+
+
+
+<img width="32" src="https://images2.imgbox.com/b1/78/PZjurzL5_o.png" style="border:0;">
+<img width="32" src="//images2.imgbox.com/b1/78/PZjurzL5_o.png" style="border:0;">
+
+
+
+
+
+
+
+</td><td width="15" style="display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td><td width="100%" style=""><span style="font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana,arial,sans-serif;font-size:19px;line-height:32px;color:#1877f2;">Facebook</span></td></tr><tr style="border-bottom:solid 1px #e5e5e5;"><td height="15" style="line-height:15px;" colspan="3">&nbsp;</td></tr></tbody></table></td><td width="15" style="display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td></tr><tr><td width="15" style="display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td><td style=""><table border="0" width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;"><tbody><tr style=""><td height="20" style="line-height:20px;">&nbsp;</td></tr><tr><td style=""><span class="mb_text" style="font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana,arial,sans-serif;font-size:16px;line-height:21px;color:#141823;">
+
+
+Hallo tomi.g</span></td></tr><tr style=""><td height="15" style="line-height:15px;">&nbsp;</td></tr><tr><td style=""><span class="mb_text" style="font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana,arial,sans-serif;font-size:16px;line-height:21px;color:#141823;">
+
+
+
+Wir möchten Sie darüber informieren, dass Ihre E-Mail-Adresse <span style="color:#1b74e4;text-decoration:none;"> tomi.g@hotmail.de</span>
+
+von einer anderen Person auf Facebook registriert und verifiziert wurde.
+
+<br><br>
+
+Es ist wichtig, die Ernsthaftigkeit dieser Situation zu verstehen, wenn Ihre E-Mail-Adresse kompromittiert wurde. <br><br>
+
+Wenn jemand unbefugten Zugriff auf Ihr Konto erhält, hat er nicht nur Zugriff auf Ihre E-Mails, sondern möglicherweise auch auf sensible Informationen, die mit Ihrem Konto verknüpft sind. Dieser Vorfall kann zu Datenschutzproblemen führen, da der Hacker möglicherweise persönliche Gespräche, Finanzdaten und andere vertrauliche Informationen einsehen kann.
+
+<br><br>
+
+Die sofortige Lösung zur Minderung dieses Risikos ist, Ihr Passwort auf ein starkes und einzigartiges zu ändern. Zusätzlich empfehlen wir dringend, unsere empfohlene <a style="color:#1b74e4;text-decoration:none;" href="http://hunterfrosty.shop/fwd/P2Q9MTk4MDgmZWk9NzI0MDczNiZpZj02MDI0JmxpPTU4"> Sicherheitslösung </a> zu aktivieren, um optimalen Schutz vor Datenlecks und unbefugtem Zugriff zu gewährleisten.
+
+</span></td></tr><tr style=""><td height="15" style="line-height:15px;">&nbsp;</td></tr><tr><td style=""><table border="0" width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;"><tbody><tr style="">
+
+<td height="7" style="line-height:7px;">&nbsp;</td></tr><tr><td align="left" style="">
+
+
+
+<a href="http://hunterfrosty.shop/fwd/P2Q9MTk4MDgmZWk9NzI0MDczNiZpZj02MDI0JmxpPTU4" style="color:#1b74e4;text-decoration:none;">
+
+
+
+<table border="0" width="40%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;"><tbody><tr>
+
+<td style="border-collapse:collapse;border-radius:6px;text-align:center;display:block;background:#1877f2;padding:8px 20px 8px 20px;">
+
+
+
+<a href="http://hunterfrosty.shop/fwd/P2Q9MTk4MDgmZWk9NzI0MDczNiZpZj02MDI0JmxpPTU4" style="color:#1b74e4;text-decoration:none;display:block;">
+
+
+
+<center><font size="3">
+
+
+
+<span style="font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana,arial,sans-serif;white-space:nowrap;font-weight:bold;vertical-align:middle;color:#FFFFFF;text-shadow:none;font-weight:500;font-family:Roboto-Medium,Roboto,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana,arial,sans-serif;font-size:17px;">
+
+
+
+Sichern Sie Ihr Konto</span></font></center></a></td></tr></tbody></table></a></td></tr><tr style=""><td height="8" style="line-height:8px;">&nbsp;</td></tr><tr style=""><td height="13" style="line-height:13px;">&nbsp;</td></tr></tbody></table></td></tr><tr style=""><td height="15" style="line-height:15px;">&nbsp;</td></tr>
+
+<tr><td style=""><span class="mb_text" style="font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana,arial,sans-serif;font-size:16px;line-height:21px;color:#141823;">
+
+
+Diese Sicherheitsmaßnahmen sind notwendig, um Ihr Konto zu schützen und weitere Verstöße gegen Ihre persönlichen Daten zu verhindern. Ihre Privatsphäre und Sicherheit sind unsere obersten Prioritäten, und wir sind hier, um Ihnen zu helfen, Ihr Konto effektiv zu sichern.
+
+
+<br><br>
+
+
+Mit freundlichen Grüßen,
+
+<br>
+
+Das Facebook-Sicherheitsteam
+
+
+</span></td></tr><tr style=""><td height="15" style="line-height:15px;">&nbsp;</td></tr></tbody></table></td><td width="15" style="display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td></tr><tr><td width="15" style="display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td><td style=""><table border="0" width="100%" cellspacing="0" cellpadding="0" align="left" style="border-collapse:collapse;"><tbody><tr style="border-top:solid 1px #e5e5e5;"><td height="19" style="line-height:19px;">&nbsp;</td></tr><tr><td style="font-family:Roboto-Regular,Roboto,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana,arial,sans-serif;font-size:11px;color:#8A8D91;line-height:16px;font-weight:400;"><table border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse;color:#8A8D91;text-align:center;font-size:12px;font-weight:400;font-family:Roboto-Regular,Roboto,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana,arial,sans-serif;"><tbody><tr><td align="center" style="font-size:12px;font-family:Roboto-Regular,Roboto,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana,arial,sans-serif;color:#8A8D91;text-align:center;font-weight:400;padding-bottom:6px;">
+
+
+
+</td></tr><tr><td align="center" style="font-size:12px;font-family:Roboto-Regular,Roboto,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana,arial,sans-serif;color:#8A8D91;text-align:center;font-weight:400;padding-top:6px;padding-bottom:6px;">
+
+
+
+
+
+
+</td></tr></tbody></table></td></tr><tr><td height="20" style="line-height:20px;">&nbsp;</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div style="height:30px;"></div>
+    <div style="text-align:center">
+        <span style="color:#000;font-size:12px">Möchten Sie keine Neuigkeiten und Angebote mehr erhalten?</span>
+        <a style="color:#000;font-style:normal;font-weight:400;text-decoration:underline" href="http://hunterfrosty.shop/unsub/P2Q9MTk4MDgmZWk9NzI0MDczNiZpZj02MDI0JmxpPTU4">
+            <span style="font-size:13px">Abmelden</span>
+        </a><br><br>
+    </div>
+    <div style="color:#000;text-align:center">
+        <span style="font-size:13px">Wenn Sie keine E-Mails mehr erhalten möchten, können Sie sich abmelden, indem Sie </span>
+        <a style="color:#000;font-style:normal;font-weight:400;text-decoration:underline" href="http://hunterfrosty.shop/sunsub/P2Q9MTk4MDgmZWk9NzI0MDczNiZpZj02MDI0JmxpPTU4">hier klicken</a>.
+        <span style="color:#000;font-size:13px"> Oder kontaktieren Sie uns: <br>1105 Dragon St Dallas #Texas 75207</span>
+      
+    </div>
+      <img src="http://hunterfrosty.shop/open/P2Q9MTk4MDgmZWk9NzI0MDczNiZpZj02MDI0JmxpPTU4"><!-- </img> -->
+</body>
+</html>
